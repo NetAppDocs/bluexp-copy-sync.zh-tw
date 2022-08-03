@@ -55,6 +55,7 @@ NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 
 * Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google Cloud Storage
+* Google雲端硬碟
 * IBM Cloud 物件儲存設備
 * 內部部署 ONTAP 的叢集
 * SS3 儲存設備 ONTAP

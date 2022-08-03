@@ -18,6 +18,55 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2022年7月31日
+
+
+
+=== Google雲端硬碟
+
+您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。
+
+在建立包含Google雲端硬碟的同步關係之前、您必須先設定具有必要權限和私密金鑰的服務帳戶。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["深入瞭解Google雲端硬碟的需求"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
+
+
+
+=== 額外的Azure Data Lake支援
+
+目前支援Azure Data Lake Storage Gen2的其他同步關係：Cloud Sync
+
+* Amazon S3移轉至Azure Data Lake Storage Gen2
+* IBM Cloud Object Storage移轉至Azure Data Lake Storage Gen2
+* 適用於Azure Data Lake Storage Gen2 StorageGRID
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
+
+
+
+=== 設定同步關係的新方法
+
+我們新增了更多方法、可直接從Cloud Manager的畫版中設定同步關係。
+
+
+
+==== 拖放
+
+您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["顯示Cloud Manager通知中心的快照。"]
+
+
+
+==== 右側面板設定
+
+您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["顯示Cloud Manager通知中心的快照。"]
+
+
+
 == 2022年7月3日
 
 
@@ -28,7 +77,7 @@ summary: 瞭Cloud Sync 解更新功能。
 
 建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。
 
-link:reference-supported-relationships.html["檢視支援的同步關係清單"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
 
 
 
@@ -53,7 +102,7 @@ link:reference-supported-relationships.html["檢視支援的同步關係清單"]
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-link:task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 
@@ -95,7 +144,7 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 ----
 這些權限會自動新增至您所建立的任何新資料代理人。
 
-link:task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 

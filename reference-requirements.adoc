@@ -217,6 +217,29 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
+== Google雲端硬碟
+
+當您設定包含Google雲端硬碟的同步關係時、您需要提供下列資訊：
+
+* 可存取您要同步資料之Google雲端硬碟位置的使用者電子郵件地址
+* 具有存取Google雲端磁碟權限的Google Cloud服務帳戶電子郵件地址
+* 服務帳戶的私密金鑰
+
+
+若要設定服務帳戶、請遵循Google文件中的指示：
+
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#create_the_service_account_and_credentials["建立服務帳戶和認證資料"^]
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#delegate_domain-wide_authority_to_your_service_account["將整個網域的權限委派給您的服務帳戶"^]
+
+
+編輯OAUTH Scopes欄位時、請輸入下列範圍：
+
+* \https://www.googleapis.com/auth/drive
+* \https://www.googleapis.com/auth/drive.file
+
+
+
+
 == NFS 伺服器需求
 
 * NFS 伺服器可以是 NetApp 系統或非 NetApp 系統。

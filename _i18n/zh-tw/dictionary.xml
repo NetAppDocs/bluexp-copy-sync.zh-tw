@@ -1556,4 +1556,5 @@
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。</block>
   <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
+  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Google Cloud Platform *」。</block>
 </blocks>

@@ -102,7 +102,7 @@ summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker�
 +
 完成這些步驟、直到您到達「*資料代理人群組*」頁面為止。
 
-. 在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Microsoft Azure *」。
+. 在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Google Cloud Platform *」。
 +
 image:screenshot-google.png["Data Broker頁面的快照、可讓您在AWS、Azure、Google Cloud和內部部署資料代理程式之間進行選擇。"]
 

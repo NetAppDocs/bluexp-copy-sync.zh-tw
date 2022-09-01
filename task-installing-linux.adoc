@@ -30,7 +30,7 @@ summary: 當您建立新的資料代理程式時、請選擇「內部部署資�
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
-在安裝資料代理程式之前、必須先在主機上執行「 yum update all 」命令。
+在安裝資料代理程式之前、必須先在主機上執行命令「yum update」。
 
 +
 Red Hat Enterprise Linux 系統必須在 Red Hat 訂購管理中註冊。如果未註冊、系統將無法在安裝期間存取儲存庫來更新所需的協力廠商軟體。

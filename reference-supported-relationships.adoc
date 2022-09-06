@@ -181,6 +181,13 @@ summary: 利用此功能、您可以將資料從來源同步到目標。Cloud Sy
 
 
 
+| Google雲端硬碟  a| 
+* NFS 伺服器
+* SMB 伺服器
+
+
+
+
 | IBM Cloud 物件儲存設備  a| 
 * Amazon EFS
 * Amazon FSX for ONTAP Sf

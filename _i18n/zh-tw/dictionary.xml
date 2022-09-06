@@ -717,7 +717,6 @@
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">內部部署 ONTAP 的叢集</block>
   <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB 伺服器</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
-  <block id="f83bcb8e69c5f1d1eb29cddacb8374b0" category="list-text">SMB 伺服器</block>
   <block id="c07503bbdaf42732886b6b9f136d9eb0" category="list-text">方塊^1^</block>
   <block id="c17ce6a7cdcb97581c6d5603ec7d447a" category="cell">內部ONTAP 使用的叢集</block>
   <block id="c01bb6a5867adae467a31539eda72b37" category="cell">SFTP ^2^</block>
@@ -737,7 +736,6 @@
   <block id="95e5c9b9a242ae01ebbab296e59e2a68" category="list-text">當Google Cloud Storage儲存桶成為目標時、您可以選擇特定的儲存類別：</block>
   <block id="b7313c752ca12081edfba2212c0cc2e4" category="summary">您可以立即同步資料、變更排程等、隨時管理同步關係。</block>
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">管理同步關係</block>
-  <block id="aa015c7ce7c37e507df5b27ca80bb605" category="section-title">立即執行資料同步</block>
   <block id="01db9e7829acc4899b2e0742925feea9" category="paragraph">您可以按下按鈕、在來源和目標之間立即同步資料、而不必等到下次排程同步。</block>
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">按鈕的快照、可讓您針對同步關係採取行動</block>
   <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">從*儀表板*瀏覽至同步關係、然後按一下 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
@@ -1512,7 +1510,6 @@
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">全新Google Cloud機器類型</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。</block>
   <block id="80b8bec2e4ce95cb7a2f98a49ff8964c" category="list-text">初始資料同步之後Cloud Sync 、Syncset會偵聽來源S3儲存區或Google Cloud Storage儲存區的變更、並在目標發生時持續同步任何變更。不需要以排定的時間間隔重新掃描來源。</block>
-  <block id="f3705b49b8b44367d9a208662d64b1e0" category="paragraph">此設定僅適用於建立同步關係、以及從S3儲存區或Google Cloud Storage同步至S3、Google Cloud Storage、Azure Blob儲存設備、StorageGRID 不支援更新或IBM儲存設備時。</block>
   <block id="ae067a0352a2b892590442ce8932ed20" category="list-text">如果S3為來源、則依大小篩選只會在複製事件上作用（而非刪除事件）。</block>
   <block id="218f5307b8ee8bb2d446b8572cd40e9f" category="list-text">Azure Data Lake儲存設備第2代</block>
   <block id="e83655905b13c4a3bc8d7de2a55ecea8" category="inline-link-macro">深入瞭解Continuous Sync選項</block>
@@ -1557,4 +1554,32 @@
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Google Cloud Platform *」。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">在安裝資料代理程式之前、必須先在主機上執行命令「yum update」。</block>
+  <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
+  <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">其他Google雲端硬碟支援</block>
+  <block id="38e24a385d32651afeede647ae09290f" category="list-text">目前支援Google雲端硬碟的其他同步關係：Cloud Sync</block>
+  <block id="989bccb142d89b75c8392bf5f5e1604c" category="list-text">Google雲端硬碟至NFS伺服器</block>
+  <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google雲端硬碟移轉至SMB伺服器</block>
+  <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">您也可以針對包含Google雲端硬碟的同步關係產生報告。</block>
+  <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">持續同步增強</block>
+  <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">您現在可以在下列類型的同步關係上啟用「持續同步」設定：</block>
+  <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">S3儲存區至NFS伺服器</block>
+  <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">將Google Cloud Storage移轉至NFS伺服器</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
+  <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</block>
+  <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。</block>
+  <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
+  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
+  <block id="ead765630c1fd7e384e47d9fc387cf84" category="paragraph">此設定僅適用於建立同步關係、以及將S3儲存區或Google Cloud Storage的資料同步至下列任一目標時：Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3和StorageGRID Sof。</block>
+  <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即執行資料同步</block>
+  <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">設定通知</block>
+  <block id="7cd2df821c4b3fee85371ef61119f0e3" category="paragraph">每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在Cloud Manager的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外、您也可以透過電子郵件接收通知。</block>
+  <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步關係的設定：</block>
+  <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">啟用*通知*。</block>
+  <block id="f9d4f53357700da18c4c21765dd9a257" category="list-text">如果您想要透過電子郵件接收通知、請設定警示和通知設定：</block>
+  <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">按一下*「設定」&gt;「警示與通知設定」*。</block>
+  <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">選取使用者或多位使用者、然後選擇*資訊*通知類型。</block>
+  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
+  <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">現在Cloud Sync 、您將會在Cloud Manager的通知中心收到功能不全的通知、如果您設定了這個選項、也會收到幾封電子郵件通知。</block>
+  <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">如果您想要接收通知</block>
 </blocks>

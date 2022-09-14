@@ -1413,8 +1413,6 @@
   <block id="d84b9ff2a26165aea44e08c53ac24735" category="section-title">解決資料代理程式的問題</block>
   <block id="1fdbc560a67348af4e76fd59fe5ba957" category="paragraph">顯示每個資料代理程式的狀態、協助您疑難排解問題。 Cloud Sync</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">識別任何狀態為「未知」或「失敗」的資料代理人。</block>
-  <block id="fb735d46258c860500df045bd72f563f" category="paragraph"><block ref="fb735d46258c860500df045bd72f563f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7bab02d802b38084f68f9bb810f1ca53" category="list-text">將游標暫留在上方 <block ref="a74720392297d66ac1ab9a90296912c9" category="inline-image-macro-rx" type="image"></block> 圖示以查看故障原因。</block>
   <block id="cb1293ddc33121613d8b44ddf7bddebc" category="list-text">修正問題。</block>
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">例如、您可能只需要在資料代理程式離線時重新啟動、或是在初始部署失敗時移除資料代理程式。</block>
   <block id="cd001e84be2b1eb58fae93119764a424" category="section-title">從群組中移除資料代理程式</block>
@@ -1582,4 +1580,8 @@
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
   <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">現在Cloud Sync 、您將會在Cloud Manager的通知中心收到功能不全的通知、如果您設定了這個選項、也會收到幾封電子郵件通知。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">如果您想要接收通知</block>
+  <block id="e48d5ea54c85373b23a289d375bf989d" category="inline-image-macro">畫面上Cloud Sync 會顯示「不清楚」狀態的資訊代理程式。</block>
+  <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">「資訊」圖示。</block>
+  <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">將游標暫留在上方 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 圖示以查看故障原因。</block>
 </blocks>

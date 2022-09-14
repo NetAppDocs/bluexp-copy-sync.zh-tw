@@ -242,9 +242,9 @@ image:screenshot_sync_data_broker_details.gif["資料代理程式資訊的快照
 .步驟
 . 識別任何狀態為「未知」或「失敗」的資料代理人。
 +
-image:screenshot_sync_broker_status.gif[""]
+image:screenshot_sync_broker_status.gif["畫面上Cloud Sync 會顯示「不清楚」狀態的資訊代理程式。"]
 
-. 將游標暫留在上方 image:screenshot_sync_status_icon.gif[""] 圖示以查看故障原因。
+. 將游標暫留在上方 image:screenshot_sync_status_icon.gif["「資訊」圖示。"] 圖示以查看故障原因。
 . 修正問題。
 +
 例如、您可能只需要在資料代理程式離線時重新啟動、或是在初始部署失敗時移除資料代理程式。

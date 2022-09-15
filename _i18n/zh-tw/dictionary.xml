@@ -1584,4 +1584,6 @@
   <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">「資訊」圖示。</block>
   <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">將游標暫留在上方 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 圖示以查看故障原因。</block>
+  <block id="bcb9c50efc2e8b1f33257f8dbf32e2ae" category="section-title">root權限</block>
+  <block id="04baae6f2bb9072d7883e5f28e54a6c3" category="paragraph">資料代理軟體會在Linux主機上自動以root執行。以root執行是資料代理程式作業的必要條件。例如、掛載共用。</block>
 </blocks>

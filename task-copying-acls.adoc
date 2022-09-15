@@ -17,8 +17,8 @@ summary: 支援使用者可在SMB共用區之間、SMB共用區與物件儲存�
 支援使用者可在SMB共用區之間、SMB共用區與物件儲存區之間（不包括在S3上）複製存取控制清單（ACL）Cloud Sync ONTAP 。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。
 
 .選擇
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,設定 Cloud Sync 功能以自動複製 ACL>>
-* <<Manually copying ACLs between SMB shares,在SMB共用區之間手動複製ACL>>
+*  up Cloud Sync to copy ACLs from an SMB server,設定 Cloud Sync 功能以自動複製 ACL
+*  copying ACLs between SMB shares,在SMB共用區之間手動複製ACL
 
 
 

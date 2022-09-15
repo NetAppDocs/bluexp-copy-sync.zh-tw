@@ -26,6 +26,12 @@ summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker�
 
 
 
+== root權限
+
+資料代理軟體會在Linux主機上自動以root執行。以root執行是資料代理程式作業的必要條件。例如、掛載共用。
+
+
+
 == 網路需求
 
 * 資料代理人需要傳出的網際網路連線、以便透過 Cloud Sync 連接埠 443 輪詢該服務的工作。
@@ -143,7 +149,7 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 . 按一下*權限*。
 . 按一下「 * 新增 * 」。
 . 輸入資料代理的服務帳戶名稱。
-. 選取提供的角色 <<Permissions required for the service account,與上述相同的權限>>。
+. 選取提供的角色  required for the service account,與上述相同的權限。
 . 按一下「 * 儲存 * 」。
 
 

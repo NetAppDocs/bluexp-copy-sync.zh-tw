@@ -16,6 +16,25 @@ summary: 使用此功能包括幾個步驟。 Cloud Sync
 使用此功能包括幾個步驟。 Cloud Sync
 
 [role="quick-margin-para"]
+您應該已經開始使用Cloud Manager、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。
+
+[role="quick-margin-para"]
+如果您想為下列任一項目建立同步關係、則首先需要建立或探索工作環境：
+
+* Amazon FSX for ONTAP Sf
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* 內部 ONTAP 部署的叢集
+
+
+[role="quick-margin-para"]
+連接器是Cloud Volumes ONTAP 進行內部和內部ONTAP 的等位叢集所需的連接器。
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用Cloud Manager"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["深入瞭解連接器"^]
+
+
+[role="quick-margin-para"]
 確認您的來源和目標是否受到支援和設定。最重要的要求是驗證資料代理群組與來源和目標位置之間的連線能力。
 
 * link:reference-supported-relationships.html["檢視支援的關係"]

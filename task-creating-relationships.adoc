@@ -113,7 +113,7 @@ image:screenshot_bucket_setup.gif["此螢幕快照顯示「資源庫設定」頁
 持續同步:: 初始資料同步之後Cloud Sync 、Syncset會偵聽來源S3儲存區或Google Cloud Storage儲存區的變更、並在目標發生時持續同步任何變更。不需要以排定的時間間隔重新掃描來源。
 +
 --
-此設定僅適用於建立同步關係、以及將S3儲存區或Google Cloud Storage的資料同步至下列任一目標時：Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3和StorageGRID Sof。
+此設定僅適用於建立同步關係、以及將S3儲存區或Google Cloud Storage的資料同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3、 及從Azure Blob儲存設備到Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和整套功能的StorageGRID StorageGRID
 
 如果啟用此設定、則會影響其他功能、如下所示：
 

@@ -48,7 +48,7 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 
 == 在Azure中部署資料代理程式所需的權限
 
-請確定您用來部署資料代理程式的Azure使用者帳戶具有下列權限。
+請確定您用來部署資料代理程式的Azure使用者帳戶具有下列權限：
 
 [source, json]
 ----
@@ -87,14 +87,51 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
                     "Microsoft.Network/publicIPAddresses/read",
                     "Microsoft.Network/virtualNetworks/subnets/join/action",
                     "Microsoft.Network/publicIPAddresses/join/action",
-                    "Microsoft.Network/networkInterfaces/join/action"
+                    "Microsoft.Network/networkInterfaces/join/action",
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/write",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action",
+                    "Microsoft.EventGrid/systemTopics/read",
+                    "Microsoft.EventGrid/systemTopics/write",
+                    "Microsoft.EventGrid/systemTopics/delete",
+                    "Microsoft.EventGrid/eventSubscriptions/write",
+                    "Microsoft.Storage/storageAccounts/write"
+----
+....
     ],
     "NotActions": [],
     "AssignableScopes": [],
     "Description": "Azure Data Broker",
     "IsCustom": "true"
 }
-----
+....
+附註：
+
+. 只有當您打算在Azure與其他雲端儲存位置之間的同步關係上啟用「持續同步」設定時、才需要下列權限：
++
+** 「Microsoft、Storage/storageAccounts/read」、
+** 「Microsoft、EventGrid /系統主題/事件訂閱/寫入」、
+** 「Microsoft、EventGrid /系統主題/事件訂閱/讀取」、
+** 「Microsoft、EventGrid /系統主題/事件訂閱/刪除」、
+** 「Microsoft、EventGrid /系統主題/事件訂閱/ getFullUrl/action」、
+** 「Microsoft、EventGrid /系統主題/事件訂閱/ getDeliveryAttributes/action」、
+** 「Microsoft、EventGrid /系統主題/讀取」、
+** 「Microsoft、EventGrid /系統主題/寫入」、
+** 「Microsoft、EventGrid /系統主題/刪除」、
+** 「Microsoft、EventGrid /事件訂閱/寫入」、
+** 「Microsoft儲存/儲存帳戶/寫入」
+
+
++
+此外、如果您計畫在Azure中實作Continuous Sync、可指派範圍必須設定為訂閱範圍及*非*資源群組範圍。
+
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+
 
 
 == 驗證方法
@@ -127,6 +164,10 @@ image:screenshot-azure.png["Data Broker頁面的快照、可讓您在AWS、Azure
 . 選擇資料代理的位置、然後輸入虛擬機器的基本詳細資料。
 +
 image:screenshot_azure_data_broker.gif["Azure 部署頁面的快照顯示下列欄位：訂購、 Azure 區域、 vnet 、子網路、 VM 名稱、 使用者名稱、驗證方法和資源群組。"]
+
++
+
+NOTE: 如果您打算實作持續同步關係、則必須指派自訂角色給資料代理人。建立代理程式之後、也可以手動完成此動作。
 
 . 如果 Vnet 中的網際網路存取需要 Proxy 、請指定 Proxy 組態。
 . 按一下「 * 繼續 * 」並保持頁面開啟、直到部署完成為止。

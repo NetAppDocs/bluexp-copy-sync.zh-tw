@@ -138,6 +138,9 @@ SAS 必須允許存取 Blob 服務和所有資源類型（服務、容器和物�
 image:screenshot_connection_string_sas.gif["顯示共享存取簽名、可從 Azure 入口網站選取儲存帳戶、然後按一下「共享存取簽名」。"]
 
 
+NOTE: 如果您選擇實作包含Azure Blob容器的Continuous Sync關係、則可使用一般連線字串或SAS連線字串。如果使用SAS連線字串、則不得設定為在不久的將來過期。
+
+
 
 == Azure Data Lake儲存設備第2代
 

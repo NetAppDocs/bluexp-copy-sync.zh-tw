@@ -18,6 +18,36 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2022年10月30日
+
+
+
+=== 從Microsoft Azure持續同步
+
+現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。
+
+初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。
+
+Azure資料代理人需要自訂角色和下列權限才能使用此設定：
+
+[source, json]
+----
+'Microsoft.Storage/storageAccounts/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
+'Microsoft.EventGrid/systemTopics/read',
+'Microsoft.EventGrid/systemTopics/write',
+'Microsoft.EventGrid/systemTopics/delete',
+'Microsoft.EventGrid/eventSubscriptions/write',
+'Microsoft.Storage/storageAccounts/write'
+----
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+
+
+
 == 2022年9月4日
 
 

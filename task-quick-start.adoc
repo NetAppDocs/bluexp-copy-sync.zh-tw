@@ -28,7 +28,7 @@ summary: 使用此功能包括幾個步驟。 Cloud Sync
 
 
 [role="quick-margin-para"]
-連接器是Cloud Volumes ONTAP 進行內部和內部ONTAP 的等位叢集所需的連接器。
+連接器是Cloud Volumes ONTAP 指用於支援ONTAP 內部資料的連接器、內部資料的叢集和Amazon FSX ONTAP for Sf0。
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用Cloud Manager"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["深入瞭解連接器"^]

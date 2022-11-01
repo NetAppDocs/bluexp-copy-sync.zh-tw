@@ -16,7 +16,7 @@ summary: 使用此功能包括幾個步驟。 Cloud Sync
 使用此功能包括幾個步驟。 Cloud Sync
 
 [role="quick-margin-para"]
-您應該已經開始使用Cloud Manager、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。
+您應該已經開始使用BlueXP、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。
 
 [role="quick-margin-para"]
 如果您想為下列任一項目建立同步關係、則首先需要建立或探索工作環境：
@@ -30,7 +30,7 @@ summary: 使用此功能包括幾個步驟。 Cloud Sync
 [role="quick-margin-para"]
 連接器是Cloud Volumes ONTAP 指用於支援ONTAP 內部資料的連接器、內部資料的叢集和Amazon FSX ONTAP for Sf0。
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用Cloud Manager"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["深入瞭解連接器"^]
 
 
@@ -54,7 +54,7 @@ NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 
 
 
 [role="quick-margin-para"]
-登入 https://cloudmanager.netapp.com/["Cloud Manager"^]，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
+登入 https://cloudmanager.netapp.com/["藍圖"^]，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
 
 [role="quick-margin-para"]
 從 AWS 或 Azure 訂閱、即可隨用隨付或每年付費。或直接向 NetApp 購買授權。只要前往 Cloud Sync 「授權設定」頁面即可設定。 link:task-licensing.html["深入瞭解"]。

@@ -27,7 +27,7 @@ video::oZNJtLvgNfQ[youtube,width=848,height=480]
 
 == 運作原理 Cloud Sync
 
-VMware是軟體即服務（SaaS）平台、由資料代理商群組、雲端型介面（可透過Cloud Manager取得）、以及來源與目標組成。Cloud Sync
+VMware是軟體即服務（SaaS）平台、由資料代理群組、透過BlueXP提供的雲端介面、以及來源和目標所組成。Cloud Sync
 
 下圖顯示 Cloud Sync 了各個元件之間的關係：
 

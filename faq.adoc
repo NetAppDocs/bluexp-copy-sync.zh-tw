@@ -86,7 +86,7 @@ NOTE: 不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure
 
 === 我該如何存取 Cloud Sync 才能存取的問題？
 
-Cloud Manager 可在 * Sync* 索引標籤中找到這個解決方案。 Cloud Sync
+可從BlueXP網站的* Sync*索引標籤取得。Cloud Sync
 
 
 

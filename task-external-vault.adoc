@@ -225,7 +225,7 @@ x-netapp-external-request-id-src: request ID as part of path for source credenti
 x-netapp-external-request-id-trg: request ID as part of path for target credentials
 Body: post relationship v2 body
 ....
-* 若要取得使用者權杖和 Cloud Central 帳戶 ID 、 link:api-sync.html["請參閱文件中的本頁"]。
+* 若要取得使用者權杖和您的BlueXP帳戶ID、 link:api-sync.html["請參閱文件中的本頁"]。
 * 為您的貼文關係建立一個實體、 https://api.cloudsync.netapp.com/docs/#/Relationships-v2/post_relationships_v2["請參閱第 2 版關係 API 呼叫"^]。
 
 

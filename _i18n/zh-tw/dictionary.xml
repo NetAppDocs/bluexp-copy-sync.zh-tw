@@ -230,11 +230,9 @@
   <block id="6dabde8f330be16cbc68c6ed11cd0dcb" category="paragraph">若要預付同步關係的費用、您必須購買一或多份授權、並將其新增至 Cloud Sync 該服務。</block>
   <block id="97e3031ee8bcd0a19765ddc808e71590" category="paragraph">您將需要授權的序號、以及授權所關聯之NetApp Support Site帳戶的使用者名稱和密碼。</block>
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">請透過 mailto ： ng-cloudsync-contact@netapp.com ® Subject=Cloud %20Sync%20Service%20-%20BYOL%20License%20Purche%20Request 購買授權（聯絡 NetApp ）。</block>
-  <block id="47073df9c54bc93012bf8231b4da55fe" category="list-text">在 Cloud Manager 中、按一下 * 同步 &gt; 授權 * 。</block>
   <block id="c705d1b4b3b9a5ab7a62cfb882e27612" category="list-text">按一下*新增授權*並新增必要資訊：</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">輸入序號。</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">選取與您要新增之授權相關的NetApp支援網站帳戶：</block>
-  <block id="cc2908241ba4f3504f13000142ad3e48" category="list-text">如果您的帳戶已新增至Cloud Manager、請從下拉式清單中選取。</block>
   <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">如果您的帳戶尚未新增、請按一下「*新增NSSCredential*」、輸入使用者名稱和密碼、按一下「*註冊*」、然後從下拉式清單中選取。</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">按一下「 * 新增 * 」。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新授權</block>
@@ -365,28 +363,20 @@
   <block id="2551f9b8e10e8b9a8eaf44b595104527" category="section-title">使用資料庫中的機密建立新的同步關係</block>
   <block id="aea6bdca8526169a7ce9163bff6fd0c5" category="paragraph">使用 Cloud Sync REST API 張貼關係。</block>
   <block id="f04d1ca5db491ee5c350c88febbfd65c" category="inline-link-macro">請參閱文件中的本頁</block>
-  <block id="0eb51107929c8d90e32c3f0445a11813" category="list-text">若要取得使用者權杖和 Cloud Central 帳戶 ID 、 <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
   <block id="89bd30152e49ad6c1d8ab907487684a6" category="inline-link">請參閱第 2 版關係 API 呼叫</block>
   <block id="5f70a33cfe5bc333821c2a9b0beb2648" category="list-text">為您的貼文關係建立一個實體、<block ref="e9795bb60ff464250f91f2bcfd35fc3d" category="inline-link-rx"></block>。</block>
   <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="section-title">範例</block>
   <block id="b8786298cd3539afe2429695af111104" category="paragraph">POST 要求的範例：</block>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自我支援</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入Cloud Manager社群、追蹤後續討論或建立新討論。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您目前正在檢視的Cloud Manager文件。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
   <block id="3d4a1e312061c2a0e1171d137dc166dd" category="summary">如有需要、請執行解除安裝指令碼、以移除安裝資料代理程式時所建立的資料代理程式、套件和目錄。</block>
   <block id="e6f506127d5f6704ecc31da23c753df9" category="doc">解除安裝資料代理程式</block>
@@ -520,9 +510,6 @@
   <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link">深入瞭解如何變更同步關係的設定</block>
   <block id="5f03ed55634cfe3f169d94549e45f06c" category="paragraph"><block ref="050cf03a98debb532006e420507b54cf" category="inline-link-rx"></block>。</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="section-title">通知</block>
-  <block id="0a3f4ee017f808dc79fb4939a3eaf91b" category="paragraph">現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync Cloud Manager的通知中心接收功能不全的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
-  <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">顯示Cloud Manager通知中心的快照。</block>
-  <block id="914b918c172fa270f423df8135932978" category="paragraph"><block ref="914b918c172fa270f423df8135932978" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022年4月3日</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">資料代理群組增強功能</block>
   <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">我們對資料代理商群組進行了多項增強：</block>
@@ -681,8 +668,6 @@
   <block id="1df5e86c2f922b55e7a126736aa3fdc8" category="paragraph"><block ref="4d121b48d2c287fff78a725ca3d42ec9" category="inline-link-macro-rx"></block>。</block>
   <block id="13c380d451c296cda1d1289b9dc25114" category="section-title">2021年4月11日</block>
   <block id="5e224a35cc2a8810465ced83c84d4a8b" category="section-title">獨立Cloud Sync 式的版不使用此服務</block>
-  <block id="67c44933bf883652bedc3ae2bffc09b6" category="paragraph">獨立Cloud Sync 式的不再使用此功能。您現在應該Cloud Sync 直接從Cloud Manager存取、因為Cloud Manager具備所有相同的功能。</block>
-  <block id="f1079bf36481e8e18d3cae43f6687b6d" category="paragraph">登入Cloud Manager之後、您可以切換至頂端的「Sync」（同步）索引標籤、檢視您的關係、就像以往一樣。</block>
   <block id="e192b538b406b93c179453039f37bbe7" category="section-title">Google Cloud會在不同專案中儲存貯體</block>
   <block id="c56f5d180b65de69019a03e5a41b3de3" category="paragraph">設定同步關係時、如果您提供資料代理商服務帳戶所需的權限、您可以從不同專案的Google Cloud儲存庫中進行選擇。</block>
   <block id="f76c9236af2cbf3eb2be594a528d618a" category="paragraph"><block ref="110e017e697bf43b5794969151cbc1cf" category="inline-link-macro-rx"></block>。</block>
@@ -768,7 +753,6 @@
   <block id="3e8e8a2afdd515355f098433677b9baa" category="list-text">選擇週期性排程以供未來同步或關閉同步排程。您可以排程關係、每 1 分鐘同步一次資料。</block>
   <block id="64b10e9eb890594a5a1756353aca634b" category="list-text">同步逾時</block>
   <block id="4affab38ec04e06031b349c8bc2e8e59" category="list-text">定義Cloud Sync 如果同步尚未在指定的時數或天數內完成、則是否應取消資料同步。</block>
-  <block id="870569e17f9da6759aebc4bec6749d61" category="list-text">可讓您選擇是否要在Cloud Sync Cloud Manager的通知中心接收功能不全的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
   <block id="519b4d25c8ffbf8de1ebf62fde5dc856" category="list-text">重試次數</block>
   <block id="919cb072b2859b8a582192dee2b97aeb" category="list-text">定義 Cloud Sync 在跳過檔案之前、應重試同步檔案的次數。</block>
   <block id="19d4853563c9ed77d05ef542fe4b883f" category="list-text">比較依據</block>
@@ -846,7 +830,6 @@
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="9d51810a93f734113b2ee23bcbcae0db" category="paragraph">觀看下列影片、瞭解 Cloud Sync 有關下列功能的概述：</block>
   <block id="808b8ba2e29d66a77782f04c60c5e362" category="section-title">運作原理 Cloud Sync</block>
-  <block id="b1ef10218f2bd62a0852959b9d1b05ee" category="paragraph">VMware是軟體即服務（SaaS）平台、由資料代理商群組、雲端型介面（可透過Cloud Manager取得）、以及來源與目標組成。Cloud Sync</block>
   <block id="eb65cb8db3d8268189ee205c95054d1c" category="paragraph">下圖顯示 Cloud Sync 了各個元件之間的關係：</block>
   <block id="4c27f85e0364ce6c943ba00317c839d2" category="inline-image-macro">顯示資料從來源流向目標的概念性映像。資料代理軟體扮演中介角色、輪詢 Cloud Sync 功能以瞭如任務所需。</block>
   <block id="7f016e96b503a03744c95b6baa254cbc" category="paragraph"><block ref="7f016e96b503a03744c95b6baa254cbc" category="inline-image-macro-rx" type="image"></block></block>
@@ -910,15 +893,11 @@
   <block id="b3eb62944a1e4390f18328a67cb57d2f" category="doc">資訊 API Cloud Sync</block>
   <block id="8d2efdb682b9548549aab7f4ed1d58d8" category="paragraph">REST 風格的 API 也提供網路 UI 所提供的功能。 Cloud Sync</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="section-title">快速入門</block>
-  <block id="c47bcce50efbf894d31bb36bd5239155" category="paragraph">若要開始使用 Cloud Sync 此解決方案、您需要取得使用者權杖和 Cloud Central 帳戶 ID 。進行 API 呼叫時、您必須將權杖和帳戶 ID 新增至「授權」標頭。</block>
-  <block id="6f1f68c4600a11c04b4d3eaa5313820c" category="list-text">從 NetApp Cloud Central 取得使用者權杖。</block>
-  <block id="22681efa5ce4060b2d5ee0b4f42807aa" category="list-text">取得您的 Cloud Central 帳戶 ID 。</block>
   <block id="eda59d7eb3739f93f444f0e8c16f18e5" category="paragraph">此 API 會傳回如下回應：</block>
   <block id="b4d5fd65d29290d42a4161d3362d1326" category="list-text">在每個 API 呼叫的「授權」標頭中新增使用者權杖和帳戶 ID 。</block>
   <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 範例 *</block>
   <block id="b55b4937f8ff2471222d040f06b7807e" category="paragraph">下列範例顯示在 Microsoft Azure 中建立資料代理程式的 API 呼叫。您只需將 &lt;user_token （使用者權杖） &gt; 和 &lt;AccountID&gt; 替換成您在先前步驟中取得的權杖和 ID 即可。</block>
   <block id="d6f4f4fada8d5c3952a90492c3138e97" category="sidebar-title">權杖過期時該怎麼辦？</block>
-  <block id="1539598d4e260b03b9265b87976a6ab0" category="paragraph">NetApp Cloud Central 的使用者權杖有到期日。若要重新整理權杖、您需要再次從步驟 1 呼叫 API 。</block>
   <block id="5c5cd253b66501facf455779c806ee88" category="paragraph">API 回應包含「 Expire_in 」欄位、指出權杖過期的時間。</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="section-title">API 參考</block>
   <block id="8fc827acaef16ddd42dd21aeb46ac657" category="paragraph">如需每 Cloud Sync 個版本的資料、請參閱<block ref="692cab94d93982d3f8e96928c3c0e2c6" category="inline-link-rx"></block>。</block>
@@ -942,8 +921,6 @@
   <block id="d91b9aa1c8fa0782d005d76cce939796" category="list-text"><block ref="d91b9aa1c8fa0782d005d76cce939796" category="inline-link-macro-rx"></block></block>
   <block id="0bfdab96c119413ba592a2c670007760" category="paragraph">NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 關係 _ ）。您可以在 AWS 、 Azure 、 Google Cloud Platform 或內部部署環境中執行資料代理程式。由一或多個資料代理人所組成的資料代理人群組、需要透過連接埠443建立傳出網際網路連線、以便與Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。 <block ref="12ea03dce1417efcc10375bae5440131" category="inline-link-macro-rx"></block>。</block>
   <block id="1cfc3a8fedd4f8bdee2a6bbcc9a6379c" category="paragraph">建立同步關係時、會引導您完成安裝程序、此時您可以在雲端部署資料代理程式、或為自己的Linux主機下載安裝指令碼。Cloud Sync</block>
-  <block id="315474a8ef79b74899073fc979f12da4" category="inline-link">Cloud Manager</block>
-  <block id="a95a30ea972f4d64b4d09553d0281684" category="paragraph">登入<block ref="be757cbeb024c9da5b8b367da3bb80a9" category="inline-link-rx"></block>，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
   <block id="1f49b87cd49b58f3b9afa1f411cb454d" category="paragraph">從 AWS 或 Azure 訂閱、即可隨用隨付或每年付費。或直接向 NetApp 購買授權。只要前往 Cloud Sync 「授權設定」頁面即可設定。 <block ref="3cd689475b04fdbdf7fafd004b01a742" category="inline-link-macro-rx"></block>。</block>
   <block id="0f3ab1e6e87b1df0d7ec0b58658fb4dd" category="summary">您可以透過 Cloud Sync 各種資源（包括論壇、聊天室服務和影片）、取得有關解決此問題的協助、並尋找更多資訊。</block>
   <block id="c05cf44a39f617084e8016772fe65923" category="doc">技術常見問題集 Cloud Sync</block>
@@ -972,7 +949,6 @@
   <block id="3339dd709817535785aeeda3c3be6158" category="list-text">資料代理人群組需要網際網路連線才能與Cloud Sync 該服務進行通訊。</block>
   <block id="ad12207f179d2ca16295cab50ab877b3" category="list-text">如果您不直接向 NetApp 購買授權、您將需要 AWS 或 Azure 帳戶來 Cloud Sync 支付 PAYGO 服務費用。</block>
   <block id="df266df003e70d370ab8d285c9cb2c42" category="section-title">我該如何存取 Cloud Sync 才能存取的問題？</block>
-  <block id="a4169a7e5b143d6ed1f60c39369aebb8" category="paragraph">Cloud Manager 可在 * Sync* 索引標籤中找到這個解決方案。 Cloud Sync</block>
   <block id="17381273051e35ee8b1f3c5cec92c55a" category="section-title">什麼是資料代理群組？</block>
   <block id="3d1942c5e5711c0a537a097d10414548" category="paragraph">每個資料代理程式都屬於資料代理程式群組。將資料代理人集中在一起、有助於提升同步關係的效能。</block>
   <block id="c5ceea2392b0487f5aa63438b3bdcdbe" category="section-title">支援的來源和目標</block>
@@ -1221,7 +1197,6 @@
   <block id="91d94bcb5137ebeaee0b1824fb283f72" category="paragraph">這些認證資料會使用 HashiCorp Vault 在資料代理機器上進行本機加密。</block>
   <block id="f460053eaa67e236eea5c02ada4c032d" category="summary">當您建立同步關係時、 Cloud Sync SyndService 會將檔案從來源複製到目標。初始複本之後、服務會每 24 小時同步所有變更的資料。</block>
   <block id="1e0539ed84cecdd095f5fbe996a378b8" category="doc">建立同步關係</block>
-  <block id="1c47f6d1a3cd6b28e311fe1fe215ce1d" category="paragraph">在建立某些類型的同步關係之前、您首先需要在Cloud Manager中建立工作環境。</block>
   <block id="2a9fded45db2f5a953150ba9bbef7f7a" category="section-title">針對特定類型的工作環境建立同步關係</block>
   <block id="753934f4df464e33f855d1ebb1cf78c4" category="paragraph">如果您想為下列任一項目建立同步關係、則首先需要建立或探索工作環境：</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">內部 ONTAP 部署的叢集</block>
@@ -1248,7 +1223,6 @@
   <block id="710868057fb37c917b26175735e419f5" category="list-text">選擇*從此位置同步資料*或*同步資料至此位置*、然後依照提示設定同步關係。</block>
   <block id="42fb01b3b779aa7e6922ba7286f27d90" category="section-title">建立其他類型的同步關係</block>
   <block id="04c2658f3d0148a82630128082746ff3" category="paragraph">請使用這些步驟、將資料同步至或從Amazon FSX以外的支援儲存類型、以利ONTAP 進行支援的資料、以利進行邊、Azure NetApp Files 邊、Cloud Volumes ONTAP 邊、邊ONTAP 等的資料叢集。下列步驟提供範例、說明如何設定從 NFS 伺服器到 S3 儲存區的同步關係。</block>
-  <block id="61d88e0d7b41b1cc909ee38fd639f3d0" category="list-text">在 Cloud Manager 中、按一下 * Sync* 。</block>
   <block id="5c9e2eb8a0b6e7b55897a6605105e10a" category="list-text">在「 * 定義同步關係 * 」頁面上、選擇來源和目標。</block>
   <block id="ec4f668b0fb93e0352d369b9536e8835" category="paragraph">下列步驟提供範例、說明如何從 NFS 伺服器建立至 S3 儲存區的同步關係。</block>
   <block id="abd3c3afefe991ee73c5762fa2129b96" category="inline-image-macro">快照顯示 NFS 為來源、 S3 為新同步關係中的目標。</block>
@@ -1296,9 +1270,7 @@
   <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">瞭解如何從Cloud Data Sense開始同步關係</block>
   <block id="0f091e70c984324fefd750bc86f06c98" category="paragraph"><block ref="92384a764db045ca9031e6f4bfce712d" category="inline-link-rx"></block>。</block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在Cloud Manager主控台右上角、按一下「說明」圖示、然後選取*「支援」*。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
@@ -1445,7 +1417,6 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
   <block id="c20246791a0594003975011a29aae438" category="section-title">持續同步</block>
@@ -1527,13 +1498,10 @@
   <block id="427bae06dc18214df77602503b45e556" category="list-text">IBM Cloud Object Storage移轉至Azure Data Lake Storage Gen2</block>
   <block id="2ade6486b18196b7cbbcabc2c40d01ac" category="list-text">適用於Azure Data Lake Storage Gen2 StorageGRID</block>
   <block id="6d7ca7d8b2d372856465f7f7cee67c0c" category="section-title">設定同步關係的新方法</block>
-  <block id="2a8934d9990d0c3b34b537cb85b95cb3" category="paragraph">我們新增了更多方法、可直接從Cloud Manager的畫版中設定同步關係。</block>
   <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">拖放</block>
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。</block>
-  <block id="3c19e417c99aac7906cccf189792344f" category="paragraph"><block ref="3c19e417c99aac7906cccf189792344f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右側面板設定</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。</block>
-  <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Google Cloud Platform *」。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">在安裝資料代理程式之前、必須先在主機上執行命令「yum update」。</block>
@@ -1549,12 +1517,10 @@
   <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">將Google Cloud Storage移轉至NFS伺服器</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</block>
-  <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
   <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即執行資料同步</block>
   <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">設定通知</block>
-  <block id="7cd2df821c4b3fee85371ef61119f0e3" category="paragraph">每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在Cloud Manager的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外、您也可以透過電子郵件接收通知。</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步關係的設定：</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">啟用*通知*。</block>
@@ -1562,7 +1528,6 @@
   <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">按一下*「設定」&gt;「警示與通知設定」*。</block>
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">選取使用者或多位使用者、然後選擇*資訊*通知類型。</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
-  <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">現在Cloud Sync 、您將會在Cloud Manager的通知中心收到功能不全的通知、如果您設定了這個選項、也會收到幾封電子郵件通知。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">如果您想要接收通知</block>
   <block id="e48d5ea54c85373b23a289d375bf989d" category="inline-image-macro">畫面上Cloud Sync 會顯示「不清楚」狀態的資訊代理程式。</block>
   <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
@@ -1570,22 +1535,15 @@
   <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">將游標暫留在上方 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 圖示以查看故障原因。</block>
   <block id="bcb9c50efc2e8b1f33257f8dbf32e2ae" category="section-title">root權限</block>
   <block id="04baae6f2bb9072d7883e5f28e54a6c3" category="paragraph">資料代理軟體會在Linux主機上自動以root執行。以root執行是資料代理程式作業的必要條件。例如、掛載共用。</block>
-  <block id="1a2e939f73514c243c573ed590ef8f46" category="paragraph">您應該已經開始使用Cloud Manager、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。</block>
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">如果您想為下列任一項目建立同步關係、則首先需要建立或探索工作環境：</block>
-  <block id="9214767a80886fb61366610edb3222e9" category="inline-link">瞭解如何開始使用Cloud Manager</block>
-  <block id="0a1ad1ff266944202b2634c4a938e89b" category="list-text"><block ref="0a1ad1ff266944202b2634c4a938e89b" category="inline-link-rx"></block></block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">深入瞭解連接器</block>
   <block id="e5813d2f22fb6e846a6024e6cb8a0b9b" category="list-text"><block ref="e5813d2f22fb6e846a6024e6cb8a0b9b" category="inline-link-rx"></block></block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
-  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
   <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
-  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
-  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服務*：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
-  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
@@ -1596,34 +1554,22 @@
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
-  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="0f8771bb9974fc55ea76fe1566175d0e" category="paragraph">此設定僅適用於建立同步關係、以及將S3儲存區或Google Cloud Storage的資料同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS、S3、 及從Azure Blob儲存設備到Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和整套功能的StorageGRID StorageGRID</block>
   <block id="0a7604db31d8e78d96c9d8af2118d464" category="paragraph">連接器是Cloud Volumes ONTAP 指用於支援ONTAP 內部資料的連接器、內部資料的叢集和Amazon FSX ONTAP for Sf0。</block>
-  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 Cloud Manager中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
-  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">註冊Cloud Manager帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於Cloud Manager的「Support Resources（支援資源）」頁面）。</block>
-  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">這是Cloud Manager中任何服務的單一支援訂閱ID。每個Cloud Manager帳戶層級的支援訂閱都必須註冊。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
-  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由Cloud Manager產生。</block>
-  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">註冊這兩種序號類型、就能開啟支援服務單、自動產生個案及Active IQ 進行支援。</block>
   <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的註冊方式取決於您是新客戶或現有客戶或合作夥伴。</block>
   <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">現有客戶或合作夥伴</block>
-  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">身為現有的NetApp客戶或合作夥伴、您可以使用NetApp 支援網站 您的畫面（NSS）SSO帳戶執行上述登錄。在「支援儀表板」中、Cloud Manager提供一個* nssn*管理*頁面、您可以在其中新增您的nss.新增您的NSS帳戶後、Cloud Manager會自動為您註冊這些序號。</block>
   <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">瞭解如何新增您的NSS帳戶</block>
-  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新推出</block>
-  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">如果您是NetApp的新客戶、您必須在NetApp的支援註冊網站上完成Cloud Manager帳戶ID序號的一次性註冊。完成此註冊並建立新的NSS帳戶之後、您就可以在Cloud Manager中使用此帳戶自動註冊、以便繼續進行。</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">瞭解如何向NetApp註冊</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">將一個新增至Cloud Manager的NSS</block>
   <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">「支援儀表板」可讓您新增及管理NetApp 支援網站 要搭配Cloud Manager使用的各種不一致帳戶。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
   <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
-  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">這些行動可讓Cloud Manager使用您的NSS帳戶進行授權下載、軟體升級驗證、以及未來的支援註冊等作業。</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">帳戶必須是客戶層級的帳戶（不是來賓帳戶或臨時帳戶）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個橫點的圖示</block>
   <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
@@ -1631,8 +1577,6 @@
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp註冊</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
-  <block id="d4b6092976537c153c496a428098980c" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、只需透過Cloud Manager註冊即可獲得支援。</block>
-  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至Cloud Manager。</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
   <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
@@ -1655,7 +1599,6 @@
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">確認電子郵件中的行動。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
-  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至Cloud Manager、新增此新增的NSS-帳戶以供日後登錄。</block>
   <block id="fd89e3644f08c7cff88f1db4361c5e60" category="paragraph">請確定您用來部署資料代理程式的Azure使用者帳戶具有下列權限：</block>
   <block id="fc9d3df613063ee57906c461320744e2" category="paragraph">附註：</block>
   <block id="679e4bcf838658cd92da7b790636390a" category="list-text">只有當您打算在Azure與其他雲端儲存位置之間的同步關係上啟用「持續同步」設定時、才需要下列權限：</block>
@@ -1678,4 +1621,62 @@
   <block id="e4c664e7de05c9b6f33c4dc4c5e8c120" category="paragraph">現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。</block>
   <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。</block>
   <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">Azure資料代理人需要自訂角色和下列權限才能使用此設定：</block>
+  <block id="ddbbf48cd438f6c3a5d773f3c8249074" category="paragraph">在建立某些類型的同步關係之前、您首先需要在BlueXP中建立工作環境。</block>
+  <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">在BlueXP中、按一下*同步*。</block>
+  <block id="fc2496517a761d4318a20af52291c728" category="list-text">可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">您應該已經開始使用BlueXP、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。</block>
+  <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">瞭解如何開始使用BlueXP</block>
+  <block id="69c4d579a506c05e94d3e4986ec536a3" category="list-text"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">藍圖</block>
+  <block id="7aedb7a8840bf63ff8088dc466015c95" category="paragraph">登入<block ref="d85b267f9a6ceedd0cd11e64f7f19978" category="inline-link-rx"></block>，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
+  <block id="17bed77c4f760aaf5e0b9c31b33fdd66" category="paragraph">可從BlueXP網站的* Sync*索引標籤取得。Cloud Sync</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">身為現有的NetApp客戶或合作夥伴、您可以使用NetApp 支援網站 您的畫面（NSS）SSO帳戶執行上述登錄。在「支援儀表板」中、BlueXP提供一個* nssn*管理*頁面、您可以在其中新增您的nssa帳戶。新增您的NSS帳戶後、BlueXP會自動為您註冊這些序號。</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新客戶、您必須在NetApp的支援註冊網站上完成一次性註冊您的BlueXP帳戶ID序號。完成此註冊並建立新的NSS帳戶之後、您就可以在BlueXP中使用此帳戶自動註冊、以便繼續進行。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">新增一個NSS帳戶至藍圖XP</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP主控台右上角、按一下「說明」圖示、然後選取「*支援*」。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未這麼做、請將您的NSS帳戶新增至藍圖XP。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至BlueXP、新增此新的NSS-帳戶以供日後登錄。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">若要使用*建立案例*功能、您必須先執行一次性註冊您的BlueXP帳戶ID序號（例如960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、按一下*「說明」&gt;「支援」*。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至BlueXP「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="324d87edb0c713edb9f7243d29586ce4" category="paragraph">VMware是軟體即服務（SaaS）平台、由資料代理群組、透過BlueXP提供的雲端介面、以及來源和目標所組成。Cloud Sync</block>
+  <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">若要取得使用者權杖和您的BlueXP帳戶ID、 <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
+  <block id="e8b441efabe30a472bc01ae49f99e1c5" category="list-text">在BlueXP中、按一下*同步&gt;授權*。</block>
+  <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">如果您的帳戶已新增至BlueXP、請從下拉式清單中選取。</block>
+  <block id="ea7c3756b66c4849910400fde4776d39" category="paragraph">若要開始使用Cloud Sync 此解決方法、您需要取得使用者權杖和您的BlueXP帳戶ID。進行 API 呼叫時、您必須將權杖和帳戶 ID 新增至「授權」標頭。</block>
+  <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">從NetApp BlueXP取得使用者權杖。</block>
+  <block id="415019870d0741b8c872f4ef1a528769" category="list-text">取得您的BlueXp帳戶ID。</block>
+  <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">NetApp BlueXp的使用者權杖有到期日。若要重新整理權杖、您需要再次從步驟 1 呼叫 API 。</block>
+  <block id="ce01f1f43aa2ca562170259425ab75c6" category="paragraph">每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">在藍圖XP中顯示通知中心的快照。</block>
+  <block id="ccb8fdc540464dfa9a7726927f2c33c6" category="paragraph"><block ref="ccb8fdc540464dfa9a7726927f2c33c6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d47ea60dbdf10b04cf3dbcb277f90223" category="paragraph">現在Cloud Sync 、您將會在BlueXP的通知中心收到功能更新通知、如果您設定了該選項、也會收到幾封電子郵件通知。</block>
+  <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。</block>
+  <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。</block>
+  <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能不實的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">獨立Cloud Sync 式的不再使用此功能。現在您應該Cloud Sync 直接從具有所有相同功能的BlueXP存取這個功能。</block>
+  <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">登入BlueXP之後、您可以切換到頂端的「同步」索引標籤、檢視您的關係、就像以前一樣。</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
 </blocks>

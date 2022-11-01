@@ -86,9 +86,9 @@ SMB伺服器的相關注意事項：如果網域是新的、則您需要在更�
 
 == 設定通知
 
-每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在Cloud Manager的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
+每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
 
 此外、您也可以透過電子郵件接收通知。
 
@@ -110,7 +110,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 
 
-現在Cloud Sync 、您將會在Cloud Manager的通知中心收到功能不全的通知、如果您設定了這個選項、也會收到幾封電子郵件通知。
+現在Cloud Sync 、您將會在BlueXP的通知中心收到功能更新通知、如果您設定了該選項、也會收到幾封電子郵件通知。
 
 
 
@@ -130,7 +130,7 @@ image:screenshot_sync_settings.png["顯示同步關係設定的快照。"]
 +
 排程:: 選擇週期性排程以供未來同步或關閉同步排程。您可以排程關係、每 1 分鐘同步一次資料。
 同步逾時:: 定義Cloud Sync 如果同步尚未在指定的時數或天數內完成、則是否應取消資料同步。
-通知:: 可讓您選擇是否要在Cloud Sync Cloud Manager的通知中心接收功能不全的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
+通知:: 可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
 +
 --
 如果您想要接收通知

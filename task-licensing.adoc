@@ -85,13 +85,13 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 .步驟
 . 請透過 mailto ： ng-cloudsync-contact@netapp.com ® Subject=Cloud %20Sync%20Service%20-%20BYOL%20License%20Purche%20Request 購買授權（聯絡 NetApp ）。
-. 在 Cloud Manager 中、按一下 * 同步 > 授權 * 。
+. 在BlueXP中、按一下*同步>授權*。
 . 按一下*新增授權*並新增必要資訊：
 +
 .. 輸入序號。
 .. 選取與您要新增之授權相關的NetApp支援網站帳戶：
 +
-*** 如果您的帳戶已新增至Cloud Manager、請從下拉式清單中選取。
+*** 如果您的帳戶已新增至BlueXP、請從下拉式清單中選取。
 *** 如果您的帳戶尚未新增、請按一下「*新增NSSCredential*」、輸入使用者名稱和密碼、按一下「*註冊*」、然後從下拉式清單中選取。
 
 
@@ -107,7 +107,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。
 
 .步驟
-. 在 Cloud Manager 中、按一下 * 同步 > 授權 * 。
+. 在BlueXP中、按一下*同步>授權*。
 . 按一下*新增授權*並新增必要資訊：
 +
 .. 輸入序號。

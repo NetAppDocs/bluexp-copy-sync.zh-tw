@@ -84,7 +84,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。
 
-若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。
+若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["瞭解如何設定通知"]。
 
@@ -119,7 +119,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 === 設定同步關係的新方法
 
-我們新增了更多方法、可直接從Cloud Manager的畫版中設定同步關係。
+我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。
 
 
 
@@ -127,7 +127,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -135,7 +135,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -254,9 +254,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 === 通知
 
-現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync Cloud Manager的通知中心接收功能不全的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
+現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能不實的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
@@ -621,9 +621,9 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 === 獨立Cloud Sync 式的版不使用此服務
 
-獨立Cloud Sync 式的不再使用此功能。您現在應該Cloud Sync 直接從Cloud Manager存取、因為Cloud Manager具備所有相同的功能。
+獨立Cloud Sync 式的不再使用此功能。現在您應該Cloud Sync 直接從具有所有相同功能的BlueXP存取這個功能。
 
-登入Cloud Manager之後、您可以切換至頂端的「Sync」（同步）索引標籤、檢視您的關係、就像以往一樣。
+登入BlueXP之後、您可以切換到頂端的「同步」索引標籤、檢視您的關係、就像以前一樣。
 
 
 

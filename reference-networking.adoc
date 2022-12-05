@@ -100,7 +100,7 @@ NetApp 資料代理商需要透過連接埠 443 進行傳出網際網路存取�
 | \https://sts.amazonaws.com | 可在資料代理程式部署於AWS或部署於內部部署且提供AWS認證資料時、驗證AWS認證資料。資料代理程式會在部署期間、更新時及重新啟動時聯絡此端點。 
 
 
-| \https://cloudmanager.cloud.netapp.com \https://netapp-cloud-account.auth0.com | 若要在使用Data Sense選取新同步關係的來源檔案時聯絡Cloud Data Sense。 
+| \https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 若要在使用Data Sense選取新同步關係的來源檔案時聯絡Cloud Data Sense。 
 |===
 
 

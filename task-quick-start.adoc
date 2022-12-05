@@ -54,7 +54,7 @@ NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 
 
 
 [role="quick-margin-para"]
-登入 https://cloudmanager.netapp.com/["藍圖"^]，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
+登入 https://console.bluexp.netapp.com/["藍圖"^]，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
 
 [role="quick-margin-para"]
 從 AWS 或 Azure 訂閱、即可隨用隨付或每年付費。或直接向 NetApp 購買授權。只要前往 Cloud Sync 「授權設定」頁面即可設定。 link:task-licensing.html["深入瞭解"]。

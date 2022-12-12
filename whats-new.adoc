@@ -24,13 +24,13 @@ summary: 瞭Cloud Sync 解更新功能。
 
 === 依名稱篩選目錄
 
-現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。
+現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解「排除目錄名稱」設定"]。
 
 
 
-== 其他Amazon S3和ONTAP SS3儲存支援
+=== 其他Amazon S3和ONTAP SS3儲存支援
 
 目前支援AWS S3和Syns3儲存設備的其他同步關係ONTAP Cloud Sync ：
 

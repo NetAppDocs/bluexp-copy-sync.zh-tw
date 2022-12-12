@@ -17,12 +17,15 @@ summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步
 
 此功能可透過 Cloud Sync 使用需取得 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係之支援。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 準備保存庫
 [role="quick-margin-para"]
 設定URL、準備資料庫以提供認證給資料代理人群組。保存庫中機密的 URL 必須以 _Creds_ 結尾。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 準備資料代理人群組
 [role="quick-margin-para"]
 修改群組中每個資料代理程式的本機組態檔、準備從外部資料保存庫擷取認證資料的資料代理群組。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 使用 API 建立同步關係
 [role="quick-margin-para"]
 現在一切都已設定完成、您可以傳送 API 呼叫來建立同步關係、使用您的保存庫來獲取機密資料。
 

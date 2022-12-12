@@ -135,6 +135,7 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 . 完成精靈中的頁面、以建立新的同步關係。
 
 
+.結果
 您已在Google Cloud中部署資料代理商、並建立新的同步關係。您可以將此資料代理程式與其他同步關係搭配使用。
 
 
@@ -149,10 +150,11 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 . 按一下*權限*。
 . 按一下「 * 新增 * 」。
 . 輸入資料代理的服務帳戶名稱。
-. 選取提供的角色  required for the service account,與上述相同的權限。
+. 選取提供的角色 <<服務帳戶所需的權限,與上述相同的權限>>。
 . 按一下「 * 儲存 * 」。
 
 
+.結果
 設定同步關係時、您現在可以選擇該儲存區做為同步關係中的來源或目標。
 
 

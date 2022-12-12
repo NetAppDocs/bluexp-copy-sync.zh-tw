@@ -56,7 +56,7 @@ NOTE: 資料代理程式預設會忽略下列目錄：.snapshot、~snapshot、.C
 
 
 
-== Amazon S3儲存桶需求
+== [S3）] Amazon S3儲存區需求
 
 請確定您的Amazon S3儲存庫符合下列要求。
 
@@ -103,7 +103,7 @@ image:screenshot_iam_role_arn.gif["顯示角色 ARN 的 AWS IAM 主控台快照�
 
 
 
-== Azure Blob 儲存需求
+== [[blob]Azure Blob儲存需求
 
 請確定您的 Azure Blob 儲存設備符合下列需求。
 
@@ -186,7 +186,7 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
-== Google Cloud Storage 儲存桶需求
+== [[Google Google] Google Cloud Storage資源桶需求
 
 請確定您的 Google Cloud Storage 儲存庫符合下列需求。
 

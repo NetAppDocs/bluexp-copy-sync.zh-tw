@@ -132,6 +132,7 @@ image:screenshot_sync_group_edit.gif["可用於群組中每個資料代理程式
 . 輸入新名稱、然後按一下「 * 儲存 * 」。
 
 
+.結果
 更新資料代理群組的名稱。 Cloud Sync
 
 
@@ -187,6 +188,7 @@ image:screenshot_sync_group_remove.png["每個個別資料代理群組可用的�
 . 按一下*移動*。
 
 
+.結果
 將資料代理程式移至新的或現有的資料代理程式群組。Cloud Sync如果前一個群組中沒有其他資料代理人、Cloud Sync 則由NetApp刪除。
 
 
@@ -203,6 +205,7 @@ image:screenshot_sync_group_remove.png["每個個別資料代理群組可用的�
 . 按一下 * 更新 * 。
 
 
+.結果
 更新資料代理程式以使用Proxy組態存取網際網路。Cloud Sync
 
 
@@ -272,6 +275,7 @@ image:screenshot_sync_group_remove.gif["每個個別資料代理群組可用的�
 . 按一下「 * 移除資料代理人 * 」。
 
 
+.結果
 從群組中移除資料代理程式。 Cloud Sync
 
 
@@ -291,4 +295,5 @@ image:screenshot_sync_group_add.png["可用於群組中每個資料代理程式�
 . 若要確認、請輸入群組名稱、然後按一下*刪除群組*。
 
 
+.結果
 此功能會移除資料代理人並刪除群組。Cloud Sync

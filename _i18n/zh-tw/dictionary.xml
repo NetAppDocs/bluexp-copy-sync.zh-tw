@@ -1709,4 +1709,5 @@
   <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">排除目錄名稱</block>
   <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">輸入目錄名稱並按* Enter *鍵、指定最多15個要從同步中排除的目錄。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。如果您想要將這些內容納入同步處理、請聯絡我們。</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</block>
+  <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">如果您使用的是沒有用戶端ID的個人電子郵件帳戶、您可以使用預設用戶端ID「QC3AgHk6qdbmC7Yr82ApwaaJLwRrNO」。</block>
 </blocks>

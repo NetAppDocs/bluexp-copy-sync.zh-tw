@@ -39,6 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
+
+
+
+NOTE: 如果您使用的是沒有用戶端ID的個人電子郵件帳戶、您可以使用預設用戶端ID「QC3AgHk6qdbmC7Yr82ApwaaJLwRrNO」。
+
 . 取得您的BlueXp帳戶ID。
 +
 [source, http]

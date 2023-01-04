@@ -166,6 +166,6 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 機器類型:: n2-Standard-4
 vCPU:: 4.
 RAM:: 15 GB
-作業系統:: Red Hat Enterprise Linux 7.7
+作業系統:: 洛基Linux 9.0
 磁碟大小與類型:: 20 GB HDD PD-Standard
 

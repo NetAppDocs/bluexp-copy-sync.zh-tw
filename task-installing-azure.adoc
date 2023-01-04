@@ -208,6 +208,6 @@ https://login.microsoftonline.com/{FILL 這裡是您的租戶 ID ｝ /v2.0/admin
 VM類型:: 標準DS4 v2
 vCPU:: 8.
 RAM:: 28 GB
-作業系統:: CentOS 7.7
+作業系統:: 洛基Linux 9.0
 磁碟大小與類型:: 64 GB Premium SSD
 

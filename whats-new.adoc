@@ -18,6 +18,28 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2023年1月3日
+
+
+
+=== 在UI上顯示資料代理本機組態
+
+現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["深入瞭解如何管理資料代理人群組"]。
+
+
+
+=== 升級至Azure和Google Cloud資料代理商作業系統
+
+Azure和Google Cloud中的資料代理人作業系統已升級至The Rocky Linux 9.0。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["深入瞭解Azure中的資料代理執行個體"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["深入瞭解Google Cloud中的資料代理執行個體"]。
+
+
+
 == 2022年12月11日
 
 

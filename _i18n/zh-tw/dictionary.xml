@@ -878,7 +878,6 @@
   <block id="1e4f0991fe8c17eeb30a08a567b6faeb" category="list-text">執行個體類型</block>
   <block id="305844c9f0d8d39ccc49abc28fe261cc" category="list-text">m5n.xlarge（如果該地區有）、否則m5.xlarge</block>
   <block id="752a423b7896d2c8176434adcd527e26" category="list-text">16 GB</block>
-  <block id="734bdc8fcba7f190d8a2571163d24971" category="list-text">Amazon Linux 2.</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">10 GB GP2 SSD</block>
   <block id="3fea8d091148f89efaad03bb59aa8560" category="summary">透過網路 UI 提供的功能、也可透過 RESTful API 取得。 Cloud Sync</block>
   <block id="b3eb62944a1e4390f18328a67cb57d2f" category="doc">資訊 API Cloud Sync</block>
@@ -1720,4 +1719,21 @@
   <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>。</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">深入瞭解Google Cloud中的資料代理執行個體</block>
   <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0129054e0108c57f3077a26c197cd09b" category="list-text">Amazon Linux 2022</block>
+  <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
+  <block id="761cba7c96f916f975634bfd465401cb" category="section-title">額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS</block>
+  <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：</block>
+  <block id="852f9290d6e492b0c65094f3676c0c9b" category="list-text">將S3儲存至NFS ONTAP</block>
+  <block id="84b6c32a0e939d90280ebcdf036f7678" category="list-text">NFS到ONTAP SS3儲存設備</block>
+  <block id="444a944798699bf4690bdc286127a9f2" category="paragraph">此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：</block>
+  <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">升級至Amazon Web Services資料代理程式作業系統</block>
+  <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS資料代理人的作業系統已升級至Amazon Linux 2022。</block>
+  <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">深入瞭解AWS中的資料代理執行個體</block>
+  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
 </blocks>

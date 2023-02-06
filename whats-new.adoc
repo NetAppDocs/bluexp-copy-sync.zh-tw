@@ -18,6 +18,39 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2023年2月5日
+
+
+
+=== 額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS
+
+目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：
+
+* 將S3儲存至NFS ONTAP
+* NFS到ONTAP SS3儲存設備
+
+
+此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：
+
+* NFS 伺服器
+* SMB 伺服器
+* SS3 儲存設備 ONTAP
+* StorageGRID
+* IBM Cloud 物件儲存設備
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+
+
+
+=== 升級至Amazon Web Services資料代理程式作業系統
+
+AWS資料代理人的作業系統已升級至Amazon Linux 2022。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["深入瞭解AWS中的資料代理執行個體"]。
+
+
+
 == 2023年1月3日
 
 

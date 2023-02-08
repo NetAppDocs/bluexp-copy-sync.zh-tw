@@ -199,8 +199,6 @@
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">您可以選擇以Marketplace訂閱方式使用NetApp的授權。例如、如果您有 25 個同步關係、您可以使用授權支付前 20 個同步關係的費用、然後從 AWS 或 Azure 購買剩餘的 5 個同步關係。</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">深入瞭解授權的運作方式</block>
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
-  <block id="d04dfaa744331ac37502cd7e1da7e4cb" category="sidebar-title">如果我在免費試用結束後、不立即付款、該怎麼辦？</block>
-  <block id="06396044ae8f00acb30bd57de4d6bf59" category="paragraph">您將無法建立任何其他關係。現有的關係不會刪除、但您必須先訂閱或輸入授權、才能對其進行任何變更。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS 可讓您隨用隨付或每年付費。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">隨用隨付的步驟</block>
   <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">按一下 * 同步 &gt; 授權 * 。</block>
@@ -229,7 +227,6 @@
   <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">如果您的帳戶尚未新增、請按一下「*新增NSSCredential*」、輸入使用者名稱和密碼、按一下「*註冊*」、然後從下拉式清單中選取。</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">按一下「 * 新增 * 」。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新授權</block>
-  <block id="621d7bdf797506a6b1724c30c6f72e88" category="paragraph">如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">選取與您要新增之授權相關的NetApp支援網站帳戶。</block>
   <block id="172d12b0279cc8a60f5a9ab00242df4e" category="paragraph">以新的到期日更新現有授權。Cloud Sync</block>
   <block id="0e66daf8daf12f88ac9c038b10cd58c9" category="summary">建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
@@ -1736,4 +1733,7 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS資料代理人的作業系統已升級至Amazon Linux 2022。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">深入瞭解AWS中的資料代理執行個體</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
+  <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
+  <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免費試用結束後仍未立即付款、您將無法建立任何其他關係。現有的關係不會刪除、但您必須先訂閱或輸入授權、才能對其進行任何變更。</block>
+  <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
 </blocks>

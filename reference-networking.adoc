@@ -85,7 +85,13 @@ NetApp 資料代理商需要透過連接埠 443 進行傳出網際網路存取�
 | https://s3._region_.amazonaws.com例如：s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["如需 S3 端點清單、請參閱 AWS 文件"^] | 在同步關係包含 S3 儲存區時聯絡 Amazon S3 。 
 
 
-| \https://s3.us-east-1.amazonaws.com | 當您從Cloud Sync S動物性 下載資料代理記錄時、資料代理程式會將其記錄目錄壓縮、並將記錄上傳至美東1區的預先定義S3儲存區。 
+| \https://s3.amazonaws.com/ | 當您從Cloud Sync S動物性 下載資料代理記錄時、資料代理程式會將其記錄目錄壓縮、並將記錄上傳至美東1區的預先定義S3儲存區。 
+
+
+| \https://storage.googleapis.com/ | 在同步關係使用GCP儲存區時聯絡Google Cloud。 
+
+
+| https://_storage-account_.blob.core.windows.net[]若使用Azure Data Lake Gen2：https://_storage-account_.dfs.core.windows.net[]其中_storage帳戶_是使用者的來源儲存帳戶。 | 開啟使用者Azure儲存設備帳戶位址的Proxy。 
 
 
 | \https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | 聯絡 Cloud Sync 服務部門。 
@@ -101,6 +107,12 @@ NetApp 資料代理商需要透過連接埠 443 進行傳出網際網路存取�
 
 
 | \https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 若要在使用Data Sense選取新同步關係的來源檔案時聯絡Cloud Data Sense。 
+
+
+| \https://pubsub.googleapis.com | 如果從Google儲存帳戶建立持續同步關係、 
+
+
+| https://_storage-account_.queue.core.windows.net[]https://management.azure.com/subscriptions/${_subscriptionId_}/resourcegrouses/$｛_resourcegrod_｝/供應商/microsoft.EventGrid /*、其中_storage帳戶_是使用者的來源儲存帳戶、_subscriptionid_是來源訂閱ID、而_resourcegrous_是來源資源群組。 | 如果從Azure儲存帳戶建立持續同步關係、 
 |===
 
 

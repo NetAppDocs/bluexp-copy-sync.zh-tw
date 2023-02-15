@@ -1127,7 +1127,6 @@
   <block id="45edaabb1caa8cd386fc00e4913729ca" category="inline-link">如需 S3 端點清單、請參閱 AWS 文件</block>
   <block id="9f63373541da1493d909ee0e1ec22846" category="cell">https://s3._region_.amazonaws.com例如：s3.us-east-2.amazonaws.com:443<block ref="d8eaf9479c9110a7b925275e0e7c77be" category="inline-link-rx"></block></block>
   <block id="1331ac21e3550225dbf1a2a59e8e5854" category="cell">在同步關係包含 S3 儲存區時聯絡 Amazon S3 。</block>
-  <block id="e539bdc84a7ad2c400eb37a683413da0" category="cell">\https://s3.us-east-1.amazonaws.com</block>
   <block id="aa3f7e10351bf8715f83a7b981f0d036" category="cell">當您從Cloud Sync S動物性 下載資料代理記錄時、資料代理程式會將其記錄目錄壓縮、並將記錄上傳至美東1區的預先定義S3儲存區。</block>
   <block id="af9cee3d0b730812cc44778c77dac990" category="cell">\https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com</block>
   <block id="0085c0d222fb9e00710dfd4737377552" category="cell">聯絡 Cloud Sync 服務部門。</block>
@@ -1736,4 +1735,13 @@
   <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免費試用結束後仍未立即付款、您將無法建立任何其他關係。現有的關係不會刪除、但您必須先訂閱或輸入授權、才能對其進行任何變更。</block>
   <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
+  <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">\https://s3.amazonaws.com/</block>
+  <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">\https://storage.googleapis.com/</block>
+  <block id="9a0fd273aee1cf8a769c1b999cacf89a" category="cell">在同步關係使用GCP儲存區時聯絡Google Cloud。</block>
+  <block id="b551e27fff37843412867d9b83f93ece" category="cell"><block ref="7e48312ae0f59f2ef044bd982e8f7f9d" category="inline-link-rx"></block>若使用Azure Data Lake Gen2：<block ref="88fc93a3f957963f811734b1373f239a" category="inline-link-rx"></block>其中_storage帳戶_是使用者的來源儲存帳戶。</block>
+  <block id="ab1f4fe880debf39d6d2c82a8b44dd19" category="cell">開啟使用者Azure儲存設備帳戶位址的Proxy。</block>
+  <block id="8f606ab2764de8092de1ca0d967cfb8d" category="cell">\https://pubsub.googleapis.com</block>
+  <block id="df94b5032f4c4edc418da1de5a985935" category="cell">如果從Google儲存帳戶建立持續同步關係、</block>
+  <block id="cfcdd9e78004b91f8c395165fdb5e282" category="cell"><block ref="e36a49efb19686edd0dc8263877ab168" category="inline-link-rx"></block>https://management.azure.com/subscriptions/${_subscriptionId_}/resourcegrouses/$｛_resourcegrod_｝/供應商/microsoft.EventGrid /*、其中_storage帳戶_是使用者的來源儲存帳戶、_subscriptionid_是來源訂閱ID、而_resourcegrous_是來源資源群組。</block>
+  <block id="86725349e0c402312a901a9555773dbd" category="cell">如果從Azure儲存帳戶建立持續同步關係、</block>
 </blocks>

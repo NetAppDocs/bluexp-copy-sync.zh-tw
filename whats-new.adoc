@@ -18,6 +18,18 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2023年3月7日
+
+
+
+=== 適用於AWS資料代理人的EBS加密
+
+您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
+
+
+
 == 2023年2月5日
 
 

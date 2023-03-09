@@ -22,11 +22,12 @@ summary: 當您建立新的資料代理程式時、請選擇「內部部署資�
 
 * * 作業系統 * ：
 +
-** CentOS 7.0 、 7.7 及 8.0
+** CentOS 8.0和8.5
 +
 不支援CentOS串流。
 
-** Red Hat Enterprise Linux 7.7 與 8.0
+** Red Hat Enterprise Linux 8.0和8.5
+** 洛基Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +

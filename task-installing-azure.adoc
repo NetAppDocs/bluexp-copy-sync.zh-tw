@@ -99,6 +99,8 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
                     "Microsoft.EventGrid/systemTopics/delete",
                     "Microsoft.EventGrid/eventSubscriptions/write",
                     "Microsoft.Storage/storageAccounts/write"
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
 ----
 ....
     ],

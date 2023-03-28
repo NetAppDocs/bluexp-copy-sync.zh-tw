@@ -921,8 +921,6 @@
   <block id="28e72eb89ddfdb4da0dd6569b502b074" category="admonition">不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure NetApp Files</block>
   <block id="d14d70754e8322b819c6bc86af6beefd" category="paragraph">* 資源費用 *</block>
   <block id="bdf9c0b5a2bb19426e68000000a0fa8e" category="paragraph">資源費用與在雲端執行資料代理商所需的運算和儲存成本有關。</block>
-  <block id="f901b2d4ea8e5a7abc863a0eea4b5b27" category="section-title">如何收費？ Cloud Sync</block>
-  <block id="5ef87a5af222d72dd5dd2554039e1baf" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。</block>
   <block id="d48011c59919ad7d6dbbbfd7b93b8a1d" category="section-title">我可以在 Cloud Sync 雲端以外使用這個功能嗎？</block>
   <block id="21257847b1628900e37090da9e642da2" category="paragraph">是的、 Cloud Sync 您可以在非雲端架構中使用來源和目標可以駐留在內部部署、資料代理軟體也可以駐留在內部。</block>
   <block id="cf2134fa111a18f1f2949af03a0b455d" category="paragraph">請注意以下關於 Cloud Sync 在雲端外部使用功能的重點：</block>
@@ -1786,4 +1784,6 @@
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0和8.5</block>
   <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0和8.5</block>
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">洛基Linux 9</block>
+  <block id="596076690835c26754302829a7e9d63a" category="section-title">如何收費、以及如何管理我的訂閱Cloud Sync ？</block>
+  <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱內容都會透過供應商市場進行管理、而*非*則會透過Cloud Sync 「The」使用者介面進行管理。</block>
 </blocks>

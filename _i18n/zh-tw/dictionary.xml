@@ -1686,8 +1686,6 @@
   <block id="6f03cbd3fc922dc5d183fbe3d74efdce" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 建立您的第一次同步關係</block>
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">五</block>
   <block id="157e0bfc3909da4f9907f6377e70c5d2" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 免費試用結束後、請為您的同步關係付費</block>
-  <block id="f8fb6587a32dba313e626666cb0364a8" category="list-text">排除目錄名稱</block>
-  <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">輸入目錄名稱並按* Enter *鍵、指定最多15個要從同步中排除的目錄。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。如果您想要將這些內容納入同步處理、請聯絡我們。</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</block>
   <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">如果您使用的是沒有用戶端ID的個人電子郵件帳戶、您可以使用預設用戶端ID「QC3AgHk6qdbmC7Yr82ApwaaJLwRrNO」。</block>
   <block id="003d136e5089a4f9ae0f1df3f6fc37fa" category="list-text">洛基Linux 9.0</block>
@@ -1708,7 +1706,6 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
-  <block id="0129054e0108c57f3077a26c197cd09b" category="list-text">Amazon Linux 2022</block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：</block>
@@ -1762,7 +1759,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">按一下即可管理現有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*更新案例備註*：提供您問題的其他詳細資料。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -1786,4 +1782,19 @@
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">洛基Linux 9</block>
   <block id="596076690835c26754302829a7e9d63a" category="section-title">如何收費、以及如何管理我的訂閱Cloud Sync ？</block>
   <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱內容都會透過供應商市場進行管理、而*非*則會透過Cloud Sync 「The」使用者介面進行管理。</block>
+  <block id="f2eca1a3494c7396a49a597072cc600d" category="list-text">Amazon Linux 2023</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX ONTAP</block>
+  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Prem ONTAP</block>
+  <block id="9e1b606dc521567131be8e8f6b621511" category="list-text">排除目錄</block>
+  <block id="303de3e45b2f15b7f37aa50b2824f981" category="list-text">鍵入名稱或目錄完整路徑並按 *Enter* 鍵，指定最多 15 個要從同步中排除的目錄。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。如果您想要將這些內容納入同步處理、請聯絡我們。</block>
+  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2023 年 4 月 2 日</block>
+  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 關係的額外支援</block>
+  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：</block>
+  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">依完整路徑篩選目錄</block>
+  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。</block>
+  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">深入瞭解排除目錄設定</block>
+  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
 </blocks>

@@ -18,6 +18,32 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 
+== 2023 年 4 月 2 日
+
+
+
+=== Azure Data Lake Storage Gen2 關係的額外支援
+
+您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：
+
+* Azure NetApp Files
+* Amazon FSX for ONTAP Sf
+* Cloud Volumes ONTAP
+* On-Prem ONTAP
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+
+
+
+=== 依完整路徑篩選目錄
+
+除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
+
+
+
 == 2023年3月7日
 
 

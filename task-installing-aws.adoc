@@ -123,6 +123,6 @@ image:screenshot-data-broker-group-selected.png["此快照顯示已成功部署�
 執行個體類型:: m5n.xlarge（如果該地區有）、否則m5.xlarge
 vCPU:: 4.
 RAM:: 16 GB
-作業系統:: Amazon Linux 2022
+作業系統:: Amazon Linux 2023
 磁碟大小與類型:: 10 GB GP2 SSD
 

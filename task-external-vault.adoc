@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、必須透過 Cloud Sync 「支援」使用者介面或 API 來指定這些認證資料。另一種方法是設定資料代理程式、以便直接從外部 HashiCorp Vault 存取認證資料。 
+summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、您需要透過 BlueXP 複本和同步使用者介面或 API 來指定這些認證。另一種方法是設定資料代理程式、以便直接從外部 HashiCorp Vault 存取認證資料。 
 ---
 = 設定資料代理群組以使用外部HashiCorp Vault
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步
 :imagesdir: ./media/
 
 
-當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、必須透過 Cloud Sync 「支援」使用者介面或 API 來指定這些認證資料。另一種方法是設定資料代理人群組、以便直接從外部HashiCorp Vault存取認證（或_h秘密_）。
+當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、您需要透過 BlueXP 複本和同步使用者介面或 API 來指定這些認證。另一種方法是設定資料代理人群組、以便直接從外部HashiCorp Vault存取認證（或_h秘密_）。
 
-此功能可透過 Cloud Sync 使用需取得 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係之支援。
+此功能可透過 BlueXP 複本與同步 API 、以及需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係來支援。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 準備保存庫
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步
 
 == 準備保存庫
 
-您需要提供 Cloud Sync URL 給資料庫中的機密資料。設定這些 URL 來準備保存庫。您需要在您打算建立的同步關係中、設定每個來源和目標的認證 URL 。
+您必須提供 BlueXP 複本、並與資料保險箱中機密的 URL 同步。設定這些 URL 來準備保存庫。您需要在您打算建立的同步關係中、設定每個來源和目標的認證 URL 。
 
 URL 必須設定如下：
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["深�
 
 現在一切都已設定完成、您可以傳送 API 呼叫來建立同步關係、使用您的保存庫來獲取機密資料。
 
-使用 Cloud Sync REST API 張貼關係。
+使用 BlueXP 複本張貼關係、並同步 REST API 。
 
 ....
 Headers:

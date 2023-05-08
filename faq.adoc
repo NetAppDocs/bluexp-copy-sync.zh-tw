@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: faq.html 
 keywords: community, forums, help, support, videos, faq, getting help, permissions, access control lists, acls, preserve, preserving, troubleshooting, support, encryption, smb 
-summary: 您可以透過 Cloud Sync 各種資源（包括論壇、聊天室服務和影片）、取得有關解決此問題的協助、並尋找更多資訊。 
+summary: 您可以取得 BlueXP 複製與同步的協助、並透過各種資源（包括論壇、聊天服務和影片）來尋找更多資訊。 
 ---
-= 技術常見問題集 Cloud Sync
+= BlueXP 複本與同步技術常見問題集
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,15 +20,15 @@ summary: 您可以透過 Cloud Sync 各種資源（包括論壇、聊天室服�
 
 == 快速入門
 
-下列問題與 Cloud Sync 使用指南有關。
+下列問題與 BlueXP 複本與同步入門有關。
 
 
 
-=== 如何運作呢？ Cloud Sync
+=== BlueXP 如何複製與同步？
 
-使用 NetApp 資料代理軟體、將資料從來源同步至目標（這稱為 _sync 關係 _ ） Cloud Sync 。
+BlueXP 複製與同步使用 NetApp 資料代理軟體、將資料從來源同步至目標（這稱為 _sync 關係）。
 
-資料代理人群組可控制來源與目標之間的同步關係。設定同步關係之後 Cloud Sync 、即可分析來源系統、並將其分成多個複寫串流、以推送至您所選的目標資料。
+資料代理人群組可控制來源與目標之間的同步關係。設定同步關係之後、 BlueXP 複製與同步會分析來源系統、並將其分成多個複寫串流、以推送至所選的目標資料。
 
 初始複本之後、服務會根據您設定的排程同步任何變更的資料。
 
@@ -36,29 +36,29 @@ summary: 您可以透過 Cloud Sync 各種資源（包括論壇、聊天室服�
 
 === 14 天免費試用如何運作？
 
-14 天免費試用版會在您註冊 Cloud Sync 使用 VMware 服務時開始。您不需支付 NetApp 的 Cloud Sync 費用、即可建立 14 天的穩固關係。不過、您部署的任何資料代理人的所有資源費用仍適用。
+14 天免費試用期從您註冊 BlueXP 複本與同步服務開始。對於您建立的 BlueXP 複本與同步關係、您不需支付 NetApp 的費用、為期 14 天。不過、您部署的任何資料代理人的所有資源費用仍適用。
 
 
 
-=== 此功能需要多少成本？ Cloud Sync
+=== BlueXP 複製與同步的成本是多少？
 
-有兩種成本與 Cloud Sync 使用效益有關：服務費用和資源費用。
+使用 BlueXP 複本與同步有兩種相關成本類型：服務費用與資源費用。
 
 * 服務費用 *
 
-針對隨用隨付定價、 Cloud Sync 根據您所建立的同步關係數量、不收取每小時的服務費用。
+對於隨用隨付定價、 BlueXP 複本與同步服務費用是每小時一次、視您建立的同步關係數量而定。
 
 * https://aws.amazon.com/marketplace/pp/B01LZV5DUJ["在 AWS 中檢視隨用隨付定價"^]
 * https://aws.amazon.com/marketplace/pp/B06XX5V3M2["在 AWS 中檢視年度定價"^]
 * https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-sync-service?tab=PlansAndPrice["在 Azure 中檢視定價"^]
 
 
-您也可以透過 NetApp 代表取得此套軟體授權。 Cloud Sync每個授權可在 12 個月內建立 20 個同步關係。
+BlueXP 複本與同步授權也可透過 NetApp 代表取得。每個授權可在 12 個月內建立 20 個同步關係。
 
 link:concept-licensing.html["深入瞭解授權"]。
 
 
-NOTE: 不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure NetApp Files
+NOTE: BlueXP 複製與同步關係對於 Cloud Volumes Service 和 Azure NetApp Files 是免費的。
 
 * 資源費用 *
 
@@ -66,27 +66,27 @@ NOTE: 不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure
 
 
 
-=== 如何收費、以及如何管理我的訂閱Cloud Sync ？
+=== BlueXP 如何進行複本與同步處理、以及如何管理我的訂閱？
 
-在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱內容都會透過供應商市場進行管理、而*非*則會透過Cloud Sync 「The」使用者介面進行管理。
-
-
-
-=== 我可以在 Cloud Sync 雲端以外使用這個功能嗎？
-
-是的、 Cloud Sync 您可以在非雲端架構中使用來源和目標可以駐留在內部部署、資料代理軟體也可以駐留在內部。
-
-請注意以下關於 Cloud Sync 在雲端外部使用功能的重點：
-
-* 資料代理人群組需要網際網路連線才能與Cloud Sync 該服務進行通訊。
-* 如果您不直接向 NetApp 購買授權、您將需要 AWS 或 Azure 帳戶來 Cloud Sync 支付 PAYGO 服務費用。
+在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱都將透過您的供應商市場進行管理、而 * 不會 * 則是透過 BlueXP 複本與同步使用者介面進行管理。
 
 
 
+=== 我可以在雲端外使用 BlueXP 複本與同步嗎？
 
-=== 我該如何存取 Cloud Sync 才能存取的問題？
+是的、您可以在非雲端架構中使用 BlueXP 複本與同步。來源和目標可以駐留在內部部署、資料代理軟體也可以駐留在內部。
 
-可從BlueXP網站的* Sync*索引標籤取得。Cloud Sync
+請注意以下關於在雲端外部使用 BlueXP 複本與同步的重點：
+
+* 資料代理群組需要網際網路連線、才能與 BlueXP 複本與同步服務進行通訊。
+* 如果您沒有直接向 NetApp 購買授權、則 PAYGO BlueXP 複本和同步服務帳單需要 AWS 或 Azure 帳戶。
+
+
+
+
+=== 如何存取 BlueXP 複本與同步？
+
+BlueXP 複本與同步可從 * 同步 * 索引標籤的 BlueXP 網站取得。
 
 
 
@@ -102,15 +102,15 @@ NOTE: 不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure
 
 
 
-=== 哪些來源和目標 Cloud Sync 不支援呢？
+=== BlueXP 複製與同步支援哪些來源和目標？
 
-支援多種不同類型的同步關係。 Cloud Sync link:reference-supported-relationships.html["檢視完整清單"]。
+BlueXP 複製與同步支援多種不同類型的同步關係。 link:reference-supported-relationships.html["檢視完整清單"]。
 
 
 
-=== 哪些 NFS 和 SMB 版本 Cloud Sync 支援呢？
+=== BlueXP 複製與同步支援哪些版本的 NFS 和 SMB ？
 
-支援 NFS 版本 3 及更新版本、以及 SMB 版本 1 及更新版本。 Cloud Sync
+BlueXP 複製與同步支援 NFS 版本 3 及更新版本、以及 SMB 版本 1 及更新版本。
 
 link:reference-requirements.html["深入瞭解同步需求"]。
 
@@ -155,15 +155,15 @@ link:reference-requirements.html["深入瞭解同步需求"]。
 
 == 網路
 
-下列問題與 Cloud Sync 關於功能的網路需求有關。
+下列問題與 BlueXP 複本與同步的網路需求有關。
 
 
 
-=== 哪些網路需求 Cloud Sync 是關於功能的？
+=== BlueXP 複製與同步的網路需求為何？
 
-由於此環境要求資料代理群組透過所選的傳輸協定或物件儲存API（Amazon S3、Azure Blob、IBM Cloud Object Storage）、與來源和目標連線。Cloud Sync
+BlueXP 複製與同步環境要求資料代理群組透過所選的傳輸協定或物件儲存 API （ Amazon S3 、 Azure Blob 、 IBM Cloud Object Storage ）與來源和目標連線。
 
-此外、資料代理人群組需要透過連接埠443的傳出網際網路連線、以便與Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。
+此外、資料代理群組需要透過連接埠 443 進行外傳網際網路連線、以便與 BlueXP 複本與同步服務進行通訊、並聯絡其他一些服務和儲存庫。
 
 如需詳細資料、 link:reference-networking.html["檢閱網路需求"]。
 
@@ -173,7 +173,7 @@ link:reference-requirements.html["深入瞭解同步需求"]。
 
 是的。
 
-支援 Proxy 伺服器、無論是否具備基本驗證。 Cloud Sync如果您在部署資料代理程式時指定 Proxy 伺服器、則來自資料代理程式的所有 HTTP 和 HTTPS 流量都會透過 Proxy 路由傳送。請注意、 NFS 或 SMB 等非 HTTP 流量無法透過 Proxy 伺服器路由傳送。
+BlueXP 複製與同步支援使用或不使用基本驗證的 Proxy 伺服器。如果您在部署資料代理程式時指定 Proxy 伺服器、則來自資料代理程式的所有 HTTP 和 HTTPS 流量都會透過 Proxy 路由傳送。請注意、 NFS 或 SMB 等非 HTTP 流量無法透過 Proxy 伺服器路由傳送。
 
 唯一的 Proxy 伺服器限制是使用即時資料加密搭配 NFS 或 Azure NetApp Files 不同步關係。加密資料會透過 HTTPS 傳送、無法透過 Proxy 伺服器路由傳送。
 
@@ -224,29 +224,29 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 
 
-=== 是否安全無虞？ Cloud Sync
+=== BlueXP 複製與同步是否安全？
 
-是的。所有 Cloud Sync 的服務網路連線都是使用來完成 https://aws.amazon.com/sqs/["Amazon Simple Queue Service （ SQS ）"^]。
+是的。所有 BlueXP 複製與同步服務網路連線都是使用完成 https://aws.amazon.com/sqs/["Amazon Simple Queue Service （ SQS ）"^]。
 
 資料代理人群組與Amazon S3、Azure Blob、Google Cloud Storage和IBM Cloud Object Storage之間的所有通訊都是透過HTTPS傳輸協定進行。
 
-如果 Cloud Sync 您使用的是內部部署（來源或目的地）系統的功能、以下是幾個建議的連線選項：
+如果您使用 BlueXP 複本並與內部部署（來源或目的地）系統同步、以下是幾個建議的連線選項：
 
 * AWS Direct Connect 、 Azure ExpressRoute 或 Google Cloud InterConnect 連線、非網際網路路由（而且只能與您指定的雲端網路通訊）
 * 內部部署閘道裝置與雲端網路之間的 VPN 連線
 * 若要使用 S3 儲存區、 Azure Blob 儲存設備或 Google Cloud Storage 、 Amazon Private S3 端點、 Azure Virtual Network 服務端點或私有 Google Access 進行額外安全的資料傳輸。
 
 
-以上任何一種方法都會在內部部署的NAS伺服器和Cloud Sync 一個可靠的資料代理群組之間建立安全的連線。
+任何一種方法都能在內部部署 NAS 伺服器與 BlueXP 複本之間建立安全連線、並同步資料代理群組。
 
 
 
-=== 資料是否以 Cloud Sync 不加密的方式加密？
+=== BlueXP 複本與同步是否已加密資料？
 
-* 支援來源與目標 NFS 伺服器之間的資料傳輸加密。 Cloud Sync link:task-nfs-encryption.html["深入瞭解"]。
-* 對於SMB、Cloud Sync 支援伺服器端加密的SMB 3.0和3.11資料。將加密資料從來源複製到資料保持加密的目標。Cloud Sync
+* BlueXP 複製與同步支援來源和目標 NFS 伺服器之間的資料傳輸中加密。 link:task-nfs-encryption.html["深入瞭解"]。
+* 對於 SMB 、 BlueXP 複製與同步支援您在伺服器端加密的 SMB 3.0 和 3.11 資料。BlueXP 複製與同步會將加密資料從來源複製到資料仍保持加密的目標。
 +
-無法加密SMB資料本身。Cloud Sync
+BlueXP 複製與同步無法加密 SMB 資料本身。
 
 * 當 Amazon S3 儲存區是同步關係的目標時、您可以選擇是否使用 AWS 加密或 AES-256 加密來啟用資料加密。
 
@@ -261,10 +261,10 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 === SMB 資料權限是否同步至目標位置？
 
-您可以設定Cloud Sync 支援功能、在來源SMB共用區和目標SMB共用區之間、以及從來源SMB共用區到物件儲存區之間保留存取控制清單（ACL除外ONTAP ）。
+您可以設定 BlueXP 複本與同步、以保留來源 SMB 共用與目標 SMB 共用之間的存取控制清單（ ACL ）、以及來源 SMB 共用與物件儲存之間的存取控制清單（ ONTAP S3 除外）。
 
 
-NOTE: 不支援將ACL從物件儲存區複製到SMB共用區。Cloud Sync
+NOTE: BlueXP 複製與同步不支援將 ACL 從物件儲存複製到 SMB 共用。
 
 link:task-copying-acls.html["瞭解如何在 SMB 共用區之間複製 ACL"]。
 
@@ -272,17 +272,17 @@ link:task-copying-acls.html["瞭解如何在 SMB 共用區之間複製 ACL"]。
 
 === NFS 資料權限是否同步至目標位置？
 
-下列項目可自動複製 NFS 伺服器之間的 NFS 權限： Cloud Sync
+BlueXP 複製與同步會自動在 NFS 伺服器之間複製 NFS 權限、如下所示：
 
-* NFS 版本 3 ： Cloud Sync 此功能可複製權限和使用者群組擁有者。
-* NFS 第 4 版： Cloud Sync 以程式複製 ACL 。
+* NFS 版本 3 ： BlueXP 複製與同步會複製權限和使用者群組擁有者。
+* NFS 第 4 版： BlueXP 複製與同步會複製 ACL 。
 
 
 
 
 == 物件儲存中繼資料
 
-針對下列類型的同步關係、將物件儲存中繼資料從來源複製到目標：Cloud Sync
+BlueXP 複製與同步會將物件儲存中繼資料從來源複製到目標、以建立下列類型的同步關係：
 
 * Amazon S3 -> Amazon S3 ^1^
 * Amazon S3 -> StorageGRID
@@ -305,7 +305,7 @@ link:task-copying-acls.html["瞭解如何在 SMB 共用區之間複製 ACL"]。
 
 == 效能
 
-下列問題與 Cloud Sync 效能不一致有關。
+下列問題與 BlueXP 複本和同步效能有關。
 
 
 
@@ -359,7 +359,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 
 
-=== 如果我刪除 Cloud Sync 我的不確定關係、會發生什麼事？
+=== 如果我刪除 BlueXP 複本與同步關係、會發生什麼情況？
 
 刪除關係會停止所有未來的資料同步、並終止付款。同步至目標的任何資料都會維持原樣。
 
@@ -367,7 +367,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 === 如果我從來源伺服器刪除某些內容、會發生什麼事？是否也從目標中移除？
 
-根據預設、如果您有作用中的同步關係、則在下次同步處理期間、從來源伺服器刪除的項目不會從目標中刪除。但每個關係的同步設定中都有一個選項、您可以定義 Cloud Sync 如果檔案從來源中刪除、將會刪除目標位置的檔案。
+根據預設、如果您有作用中的同步關係、則在下次同步處理期間、從來源伺服器刪除的項目不會從目標中刪除。但每個關係的同步設定都有一個選項、您可以在其中定義 BlueXP 複本與同步、如果從來源中刪除檔案、就會刪除目標位置中的檔案。
 
 link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["瞭解如何變更同步關係的設定"]。
 
@@ -375,13 +375,13 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 
 === 如果我從目標中刪除某項內容、會發生什麼事？是否也從來源移除？
 
-如果項目從目標中刪除、則不會從來源中移除。這種關係是單向的、從來源到目標。在下一個同步週期中 Cloud Sync 、 Sync-比較 來源與目標、找出項目遺失、 Cloud Sync 並再次將其從來源複製到目標。
+如果項目從目標中刪除、則不會從來源中移除。這種關係是單向的、從來源到目標。在下一個同步週期中、 BlueXP 複本與同步會比較來源與目標、識別該項目是否遺失、以及 BlueXP 複本與同步會將它從來源複製到目標。
 
 
 
 == 疑難排解
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Sync/Cloud_Sync_FAQ:_Support_and_Troubleshooting["NetApp 知識庫 Cloud Sync ：解決常見問題集：支援與疑難排解"^]
+https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Sync/Cloud_Sync_FAQ:_Support_and_Troubleshooting["NetApp 知識庫： BlueXP 複製與同步常見問題集：支援與疑難排解"^]
 
 
 
@@ -396,7 +396,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Sync/Cloud
 當然、以下是最重要的幾點：
 
 * 資料代理程式是在 Linux 主機上執行的 node.js 應用程式。
-* 下列項目可部署資料代理程式： Cloud Sync
+* BlueXP 複製與同步功能可部署資料代理程式、如下所示：
 +
 ** AWS ：使用 AWS CloudForation 範本
 ** Azure ：來自 Azure 資源管理程式

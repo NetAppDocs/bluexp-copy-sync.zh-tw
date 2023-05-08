@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-copying-acls.html 
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
-summary: 支援使用者可在SMB共用區之間、SMB共用區與物件儲存區之間（不包括在S3上）複製存取控制清單（ACL）Cloud Sync ONTAP 。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。 
+summary: BlueXP 複製與同步可以在 SMB 共用區之間以及 SMB 共用區與物件儲存區之間（ ONTAP S3 除外）複製存取控制清單（ ACL ）。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。 
 ---
 = 從SMB共用區複製ACL
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: 支援使用者可在SMB共用區之間、SMB共用區與物件儲存�
 
 
 [role="lead"]
-支援使用者可在SMB共用區之間、SMB共用區與物件儲存區之間（不包括在S3上）複製存取控制清單（ACL）Cloud Sync ONTAP 。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。
+BlueXP 複製與同步可以在 SMB 共用區之間以及 SMB 共用區與物件儲存區之間（ ONTAP S3 除外）複製存取控制清單（ ACL ）。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。
 
 .選擇
-* <<Setting up Cloud Sync to copy ACLs from an SMB server,設定 Cloud Sync 功能以自動複製 ACL>>
+* <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,設定 BlueXP 複本與同步以自動複製 ACL>>
 * <<在SMB共用區之間手動複製ACL,在SMB共用區之間手動複製ACL>>
 
 
 
 
-== 設定Cloud Sync 功能以複製ACL
+== 設定 BlueXP 複本並同步以複製 ACL
 
 在建立關聯或建立關聯之後、啟用設定、即可在SMB共用之間、SMB共用區與物件儲存區之間複製ACL。
 
@@ -31,7 +31,7 @@ summary: 支援使用者可在SMB共用區之間、SMB共用區與物件儲存�
 此功能適用於 _any 類型的資料代理商： AWS 、 Azure 、 Google Cloud Platform 或內部資料代理商。內部資料代理程式可以執行 link:task-installing-linux.html["任何支援的作業系統"]。
 
 .建立新關係的步驟
-. 從本頁中、按一下 * 建立新同步 * 。 Cloud Sync
+. 從 BlueXP 複本與同步、按一下 * 建立新同步 * 。
 . 將SMB伺服器或物件儲存設備拖放為來源、並將SMB伺服器或物件儲存設備拖放為目標、然後按一下*繼續*。
 . 在「 * SMB 伺服器 * 」頁面上：
 +
@@ -63,7 +63,7 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存設備時、同步
 
 
 .結果
-同步資料時Cloud Sync 、此功能會保留來源與目標之間的ACL。
+同步資料時、 BlueXP 複製與同步會保留來源與目標之間的 ACL 。
 
 
 
@@ -77,7 +77,7 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存設備時、同步
 +
 您必須先執行此步驟、才能使用 Robocopy 。
 
-. 從這個範圍來 Cloud Sync 說、在來源與目標 SMB 共用之間建立新的關係、或是同步現有的關係。
+. 從 BlueXP 複製與同步、在來源與目標 SMB 共用之間建立新的關係、或同步現有的關係。
 . 資料同步完成後、請從 Windows 主機執行下列命令、以同步處理 ACL 和擁有權：
 +
  robocopy /E /COPY:SOU /secfix [source] [target] /w:0 /r:0 /XD ~snapshots /UNILOG:”[logfilepath]

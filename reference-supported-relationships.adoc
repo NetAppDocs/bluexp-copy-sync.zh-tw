@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: 利用此功能、您可以將資料從來源同步到目標。Cloud Sync這稱為同步關係。開始之前、您應該先瞭解支援的關係。 
+summary: BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同步關係。開始之前、您應該先瞭解支援的關係。 
 ---
 = 支援的同步關係
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 利用此功能、您可以將資料從來源同步到目標。Cloud Sy
 
 
 [role="lead"]
-利用此功能、您可以將資料從來源同步到目標。Cloud Sync這稱為同步關係。開始之前、您應該先瞭解支援的關係。
+BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同步關係。開始之前、您應該先瞭解支援的關係。
 
 [cols="20,25"]
 |===
@@ -325,7 +325,7 @@ summary: 利用此功能、您可以將資料從來源同步到目標。Cloud Sy
 附註：
 
 . Box支援可預覽。
-. 只有使用Cloud Sync 支援與此來源/目標的同步關係、才能支援此功能。
+. 只有使用 BlueXP 複本和同步 API 、才能支援與此來源 / 目標的同步關係。
 . 當 Blob 容器為目標時、您可以選擇特定的 Azure Blob 儲存層：
 +
 ** 熱儲存

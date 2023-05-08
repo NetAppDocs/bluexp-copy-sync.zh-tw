@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: 瞭Cloud Sync 解更新功能。 
+summary: 瞭解 BlueXP 複本與同步的新功能。 
 ---
-= 更新功能Cloud Sync
+= BlueXP 複製與同步的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,43 @@ summary: 瞭Cloud Sync 解更新功能。
 
 
 [role="lead"]
-瞭Cloud Sync 解更新功能。
+瞭解 BlueXP 複本與同步的新功能。
+
+
+
+== 2023 年 5 月 8 日
+
+
+
+=== 硬連結功能
+
+使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解檔案類型設定"]。
+
+
+
+=== 能夠在安全的 NFS 關係中新增資料代理人的使用者憑證
+
+使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。
+
+
+
+=== 最近修改檔案的延長排除期
+
+使用者現在可以排除在排程同步前 365 天內修改的檔案。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解最近修改的檔案設定"]。
+
+
+
+=== 依關係 ID 篩選 UI 中的關係
+
+使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
 
 

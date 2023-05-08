@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-azure.html 
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
-summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker 選項、將資料代理軟體部署在 vnet 中的新虛擬機器上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync 
+summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker 選項、將資料代理軟體部署在 vnet 中的新虛擬機器上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。 
 ---
 = 在Azure中建立新的資料代理程式
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 
 
 [role="lead"]
-當您建立新的資料代理人群組時、請選擇Microsoft Azure、將資料代理人軟體部署在vnet中的新虛擬機器上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync
+當您建立新的資料代理人群組時、請選擇Microsoft Azure、將資料代理人軟體部署在vnet中的新虛擬機器上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。
 
 您也可以選擇在雲端或內部部署的現有 Linux 主機上安裝資料代理程式。 link:task-installing-linux.html["深入瞭解"]。
 
@@ -34,9 +34,9 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 
 == 網路需求
 
-* 資料代理人需要傳出的網際網路連線、以便透過 Cloud Sync 連接埠 443 輪詢該服務的工作。
+* 資料代理程式需要外傳網際網路連線、以便透過連接埠 443 輪詢 BlueXP 複本和同步服務的工作。
 +
-當在 Azure 中部署資料代理程式時 Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。
+當 BlueXP 複製與同步部署 Azure 中的資料代理程式時、它會建立一個安全群組、以啟用所需的傳出通訊。
 
 +
 如果您需要限制傳出連線、請參閱 link:reference-networking.html["資料代理所連絡的端點清單"]。
@@ -176,7 +176,7 @@ NOTE: 如果您打算實作持續同步關係、則必須指派自訂角色給�
 +
 此程序可能需要 7 分鐘的時間。
 
-. 在本功能中、當資料代理程式可供使用時、請按一下 * 繼續 * 。 Cloud Sync
+. 在 BlueXP 複製與同步中、資料代理可用時按一下 * 繼續 * 。
 . 完成精靈中的頁面、以建立新的同步關係。
 
 
@@ -185,7 +185,7 @@ NOTE: 如果您打算實作持續同步關係、則必須指派自訂角色給�
 
 .是否收到需要管理員同意的訊息？
 ****
-如果 Microsoft 通知您需要系統管理員核准、因為 Cloud Sync 支援功能需要權限才能代表您存取組織中的資源、那麼您有兩種選擇：
+如果 Microsoft 通知您需要管理員核准、因為 BlueXP 複本與同步需要代表您存取組織中資源的權限、則您有兩個選項：
 
 . 請您的 AD 管理員提供下列權限給您：
 +
@@ -205,7 +205,7 @@ https://login.microsoftonline.com/{FILL 這裡是您的租戶 ID ｝ /v2.0/admin
 
 == 資料代理VM的詳細資料
 
-使用下列組態、在Azure中建立資料代理程式。Cloud Sync
+BlueXP 複製與同步會使用下列組態在 Azure 中建立資料代理程式。
 
 VM類型:: 標準DS4 v2
 vCPU:: 8.

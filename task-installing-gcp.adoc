@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync 
+summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。 
 ---
 = 在Google Cloud中建立新的資料代理商
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker�
 
 
 [role="lead"]
-當您建立新的資料代理人群組時、請選擇Google Cloud Platform、在Google Cloud VPC的新虛擬機器執行個體上部署資料代理人軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync
+當您建立新的資料代理人群組時、請選擇Google Cloud Platform、在Google Cloud VPC的新虛擬機器執行個體上部署資料代理人軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。
 
 您也可以選擇在雲端或內部部署的現有 Linux 主機上安裝資料代理程式。 link:task-installing-linux.html["深入瞭解"]。
 
@@ -34,9 +34,9 @@ summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker�
 
 == 網路需求
 
-* 資料代理人需要傳出的網際網路連線、以便透過 Cloud Sync 連接埠 443 輪詢該服務的工作。
+* 資料代理程式需要外傳網際網路連線、以便透過連接埠 443 輪詢 BlueXP 複本和同步服務的工作。
 +
-當在Google Cloud中部署資料代理程式時Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。
+當 BlueXP 複製與同步在 Google Cloud 中部署資料代理程式時、它會建立一個安全群組、以啟用所需的輸出通訊。
 
 +
 如果您需要限制傳出連線、請參閱 link:reference-networking.html["資料代理所連絡的端點清單"]。
@@ -128,9 +128,9 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 +
 如果網際網路存取需要 Proxy 、則 Proxy 必須位於 Google Cloud 中、並使用與資料代理相同的服務帳戶。
 
-. 一旦資料代理程式可供使用、請按 Cloud Sync 一下《》中的 * 「 Continue 」（繼續） * 。
+. 一旦資料代理程式可用、請在 BlueXP 複本中按一下 * 繼續 * 、然後進行同步處理。
 +
-執行個體部署約需 5 至 10 分鐘。您可以監控 Cloud Sync 來自於此服務的進度、當執行個體可用時、此服務會自動重新整理。
+執行個體部署約需 5 至 10 分鐘。您可以監控 BlueXP 複製與同步服務的進度、該服務會在執行個體可用時自動重新整理。
 
 . 完成精靈中的頁面、以建立新的同步關係。
 
@@ -142,7 +142,7 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 
 == 提供在其他Google Cloud專案中使用儲存區的權限
 
-當您建立同步關係並選擇Google Cloud Storage作為來源或目標時、Cloud Sync 即可從資料代理商的服務帳戶擁有權限的庫位中進行選擇。依預設、這包括_相同_專案中的儲存區與資料代理服務帳戶。但如果您提供必要的權限、您可以從_其他_專案中選擇儲存區。
+當您建立同步關係並選擇 Google Cloud Storage 做為來源或目標時、 BlueXP 複製與同步功能可讓您從資料代理服務帳戶有權使用的儲存區中進行選擇。依預設、這包括_相同_專案中的儲存區與資料代理服務帳戶。但如果您提供必要的權限、您可以從_其他_專案中選擇儲存區。
 
 .步驟
 . 開啟Google Cloud Platform主控台並載入Cloud Storage服務。
@@ -161,7 +161,7 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 
 == 資料代理VM執行個體的詳細資料
 
-使用下列組態、在Google Cloud中建立資料代理程式。Cloud Sync
+BlueXP 複製與同步會使用下列組態、在 Google Cloud 中建立資料代理程式。
 
 機器類型:: n2-Standard-4
 vCPU:: 4.

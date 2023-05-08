@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-managing-reports.html 
-keywords: reports, sync reports, cloud sync reports, report errors, path reports 
+keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: 建立並檢視報告、取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。 
 ---
 = 建立及檢視報告以調整組態
@@ -25,7 +25,7 @@ summary: 建立並檢視報告、取得可在NetApp人員協助下使用的資�
 
 == 建立報告
 
-每次建立報告時Cloud Sync 、將會掃描路徑、然後將詳細資料編譯成報告。
+每次建立報告時、 BlueXP 複本與同步都會掃描路徑、然後將詳細資料編譯成報告。
 
 .步驟
 . 按一下*同步>報告*。
@@ -67,9 +67,9 @@ image:screenshot-sync-download-report.png["在您按一下報告中的動作功�
 
 == 檢視報告錯誤
 
-Paths表格可識別最近一次報告中是否有任何錯誤。錯誤會指出Cloud Sync 掃描路徑時出現的問題。
+Paths表格可識別最近一次報告中是否有任何錯誤。錯誤指出 BlueXP 在掃描路徑時所面臨的複製與同步問題。
 
-例如、報告可能包含「權限遭拒」錯誤。這類錯誤可能會影響Cloud Sync掃描整組檔案和目錄的能力。
+例如、報告可能包含「權限遭拒」錯誤。這類錯誤可能會影響 BlueXP 複本與同步作業掃描整組檔案與目錄的能力。
 
 檢視錯誤清單之後、您就可以解決這些問題、然後再次執行報告。
 

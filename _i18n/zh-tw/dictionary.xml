@@ -50,7 +50,6 @@
   <block id="2470150bd9a4e04a2e189d3ae6e56fe0" category="list-text">* 資料代理人 * ：依照提示新增來源資料代理人或選取現有的資料代理人。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="39a513eb21ebe3c708dcaa6942b6d31d" category="list-text">如果來源資料代理做為接聽程式、則必須是新的資料代理程式。</block>
-  <block id="9e61c5d4af1de558f36f83f2ab959cfb" category="list-text">如果您需要新的資料代理程式、 Cloud Sync 則會以安裝說明提示您。您可以在雲端部署資料代理程式、或下載適用於您自己 Linux 主機的安裝指令碼。</block>
   <block id="cdba25c9167c61c57652be77cd6bc4e2" category="list-text">* 目錄 * ：選取所有目錄或向下切入並選取子目錄、以選擇要同步的目錄。</block>
   <block id="de6d5031bb824b97bc739136ed0ca12f" category="paragraph">按一下「 * 篩選來源物件 * 」以修改設定、定義如何在目標位置同步及維護來源檔案與資料夾。</block>
   <block id="17cc825827711a2fbb35f034caf806fc" category="inline-image-macro">螢幕擷取畫面會顯示選取最上層目錄、向下切入及選取「篩選來源物件」選項的選項。</block>
@@ -66,7 +65,6 @@
   <block id="376588358d7683b8caa450f37e1678c1" category="list-text">* 審查 * ：檢閱同步關係的詳細資料、然後按一下 * 建立關係 * 。</block>
   <block id="31b876010e591a7e8b00068dcabd80b7" category="inline-image-macro">顯示檢閱畫面的快照。它會顯示 NFS 伺服器、資料代理程式及每個伺服器的網路資訊。</block>
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="858b9413ffbdb9049bf9b696f0ea8392" category="paragraph">從建立新的同步關係開始。 Cloud Sync完成後、按一下「儀表板」中的 * 「檢視」 * 即可檢視新關係的詳細資料。</block>
   <block id="f549fa5a7b8a70265d3f6f6fc5ae1943" category="summary">確認您的來源和目標符合下列要求。</block>
   <block id="91271a9aaf4442f8d73b827c3ba05c53" category="doc">準備來源和目標</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">網路</block>
@@ -74,9 +72,7 @@
   <block id="b1f37c411b519d94e73cc25a437b0e37" category="paragraph">例如、如果您的資料中心有NFS伺服器、而且資料代理程式位於AWS中、則您需要從網路連線（VPN或Direct Connect）到VPC。</block>
   <block id="41413218d6e0e0f3841260f7834a57b2" category="list-text">NetApp建議將來源、目標和資料代理人設定為使用網路時間傳輸協定（NTP）服務。三個元件之間的時間差異不應超過 5 分鐘。</block>
   <block id="48803a619ce06c74ae2204113ce8b389" category="section-title">目標目錄</block>
-  <block id="b02c6de2906d15e3ef40415f6043a826" category="paragraph">建立同步關係時Cloud Sync 、利用支援功能、您可以選取現有的目標目錄、然後在該目錄中建立新的資料夾（可選）。因此請確定您偏好的目標目錄已經存在。</block>
   <block id="58851d32c98ba7c70e9af78cf1766019" category="section-title">讀取目錄的權限</block>
-  <block id="bd83e2d94f5db7a0d8509ea23da3d53c" category="paragraph">為了顯示來源或目標中的每個目錄或資料夾、Cloud Sync 需要目錄或資料夾的讀取權限。</block>
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="list-text">NFS</block>
   <block id="a804bf8c1eee89c2ef8ed6f8f60fbb55" category="list-text">必須在來源/目標上定義權限、並在檔案和目錄上使用uid / gid。</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="list-text">物件儲存</block>
@@ -87,7 +83,6 @@
   <block id="3f160e89fc203d49d262346e29d1f342" category="admonition">資料代理程式預設會忽略下列目錄：.snapshot、~snapshot、.Copy-卸 載</block>
   <block id="3e23a787ea23ed5a89e94097efaf30e6" category="paragraph">請確定您的Amazon S3儲存庫符合下列要求。</block>
   <block id="1226cba9918df356eea29ae071de3551" category="section-title">Amazon S3支援的資料代理位置</block>
-  <block id="8b10287f56fdcb032a0d3824c6e3f4d2" category="paragraph">包含 S3 儲存設備的同步關係需要部署在 AWS 或內部部署的資料代理程式。無論是哪一種情況 Cloud Sync 、安裝期間、資訊中心都會提示您將資料代理程式與 AWS 帳戶建立關聯。</block>
   <block id="58cff9534f32712149ceaee454d5c680" category="inline-link-macro">瞭解如何部署 AWS 資料代理程式</block>
   <block id="205766383a6cd2fd7ec7c367e585e362" category="list-text"><block ref="205766383a6cd2fd7ec7c367e585e362" category="inline-link-macro-rx"></block></block>
   <block id="203ce0db0994bd92d14537069fa76f6c" category="inline-link-macro">瞭解如何在 Linux 主機上安裝資料代理程式</block>
@@ -112,7 +107,6 @@
   <block id="455aadf3bd22f71973763b3cdc7db550" category="section-title">支援的 Azure 地區</block>
   <block id="df8514e24a07bfd81c667163f17fbec0" category="paragraph">除了中國、美國 Gov 和美國 DoD 地區之外、所有地區都受到支援。</block>
   <block id="cd0559cbb36e8ae61712a5e3085023f0" category="section-title">包括Azure Blob和NFS/SMB之關係的連線字串</block>
-  <block id="51b56ea4c180b6587f80dadb5d9a9791" category="paragraph">在 Azure Blob 容器和 NFS 或 SMB 伺 Cloud Sync 服器之間建立同步關係時、您需要提供含有儲存帳戶連線字串的功能：</block>
   <block id="1e9af9bf420c920c526a831d6d40e038" category="inline-image-macro">顯示連線字串、可從 Azure 入口網站選取儲存帳戶、然後按一下存取金鑰。</block>
   <block id="0898c993025b0ff5f0e5ec87ebf5842d" category="paragraph"><block ref="0898c993025b0ff5f0e5ec87ebf5842d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b353a92f9cd802272f6be2754b692e1" category="inline-link">共享存取簽名</block>
@@ -144,7 +138,6 @@
   <block id="f34ca0a61f713db3f7223ea730746e00" category="paragraph"><block ref="76b1d1355d80ad25cf7c1c2af9610053" category="inline-link-macro-rx"></block>。</block>
   <block id="017c5900c1d43fddb24f60e2fcc3f6fc" category="paragraph">請確定您的 Google Cloud Storage 儲存庫符合下列需求。</block>
   <block id="e649787bac6e0b31cc56d488858d8e89" category="section-title">Google Cloud Storage 支援的資料代理商位置</block>
-  <block id="68c71e6388aa4ef0955b152df5622fae" category="paragraph">包括Google Cloud Storage在內的同步關係需要部署在Google Cloud或內部部署的資料代理商。建立同步關係時、可利用此功能引導您完成資料代理程式的安裝程序。 Cloud Sync</block>
   <block id="31891805e49d1c8e637b40a3a036d1cd" category="inline-link-macro">瞭解如何部署Google Cloud資料代理商</block>
   <block id="673fc4c136759e22b53e67650e656c6f" category="list-text"><block ref="673fc4c136759e22b53e67650e656c6f" category="inline-link-macro-rx"></block></block>
   <block id="bdbd44585d11046b8db390866b7172bb" category="section-title">支援的 Google Cloud 地區</block>
@@ -173,7 +166,6 @@
   <block id="105e27af4bc6344a08f94305aa5e0fff" category="list-text">設定使用的存取金鑰和秘密金鑰 ONTAP</block>
   <block id="b872b315cdbd31fa7a2ac89642690e2c" category="section-title">SMB 伺服器需求</block>
   <block id="96dd4121704c84cabcf5c6e24980dbd6" category="list-text">SMB 伺服器可以是 NetApp 系統或非 NetApp 系統。</block>
-  <block id="830f82f43b0ebb71473f00dcc872a51b" category="list-text">您需要提供Cloud Sync 對SMB伺服器具有權限的認證資料。</block>
   <block id="afcae066c61b0f78c29c0c4201cf311b" category="list-text">對於來源SMB伺服器、需要下列權限：清單和讀取。</block>
   <block id="93ba6131738768cb0b0bfc191699dac4" category="paragraph">來源SMB伺服器支援Backup Operators群組成員。</block>
   <block id="606c3f5cdb22e3a0afa31139491e2272" category="list-text">對於目標SMB伺服器、需要下列權限：清單、讀取和寫入。</block>
@@ -187,11 +179,7 @@
   <block id="8a0ca0a24396b8b3401f558bb45e38e8" category="paragraph">SMB 限制會在 SMB 伺服器之間同步資料時、影響隱藏的目錄和檔案。如果來源 SMB 伺服器上的任何目錄或檔案透過 Windows 隱藏、則不會將隱藏屬性複製到目標 SMB 伺服器。</block>
   <block id="64d8ab254b8c0c66dd7ca663050c72b3" category="section-title">SMB 同步行為是因為不區分大小寫的限制</block>
   <block id="7d0d519a2a4ad86b14a09198798c4071" category="paragraph">SMB 傳輸協定不區分大小寫、這表示大小寫字母會被視為相同。如果同步關係包含 SMB 伺服器、且目標上已存在資料、則此行為可能會導致覆寫檔案和目錄複製錯誤。</block>
-  <block id="991ab92d9c8883ae1badb20b26973f14" category="paragraph">例如、假設來源上有一個名為「 A 」的檔案、而目標上有一個名為「 A 」的檔案。當將名為「 A 」的檔案複製到目標時、檔案「 A 」會被來源的檔案「 A 」覆寫。 Cloud Sync</block>
-  <block id="1d3702061357694248394f82394b0250" category="paragraph">就目錄而言、假設來源上有一個名為「 b 」的目錄、而目標上有一個名為「 B 」的目錄。當試圖將名為「 b 」的目錄複製到目標時、會收到錯誤訊息指出該目錄已經存在。 Cloud Sync Cloud Sync因此 Cloud Sync 、無法複製名為「 b 」的目錄。</block>
   <block id="aefc5b01ad425705415e50284fa4b07f" category="paragraph">避免此限制的最佳方法是確保您將資料同步至空白目錄。</block>
-  <block id="d5ca9cde56246aa6b86169e0939388c5" category="summary">NetApp是一項雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸NAS資料。Cloud Sync</block>
-  <block id="815e6b3583bbc9969fd306b9391ed0cb" category="doc">本文檔 Cloud Sync</block>
   <block id="febdb5376a041b31f655e631de8dd5d8" category="summary">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是「隨用隨付」。第二種選擇是直接向 NetApp 購買授權。</block>
   <block id="4ecb33900aad1706afbc34f19bd2f2e9" category="doc">免費試用結束後、請支付同步關係的費用</block>
   <block id="97ff8a17f533b6d33b6dd9059ff062e9" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱、以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。</block>
@@ -204,7 +192,6 @@
   <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">按一下 * 同步 &gt; 授權 * 。</block>
   <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">選擇 * AWS*</block>
   <block id="01849158eeeec12ef2f893c8efd6c0e3" category="list-text">按一下「 * 訂閱 * 」、然後按一下「 * 繼續 * 」。</block>
-  <block id="099050991d4fc1ea47f727b6ad9a41b3" category="list-text">從 AWS Marketplace 訂閱、然後重新登入 Cloud Sync 到該服務以完成註冊。</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">下列影片顯示此程序：</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">每年支付的步驟</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">前往 AWS Marketplace 頁面</block>
@@ -217,8 +204,6 @@
   <block id="e70ccb5a825dd2a0a3daf679b5f23567" category="list-text">在 Azure 入口網站中、按一下 * 「 Create 」（建立） * 、選取您的選項、然後按一下 * 「訂購」 * 。</block>
   <block id="981e7253aa8df6872dfd3d544c12ef23" category="paragraph">選擇 * 每月 * 按小時付費、或 * 每年 * 預付一年。</block>
   <block id="23a902dd0c4b97b70f0c79f7c46ed483" category="list-text">部署完成後、按一下通知快顯視窗中的 SaaS 資源名稱。</block>
-  <block id="04175f98fb77c715f35a84f3004d8ed5" category="list-text">按一下「 * 設定帳戶 * 」以返回 Cloud Sync 到「支援」。</block>
-  <block id="6dabde8f330be16cbc68c6ed11cd0dcb" category="paragraph">若要預付同步關係的費用、您必須購買一或多份授權、並將其新增至 Cloud Sync 該服務。</block>
   <block id="97e3031ee8bcd0a19765ddc808e71590" category="paragraph">您將需要授權的序號、以及授權所關聯之NetApp Support Site帳戶的使用者名稱和密碼。</block>
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">請透過 mailto ： ng-cloudsync-contact@netapp.com ® Subject=Cloud %20Sync%20Service%20-%20BYOL%20License%20Purche%20Request 購買授權（聯絡 NetApp ）。</block>
   <block id="c705d1b4b3b9a5ab7a62cfb882e27612" category="list-text">按一下*新增授權*並新增必要資訊：</block>
@@ -228,15 +213,10 @@
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">按一下「 * 新增 * 」。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新授權</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">選取與您要新增之授權相關的NetApp支援網站帳戶。</block>
-  <block id="172d12b0279cc8a60f5a9ab00242df4e" category="paragraph">以新的到期日更新現有授權。Cloud Sync</block>
-  <block id="0e66daf8daf12f88ac9c038b10cd58c9" category="summary">建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="bc3f4614483a5cee9737e251b527f30b" category="doc">在Google Cloud中建立新的資料代理商</block>
-  <block id="0393b115c5edb63088ef45123fac3bfa" category="paragraph">當您建立新的資料代理人群組時、請選擇Google Cloud Platform、在Google Cloud VPC的新虛擬機器執行個體上部署資料代理人軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">深入瞭解</block>
   <block id="c43a6988e9fb943699097296d5eabba0" category="paragraph">您也可以選擇在雲端或內部部署的現有 Linux 主機上安裝資料代理程式。 <block ref="556c1c240ec0090f5d153e6b793bb5bc" category="inline-link-macro-rx"></block>。</block>
   <block id="9251700e586dc1a410f2e755a8643751" category="section-title">網路需求</block>
-  <block id="dd0891b98c2f0c6e43bf8873e49de0c6" category="list-text">資料代理人需要傳出的網際網路連線、以便透過 Cloud Sync 連接埠 443 輪詢該服務的工作。</block>
-  <block id="ccb92852772cfef5c1b9661d6a92d386" category="paragraph">當在Google Cloud中部署資料代理程式時Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。</block>
   <block id="a0bda8e6f5ea7fd3e543f2595ac6fd22" category="inline-link-macro">資料代理所連絡的端點清單</block>
   <block id="595b41b390f8657db09f1747005bcced" category="paragraph">如果您需要限制傳出連線、請參閱 <block ref="e15f11c981342cac61e677727c9cff92" category="inline-link-macro-rx"></block>。</block>
   <block id="7592d848e21d5d836df48cb913e15f68" category="list-text">NetApp 建議將來源、目標及資料代理程式設定為使用網路時間傳輸協定（ NTP ）服務。三個元件之間的時間差異不應超過 5 分鐘。</block>
@@ -261,12 +241,9 @@
   <block id="dde6927c09ef26c282cb0cbb7b055953" category="paragraph"><block ref="dde6927c09ef26c282cb0cbb7b055953" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bc9746b5abda5cdfdb7d182e1d430612" category="list-text">如果 VPC 中的網際網路存取需要 Proxy 、請指定 Proxy 組態。</block>
   <block id="2a38666aae985ff4945ff1199551e9d0" category="paragraph">如果網際網路存取需要 Proxy 、則 Proxy 必須位於 Google Cloud 中、並使用與資料代理相同的服務帳戶。</block>
-  <block id="9c009eb622794f4514ba1853e1ce00dd" category="list-text">一旦資料代理程式可供使用、請按 Cloud Sync 一下《》中的 * 「 Continue 」（繼續） * 。</block>
-  <block id="754f44e5568224983fac09222a6e960e" category="paragraph">執行個體部署約需 5 至 10 分鐘。您可以監控 Cloud Sync 來自於此服務的進度、當執行個體可用時、此服務會自動重新整理。</block>
   <block id="d78ea8d5b2348d428c520d98d26204f1" category="list-text">完成精靈中的頁面、以建立新的同步關係。</block>
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">您已在Google Cloud中部署資料代理商、並建立新的同步關係。您可以將此資料代理程式與其他同步關係搭配使用。</block>
   <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">提供在其他Google Cloud專案中使用儲存區的權限</block>
-  <block id="ee1b3c076d1c663d9cd9e59e763e0d48" category="paragraph">當您建立同步關係並選擇Google Cloud Storage作為來源或目標時、Cloud Sync 即可從資料代理商的服務帳戶擁有權限的庫位中進行選擇。依預設、這包括_相同_專案中的儲存區與資料代理服務帳戶。但如果您提供必要的權限、您可以從_其他_專案中選擇儲存區。</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">開啟Google Cloud Platform主控台並載入Cloud Storage服務。</block>
   <block id="a0f456d59c57c1111f650c11ad24fa5d" category="list-text">按一下您要在同步關係中作為來源或目標的儲存區名稱。</block>
   <block id="715460ccdde6385d4b2f9b34475e2704" category="list-text">按一下*權限*。</block>
@@ -276,7 +253,6 @@
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">按一下「 * 儲存 * 」。</block>
   <block id="18e32f4b46f7365779a3d1fe9eb08721" category="paragraph">設定同步關係時、您現在可以選擇該儲存區做為同步關係中的來源或目標。</block>
   <block id="9177317d32a41a0982be70109425240b" category="section-title">資料代理VM執行個體的詳細資料</block>
-  <block id="c233ea2db8aa00ac96e4e0317d97f7ed" category="paragraph">使用下列組態、在Google Cloud中建立資料代理程式。Cloud Sync</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">機器類型</block>
   <block id="ce3dfaedf282c19c5710c3e4b7302a4e" category="list-text">vCPU</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="list-text">4.</block>
@@ -287,15 +263,11 @@
   <block id="f3796c63e27caa7881ad0844ee9e9544" category="list-text">20 GB HDD PD-Standard</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="doc">限制</block>
-  <block id="5e4e330a68fd5b85b32d86b44717f091" category="summary">當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、必須透過 Cloud Sync 「支援」使用者介面或 API 來指定這些認證資料。另一種方法是設定資料代理程式、以便直接從外部 HashiCorp Vault 存取認證資料。</block>
   <block id="34a36f0a41c390743b7c28311304c570" category="doc">設定資料代理群組以使用外部HashiCorp Vault</block>
-  <block id="9e65ec8942093c6a71fdf631e8dfb695" category="paragraph">當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、必須透過 Cloud Sync 「支援」使用者介面或 API 來指定這些認證資料。另一種方法是設定資料代理人群組、以便直接從外部HashiCorp Vault存取認證（或_h秘密_）。</block>
-  <block id="758f234fc2670f5c7096009448598490" category="paragraph">此功能可透過 Cloud Sync 使用需取得 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係之支援。</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">設定URL、準備資料庫以提供認證給資料代理人群組。保存庫中機密的 URL 必須以 _Creds_ 結尾。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">修改群組中每個資料代理程式的本機組態檔、準備從外部資料保存庫擷取認證資料的資料代理群組。</block>
   <block id="f3a79eb1d3d4b75537affb3a4efa8775" category="paragraph">現在一切都已設定完成、您可以傳送 API 呼叫來建立同步關係、使用您的保存庫來獲取機密資料。</block>
   <block id="7fe706ca34bea852c8a7b5a01aac8705" category="section-title">準備保存庫</block>
-  <block id="2d7eff2eea48f45f6cec54a305b1ceb0" category="paragraph">您需要提供 Cloud Sync URL 給資料庫中的機密資料。設定這些 URL 來準備保存庫。您需要在您打算建立的同步關係中、設定每個來源和目標的認證 URL 。</block>
   <block id="b97d94a4af6f2da3a68d05d4577e517f" category="paragraph">URL 必須設定如下：</block>
   <block id="011dd3c441f07d89289a23db496f2046" category="paragraph">//&lt; 路徑 &gt;/ / &lt; 端點傳輸協定 &gt;Creds</block>
   <block id="ac70412e939d72a9234cdebb1af5867b" category="list-text">路徑</block>
@@ -350,7 +322,6 @@
   <block id="b872e6417139366489f4ec46ed47e57d" category="inline-link-macro">深入瞭解資料代理商的GCP權限要求</block>
   <block id="6c6f477f7b70d038eaa27d83b51ba533" category="paragraph"><block ref="e85dc3fc664e427ab39e5c87730a03a3" category="inline-link-macro-rx"></block>。</block>
   <block id="2551f9b8e10e8b9a8eaf44b595104527" category="section-title">使用資料庫中的機密建立新的同步關係</block>
-  <block id="aea6bdca8526169a7ce9163bff6fd0c5" category="paragraph">使用 Cloud Sync REST API 張貼關係。</block>
   <block id="f04d1ca5db491ee5c350c88febbfd65c" category="inline-link-macro">請參閱文件中的本頁</block>
   <block id="89bd30152e49ad6c1d8ab907487684a6" category="inline-link">請參閱第 2 版關係 API 呼叫</block>
   <block id="5f70a33cfe5bc333821c2a9b0beb2648" category="list-text">為您的貼文關係建立一個實體、<block ref="e9795bb60ff464250f91f2bcfd35fc3d" category="inline-link-rx"></block>。</block>
@@ -359,7 +330,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
@@ -372,9 +342,7 @@
   <block id="62e3899fe2adfc651dc44b617edd0895" category="list-text">執行下列命令：</block>
   <block id="3b06e3c95384b14b7af959fa5c562aff" category="paragraph">"chmod+x uninstaller-DataBromer.sh" 、 "./uninstaller-DataBromer.sh"</block>
   <block id="7af2a6b72c67250458118d65cec3d103" category="list-text">按「 y 」確認解除安裝。</block>
-  <block id="44efbfb45e36530fb912bd582c66d8ea" category="summary">當您建立新的資料代理程式時、請選擇「內部部署資料代理程式」選項、將資料代理軟體安裝在內部部署的 Linux 主機上、或安裝在雲端的現有 Linux 主機上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="85e5ddcb30088cd6cfefc0e824599627" category="doc">在 Linux 主機上安裝資料代理程式</block>
-  <block id="e9b07c7994659b124430d0e4daaeabba" category="paragraph">當您建立新的資料代理人群組時、請選擇「內部部署的Data Broker」選項、將資料代理人軟體安裝在內部部署的Linux主機上、或安裝在雲端的現有Linux主機上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux 主機需求</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 作業系統 * ：</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">不支援CentOS串流。</block>
@@ -429,8 +397,6 @@
   <block id="47c3b64a51b87be034a8912ac555b867" category="list-text">使用 Proxy 伺服器進行驗證：</block>
   <block id="d23756d0938d8a0d5fe2458da8764d29" category="paragraph">「 curl &lt;URI &gt; -o data_broker_installer.sh -x &lt;proxy_username&gt;:&lt;proxy_password&gt;@&lt;proxy_host&gt;:&lt;proxy_port&gt;'</block>
   <block id="8447306210a0972ac94b7d774799df1a" category="list-text">開放的我們</block>
-  <block id="e9f4beb329ba42ff63ef620a4863fe43" category="inline-xref">請遵循下列步驟、從 Cloud Sync 無法取得 URI</block>
-  <block id="7d06bf276430bb3100208eb4734953dd" category="list-text">在指示頁面上顯示安裝檔案的 URI 、當您依照提示部署內部部署的 Prem Data Broker 時、就會載入此頁面。 Cloud Sync此 URI 不會重複出現、因為連結是動態產生的、只能使用一次。 <block ref="184e3498ffb7fdbff7196fcca94d48fb" category="inline-xref-macro-rx"></block>。</block>
   <block id="dd1f3e7a0e13a53a0d39dc15cd7aaadb" category="list-text">切換至超級使用者、執行安裝程式並安裝軟體：</block>
   <block id="9f758ef6cf58bc19a4e4cc3d238fd812" category="admonition">下列每個命令都包含AWS存取和Google Cloud存取的參數。請依照指示頁面、根據您的安裝選項取得確切的命令。</block>
   <block id="49dc0392ba36ada3c1af45ba75b28797" category="list-text">無 Proxy 組態：</block>
@@ -447,7 +413,6 @@
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="doc">授權總覽</block>
   <block id="f856f3b97c80815883c23bfe0ce6d8c2" category="section-title">市場訂閱</block>
   <block id="89630329851b5245d4f57e1a8b8f1aa6" category="inline-link-macro">您可以透過 AWS 或 Azure 訂閱</block>
-  <block id="abe723e3a70c0483b54392a4f37ddf5f" category="paragraph">訂閱 Cloud Sync AWS 或 Azure 提供的支援服務、可讓您以每小時的費率付款、或是每年付費。 <block ref="5b1da104dad8f5a36ba9cf23dc6afee4" category="inline-link-macro-rx"></block>（視您要帳單的地點而定）。</block>
   <block id="d40e22e44527f36f21104bcda56dff9b" category="section-title">每小時訂閱</block>
   <block id="5bfcbf39a4da86c538d49a75ca94b869" category="paragraph">透過每小時隨用隨付訂閱、您將根據所建立的同步關係數、每小時收取一次費用。</block>
   <block id="e53772633222585cf7f7f86f263b2b8d" category="inline-link">在 Azure 中檢視定價</block>
@@ -461,10 +426,7 @@
   <block id="94b5aeb9b594cd952ab6cf378c590c02" category="section-title">NetApp 授權</block>
   <block id="9f3a183e74b4486726d8fb7734a76d24" category="paragraph">另一種預付同步關係費用的方法是直接向 NetApp 購買授權。每個授權可讓您建立最多 20 個同步關係。</block>
   <block id="37f85bcc8c366d583d2e45b5cd9cc9db" category="paragraph">您可以搭配 AWS 或 Azure 訂閱使用這些授權。例如、如果您有 25 個同步關係、您可以使用授權支付前 20 個同步關係的費用、然後從 AWS 或 Azure 購買剩餘的 5 個同步關係。</block>
-  <block id="56561b0dbbcca5545f63b20c63058b88" category="inline-link-macro">瞭解如何購買授權、並將其新增 Cloud Sync 至</block>
-  <block id="5a547290749d070f311f74a17cac9eab" category="paragraph"><block ref="69d897f3c7d50cdb97c30fd927aafd74" category="inline-link-macro-rx"></block>。</block>
   <block id="5314fb6b185d63c872f907a174dbe292" category="section-title">授權條款</block>
-  <block id="2e5e7960afa4429a4997b142d3778192" category="paragraph">購買「自帶授權（ BYOL ）到 Cloud Sync 該服務」的客戶、應注意授權權利的相關限制。</block>
   <block id="815b29523903f3b832f05f5fbbb221b1" category="list-text">自交付日起一年內、客戶有權使用 BYOL 授權。</block>
   <block id="ad375a9612a6b62204da454a8bce5008" category="list-text">客戶有權利用 BYOL 授權、在來源與目標之間建立且不超過 20 個個別連線（每個連線都是「同步關係」）。</block>
   <block id="3926a9a20aef3d7c5c5d541fc8c0801a" category="list-text">客戶的權利將在一年授權期限結束時到期、無論客戶是否達到 20 個同步關係限制。</block>
@@ -484,10 +446,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="bf6a36d1f8c7b0ef48e5a5b01357f720" category="inline-link-macro">關於本產品的注意事項 Cloud Sync</block>
-  <block id="c9c82aba1257ee6c6ebbade2353f0b0d" category="paragraph"><block ref="c9c82aba1257ee6c6ebbade2353f0b0d" category="inline-link-macro-rx"></block></block>
-  <block id="31e5f37358c44c0e0f7f219f24cc5f81" category="summary">瞭Cloud Sync 解更新功能。</block>
-  <block id="e18bd0330d937c2c7c10048bf3ce8366" category="doc">更新功能Cloud Sync</block>
   <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
   <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">同步逾時</block>
   <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">現在有一項新的*同步逾時*設定可供同步關係使用。此設定可讓您定義Cloud Sync 當同步尚未在指定的時數或天數內完成時、是否應取消資料同步。</block>
@@ -665,7 +623,6 @@
   <block id="d5544bca7e8644a200250b7adde1bebe" category="paragraph">目前可識別資料代理程式何時未執行最新的軟體版本。Cloud Sync此訊息有助於確保您獲得最新的功能。</block>
   <block id="45829fc5241b4b6d0ef08aa6c9b72758" category="inline-image-macro">在儀表板上檢視資料代理程式時顯示警告的快照。</block>
   <block id="8af1e3719b0b0b728508006245dc9abb" category="paragraph"><block ref="8af1e3719b0b0b728508006245dc9abb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8bd85d664f4ededdb700f025ffa0151e" category="summary">利用此功能、您可以將資料從來源同步到目標。Cloud Sync這稱為同步關係。開始之前、您應該先瞭解支援的關係。</block>
   <block id="ac317451221f9a760b0fb4d93a8bec9c" category="doc">支援的同步關係</block>
   <block id="e04fc3e1324c1d3a92fff01ec5d66290" category="cell">來源位置</block>
   <block id="650fcf6688b77acd2c46fd3270ff8134" category="cell">支援的目標位置</block>
@@ -688,7 +645,6 @@
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
   <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">附註：</block>
   <block id="520ec1c5a501051f1a5ba82433368fa8" category="list-text">Box支援可預覽。</block>
-  <block id="6b851b2682356f2e929b17451db9ba27" category="list-text">只有使用Cloud Sync 支援與此來源/目標的同步關係、才能支援此功能。</block>
   <block id="75b4b5ad6fd92fc21c3b5d6221f3b075" category="list-text">當 Blob 容器為目標時、您可以選擇特定的 Azure Blob 儲存層：</block>
   <block id="4cfb52c3dbfbd734f89fa71211c2858a" category="list-text">熱儲存</block>
   <block id="9dde883d4be59ba1c52575f72a1a7dcf" category="list-text">超酷儲存設備</block>
@@ -705,7 +661,6 @@
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">按鈕的快照、可讓您針對同步關係採取行動</block>
   <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">從*儀表板*瀏覽至同步關係、然後按一下 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">按一下「 * 立即同步 * 」、然後按一下「 * 同步 * 」進行確認。</block>
-  <block id="43918ea25bc0ae48918a0220c50ba563" category="paragraph">執行資料同步處理程序。 Cloud Sync</block>
   <block id="0577fc2a0170ddd124f45dc5bb44f0da" category="section-title">加速同步效能</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">將額外的資料代理程式新增至管理關聯的群組、以加速同步關係的效能。額外的資料代理程式必須是 _new 資料代理程式。</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">如果資料代理人群組管理其他同步關係、則您新增至群組的新資料代理人也會加速這些同步關係的效能。</block>
@@ -717,15 +672,11 @@
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">確保關係中至少有一家資料代理人處於線上狀態。</block>
   <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">按一下 * 加速 * 。</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">依照提示建立新的資料代理程式。</block>
-  <block id="13876536c38e010f6b49948c92cdd5a9" category="paragraph">將新的資料代理程式新增至群組。Cloud Sync下一次資料同步的效能應該加快。</block>
   <block id="a28c4492bc6f10da847edad58fb33acc" category="section-title">正在更新認證資料</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">您可以使用現有同步關係中來源或目標的最新認證來更新資料代理程式。如果您的安全性原則要求您定期更新認證資料、更新認證資料將有助益。</block>
-  <block id="5c3e96018b6e2b746cbb26607f7d85b4" category="paragraph">任何來源或目標Cloud Sync 如Azure Blob、Box、IBM Cloud Object Storage、StorageGRID 更新認證、支援更新認證、如不需要認證、則可用於下列用途ONTAP ：Azure Blob、Box、IBM Cloud Object Storage、更新支援、不支援更新支援、SS3 Storage、SFTP及SMB伺服器。</block>
   <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">從*同步儀表板*移至需要認證的同步關係、然後按一下*更新認證*。</block>
   <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">輸入認證資料、然後按一下*更新*。</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">SMB伺服器的相關注意事項：如果網域是新的、則您需要在更新認證時加以指定。如果網域尚未變更、您就不需要重新輸入。</block>
-  <block id="7c88a343780aceedcb0315428b9ca8c3" category="paragraph">如果您在建立同步關係時輸入網域、但在更新認證資料時卻未輸入新網域、Cloud Sync 則會繼續使用您提供的原始網域。</block>
-  <block id="9954eea3786bddf9d851fa233a5167fd" category="paragraph">更新資料代理程式上的認證資料。Cloud Sync資料代理程式開始使用更新的認證資料進行同步之前、可能需要10分鐘的時間。</block>
   <block id="aa34fbc2c40679419a7f1063c5c292ff" category="section-title">變更同步關係的設定</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">修改設定、定義如何在目標位置同步及維護來源檔案和資料夾。</block>
   <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">按一下 * 設定 * 。</block>
@@ -736,13 +687,8 @@
   <block id="25f7347236b51a5eae4ba01a7862cb55" category="list-text">排程</block>
   <block id="3e8e8a2afdd515355f098433677b9baa" category="list-text">選擇週期性排程以供未來同步或關閉同步排程。您可以排程關係、每 1 分鐘同步一次資料。</block>
   <block id="64b10e9eb890594a5a1756353aca634b" category="list-text">同步逾時</block>
-  <block id="4affab38ec04e06031b349c8bc2e8e59" category="list-text">定義Cloud Sync 如果同步尚未在指定的時數或天數內完成、則是否應取消資料同步。</block>
   <block id="519b4d25c8ffbf8de1ebf62fde5dc856" category="list-text">重試次數</block>
-  <block id="919cb072b2859b8a582192dee2b97aeb" category="list-text">定義 Cloud Sync 在跳過檔案之前、應重試同步檔案的次數。</block>
   <block id="19d4853563c9ed77d05ef542fe4b883f" category="list-text">比較依據</block>
-  <block id="080641e325f9b374fef7b233d5c33998" category="list-text">選擇Cloud Sync 當判斷檔案或目錄是否已變更且應重新同步時、是否應比較某些屬性。</block>
-  <block id="bf6c2410baf65cd9c33fe767daa2d995" category="paragraph">即使您取消核取這些屬性、Cloud Sync 透過檢查路徑、檔案大小和檔案名稱、即可將來源與目標進行比較。如果有任何變更、就會同步這些檔案和目錄。</block>
-  <block id="960717da62f7dd61ed8c908d54ae49af" category="paragraph">您可以選擇啟用或停用Cloud Sync 下列屬性之比較功能：</block>
   <block id="2e1fe502d1987faae1302741ffc3e3e2" category="list-text">* mtime*：檔案的上次修改時間。此屬性對目錄無效。</block>
   <block id="8737e5c894db64c8d3f66e89106dec75" category="list-text">* uid*、* gid*和* mode*：Linux的權限旗標。</block>
   <block id="f74b1a14b7639ecef72e594fe96eb745" category="list-text">物件複本</block>
@@ -750,12 +696,10 @@
   <block id="2405489f130dba582973225d635d03f5" category="list-text">最近修改的檔案</block>
   <block id="e437c8d40c8e4dfb442691ee8235c3fb" category="list-text">選擇排除最近在排程同步之前修改的檔案。</block>
   <block id="80928702087cf089e5758d017f6ad82a" category="list-text">刪除來源上的檔案</block>
-  <block id="91a2ec9af7bd4335c2766054d8aabc63" category="list-text">選擇在將檔案複製到目標位置後、從來源位置刪除檔案 Cloud Sync 。此選項包括資料遺失的風險、因為來源檔案在複製後會被刪除。</block>
   <block id="4c65918743e5b7ce37949d486fd0545e" category="paragraph">如果啟用此選項、您也需要變更資料代理程式上 local.json 檔案中的參數。開啟檔案並更新如下：</block>
   <block id="edcca5513dd10c8731bb212da10adaca" category="list-text">刪除目標上的檔案</block>
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">如果檔案已從來源中刪除、請選擇從目標位置刪除。預設值是從不從目標位置刪除檔案。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">檔案類型</block>
-  <block id="5fdd04411ca447ba46cb4f395b6144e5" category="list-text">定義要包含在每個同步中的檔案類型：檔案、目錄和符號連結。</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">排除檔案副檔名</block>
   <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">輸入副檔名並按 * Enter * 鍵、指定要從同步中排除的副檔名。例如、輸入 _log_ 或 _.log_ 以排除 * 。 log 檔案。多個副檔名不需要分隔符號。以下影片提供簡短示範：</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">檔案大小</block>
@@ -767,17 +711,14 @@
   <block id="b92f5c644d05d58f54475c2fe1234f54" category="list-text">ACL -存取控制清單</block>
   <block id="f0b2b375230c7994fae3ffa2ea1c641e" category="list-text">在建立關聯或建立關聯之後、啟用設定、即可從SMB伺服器複製ACL。</block>
   <block id="14242c99845a0bf338d45c648e061643" category="list-text">按一下 * 儲存設定 * 。</block>
-  <block id="654bbfde33590b041bdb6621586a9dee" category="paragraph">利用新的設定修改同步關係。 Cloud Sync</block>
   <block id="4df1b0120e33fda011d371e1ed722bab" category="section-title">刪除關係</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">如果不再需要在來源與目標之間同步資料、您可以刪除同步關係。此動作不會刪除資料代理群組（或個別資料代理執行個體）、也不會從目標刪除資料。</block>
   <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">單擊 * 刪除 * ，然後再次單擊 * 刪除 * 進行確認。</block>
-  <block id="617af2cdfb752608ce05d6a7b95c4aae" category="paragraph">執行此動作會刪除同步關係。 Cloud Sync</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">建立並檢視報告、取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">建立及檢視報告以調整組態</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">建立並檢視報告、以取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。</block>
   <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">每份報告都會提供有關同步關係中路徑的深入詳細資料。例如、檔案系統的報告會顯示目錄和檔案的數量、檔案大小的發佈、目錄的深度和範圍等。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">建立報告</block>
-  <block id="475f89b9d3aace2ed4232c3db7231e26" category="paragraph">每次建立報告時Cloud Sync 、將會掃描路徑、然後將詳細資料編譯成報告。</block>
   <block id="f538684aa236fdad4b93e1b71f94526f" category="list-text">按一下*同步&gt;報告*。</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">每個同步關係中的路徑（來源或目標）都會顯示在表格中。</block>
   <block id="1c64df2a4dcd75c3fa3f6d99a5843437" category="list-text">在「*報告動作*」欄中、移至特定路徑並按一下「*建立*」、或按一下動作功能表並選取「*建立新的*」。</block>
@@ -795,8 +736,6 @@
   <block id="e45fcd91afd8b29019f92fa0f919f6d2" category="inline-image-macro">在您按一下報告中的動作功能表之後、會出現下載pdf選項的快照。</block>
   <block id="ef3e79a56ff208de546ac0714ccae4eb" category="paragraph"><block ref="ef3e79a56ff208de546ac0714ccae4eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">檢視報告錯誤</block>
-  <block id="c7c1e65692845e74726f70aef9e15699" category="paragraph">Paths表格可識別最近一次報告中是否有任何錯誤。錯誤會指出Cloud Sync 掃描路徑時出現的問題。</block>
-  <block id="60f1113b3a7c334a4ee293a5c193162a" category="paragraph">例如、報告可能包含「權限遭拒」錯誤。這類錯誤可能會影響Cloud Sync掃描整組檔案和目錄的能力。</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">檢視錯誤清單之後、您就可以解決這些問題、然後再次執行報告。</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">在「*錯誤*」欄中、識別報告中是否有任何錯誤。</block>
   <block id="10a0d9a4ad96880fef72d02fd9dcd2c5" category="list-text">如果出現錯誤、請按一下錯誤數旁的箭頭。</block>
@@ -808,20 +747,10 @@
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">您可以刪除報告中包含您修正的錯誤、或是報告與您移除的同步關係有關。</block>
   <block id="6d084eaa09a94fecc5582a104b0053da" category="list-text">在「*報告動作*」欄中、按一下路徑的動作功能表、然後選取*刪除上次報告*或*刪除所有報告*。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">確認您要刪除報告。</block>
-  <block id="3bc12ac4ccda30e017ee64118137b471" category="summary">NetApp Cloud Sync 支援服務提供簡單、安全且自動化的方式、可將您的資料移轉至雲端或內部部署的任何目標。</block>
-  <block id="f0b3616a53463d7f6e692bfaedbd45cb" category="doc">概述 Cloud Sync</block>
-  <block id="19c52e0abe390e48716e36aa4946a960" category="paragraph">NetApp Cloud Sync 支援服務提供簡單、安全且自動化的方式、可將您的資料移轉至雲端或內部部署的任何目標。無論是檔案型 NAS 資料集（ NFS 或 SMB ）、 Amazon Simple Storage Service （ S3 ）物件格式、 NetApp StorageGRID S還原 ® 應用裝置、或是任何其他雲端供應商物件存放區、 Cloud Sync 均可將其轉換並移動。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
-  <block id="9d51810a93f734113b2ee23bcbcae0db" category="paragraph">觀看下列影片、瞭解 Cloud Sync 有關下列功能的概述：</block>
-  <block id="808b8ba2e29d66a77782f04c60c5e362" category="section-title">運作原理 Cloud Sync</block>
-  <block id="eb65cb8db3d8268189ee205c95054d1c" category="paragraph">下圖顯示 Cloud Sync 了各個元件之間的關係：</block>
-  <block id="4c27f85e0364ce6c943ba00317c839d2" category="inline-image-macro">顯示資料從來源流向目標的概念性映像。資料代理軟體扮演中介角色、輪詢 Cloud Sync 功能以瞭如任務所需。</block>
-  <block id="7f016e96b503a03744c95b6baa254cbc" category="paragraph"><block ref="7f016e96b503a03744c95b6baa254cbc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd8631de46e31a195212435f5704f717" category="inline-link-macro">檢視端點清單</block>
-  <block id="6017ce99c5912b4ba9156abe2407b50a" category="paragraph">NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 關係 _ ）。您可以在 AWS 、 Azure 、 Google Cloud Platform 或內部部署環境中執行資料代理程式。由一或多個資料代理人所組成的資料代理人群組、需要透過連接埠443建立傳出網際網路連線、以便與Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。 <block ref="30f0c8255e1737101681cabde5abb03f" category="inline-link-macro-rx"></block>。</block>
   <block id="6feaac5d2cd08d5ab829c5ed5fa29f46" category="paragraph">初始複本之後、服務會根據您設定的排程同步任何變更的資料。</block>
   <block id="745f3917a074ad2d3a63f913855d07bd" category="section-title">支援的儲存類型</block>
-  <block id="9408d5be48531af0cf3eb5c7a9a8eaf3" category="paragraph">支援下列儲存類型： Cloud Sync</block>
   <block id="d7cfb05f007bf8f6cbe169672a8657bf" category="list-text">任何 NFS 伺服器</block>
   <block id="569f332e20704093477ef6369dab8242" category="list-text">任何 SMB 伺服器</block>
   <block id="ad1b29fd112650803371dd1a913315af" category="list-text">Box（可預覽）</block>
@@ -829,20 +758,15 @@
   <block id="628566b01515971d62d0db6607212aa2" category="inline-link-macro">檢視支援的同步關係</block>
   <block id="5878d5499bc15bd90cc857073f0f7fc3" category="paragraph"><block ref="41a2675f78a645fe47a210df4886e0ba" category="inline-link-macro-rx"></block>。</block>
   <block id="66096c22a6220952b7aef731ef78c167" category="section-title">成本</block>
-  <block id="2d2011472e828a6c03a0d03a6eefb1e0" category="paragraph">有兩種成本與 Cloud Sync 使用效益有關：資源費用和服務費用。</block>
   <block id="fb0fa008eff995c2ab3bdbedb2b9753f" category="list-text">資源費用</block>
   <block id="7beb8e284e9f02cad179a28a39109df7" category="list-text">資源費用與在雲端執行一或多個資料代理人的運算和儲存成本有關。</block>
   <block id="7b134b802c9d8174603567006b38e1c0" category="list-text">服務費用</block>
   <block id="749494a6a57fee4861972147c825dd5a" category="list-text">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、這可讓您每小時或每年付費。第二種選擇是直接向 NetApp 購買授權。</block>
   <block id="6b130e03ee8c8d322a6174a591d2b774" category="inline-link-macro">瞭解授權的運作方式</block>
   <block id="3b1417e2cc8a651004ff0099ad870a73" category="paragraph"><block ref="e8ff8b95d6e71d0badc3862de8130ad6" category="inline-link-macro-rx"></block>。</block>
-  <block id="e3d4ba055c2fed02290d0d5839286227" category="summary">建立新的資料代理程式時、請選擇 AWS Data Broker 選項、在 VPC 的新 EC2 執行個體上部署資料代理軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="8268a9d045ec667e304233d6a99374e0" category="doc">在AWS中建立新的資料代理程式</block>
-  <block id="f1678bc5431614d754ecd85d62316105" category="paragraph">當您建立新的資料代理人群組時、請選擇Amazon Web Services、在VPC的新EC2執行個體上部署資料代理人軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
-  <block id="857d38f6bd6b3bbb110e6060d997e168" category="paragraph">當在 AWS 中部署資料代理程式時 Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。請注意、您可以設定資料代理程式在安裝過程中使用 Proxy 伺服器。</block>
   <block id="572539efea3b8fc37d4d9f01097ce1b1" category="section-title">在 AWS 中部署資料代理程式所需的權限</block>
   <block id="e07a5562f4316c82f42f0cceadb85346" category="paragraph">您用來部署資料代理程式的 AWS 使用者帳戶必須具有中所含的權限<block ref="7a75c423e60de35145dc973b82d7b871" category="inline-link-rx"></block>。</block>
-  <block id="da5c81a4026a6c0e492776683df14992" category="paragraph">當執行數據代理部署時、它會為資料代理執行個體建立 IAM 角色。 Cloud Sync您可以視需要使用自己的 IAM 角色來部署資料代理程式。如果您的組織具有嚴格的安全性原則、您可以使用此選項。</block>
   <block id="b8e7ab2062cb997e59199b1b7597c950" category="paragraph">IAM 角色必須符合下列要求：</block>
   <block id="187f2d3a34ab7f9d7fce1966c39206fe" category="list-text">必須允許 EC2 服務以信任實體的身分承擔 IAM 角色。</block>
   <block id="ea85396da38480bdcd66e09456ac3fd4" category="inline-link-macro">在此 Json 檔案中定義的權限</block>
@@ -851,27 +775,21 @@
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">有幾種方法可以建立新的資料代理程式。這些步驟說明如何在建立同步關係時、在AWS中安裝資料代理程式。</block>
   <block id="c26c6fab489734aee5276f7e590f8b18" category="list-text">在「*資料代理人群組*」頁面上、按一下「*建立資料代理人*」、然後選取「* Amazon Web Services*」。</block>
   <block id="7af53fb4b55f3887a3b7d59e2a119aa2" category="paragraph"><block ref="7af53fb4b55f3887a3b7d59e2a119aa2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4511e4c890506a8c296778e7afcb557f" category="list-text">輸入 AWS 存取金鑰、 Cloud Sync 以便讓支援代表您在 AWS 中建立資料代理程式。</block>
   <block id="5c06da7ffcfe27fbe1ca6a288b6d46c8" category="paragraph">金鑰不會儲存或用於任何其他用途。</block>
   <block id="ea274abab109d43436d6d4dd8e13bab8" category="paragraph">如果您不想提供存取金鑰、請按一下頁面底部的連結、改用 CloudForation 範本。使用此選項時、您不需要提供認證、因為您是直接登入 AWS 。</block>
   <block id="fac489f42d32a183751d7250d0d6ddf8" category="paragraph">[CFT] 下列影片說明如何使用 CloudForation 範本啟動資料代理執行個體：</block>
   <block id="17cc78aee78be2a54a8cc1a5a2172559" category="inline-xref">您需要提供必要的權限</block>
   <block id="115b5af8cfd138d39f5b56bb5b1b53d7" category="paragraph">如果您選擇自己的 IAM 角色、 <block ref="1faadad7a4ef01b0a8464fdda070fd6f" category="inline-xref-macro-rx"></block>。</block>
   <block id="48ddfca14a59f67e3a3c2c0c1ad80745" category="inline-image-macro">在 AWS 中部署資料代理程式時所需提供資訊的快照。</block>
-  <block id="7c0dcba2aad8829f00ca473d5eefd359" category="list-text">在資料代理程式可用之後、按 Cloud Sync 一下「」中的「 * 繼續 * 」。</block>
   <block id="fec1c8b71689bb3080955da982e9fed4" category="paragraph">下列影像顯示 AWS 中已成功部署的執行個體：</block>
   <block id="78f8e06b33ffb5e1a53c6685b329afd5" category="inline-image-macro">此快照顯示已成功部署的執行個體。介面會顯示執行個體的詳細資料、包括 AWS 網路。</block>
   <block id="1e7762f618855774465cdffd1012f4f3" category="paragraph"><block ref="1e7762f618855774465cdffd1012f4f3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="87854cda9a6aa5db9821b38a96478990" category="paragraph">您已在 AWS 中部署資料代理程式、並建立新的同步關係。您可以使用此資料代理人群組與其他同步關係。</block>
   <block id="8c571dbe3b98ef448c2a8eb8518af80b" category="section-title">資料代理執行個體的詳細資料</block>
-  <block id="e120f1042f4cca5c2b32a07322e35332" category="paragraph">使用下列組態、在AWS中建立資料代理程式。Cloud Sync</block>
   <block id="1e4f0991fe8c17eeb30a08a567b6faeb" category="list-text">執行個體類型</block>
   <block id="305844c9f0d8d39ccc49abc28fe261cc" category="list-text">m5n.xlarge（如果該地區有）、否則m5.xlarge</block>
   <block id="752a423b7896d2c8176434adcd527e26" category="list-text">16 GB</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">10 GB GP2 SSD</block>
-  <block id="3fea8d091148f89efaad03bb59aa8560" category="summary">透過網路 UI 提供的功能、也可透過 RESTful API 取得。 Cloud Sync</block>
-  <block id="b3eb62944a1e4390f18328a67cb57d2f" category="doc">資訊 API Cloud Sync</block>
-  <block id="8d2efdb682b9548549aab7f4ed1d58d8" category="paragraph">REST 風格的 API 也提供網路 UI 所提供的功能。 Cloud Sync</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="section-title">快速入門</block>
   <block id="eda59d7eb3739f93f444f0e8c16f18e5" category="paragraph">此 API 會傳回如下回應：</block>
   <block id="b4d5fd65d29290d42a4161d3362d1326" category="list-text">在每個 API 呼叫的「授權」標頭中新增使用者權杖和帳戶 ID 。</block>
@@ -880,7 +798,6 @@
   <block id="d6f4f4fada8d5c3952a90492c3138e97" category="sidebar-title">權杖過期時該怎麼辦？</block>
   <block id="5c5cd253b66501facf455779c806ee88" category="paragraph">API 回應包含「 Expire_in 」欄位、指出權杖過期的時間。</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="section-title">API 參考</block>
-  <block id="8fc827acaef16ddd42dd21aeb46ac657" category="paragraph">如需每 Cloud Sync 個版本的資料、請參閱<block ref="692cab94d93982d3f8e96928c3c0e2c6" category="inline-link-rx"></block>。</block>
   <block id="92e2b06a1709caf91e74da4a3fb021fe" category="section-title">使用清單 API</block>
   <block id="89b39aae22e72765b6582ae0db1ba186" category="paragraph">清單 API 為非同步 API 、因此不會立即傳回結果（例如：「 Get /data-kers/{id}/list-nfs_export-folders 」和「 Get /data-ker/{id}/list-s3-buckets 」）。伺服器唯一的回應是 HTTP 狀態 202 。若要取得實際結果、您必須使用「 Get /Messages / Client （取得 / 訊息 / 用戶端）」 API 。</block>
   <block id="6d89cb53dacaf941bbf56d09d3dc21de" category="list-text">呼叫您要使用的清單 API 。</block>
@@ -893,48 +810,21 @@
   <block id="09b6ce185bd7dbaa6f1d5bc2b8b1bee9" category="paragraph">結果是一個陣列、其中一個物件包含 ID 欄位。ID 欄位代表伺服器傳送的最後一則訊息。例如：</block>
   <block id="f8a2ecf8345558b466ceccc14eacda35" category="paragraph">您現在可以使用剛收到的 ID 進行下列 API 呼叫：</block>
   <block id="96668657e720ec8076c214c271eb7ea4" category="paragraph">結果是一組訊息。每個訊息內部都有一個有效負載物件、其中包含作業名稱（做為金鑰）及其結果（做為值）。例如：</block>
-  <block id="fbaae2c51a88c361540d75265f1ae460" category="summary">使用此功能包括幾個步驟。 Cloud Sync</block>
-  <block id="7552e2b54a17a33019d48e352cbe77a4" category="doc">快速入門 Cloud Sync</block>
   <block id="64801dbe8238ec80e4b5c9666a5fd9fa" category="paragraph">確認您的來源和目標是否受到支援和設定。最重要的要求是驗證資料代理群組與來源和目標位置之間的連線能力。</block>
   <block id="36362f6308040767241de0a9acf9350a" category="inline-link-macro">檢視支援的關係</block>
   <block id="415a88dd0bb9358dd0869346d7b40e5d" category="list-text"><block ref="415a88dd0bb9358dd0869346d7b40e5d" category="inline-link-macro-rx"></block></block>
   <block id="d91b9aa1c8fa0782d005d76cce939796" category="list-text"><block ref="d91b9aa1c8fa0782d005d76cce939796" category="inline-link-macro-rx"></block></block>
-  <block id="0bfdab96c119413ba592a2c670007760" category="paragraph">NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 關係 _ ）。您可以在 AWS 、 Azure 、 Google Cloud Platform 或內部部署環境中執行資料代理程式。由一或多個資料代理人所組成的資料代理人群組、需要透過連接埠443建立傳出網際網路連線、以便與Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。 <block ref="12ea03dce1417efcc10375bae5440131" category="inline-link-macro-rx"></block>。</block>
-  <block id="1cfc3a8fedd4f8bdee2a6bbcc9a6379c" category="paragraph">建立同步關係時、會引導您完成安裝程序、此時您可以在雲端部署資料代理程式、或為自己的Linux主機下載安裝指令碼。Cloud Sync</block>
-  <block id="1f49b87cd49b58f3b9afa1f411cb454d" category="paragraph">從 AWS 或 Azure 訂閱、即可隨用隨付或每年付費。或直接向 NetApp 購買授權。只要前往 Cloud Sync 「授權設定」頁面即可設定。 <block ref="3cd689475b04fdbdf7fafd004b01a742" category="inline-link-macro-rx"></block>。</block>
-  <block id="0f3ab1e6e87b1df0d7ec0b58658fb4dd" category="summary">您可以透過 Cloud Sync 各種資源（包括論壇、聊天室服務和影片）、取得有關解決此問題的協助、並尋找更多資訊。</block>
-  <block id="c05cf44a39f617084e8016772fe65923" category="doc">技術常見問題集 Cloud Sync</block>
   <block id="a0d932b5085e493a71dbcdcc11a705b4" category="paragraph">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
-  <block id="8d1852cff01a4a842ccc91189043cd22" category="paragraph">下列問題與 Cloud Sync 使用指南有關。</block>
-  <block id="bbbff57674783e5c934d8a30abce48d4" category="section-title">如何運作呢？ Cloud Sync</block>
-  <block id="f6bee1ea15a8932db9ba8590d77d0cdd" category="paragraph">使用 NetApp 資料代理軟體、將資料從來源同步至目標（這稱為 _sync 關係 _ ） Cloud Sync 。</block>
-  <block id="5040a4a4048a0ec90cdf8842d496f55b" category="paragraph">資料代理人群組可控制來源與目標之間的同步關係。設定同步關係之後 Cloud Sync 、即可分析來源系統、並將其分成多個複寫串流、以推送至您所選的目標資料。</block>
   <block id="c3ba51c588ef6caa42018879816a40f8" category="section-title">14 天免費試用如何運作？</block>
-  <block id="0798b81b41f824877e8e54a5324276ba" category="paragraph">14 天免費試用版會在您註冊 Cloud Sync 使用 VMware 服務時開始。您不需支付 NetApp 的 Cloud Sync 費用、即可建立 14 天的穩固關係。不過、您部署的任何資料代理人的所有資源費用仍適用。</block>
-  <block id="299ce6cb25b0100e9cf0efef3abbfa8f" category="section-title">此功能需要多少成本？ Cloud Sync</block>
-  <block id="ec016f2339ceb48c4e2fafe96c706f0f" category="paragraph">有兩種成本與 Cloud Sync 使用效益有關：服務費用和資源費用。</block>
   <block id="e1b4a0ddcd3124f71fd5c65649282433" category="paragraph">* 服務費用 *</block>
-  <block id="df1d8998e5ddaa5a8ab68d0fe62a7d3d" category="paragraph">針對隨用隨付定價、 Cloud Sync 根據您所建立的同步關係數量、不收取每小時的服務費用。</block>
-  <block id="4bdffe12b0b4989b8090f00a831956de" category="paragraph">您也可以透過 NetApp 代表取得此套軟體授權。 Cloud Sync每個授權可在 12 個月內建立 20 個同步關係。</block>
   <block id="9cc30b3e9afbdb901b838020c4f35584" category="inline-link-macro">深入瞭解授權</block>
   <block id="326db01706ec74f8dfe188207959e516" category="paragraph"><block ref="c8493ffe20fa12122d5f8e9b98cc5b4b" category="inline-link-macro-rx"></block>。</block>
-  <block id="28e72eb89ddfdb4da0dd6569b502b074" category="admonition">不需再為其提供任何功能、Cloud Sync Cloud Volumes Service Azure NetApp Files</block>
   <block id="d14d70754e8322b819c6bc86af6beefd" category="paragraph">* 資源費用 *</block>
   <block id="bdf9c0b5a2bb19426e68000000a0fa8e" category="paragraph">資源費用與在雲端執行資料代理商所需的運算和儲存成本有關。</block>
-  <block id="d48011c59919ad7d6dbbbfd7b93b8a1d" category="section-title">我可以在 Cloud Sync 雲端以外使用這個功能嗎？</block>
-  <block id="21257847b1628900e37090da9e642da2" category="paragraph">是的、 Cloud Sync 您可以在非雲端架構中使用來源和目標可以駐留在內部部署、資料代理軟體也可以駐留在內部。</block>
-  <block id="cf2134fa111a18f1f2949af03a0b455d" category="paragraph">請注意以下關於 Cloud Sync 在雲端外部使用功能的重點：</block>
-  <block id="3339dd709817535785aeeda3c3be6158" category="list-text">資料代理人群組需要網際網路連線才能與Cloud Sync 該服務進行通訊。</block>
-  <block id="ad12207f179d2ca16295cab50ab877b3" category="list-text">如果您不直接向 NetApp 購買授權、您將需要 AWS 或 Azure 帳戶來 Cloud Sync 支付 PAYGO 服務費用。</block>
-  <block id="df266df003e70d370ab8d285c9cb2c42" category="section-title">我該如何存取 Cloud Sync 才能存取的問題？</block>
   <block id="3d1942c5e5711c0a537a097d10414548" category="paragraph">每個資料代理程式都屬於資料代理程式群組。將資料代理人集中在一起、有助於提升同步關係的效能。</block>
   <block id="c5ceea2392b0487f5aa63438b3bdcdbe" category="section-title">支援的來源和目標</block>
   <block id="ad09709a92b0cfa4413e68816daeddca" category="paragraph">下列問題與同步關係中支援的來源和目標有關。</block>
-  <block id="57e7b2d375cda0a41d244e4b01feac43" category="section-title">哪些來源和目標 Cloud Sync 不支援呢？</block>
   <block id="0c281ec8b4dba4bb8eef0bb4f7d76b71" category="inline-link-macro">檢視完整清單</block>
-  <block id="9ff0baf861cb40dac090480a2d754191" category="paragraph">支援多種不同類型的同步關係。 Cloud Sync <block ref="a9d58e8a204176701e4d49fab6d7be58" category="inline-link-macro-rx"></block>。</block>
-  <block id="9fe8394718f98a4507351102be77e00d" category="section-title">哪些 NFS 和 SMB 版本 Cloud Sync 支援呢？</block>
-  <block id="acb37b6e124df94c1b50f8b40ae994b4" category="paragraph">支援 NFS 版本 3 及更新版本、以及 SMB 版本 1 及更新版本。 Cloud Sync</block>
   <block id="2df8f049ebc55b651e92a9b3d09c2355" category="inline-link-macro">深入瞭解同步需求</block>
   <block id="bba798df17d74e9abb6bd439df00d34a" category="paragraph"><block ref="e3943d09fe298b45dcc7aff6497c3f3f" category="inline-link-macro-rx"></block>。</block>
   <block id="35e952871c0ac0df7b8cf6ca95ce1e7c" category="section-title">當 Amazon S3 成為目標時、資料是否可以分層至特定的 S3 儲存類別？</block>
@@ -942,15 +832,10 @@
   <block id="a44034b6c6e0a86d59dbbbf82fa53625" category="section-title">Azure Blob 儲存設備的儲存層又如何？</block>
   <block id="3fd623ad234c0b2f226d2ff4a22ae947" category="section-title">您是否支援Google Cloud儲存層？</block>
   <block id="b38a2bdc58532821724287189003639d" category="paragraph">是的、當Google Cloud Storage資源桶成為目標時、您可以選擇特定的儲存類別：</block>
-  <block id="606a56a328e26d541dc48a8d7e051850" category="paragraph">下列問題與 Cloud Sync 關於功能的網路需求有關。</block>
-  <block id="218383acf998bf0d87f77fa056dbcbbd" category="section-title">哪些網路需求 Cloud Sync 是關於功能的？</block>
-  <block id="e90fd31f78e9c7468421e3db7ef84028" category="paragraph">由於此環境要求資料代理群組透過所選的傳輸協定或物件儲存API（Amazon S3、Azure Blob、IBM Cloud Object Storage）、與來源和目標連線。Cloud Sync</block>
-  <block id="c5d1f49531de5a765d8d4dd362934efb" category="paragraph">此外、資料代理人群組需要透過連接埠443的傳出網際網路連線、以便與Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。</block>
   <block id="341f8a8c34be5b85729b169698cc0c09" category="inline-link-macro">檢閱網路需求</block>
   <block id="72727db4f9828a4364006ca75db7d13e" category="paragraph">如需詳細資料、 <block ref="a739a1e0583f249754c6a03b43a5f664" category="inline-link-macro-rx"></block>。</block>
   <block id="742a8096e1141cec49b0b879f6041a6e" category="section-title">我可以將 Proxy 伺服器與資料代理程式搭配使用嗎？</block>
   <block id="b127099c71415d532da3a26ed73eb041" category="paragraph">是的。</block>
-  <block id="573d97bf8b8dc3735e94ad7bf8455fdc" category="paragraph">支援 Proxy 伺服器、無論是否具備基本驗證。 Cloud Sync如果您在部署資料代理程式時指定 Proxy 伺服器、則來自資料代理程式的所有 HTTP 和 HTTPS 流量都會透過 Proxy 路由傳送。請注意、 NFS 或 SMB 等非 HTTP 流量無法透過 Proxy 伺服器路由傳送。</block>
   <block id="096bfdaa8c9270b7bee83a66ebc65832" category="paragraph">唯一的 Proxy 伺服器限制是使用即時資料加密搭配 NFS 或 Azure NetApp Files 不同步關係。加密資料會透過 HTTPS 傳送、無法透過 Proxy 伺服器路由傳送。</block>
   <block id="37919085801d8c313b9ebc19de73b2b5" category="section-title">資料同步</block>
   <block id="e6d7eaa590f8af5cd3af146fbb41b78d" category="paragraph">下列問題與資料同步的運作方式有關。</block>
@@ -970,32 +855,19 @@
   <block id="5272c1335a923889fee61138f9c644e0" category="paragraph">請注意、掛載點中的檔案總數沒有限制。擁有60萬個以上檔案的大型目錄需要額外的記憶體、無論其在階層架構中的層級為何（上層目錄或子目錄）。</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">安全性</block>
   <block id="961ac1bba4fae7c023a039958d1c8be6" category="paragraph">下列與安全性有關的問題。</block>
-  <block id="39c0da912cbf1f199fdf2faba685c39f" category="section-title">是否安全無虞？ Cloud Sync</block>
   <block id="64fdb9de34f1179f1b0a667717e6fba3" category="inline-link">Amazon Simple Queue Service （ SQS ）</block>
-  <block id="646df425214d44d94ffd79fd151940c7" category="paragraph">是的。所有 Cloud Sync 的服務網路連線都是使用來完成<block ref="1986d6dad6812d3eb616527e09d2c381" category="inline-link-rx"></block>。</block>
   <block id="fd5d12fbab5ffa84ed9d2eed756e6a60" category="paragraph">資料代理人群組與Amazon S3、Azure Blob、Google Cloud Storage和IBM Cloud Object Storage之間的所有通訊都是透過HTTPS傳輸協定進行。</block>
-  <block id="f696a8066fb9a52d0c2ca1a16cec0f3e" category="paragraph">如果 Cloud Sync 您使用的是內部部署（來源或目的地）系統的功能、以下是幾個建議的連線選項：</block>
   <block id="e8afb7efd3e850a48fe5a92145f3b8eb" category="list-text">AWS Direct Connect 、 Azure ExpressRoute 或 Google Cloud InterConnect 連線、非網際網路路由（而且只能與您指定的雲端網路通訊）</block>
   <block id="8a6524c1ef0549ff2ea627990a1d61b9" category="list-text">內部部署閘道裝置與雲端網路之間的 VPN 連線</block>
   <block id="d8ce7e985925e8a126f84ae0517e518b" category="list-text">若要使用 S3 儲存區、 Azure Blob 儲存設備或 Google Cloud Storage 、 Amazon Private S3 端點、 Azure Virtual Network 服務端點或私有 Google Access 進行額外安全的資料傳輸。</block>
-  <block id="2c436eb0e68fa84c66a33bfcf5cdbf0d" category="paragraph">以上任何一種方法都會在內部部署的NAS伺服器和Cloud Sync 一個可靠的資料代理群組之間建立安全的連線。</block>
-  <block id="fb4ee33a15eb32957eb79f0290b0d6b5" category="section-title">資料是否以 Cloud Sync 不加密的方式加密？</block>
-  <block id="2b0b4b722b7bc0fcaf5fd50225309bdc" category="list-text">支援來源與目標 NFS 伺服器之間的資料傳輸加密。 Cloud Sync <block ref="da7c2a9579c0b8ce1c44234fdbc0633a" category="inline-link-macro-rx"></block>。</block>
-  <block id="9c61b5f65d083eca3b24957d57f51e56" category="list-text">對於SMB、Cloud Sync 支援伺服器端加密的SMB 3.0和3.11資料。將加密資料從來源複製到資料保持加密的目標。Cloud Sync</block>
-  <block id="bbb728628fa82dd756f3291e79cfb471" category="paragraph">無法加密SMB資料本身。Cloud Sync</block>
   <block id="2387a423149f416d3c3ea2a1e2d91f7d" category="list-text">當 Amazon S3 儲存區是同步關係的目標時、您可以選擇是否使用 AWS 加密或 AES-256 加密來啟用資料加密。</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">權限</block>
   <block id="ff9b02471f1cae1b057dc8e67a58f10d" category="paragraph">下列問題與資料權限有關。</block>
   <block id="5b76a741c4e5697d94b938d43ef01cd4" category="section-title">SMB 資料權限是否同步至目標位置？</block>
-  <block id="765b064201559c2be1a0968f6fc23bca" category="paragraph">您可以設定Cloud Sync 支援功能、在來源SMB共用區和目標SMB共用區之間、以及從來源SMB共用區到物件儲存區之間保留存取控制清單（ACL除外ONTAP ）。</block>
   <block id="11350a74dc1542f7d88d202ef8de2a80" category="inline-link-macro">瞭解如何在 SMB 共用區之間複製 ACL</block>
   <block id="0f5dbb999d73d8bbb410c87fcc7697b1" category="paragraph"><block ref="8e7d0d6a08f1d98ec64bcfc73c9f9b56" category="inline-link-macro-rx"></block>。</block>
   <block id="2bf52c135da8e1b0df2e802b34f926d2" category="section-title">NFS 資料權限是否同步至目標位置？</block>
-  <block id="3031c0055528d332aad2693430c51b5c" category="paragraph">下列項目可自動複製 NFS 伺服器之間的 NFS 權限： Cloud Sync</block>
-  <block id="6809bf3a8657fbf422b7eb84d6649081" category="list-text">NFS 版本 3 ： Cloud Sync 此功能可複製權限和使用者群組擁有者。</block>
-  <block id="25fe7529cf89fb6edc566c92e65c154f" category="list-text">NFS 第 4 版： Cloud Sync 以程式複製 ACL 。</block>
   <block id="e22cc91dc3170fbcb0b9ab0ce5cbfa50" category="section-title">物件儲存中繼資料</block>
-  <block id="b9b177c8edd7eb2c6ba657a9855f7aa0" category="paragraph">針對下列類型的同步關係、將物件儲存中繼資料從來源複製到目標：Cloud Sync</block>
   <block id="19227829194d09ab15a10015437ef02a" category="list-text">Amazon S3 -&gt; Amazon S3 ^1^</block>
   <block id="d85bfe1b588472d6beeaa23dff1c1294" category="list-text">Amazon S3 -&gt; StorageGRID</block>
   <block id="4b6c9d89551036d9e49bf2a8e7026343" category="list-text">支援：-&gt; Amazon S3 StorageGRID</block>
@@ -1010,7 +882,6 @@
   <block id="d5467cdf0f31f137fc693f242bb4f9ed" category="list-text">IBM Cloud Object Storage -&gt; StorageGRID</block>
   <block id="4ead6076cd3ac3f5021ec4c7be28c427" category="list-text">IBM Cloud Object Storage -&gt; IBM Cloud Object Storage</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="section-title">效能</block>
-  <block id="d1ac9671b7bcf06bf5d1080fe70853b0" category="paragraph">下列問題與 Cloud Sync 效能不一致有關。</block>
   <block id="678b59fd02ed47602217c203bce0f237" category="section-title">同步關係的進度指標代表什麼？</block>
   <block id="b41bc6e5da0a5cad4d5bfa701428c3e0" category="paragraph">同步關係顯示資料代理群組網路卡的處理量。如果您使用多個資料代理人來加速同步效能、則處理量是所有流量的總和。此處理量每 20 秒重新整理一次。</block>
   <block id="8d15ff4ba9a03adef433f8aaa3d53c02" category="paragraph">如果您有非常大的檔案（每個都有多個Tib）、可能需要很長時間才能完成傳輸程序、而且效能可能會受到影響。</block>
@@ -1029,21 +900,15 @@
   <block id="0154df452f9453f942ba55a04f2fdbee" category="paragraph">然後、您可以考慮在群組中新增額外的資料代理人、以共享該關係的負載、藉此加速同步效能。 <block ref="355055ed36bda4d96dcf1f665e0d51c2" category="inline-link-macro-rx"></block>。</block>
   <block id="e5fbd5081321543a8bad7a8d1fea419c" category="section-title">刪除物件</block>
   <block id="1d341849ed5b4388c424bd97c39d9c07" category="paragraph">下列問題與刪除來源和目標的同步關係和資料有關。</block>
-  <block id="b0aee40470009aab6c689b1ba27f9b66" category="section-title">如果我刪除 Cloud Sync 我的不確定關係、會發生什麼事？</block>
   <block id="0ddb89dbe2d4246b5b4b6dca2aa8a808" category="paragraph">刪除關係會停止所有未來的資料同步、並終止付款。同步至目標的任何資料都會維持原樣。</block>
   <block id="640a8a2fe61a3376c90e4c1cc4749ff3" category="section-title">如果我從來源伺服器刪除某些內容、會發生什麼事？是否也從目標中移除？</block>
-  <block id="92728fe28212efc24f1f309f3ab2474f" category="paragraph">根據預設、如果您有作用中的同步關係、則在下次同步處理期間、從來源伺服器刪除的項目不會從目標中刪除。但每個關係的同步設定中都有一個選項、您可以定義 Cloud Sync 如果檔案從來源中刪除、將會刪除目標位置的檔案。</block>
   <block id="48f890a6194cca659c8cee2603b5cdd4" category="section-title">如果我從目標中刪除某項內容、會發生什麼事？是否也從來源移除？</block>
-  <block id="656f26b32b00e059c6d385bc96ca6903" category="paragraph">如果項目從目標中刪除、則不會從來源中移除。這種關係是單向的、從來源到目標。在下一個同步週期中 Cloud Sync 、 Sync-比較 來源與目標、找出項目遺失、 Cloud Sync 並再次將其從來源複製到目標。</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="section-title">疑難排解</block>
-  <block id="0cdf3fc74076f0565fbdf98ac171a7f5" category="inline-link">NetApp 知識庫 Cloud Sync ：解決常見問題集：支援與疑難排解</block>
-  <block id="fa700cde89fee5bd065baac6c68ab66a" category="paragraph"><block ref="fa700cde89fee5bd065baac6c68ab66a" category="inline-link-rx"></block></block>
   <block id="d08190c38b8a6a8bf793f2e2f0e6521a" category="section-title">資料代理商深入探討</block>
   <block id="e34399a43915207e2206bc67552c7039" category="paragraph">下列問題與資料代理程式有關。</block>
   <block id="c6eb873c9ed0d668d02f38d4daf1a34b" category="section-title">您可以說明資料代理商的架構嗎？</block>
   <block id="1ca6c37679dcd0af3b57d20327d8473f" category="paragraph">當然、以下是最重要的幾點：</block>
   <block id="7d62f6be4e9c7774d2b73176c325e64d" category="list-text">資料代理程式是在 Linux 主機上執行的 node.js 應用程式。</block>
-  <block id="0c10146afd736c7a95aa91a7106843f3" category="list-text">下列項目可部署資料代理程式： Cloud Sync</block>
   <block id="cb145b584a87928ce906b62577654344" category="list-text">AWS ：使用 AWS CloudForation 範本</block>
   <block id="f55adeff83c37357e7d901a5326b9d09" category="list-text">Azure ：來自 Azure 資源管理程式</block>
   <block id="5732a35f14cac1a276ff53b27d14688a" category="list-text">Google ：來自 Google Cloud Deployment Manager</block>
@@ -1051,10 +916,7 @@
   <block id="56eeabb4a00fbcd2e27e55831df62209" category="list-text">資料代理軟體會自動升級至最新版本。</block>
   <block id="da5fad1df140da3fbc300e41e0a200d4" category="list-text">資料代理商使用 AWS SQS 作為可靠且安全的通訊通道、並用於控制和監控。SQS 也提供持續性層。</block>
   <block id="836d2627946ada039a9486c82ce99884" category="list-text">您可以新增其他資料代理人至群組、以提高傳輸速度並增加高可用度。如果某個資料代理程式故障、就會有服務恢復功能。</block>
-  <block id="060e70cf1909d6e2f55f9fe5d5471a21" category="summary">當您建立新的資料代理程式時、請選擇 Azure Data Broker 選項、將資料代理軟體部署在 vnet 中的新虛擬機器上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
   <block id="540d36f51d945cde427519036203dde6" category="doc">在Azure中建立新的資料代理程式</block>
-  <block id="18294ecf8c5dedf0dce094f053e9773a" category="paragraph">當您建立新的資料代理人群組時、請選擇Microsoft Azure、將資料代理人軟體部署在vnet中的新虛擬機器上。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync</block>
-  <block id="a1e31a9251ce00d752f2ef3d40f3fa3a" category="paragraph">當在 Azure 中部署資料代理程式時 Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。</block>
   <block id="c658fd4f091c10877f154fbf84fbee89" category="section-title">在Azure中部署資料代理程式所需的權限</block>
   <block id="38354aeafcfd5993a9d65d97514a8e3d" category="section-title">驗證方法</block>
   <block id="e507d0455db379d4826dabce8ecb97ed" category="paragraph">部署資料代理程式時、您需要為虛擬機器選擇驗證方法：密碼或SSH公用-私密金鑰配對。</block>
@@ -1070,39 +932,27 @@
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">如果 Vnet 中的網際網路存取需要 Proxy 、請指定 Proxy 組態。</block>
   <block id="9a7c0eeeaa34923c384afd6768155386" category="list-text">按一下「 * 繼續 * 」並保持頁面開啟、直到部署完成為止。</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">此程序可能需要 7 分鐘的時間。</block>
-  <block id="f23ab761979185af746005ea396d9a40" category="list-text">在本功能中、當資料代理程式可供使用時、請按一下 * 繼續 * 。 Cloud Sync</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">您已在 Azure 中部署資料代理程式、並建立新的同步關係。您可以將此資料代理程式與其他同步關係搭配使用。</block>
   <block id="3ce174ce4b84d9bb24dbad7ede08fc56" category="sidebar-title">是否收到需要管理員同意的訊息？</block>
-  <block id="b0ff4160ed2aeabe7b695c86df0bb8a4" category="paragraph">如果 Microsoft 通知您需要系統管理員核准、因為 Cloud Sync 支援功能需要權限才能代表您存取組織中的資源、那麼您有兩種選擇：</block>
   <block id="d87fd12530d28842f66f10a1d633d859" category="list-text">請您的 AD 管理員提供下列權限給您：</block>
   <block id="6e38950952f2f90ced9024c57341d29c" category="paragraph">在 Azure 中、請前往 * 管理中心 &gt; Azure AD &gt; 使用者與群組 &gt; 使用者設定 * 、並啟用 * 使用者可以同意代表他們存取公司資料的應用程式 * 。</block>
   <block id="214b839a1e92308862eda35cf3962c8e" category="list-text">請要求您的 AD 管理員代表您同意 * CloudSync-AzureDataBrokerCreator* 使用下列 URL （這是管理員同意端點）：</block>
   <block id="a18bd9074e862da51cb736fe7399f462" category="paragraph">https://login.microsoftonline.com/{FILL 這裡是您的租戶 ID ｝ /v2.0/adminfit? client_id=8ee4ca3a-bAa-4831-97cc-5a38923cab85&amp;redirect_uri=https://cloudsync.netapp.com&amp;scope=https://management.azure.com/user_impersonationhttps://graph.microsoft.com/User.Read</block>
   <block id="e00fd8a69d0aa8766ae786df172832dd" category="paragraph">如 URL 所示、我們的應用程式 URL 為 \https://cloudsync.netapp.com 、應用程式用戶端 ID 為 8ee4ca3a-bfa-4831-97cc-5a38923cab85 。</block>
   <block id="636f46a5f178491edd241fa5106ea7b5" category="section-title">資料代理VM的詳細資料</block>
-  <block id="b2744820afa6816f7d484d9546e6fdd7" category="paragraph">使用下列組態、在Azure中建立資料代理程式。Cloud Sync</block>
   <block id="d54092cc3c2c2778d416f1225b37f056" category="list-text">VM類型</block>
   <block id="de66cb8e421123abb772a3664a897531" category="list-text">標準DS4 v2</block>
   <block id="c9f0f895fb98ab9159f51fd0297e236d" category="list-text">8.</block>
   <block id="472d573b9b96b332aa4fd565b8a78c68" category="list-text">28 GB</block>
   <block id="d6856312a90199668ecb7d8f4a9f1322" category="list-text">64 GB Premium SSD</block>
-  <block id="b5f6fe078d5d86ae717e8ada0b56f164" category="summary">適用於此技術的網路Cloud Sync 功能包括資料代理群組與來源和目標位置之間的連線、以及透過連接埠443從資料代理程式傳出的網際網路連線。</block>
-  <block id="bbde915ed3e4624aadf69312a3427e32" category="doc">網路概述 Cloud Sync</block>
   <block id="1ccbb3a00a8670ff34e71787c69058b9" category="section-title">資料代理程式位置</block>
   <block id="42c5f165329383a0397894e0d024ef6c" category="paragraph">資料代理人群組由安裝在雲端或內部部署中的一或多個資料代理人所組成。</block>
   <block id="f3e76ce6c2086bf4e3334c3b429897f4" category="section-title">雲端資料代理商</block>
   <block id="366287d8bff9a50edd814f549d78e050" category="paragraph">下圖顯示在AWS、Google Cloud或Azure雲端上執行的資料代理程式。只要有資料代理的連線、來源和目標就可以位於任何位置。例如、您的資料中心與雲端供應商之間可能有 VPN 連線。</block>
-  <block id="366618d2fbfa9ee1c63e25e5221df4a8" category="admonition">當在AWS、Azure或Google Cloud中部署資料代理程式時、它會建立一個安全群組、以啟用必要的傳出通訊。Cloud Sync</block>
-  <block id="cd37d860bf3bdd74aa2c466431f054e2" category="inline-image-macro">此圖表顯示 Cloud Sync 的是功能不實的服務、雲端上執行的資料代理程式、以及與來源和目標的連線。</block>
-  <block id="2311710ad49f353cb938f5106d3b63ce" category="paragraph"><block ref="2311710ad49f353cb938f5106d3b63ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="62821e0d946d5604b4fa8474885285bb" category="section-title">內部部署的資料代理程式</block>
   <block id="99c7c1595414f2c0ac8a3ae8e89653a8" category="paragraph">下圖顯示資料中心內部執行的資料代理程式。同樣地、只要有資料代理的連線、來源和目標就可以位於任何位置。</block>
-  <block id="9c85e71aba3702f92cfb21a1c13393e6" category="inline-image-macro">此圖表顯示 Cloud Sync 了「不實服務」、內部部署執行的資料代理程式、以及與來源和目標的連線。</block>
-  <block id="474247dc2d78e1fa3bb862ed3e6013cd" category="paragraph"><block ref="474247dc2d78e1fa3bb862ed3e6013cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9b363aeab52bbd2fecb36df6134c20dc" category="list-text">資料代理人需要傳出的網際網路連線、以便透過Cloud Sync 連接埠443輪詢該服務的工作。</block>
   <block id="a5332b643d8f9e8e4ce45fe2ce3b9770" category="list-text">NetApp建議將來源、目標和資料代理人設定為使用網路時間傳輸協定（NTP）服務。三個元件之間的時間差異不應超過 5 分鐘。</block>
   <block id="33726a97647bf11cb01c0eba2bd8c51f" category="section-title">網路端點</block>
-  <block id="479c12f9ceb41399239da5a8ed8c8adc" category="paragraph">NetApp 資料代理商需要透過連接埠 443 進行傳出網際網路存取、才能與 Cloud Sync 該服務進行通訊、並聯絡其他服務與儲存庫。您的本機網頁瀏覽器也需要存取端點才能執行特定動作。如果您需要限制傳出連線、請參閱下列端點清單、以設定傳出流量的防火牆。</block>
   <block id="f7120929ce938945b90ce2837f757366" category="section-title">資料代理端點</block>
   <block id="ebb1912b5d11201347e85314ce70deeb" category="paragraph">資料代理程式會連絡下列端點：</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">端點</block>
@@ -1112,15 +962,11 @@
   <block id="dbd8da096f133aef172432b871dd1aba" category="cell">\https://rpm.nodesource.com \https://registry.npmjs.org \https://nodejs.org:</block>
   <block id="8fbe419425aaded056f20b4a7bc1e0f8" category="cell">聯絡儲存庫以更新開發中使用的 Node.js 、 nPM 及其他協力廠商套件。</block>
   <block id="7f7f367294bb120f7085de58e5714100" category="cell">\https://tgz.pm2.io</block>
-  <block id="0ce1ace8a293d0ee77d36be5f6f67f5b" category="cell">存取儲存庫以更新 PM2 、這是用於監控 Cloud Sync 顯示器的第三方套件。</block>
   <block id="b4efab6fea81c6acbf85da7d4650c52f" category="cell">\https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com</block>
-  <block id="0e2bdc4bce6f6a52254979ce27916c73" category="cell">聯絡 Cloud Sync 支援營運的 AWS 服務（佇列檔案、登錄行動、以及提供資料代理程式的更新）。</block>
   <block id="45edaabb1caa8cd386fc00e4913729ca" category="inline-link">如需 S3 端點清單、請參閱 AWS 文件</block>
   <block id="9f63373541da1493d909ee0e1ec22846" category="cell">https://s3._region_.amazonaws.com例如：s3.us-east-2.amazonaws.com:443<block ref="d8eaf9479c9110a7b925275e0e7c77be" category="inline-link-rx"></block></block>
   <block id="1331ac21e3550225dbf1a2a59e8e5854" category="cell">在同步關係包含 S3 儲存區時聯絡 Amazon S3 。</block>
-  <block id="aa3f7e10351bf8715f83a7b981f0d036" category="cell">當您從Cloud Sync S動物性 下載資料代理記錄時、資料代理程式會將其記錄目錄壓縮、並將記錄上傳至美東1區的預先定義S3儲存區。</block>
   <block id="af9cee3d0b730812cc44778c77dac990" category="cell">\https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com</block>
-  <block id="0085c0d222fb9e00710dfd4737377552" category="cell">聯絡 Cloud Sync 服務部門。</block>
   <block id="8963387394e2ee3e2a5a9ba160566a58" category="cell">\https://support.netapp.com</block>
   <block id="c825d05ceebe5978107395d2dffdbcff" category="cell">在使用 BYOL 授權進行同步關係時聯絡 NetApp 支援部門。</block>
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">\https://fedoraproject.org</block>
@@ -1133,14 +979,11 @@
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
   <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">從SMB共用區複製ACL</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">選擇</block>
-  <block id="83825bf2a8cf8a243b90ac22457061a7" category="inline-xref">設定 Cloud Sync 功能以自動複製 ACL</block>
-  <block id="56c33c546473d2b20852f902e9a12937" category="list-text"><block ref="345ef5432df62d56e38ab4a8c30bb73d" category="inline-xref-macro-rx"></block></block>
   <block id="3ac19332a9012b7586dca2b8b7c57b58" category="inline-xref">在SMB共用區之間手動複製ACL</block>
   <block id="6690de55a41e5eebc0f748de2f508fb2" category="list-text"><block ref="677048ca203ed360a1f7fefc6961b7a3" category="inline-xref-macro-rx"></block></block>
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">任何支援的作業系統</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">此功能適用於 _any 類型的資料代理商： AWS 、 Azure 、 Google Cloud Platform 或內部資料代理商。內部資料代理程式可以執行 <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>。</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">建立新關係的步驟</block>
-  <block id="73d7a48e279dc464fce948513b87f375" category="list-text">從本頁中、按一下 * 建立新同步 * 。 Cloud Sync</block>
   <block id="078c5213fa0cb4e4d041374224a30418" category="list-text">在「 * SMB 伺服器 * 」頁面上：</block>
   <block id="cd6a06ca56665938800223e22f7a2e1a" category="list-text">輸入新的 SMB 伺服器或選取現有的伺服器、然後按一下 * 繼續 * 。</block>
   <block id="446dd08d6403fc4cd86bff2687c49fac" category="list-text">輸入 SMB 伺服器的認證資料。</block>
@@ -1160,15 +1003,11 @@
   <block id="41c1f5322f48eb3e6207394ffc0589d0" category="list-text">識別擁有兩個 SMB 共用區完整存取權的 Windows 主機。</block>
   <block id="df2a188ed56fd7a6dc654c44c2bf4472" category="list-text">如果任一端點需要驗證、請使用 * net use * 命令、從 Windows 主機連線至端點。</block>
   <block id="25bc7106e122d2dee80cfa16c129a7d9" category="paragraph">您必須先執行此步驟、才能使用 Robocopy 。</block>
-  <block id="d96987d775fc8e22d4c2904204915334" category="list-text">從這個範圍來 Cloud Sync 說、在來源與目標 SMB 共用之間建立新的關係、或是同步現有的關係。</block>
   <block id="29782a7cdc379434f26838597333ae74" category="list-text">資料同步完成後、請從 Windows 主機執行下列命令、以同步處理 ACL 和擁有權：</block>
   <block id="2c8aa0381ca983c5abd77cdd7bb11922" category="paragraph">_ 來源 _ 和 _ 目標 _ 都應使用 UNC 格式來指定。例如： \&lt;server&gt;\&lt;share&gt;\</block>
-  <block id="ffaf5cab0f09c40c02f73eeea249b6ce" category="summary">NetApp 無法存取您在使用 Cloud Sync 此服務時提供的任何認證資料。這些認證資料會直接儲存在網路中的資料代理機器上。</block>
   <block id="1a5af1b0ee081fd2c600d9dd03b7c1d1" category="doc">資料隱私</block>
-  <block id="58c92536e705fbcdd57641d385acc74e" category="paragraph">根據您選擇的組態、 Cloud Sync 當您建立新關係時、可能會提示您輸入認證資料。例如、在設定包含 SMB 伺服器的關係時、或在 AWS 中部署資料代理程式時。</block>
   <block id="ca4c3bf9d403da9e2d60487daa5822a4" category="paragraph">這些認證資料一律會直接儲存至資料代理程式本身。資料代理商位於網路中的機器上、無論是內部部署或雲端帳戶。這些認證資料絕不會提供給 NetApp 。</block>
   <block id="91d94bcb5137ebeaee0b1824fb283f72" category="paragraph">這些認證資料會使用 HashiCorp Vault 在資料代理機器上進行本機加密。</block>
-  <block id="f460053eaa67e236eea5c02ada4c032d" category="summary">當您建立同步關係時、 Cloud Sync SyndService 會將檔案從來源複製到目標。初始複本之後、服務會每 24 小時同步所有變更的資料。</block>
   <block id="1e0539ed84cecdd095f5fbe996a378b8" category="doc">建立同步關係</block>
   <block id="2a9fded45db2f5a953150ba9bbef7f7a" category="section-title">針對特定類型的工作環境建立同步關係</block>
   <block id="753934f4df464e33f855d1ebb1cf78c4" category="paragraph">如果您想為下列任一項目建立同步關係、則首先需要建立或探索工作環境：</block>
@@ -1213,7 +1052,6 @@
   <block id="8ee76d81cd3bca0a06766cada54e9900" category="list-text">安裝資料代理程式之後、按一下 * 繼續 * 。</block>
   <block id="460dd7003c9711e5459ed0a96f7c8281" category="paragraph"><block ref="460dd7003c9711e5459ed0a96f7c8281" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a271de5321e2a04796460ebc14e59eb4" category="list-text">[[FIL篩選 器 ] 在 * 目錄 * 頁面上、選取最上層目錄或子目錄。</block>
-  <block id="93f7bb360c276621c6af686453f670e4" category="paragraph">如果 Cloud Sync 無法擷取匯出、請按一下 * 手動新增匯出 * 、然後輸入 NFS 匯出的名稱。</block>
   <block id="af796f24d59aefad2851f40d2e201331" category="admonition">如果您想要同步 NFS 伺服器上的多個目錄、則必須在完成之後建立其他同步關係。</block>
   <block id="daae3c3e845ae4c3697e01616f4f7b93" category="list-text">在「 * AWS S3 Bucket * 」頁面上、選取一個儲存區：</block>
   <block id="8e32410b962702f10a4b3b0600f973c1" category="list-text">向下切入以選取儲存區內現有的資料夾、或選取您在儲存區內建立的新資料夾。</block>
@@ -1226,7 +1064,6 @@
   <block id="8f1e572048af281c3d6bc069daeb0edb" category="inline-image-macro">此螢幕快照顯示「資源庫設定」頁面、可讓您選擇「是」或「否」進行加密、並為同步資料選取特定的 S3 儲存類別。</block>
   <block id="881cb6b58f9fdb2bde0b3c90f7cbfce8" category="paragraph"><block ref="881cb6b58f9fdb2bde0b3c90f7cbfce8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a7470fea96bed8b75bf17e5f07e01a4" category="list-text">[[Settings]在*設定*頁面上、定義如何在目標位置同步及維護來源檔案與資料夾：</block>
-  <block id="d2280a978447122c6ab7b62ac99c6588" category="list-text">啟用此選項可複製物件儲存中繼資料和標記。如果使用者變更來源上的中繼資料、Cloud Sync 則下次同步時、會將此物件複製下來、但如果使用者變更來源上的標記（而非資料本身）、Cloud Sync 則下次同步時、不會複製物件。</block>
   <block id="06902a5661d713ae255404d1b76c3108" category="paragraph">下列任一端點之間的「雲端對雲端」關係均支援複製中繼資料：</block>
   <block id="128edc3ff8c2d69c9c76b866643314ec" category="list-text">AWS S3</block>
   <block id="1c3e0d66ceb2ba1955fa5d6c931788cd" category="list-text">如果檔案已從來源中刪除、請選擇從目標位置刪除。預設值是永遠不要從目標位置刪除檔案。</block>
@@ -1236,9 +1073,7 @@
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">將資料同步至StorageGRID 物件儲存設備時、也可使用此功能。對於Azure和Google Cloud Storage、只有中繼資料選項可用。</block>
   <block id="abf843ce80b23a0209755d1e397c8333" category="list-text">檢閱同步關係的詳細資料、然後按一下 * 建立關係 * 。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 結果 *</block>
-  <block id="4fd833eb5d1da558428c830d107dff22" category="paragraph">從來源與目標之間開始同步資料。 Cloud Sync</block>
   <block id="991900a0204b24a05efe45e0b0b3bb96" category="section-title">從Cloud Data Sense建立同步關係</block>
-  <block id="2eef1a1e9df928ffdc88071624647e40" category="paragraph">支援與Cloud Data Sense整合。Cloud Sync從Data感應範圍內、您可以使用Cloud Sync 下列功能、選取您要同步到目標位置的來源檔案：</block>
   <block id="0a3762f065e87e761291235c3f42e8d4" category="paragraph">從Cloud Data Sense啟動資料同步之後、所有來源資訊都會包含在單一步驟中、而且只需要輸入一些重要詳細資料即可。然後選擇新同步關係的目標位置。</block>
   <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">瞭解如何從Cloud Data Sense開始同步關係</block>
@@ -1292,7 +1127,6 @@
   <block id="6101d898adb1b689572ae10844666fb9" category="list-text">按一下動作功能表、然後選取 * 編輯群組名稱 * 。</block>
   <block id="81a916358892fc8fbd08a770c2e50715" category="paragraph"><block ref="81a916358892fc8fbd08a770c2e50715" category="inline-image-macro-rx" type="image"></block></block>
   <block id="155ba6c2c0d0fdfa0760ba73549d665c" category="list-text">輸入新名稱、然後按一下「 * 儲存 * 」。</block>
-  <block id="92c690fecfd453e5d9b535d6971bd448" category="paragraph">更新資料代理群組的名稱。 Cloud Sync</block>
   <block id="895f6ee3fb48280aa9fdce9f1c30aa6d" category="section-title">設定統一化組態</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">如果同步關係在同步處理期間發生錯誤、統一資料代理群組的並行處理有助於減少同步錯誤的數量。請注意、群組組組態的變更可能會減緩傳輸速度、進而影響效能。</block>
   <block id="e0341128a5853714165581951816b70b" category="paragraph">我們不建議您自行變更組態。您應諮詢NetApp、瞭解何時變更組態及如何變更組態。</block>
@@ -1303,8 +1137,6 @@
   <block id="28d40eeab8fd28bbdf5b092f4784b274" category="list-text">視需要變更設定、然後按一下「*統一化組態*」。</block>
   <block id="63c7b65895eb2fbd662e3ab0e4de3d12" category="list-text">您可以選擇要變更的設定、而不需要一次變更全部四個設定。</block>
   <block id="ee04adf201931e953bab143cd61c5e34" category="list-text">將新組態傳送至資料代理程式之後、資料代理程式會自動重新啟動並使用新組態。</block>
-  <block id="07369bbb3439b320167a206f6646868f" category="list-text">這項變更可能需要一分鐘的時間才能完成、而且可在Cloud Sync 整個視覺介面中看到。</block>
-  <block id="a2d47547ac44d81a10f2213ed27209e2" category="list-text">如果資料代理程式未執行、因為Cloud Sync 無法與它通訊、所以它的組態不會改變。資料代理程式重新啟動後、組態將會變更。</block>
   <block id="5a9a104c07412a4762c5c9f6a499a905" category="list-text">設定統一化組態之後、任何新的資料代理人都會自動使用新組態。</block>
   <block id="811611d56e45c2c5ad32ef90181ce8a8" category="section-title">在群組之間移動資料代理人</block>
   <block id="ce906694cadabac093e4c5fe069bcb4c" category="paragraph">如果您需要加速目標資料代理群組的效能、請將資料代理程式從一個群組移至另一個群組。</block>
@@ -1319,15 +1151,12 @@
   <block id="89c00533408de9d6ad1e44640394b315" category="paragraph"><block ref="89c00533408de9d6ad1e44640394b315" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cfd516ad37b4df608c16efb09914e1fc" category="list-text">建立新的資料代理人群組、或選取現有的資料代理人群組。</block>
   <block id="55d7c27d3127f4494c358b638f4fc6ff" category="list-text">按一下*移動*。</block>
-  <block id="2daf9e8be8307f8316675b55ccbe21d9" category="paragraph">將資料代理程式移至新的或現有的資料代理程式群組。Cloud Sync如果前一個群組中沒有其他資料代理人、Cloud Sync 則由NetApp刪除。</block>
   <block id="dbe6fde8cda66c70d52ac330a93b530e" category="section-title">更新Proxy組態</block>
   <block id="f646f203e1dead2c4f220dc5943aa058" category="paragraph">若要更新資料代理程式的Proxy組態、請新增新Proxy組態的詳細資料、或編輯現有的Proxy組態。</block>
   <block id="550a2db189a4eb50771eeb91357d19cd" category="list-text">按一下資料代理的動作功能表、然後選取*編輯Proxy組態*。</block>
   <block id="85a4803f127edd3390d65e41d8aaad98" category="list-text">指定Proxy的詳細資料：主機名稱、連接埠號碼、使用者名稱和密碼。</block>
   <block id="04252e4e5460971d7f33943bd841f366" category="list-text">按一下 * 更新 * 。</block>
-  <block id="dc7ca5465298da0988fdbdf96a6140c1" category="paragraph">更新資料代理程式以使用Proxy組態存取網際網路。Cloud Sync</block>
   <block id="8113db3adc828428b3180d7dd38311d0" category="paragraph">您可能想要檢視資料代理程式的詳細資料、以識別其主機名稱、 IP 位址、可用的 CPU 和 RAM 等項目。</block>
-  <block id="92224edb34597455e48af97d6e4d76ee" category="paragraph">提供下列資料代理程式的詳細資料： Cloud Sync</block>
   <block id="3befe2b2c4ef318e03d79b36ca8de404" category="list-text">基本資訊：執行個體 ID 、主機名稱等</block>
   <block id="875bceffa72cf978fcc97a21a5208076" category="list-text">網路：地區、網路、子網路、私有 IP 等</block>
   <block id="b9ecc2520674febda2fe086de0165490" category="list-text">軟體： Linux 發佈、資料代理程式版本等</block>
@@ -1339,30 +1168,21 @@
   <block id="b3f5b024c925d18f1fad38e34f6adeb7" category="inline-image-macro">資料代理程式資訊的快照。</block>
   <block id="2aca713208ede5e338187d8acfc59e45" category="paragraph"><block ref="2aca713208ede5e338187d8acfc59e45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d84b9ff2a26165aea44e08c53ac24735" category="section-title">解決資料代理程式的問題</block>
-  <block id="1fdbc560a67348af4e76fd59fe5ba957" category="paragraph">顯示每個資料代理程式的狀態、協助您疑難排解問題。 Cloud Sync</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">識別任何狀態為「未知」或「失敗」的資料代理人。</block>
   <block id="cb1293ddc33121613d8b44ddf7bddebc" category="list-text">修正問題。</block>
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">例如、您可能只需要在資料代理程式離線時重新啟動、或是在初始部署失敗時移除資料代理程式。</block>
   <block id="cd001e84be2b1eb58fae93119764a424" category="section-title">從群組中移除資料代理程式</block>
-  <block id="5865c83a2c462bf736e19018ff098075" category="paragraph">如果不再需要資料代理人、或是初始部署失敗、您可以將其從群組中移除。此動作僅會從 Cloud Sync 的記錄中刪除資料代理程式。您必須自行手動刪除資料代理人及任何其他雲端資源。</block>
   <block id="3eabf8e614efa513058a3d3dbb1a59e1" category="list-title">您應該知道的事</block>
-  <block id="e4fb16049f2f57772ee4c5d012066a89" category="list-text">當您從群組中移除最後一個資料代理程式時、會刪除群組。 Cloud Sync</block>
   <block id="86809a552db6628d8c5fdff212824259" category="list-text">如果有使用該群組的關聯、您就無法從群組中移除最後一個資料代理。</block>
   <block id="9b1ed3beff3574463addd20120a54d9d" category="list-text">按一下資料代理的動作功能表、然後選取 * 移除資料代理 * 。</block>
   <block id="72d8c1c0fb68d009ccb1cae8adc51597" category="paragraph"><block ref="72d8c1c0fb68d009ccb1cae8adc51597" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c3bab48341baf2f6368e3f474352dfef" category="list-text">按一下「 * 移除資料代理人 * 」。</block>
-  <block id="1c280c77bba8fc2f3f4a79803d836503" category="paragraph">從群組中移除資料代理程式。 Cloud Sync</block>
   <block id="2bbd7c4d9d525b0e8675bf3663179545" category="section-title">刪除資料代理群組</block>
-  <block id="5b0d2474104e897ec00992476cc0328c" category="paragraph">如果資料代理人群組不再管理任何同步關係、您可以刪除該群組、這樣會從Cloud Sync 停止執行所有資料代理人。</block>
-  <block id="ebdb7bb51a167f7be93fdd2b43189d84" category="paragraph">只會從Cloud Sync的記錄中刪除不含資料的資料代理人Cloud Sync 。您需要從雲端供應商手動刪除資料代理執行個體、以及任何其他雲端資源。</block>
   <block id="4caa7a774039d94c9779b6e68946536b" category="list-text">按一下動作功能表、然後選取*刪除群組*。</block>
   <block id="a6f5a3bf619c49f582460d312e4f123a" category="list-text">若要確認、請輸入群組名稱、然後按一下*刪除群組*。</block>
-  <block id="33c715478bea68511b75dc844219e343" category="paragraph">此功能會移除資料代理人並刪除群組。Cloud Sync</block>
-  <block id="eab057480b500e5181f47e393918143e" category="sidebar">文件Cloud Sync</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
-  <block id="cfdb38bc0a8a1d54369b58fb2cefce44" category="sidebar">深入瞭解 Cloud Sync</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
   <block id="75dbd7f878d584e6e9f033b3806519ac" category="sidebar">準備網路</block>
   <block id="24ecd355ed2f7882b92b2b283a55a08c" category="sidebar">安裝資料代理程式</block>
@@ -1370,7 +1190,6 @@
   <block id="30514ef3aea4155640076b48cc55bcf1" category="sidebar">安裝於 Azure</block>
   <block id="78e59442e4fbd0955336d73a83865871" category="sidebar">安裝於Google Cloud</block>
   <block id="3425fda3f401ac4e986356571e7c0b39" category="sidebar">安裝在 Linux 主機上</block>
-  <block id="b45fd7f2a5d2fabff3d88b7f7a60d1ee" category="sidebar">使用Cloud Sync</block>
   <block id="dac97d30f2f3f8a38a388e9e21f5a9a0" category="sidebar">在來源與目標之間同步資料</block>
   <block id="3a039db0514b7bf645b4647d180e7c36" category="sidebar">建立同步關係</block>
   <block id="05bac3d5af19547146e32cabd35df27b" category="sidebar">從SMB共用區複製ACL</block>
@@ -1412,7 +1231,6 @@
   <block id="471d3dbea565333e7aac2e693d15e28e" category="paragraph">支援複製標記的同步關係包括Azure Blob或S3相容端點（S3、StorageGRID 支援、或IBM Cloud Object Storage）作為目標。</block>
   <block id="19656389ea4b802da6413eff0a250187" category="inline-link-macro">建立同步關係時、請啟用「複製物件」設定</block>
   <block id="89176f15cb099a09a71af33d00c1d7b5" category="paragraph">您必須在這些同步關係中 <block ref="a7dd81f666bee66d77494e96987d22b4" category="inline-link-macro-rx"></block>。</block>
-  <block id="1a480358118349316f6eb18b57ab7ff1" category="paragraph">下列地區不支援此功能：Cloud Sync</block>
   <block id="16bfbdd0b4d440a858cdccf55f911337" category="list-text">AWS政府區域</block>
   <block id="580e905670d084cfe8e8e4ce2cd2899b" category="list-text">Azure政府區域</block>
   <block id="ae54a5c026f31ada088992587d92cb3a" category="list-text">中國</block>
@@ -1434,7 +1252,6 @@
   <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">巴黎（歐洲-西9）</block>
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">全新Google Cloud機器類型</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。</block>
-  <block id="80b8bec2e4ce95cb7a2f98a49ff8964c" category="list-text">初始資料同步之後Cloud Sync 、Syncset會偵聽來源S3儲存區或Google Cloud Storage儲存區的變更、並在目標發生時持續同步任何變更。不需要以排定的時間間隔重新掃描來源。</block>
   <block id="ae067a0352a2b892590442ce8932ed20" category="list-text">如果S3為來源、則依大小篩選只會在複製事件上作用（而非刪除事件）。</block>
   <block id="218f5307b8ee8bb2d446b8572cd40e9f" category="list-text">Azure Data Lake儲存設備第2代</block>
   <block id="e83655905b13c4a3bc8d7de2a55ecea8" category="inline-link-macro">深入瞭解Continuous Sync選項</block>
@@ -1453,11 +1270,8 @@
   <block id="0c2629efd352468711f8dceb6b1bbb22" category="paragraph">編輯OAUTH Scopes欄位時、請輸入下列範圍：</block>
   <block id="fb11bebf83dcbce9727e98d284bdfd1b" category="list-text">\https://www.googleapis.com/auth/drive</block>
   <block id="46cab9554d574d5b87fe427f9d758717" category="list-text">\https://www.googleapis.com/auth/drive.file</block>
-  <block id="276913e03b149106140bf66f8250febd" category="summary">支援使用者可在SMB共用區之間、SMB共用區與物件儲存區之間（不包括在S3上）複製存取控制清單（ACL）Cloud Sync ONTAP 。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。</block>
-  <block id="51935e4b118a0c032b454360f475c03a" category="section-title">設定Cloud Sync 功能以複製ACL</block>
   <block id="c5c953c152db5adea8fcd2fc1ce5c904" category="paragraph">在建立關聯或建立關聯之後、啟用設定、即可在SMB共用之間、SMB共用區與物件儲存區之間複製ACL。</block>
   <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">將SMB伺服器或物件儲存設備拖放為來源、並將SMB伺服器或物件儲存設備拖放為目標、然後按一下*繼續*。</block>
-  <block id="f1a22f36274bad2edbffcfa0462b9003" category="paragraph">同步資料時Cloud Sync 、此功能會保留來源與目標之間的ACL。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">深入瞭解Google雲端硬碟的需求</block>
@@ -1500,8 +1314,6 @@
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">選取使用者或多位使用者、然後選擇*資訊*通知類型。</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">按一下「 * 套用 * 」。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">如果您想要接收通知</block>
-  <block id="e48d5ea54c85373b23a289d375bf989d" category="inline-image-macro">畫面上Cloud Sync 會顯示「不清楚」狀態的資訊代理程式。</block>
-  <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">「資訊」圖示。</block>
   <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">將游標暫留在上方 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 圖示以查看故障原因。</block>
   <block id="bcb9c50efc2e8b1f33257f8dbf32e2ae" category="section-title">root權限</block>
@@ -1585,12 +1397,10 @@
   <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">Azure資料代理人需要自訂角色和下列權限才能使用此設定：</block>
   <block id="ddbbf48cd438f6c3a5d773f3c8249074" category="paragraph">在建立某些類型的同步關係之前、您首先需要在BlueXP中建立工作環境。</block>
   <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">在BlueXP中、按一下*同步*。</block>
-  <block id="fc2496517a761d4318a20af52291c728" category="list-text">可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">您應該已經開始使用BlueXP、其中包括登入、設定帳戶、以及部署Connector、以及建立工作環境。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">瞭解如何開始使用BlueXP</block>
   <block id="69c4d579a506c05e94d3e4986ec536a3" category="list-text"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">藍圖</block>
-  <block id="17bed77c4f760aaf5e0b9c31b33fdd66" category="paragraph">可從BlueXP網站的* Sync*索引標籤取得。Cloud Sync</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援（NSS）帳戶、然後註冊以取得支援。</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
@@ -1619,18 +1429,14 @@
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
-  <block id="324d87edb0c713edb9f7243d29586ce4" category="paragraph">VMware是軟體即服務（SaaS）平台、由資料代理群組、透過BlueXP提供的雲端介面、以及來源和目標所組成。Cloud Sync</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">若要取得使用者權杖和您的BlueXP帳戶ID、 <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
   <block id="e8b441efabe30a472bc01ae49f99e1c5" category="list-text">在BlueXP中、按一下*同步&gt;授權*。</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">如果您的帳戶已新增至BlueXP、請從下拉式清單中選取。</block>
-  <block id="ea7c3756b66c4849910400fde4776d39" category="paragraph">若要開始使用Cloud Sync 此解決方法、您需要取得使用者權杖和您的BlueXP帳戶ID。進行 API 呼叫時、您必須將權杖和帳戶 ID 新增至「授權」標頭。</block>
   <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">從NetApp BlueXP取得使用者權杖。</block>
   <block id="415019870d0741b8c872f4ef1a528769" category="list-text">取得您的BlueXp帳戶ID。</block>
   <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">NetApp BlueXp的使用者權杖有到期日。若要重新整理權杖、您需要再次從步驟 1 呼叫 API 。</block>
-  <block id="ce01f1f43aa2ca562170259425ab75c6" category="paragraph">每個同步關係的*通知*設定可讓您選擇是否要Cloud Sync 在BlueXP的通知中心接收功能更新通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">在藍圖XP中顯示通知中心的快照。</block>
   <block id="ccb8fdc540464dfa9a7726927f2c33c6" category="paragraph"><block ref="ccb8fdc540464dfa9a7726927f2c33c6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d47ea60dbdf10b04cf3dbcb277f90223" category="paragraph">現在Cloud Sync 、您將會在BlueXP的通知中心收到功能更新通知、如果您設定了該選項、也會收到幾封電子郵件通知。</block>
   <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。</block>
   <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。</block>
   <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
@@ -1666,7 +1472,6 @@
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">您需要的產品</block>
   <block id="ed14d70dad7ae627497350bc4e3868e5" category="section-title">[AWS ]訂閱AWS</block>
   <block id="b6a5a78c3221a73b92bf2f602e64a9cc" category="section-title">[azure]訂閱Azure</block>
-  <block id="4faa53699bc5575d520ebbbdbdcb3676" category="section-title">[[licenses]]向NetApp購買授權、並將其新增Cloud Sync 至</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">依名稱篩選目錄</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">深入瞭解「排除目錄名稱」設定</block>
@@ -1716,9 +1521,7 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS資料代理人的作業系統已升級至Amazon Linux 2022。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">深入瞭解AWS中的資料代理執行個體</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
-  <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免費試用結束後仍未立即付款、您將無法建立任何其他關係。現有的關係不會刪除、但您必須先訂閱或輸入授權、才能對其進行任何變更。</block>
-  <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。</block>
   <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">\https://s3.amazonaws.com/</block>
   <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">\https://storage.googleapis.com/</block>
   <block id="9a0fd273aee1cf8a769c1b999cacf89a" category="cell">在同步關係使用GCP儲存區時聯絡Google Cloud。</block>
@@ -1762,7 +1565,6 @@
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f029a1267cce7b58b6bb1201caa22883" category="list-text">如果您輸入AWS存取金鑰、請選取執行個體的位置、選取金鑰組、選擇是否啟用公用IP位址、然後選取現有的IAM角色、或將欄位保留空白、Cloud Sync 以便讓NetApp為您建立角色。您也可以選擇使用KMS金鑰加密資料代理人。</block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">適用於AWS資料代理人的EBS加密</block>
@@ -1780,8 +1582,6 @@
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0和8.5</block>
   <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0和8.5</block>
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">洛基Linux 9</block>
-  <block id="596076690835c26754302829a7e9d63a" category="section-title">如何收費、以及如何管理我的訂閱Cloud Sync ？</block>
-  <block id="0e7db6545d4c588d1ef20cc2f2744070" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱內容都會透過供應商市場進行管理、而*非*則會透過Cloud Sync 「The」使用者介面進行管理。</block>
   <block id="f2eca1a3494c7396a49a597072cc600d" category="list-text">Amazon Linux 2023</block>
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX ONTAP</block>
   <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Prem ONTAP</block>
@@ -1797,4 +1597,222 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
+  <block id="883d57da802cb4e95b73cb35f4c8cb7a" category="summary">您可以取得 BlueXP 複製與同步的協助、並透過各種資源（包括論壇、聊天服務和影片）來尋找更多資訊。</block>
+  <block id="733ef0ab9b096f17aad7ad7452e92c0c" category="doc">BlueXP 複本與同步技術常見問題集</block>
+  <block id="1652d6c7b075b92f6fdc30939988e76c" category="paragraph">下列問題與 BlueXP 複本與同步入門有關。</block>
+  <block id="f4360a9bc8f088c1444bdcef268438fa" category="section-title">BlueXP 如何複製與同步？</block>
+  <block id="b6836fb2bf3780d88ecb1ed66d09f03f" category="paragraph">BlueXP 複製與同步使用 NetApp 資料代理軟體、將資料從來源同步至目標（這稱為 _sync 關係）。</block>
+  <block id="4ad951c3afd0bcee8d02a01b5abfae2e" category="paragraph">資料代理人群組可控制來源與目標之間的同步關係。設定同步關係之後、 BlueXP 複製與同步會分析來源系統、並將其分成多個複寫串流、以推送至所選的目標資料。</block>
+  <block id="49811154bb31a7956cf5a559d4b0f359" category="paragraph">14 天免費試用期從您註冊 BlueXP 複本與同步服務開始。對於您建立的 BlueXP 複本與同步關係、您不需支付 NetApp 的費用、為期 14 天。不過、您部署的任何資料代理人的所有資源費用仍適用。</block>
+  <block id="0c1b208bc03ca774a1ea8d440ae4460f" category="section-title">BlueXP 複製與同步的成本是多少？</block>
+  <block id="58d5764081980d61dc580371a7f7d817" category="paragraph">使用 BlueXP 複本與同步有兩種相關成本類型：服務費用與資源費用。</block>
+  <block id="d70cc4cc828a890527496d140a0c2410" category="paragraph">對於隨用隨付定價、 BlueXP 複本與同步服務費用是每小時一次、視您建立的同步關係數量而定。</block>
+  <block id="6de51c73db055b72838083b7da60e27e" category="paragraph">BlueXP 複本與同步授權也可透過 NetApp 代表取得。每個授權可在 12 個月內建立 20 個同步關係。</block>
+  <block id="49f3a6d816929e060637c72d117a2ab1" category="admonition">BlueXP 複製與同步關係對於 Cloud Volumes Service 和 Azure NetApp Files 是免費的。</block>
+  <block id="01396bcd8023631c1f74003124e865f5" category="section-title">BlueXP 如何進行複本與同步處理、以及如何管理我的訂閱？</block>
+  <block id="1c9fb78d365658e23fd1a1120743c672" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱都將透過您的供應商市場進行管理、而 * 不會 * 則是透過 BlueXP 複本與同步使用者介面進行管理。</block>
+  <block id="27092823e2230caab83a388839b4dfeb" category="section-title">我可以在雲端外使用 BlueXP 複本與同步嗎？</block>
+  <block id="81c8910c3a940bab71f032ec0c5b58d3" category="paragraph">是的、您可以在非雲端架構中使用 BlueXP 複本與同步。來源和目標可以駐留在內部部署、資料代理軟體也可以駐留在內部。</block>
+  <block id="8cf959d7778a0be5b19a479edcab2455" category="paragraph">請注意以下關於在雲端外部使用 BlueXP 複本與同步的重點：</block>
+  <block id="31f9f05950fe22b737f2b945b7a281b4" category="list-text">資料代理群組需要網際網路連線、才能與 BlueXP 複本與同步服務進行通訊。</block>
+  <block id="4940434800ba022f46c1a0f5661b9532" category="list-text">如果您沒有直接向 NetApp 購買授權、則 PAYGO BlueXP 複本和同步服務帳單需要 AWS 或 Azure 帳戶。</block>
+  <block id="aac20ccdf62e70e3cc4310ebd03913b4" category="section-title">如何存取 BlueXP 複本與同步？</block>
+  <block id="264d9e2b9bacaf782d52dab44220bd2e" category="paragraph">BlueXP 複本與同步可從 * 同步 * 索引標籤的 BlueXP 網站取得。</block>
+  <block id="5cd55ba28c907d740d205ccad1170592" category="section-title">BlueXP 複製與同步支援哪些來源和目標？</block>
+  <block id="bd9bd4de7de7935f630b092031383087" category="paragraph">BlueXP 複製與同步支援多種不同類型的同步關係。 <block ref="a9d58e8a204176701e4d49fab6d7be58" category="inline-link-macro-rx"></block>。</block>
+  <block id="1a10d5d1ce5af63fb488c66cffbff2a4" category="section-title">BlueXP 複製與同步支援哪些版本的 NFS 和 SMB ？</block>
+  <block id="4083bd81e22bd0668d76b9096b9b8ea8" category="paragraph">BlueXP 複製與同步支援 NFS 版本 3 及更新版本、以及 SMB 版本 1 及更新版本。</block>
+  <block id="9eb8c70adf52c5e223fc4f46c3cce597" category="paragraph">下列問題與 BlueXP 複本與同步的網路需求有關。</block>
+  <block id="112642854e3d06c691fc5963f7e1560c" category="section-title">BlueXP 複製與同步的網路需求為何？</block>
+  <block id="c247596ab693a8c1f23961be8c504aa4" category="paragraph">BlueXP 複製與同步環境要求資料代理群組透過所選的傳輸協定或物件儲存 API （ Amazon S3 、 Azure Blob 、 IBM Cloud Object Storage ）與來源和目標連線。</block>
+  <block id="9fd39ef1eeb47375e9e72c4835f12c80" category="paragraph">此外、資料代理群組需要透過連接埠 443 進行外傳網際網路連線、以便與 BlueXP 複本與同步服務進行通訊、並聯絡其他一些服務和儲存庫。</block>
+  <block id="d89c8da0c013f5e1b9777da23c3ed780" category="paragraph">BlueXP 複製與同步支援使用或不使用基本驗證的 Proxy 伺服器。如果您在部署資料代理程式時指定 Proxy 伺服器、則來自資料代理程式的所有 HTTP 和 HTTPS 流量都會透過 Proxy 路由傳送。請注意、 NFS 或 SMB 等非 HTTP 流量無法透過 Proxy 伺服器路由傳送。</block>
+  <block id="5378e896685379f74176edf5031ddeae" category="section-title">BlueXP 複製與同步是否安全？</block>
+  <block id="538977b72d6d21313c0623715eeb1f80" category="paragraph">是的。所有 BlueXP 複製與同步服務網路連線都是使用完成<block ref="1986d6dad6812d3eb616527e09d2c381" category="inline-link-rx"></block>。</block>
+  <block id="8bc7db1c4e20e9dcb6cd3e3a9fdf35c4" category="paragraph">如果您使用 BlueXP 複本並與內部部署（來源或目的地）系統同步、以下是幾個建議的連線選項：</block>
+  <block id="1109647c6a3c2aa25742732c3e8a4093" category="paragraph">任何一種方法都能在內部部署 NAS 伺服器與 BlueXP 複本之間建立安全連線、並同步資料代理群組。</block>
+  <block id="2dc04f0fdba7a840a54fbff59ef9a702" category="section-title">BlueXP 複本與同步是否已加密資料？</block>
+  <block id="53dba2a7ab3301038963a72eaa7536d3" category="list-text">BlueXP 複製與同步支援來源和目標 NFS 伺服器之間的資料傳輸中加密。 <block ref="da7c2a9579c0b8ce1c44234fdbc0633a" category="inline-link-macro-rx"></block>。</block>
+  <block id="c8ae8658f72742f434e1ebd7abebe45d" category="list-text">對於 SMB 、 BlueXP 複製與同步支援您在伺服器端加密的 SMB 3.0 和 3.11 資料。BlueXP 複製與同步會將加密資料從來源複製到資料仍保持加密的目標。</block>
+  <block id="92f01bac9cb656052094dcf6a84dce6f" category="paragraph">BlueXP 複製與同步無法加密 SMB 資料本身。</block>
+  <block id="be3416bf72a21b2f4794338f425ea6f2" category="paragraph">您可以設定 BlueXP 複本與同步、以保留來源 SMB 共用與目標 SMB 共用之間的存取控制清單（ ACL ）、以及來源 SMB 共用與物件儲存之間的存取控制清單（ ONTAP S3 除外）。</block>
+  <block id="04dcb4bc6b7a0fac1e04a2c170baaf74" category="admonition">BlueXP 複製與同步不支援將 ACL 從物件儲存複製到 SMB 共用。</block>
+  <block id="9e8720a137290c332d2ae0903acb7d4d" category="paragraph">BlueXP 複製與同步會自動在 NFS 伺服器之間複製 NFS 權限、如下所示：</block>
+  <block id="76cabff82a6239bf82dda80f1f0c3ffe" category="list-text">NFS 版本 3 ： BlueXP 複製與同步會複製權限和使用者群組擁有者。</block>
+  <block id="63345659cd94eeae9c50a6d7110c237c" category="list-text">NFS 第 4 版： BlueXP 複製與同步會複製 ACL 。</block>
+  <block id="8c73a108808c47abd6c453462d49e724" category="paragraph">BlueXP 複製與同步會將物件儲存中繼資料從來源複製到目標、以建立下列類型的同步關係：</block>
+  <block id="2b0b974ca2c819c106e5570f03cb4e6e" category="paragraph">下列問題與 BlueXP 複本和同步效能有關。</block>
+  <block id="3aae18e000d4ad381323091fc6aca3d0" category="section-title">如果我刪除 BlueXP 複本與同步關係、會發生什麼情況？</block>
+  <block id="3d9869599da84becd868d9d8a5565af7" category="paragraph">根據預設、如果您有作用中的同步關係、則在下次同步處理期間、從來源伺服器刪除的項目不會從目標中刪除。但每個關係的同步設定都有一個選項、您可以在其中定義 BlueXP 複本與同步、如果從來源中刪除檔案、就會刪除目標位置中的檔案。</block>
+  <block id="bc1e5e813b7555c1352605354221962e" category="paragraph">如果項目從目標中刪除、則不會從來源中移除。這種關係是單向的、從來源到目標。在下一個同步週期中、 BlueXP 複本與同步會比較來源與目標、識別該項目是否遺失、以及 BlueXP 複本與同步會將它從來源複製到目標。</block>
+  <block id="5626a0a90eb14fcc3b48695dd9ce29e4" category="inline-link">NetApp 知識庫： BlueXP 複製與同步常見問題集：支援與疑難排解</block>
+  <block id="f94b9c111e3613dc10960d578d11d760" category="paragraph"><block ref="f94b9c111e3613dc10960d578d11d760" category="inline-link-rx"></block></block>
+  <block id="0ac7b32ca6ac94ee42e907caf161adca" category="list-text">BlueXP 複製與同步功能可部署資料代理程式、如下所示：</block>
+  <block id="8d5f7e7aef5a4fc5fd2c409192bead48" category="paragraph">下列地區不支援 BlueXP 複製與同步：</block>
+  <block id="bcd0169de0ca7a58018cf173cdbb86e0" category="paragraph">每次建立報告時、 BlueXP 複本與同步都會掃描路徑、然後將詳細資料編譯成報告。</block>
+  <block id="33e1f542e7541a2a529927e0dfe10d00" category="paragraph">Paths表格可識別最近一次報告中是否有任何錯誤。錯誤指出 BlueXP 在掃描路徑時所面臨的複製與同步問題。</block>
+  <block id="3f1413ac0baff3149998bbd9b08637ab" category="paragraph">例如、報告可能包含「權限遭拒」錯誤。這類錯誤可能會影響 BlueXP 複本與同步作業掃描整組檔案與目錄的能力。</block>
+  <block id="29a52a70f91079e44586fb5622daf585" category="summary">瞭解 BlueXP 複本與同步的新功能。</block>
+  <block id="60ed3268f4ffd9a867ec0db224ee2d76" category="doc">BlueXP 複製與同步的新功能</block>
+  <block id="ea42cbd645e47130e67a7cbb87fe5de8" category="section-title">2023 年 5 月 8 日</block>
+  <block id="2652537da62e22a06b22374119e6c40f" category="section-title">硬連結功能</block>
+  <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。</block>
+  <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">深入瞭解檔案類型設定</block>
+  <block id="c2c4f3224fc131a75284695269fdeb1e" category="paragraph"><block ref="b8337b36588af87bdf82aa24c2fb92dc" category="inline-link-rx"></block>。</block>
+  <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">能夠在安全的 NFS 關係中新增資料代理人的使用者憑證</block>
+  <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。</block>
+  <block id="3bf0932004501be46156880cfe858e8f" category="section-title">最近修改檔案的延長排除期</block>
+  <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">使用者現在可以排除在排程同步前 365 天內修改的檔案。</block>
+  <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">深入瞭解最近修改的檔案設定</block>
+  <block id="deca82fda63a32d6ff9637b293af8d58" category="paragraph"><block ref="721635a0a6bd58b504914b6d4beb3e0e" category="inline-link-rx"></block>。</block>
+  <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">依關係 ID 篩選 UI 中的關係</block>
+  <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。</block>
+  <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API</block>
+  <block id="30033019c9002410c1dee9e19900cb24" category="paragraph"><block ref="e9b17dee7c6de8c1de2830a91fd1865f" category="inline-link-rx"></block>。</block>
+  <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同步關係。開始之前、您應該先瞭解支援的關係。</block>
+  <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">只有使用 BlueXP 複本和同步 API 、才能支援與此來源 / 目標的同步關係。</block>
+  <block id="9884de3e76b128738e9b044e854c59b2" category="summary">建立同步關係時、 BlueXP 複製與同步服務會將檔案從來源複製到目標。初始複本之後、服務會每 24 小時同步所有變更的資料。</block>
+  <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">如果 BlueXP 複本與同步無法擷取匯出、請按一下 * 手動新增匯出 * 、然後輸入 NFS 匯出的名稱。</block>
+  <block id="5cd54d605c54fc35f035298798014895" category="list-text">定義 BlueXP 複製與同步是否應在指定的小時數或天數內完成同步時、取消資料同步。</block>
+  <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">可讓您選擇是否在 BlueXP 的通知中心接收 BlueXP 複本與同步通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">定義 BlueXP 複製與同步作業在略過檔案之前、應重試同步檔案的次數。</block>
+  <block id="c7153d054eed1ef19444b255974772ee" category="list-text">初始資料同步之後、 BlueXP 複製與同步會偵聽來源 S3 儲存區或 Google Cloud Storage 儲存區上的變更、並在變更發生時持續同步目標。不需要以排定的時間間隔重新掃描來源。</block>
+  <block id="686278dd9e059c653bd97d43b59d0b1e" category="list-text">選擇 BlueXP 複本與同步是否應比較某些屬性、以判斷檔案或目錄是否已變更、是否應重新同步。</block>
+  <block id="cab6d8c765e4e42576bd2dc0f784678a" category="paragraph">即使您取消勾選這些屬性、 BlueXP 複製與同步仍會檢查路徑、檔案大小和檔案名稱、以比較來源與目標。如果有任何變更、就會同步這些檔案和目錄。</block>
+  <block id="570d2983a978eeb2f1ba872ec00a3429" category="paragraph">您可以選擇啟用或停用 BlueXP 複本與同步、以比較下列屬性：</block>
+  <block id="021ee9afc58849e18a00dd357f95bc19" category="list-text">啟用此選項可複製物件儲存中繼資料和標記。如果使用者變更來源的中繼資料、 BlueXP 複本與同步會在下一次同步時複製此物件、但如果使用者變更來源上的標記（而非資料本身）、 BlueXP 複製與同步就不會在下一次同步中複製物件。</block>
+  <block id="ba1c1b5e23e3b5a8fddd3f7c246ef506" category="list-text">選擇在 BlueXP 複製後從來源位置刪除檔案、然後同步將檔案複製到目標位置。此選項包括資料遺失的風險、因為來源檔案在複製後會被刪除。</block>
+  <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">定義要包含在每個同步中的檔案類型：檔案、目錄、符號連結和硬式連結。</block>
+  <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">硬式連結僅適用於不安全的 NFS 與 NFS 關係。使用者只能使用一個掃描器程序和一個掃描器並行處理、而且必須從根目錄執行掃描。</block>
+  <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXP 複製與同步會開始在來源與目標之間同步資料。</block>
+  <block id="ff3ea06fc0c8f759394b8942315d071f" category="paragraph">BlueXP 複本與同步功能與 Cloud Data Sense 整合。在 Data Sense 中、您可以使用 BlueXP 複本與同步功能、選取要同步至目標位置的來源檔案。</block>
+  <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp 無法存取您在使用 BlueXP 複本與同步服務時所提供的任何認證。這些認證資料會直接儲存在網路中的資料代理機器上。</block>
+  <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">根據您選擇的組態而定、 BlueXP 複本與同步處理可能會在您建立新關係時提示您輸入認證。例如、在設定包含 SMB 伺服器的關係時、或在 AWS 中部署資料代理程式時。</block>
+  <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="ff0ab6e5cc918d0f34784d6b8fd73746" category="paragraph">當您建立新的資料代理人群組時、請選擇Google Cloud Platform、在Google Cloud VPC的新虛擬機器執行個體上部署資料代理人軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="760e513e4804bf2cda72ba5b6d5b7a6a" category="list-text">資料代理程式需要外傳網際網路連線、以便透過連接埠 443 輪詢 BlueXP 複本和同步服務的工作。</block>
+  <block id="617fa6ca8941919927e9677f8acb97f8" category="paragraph">當 BlueXP 複製與同步在 Google Cloud 中部署資料代理程式時、它會建立一個安全群組、以啟用所需的輸出通訊。</block>
+  <block id="7ba9b4e54874f0450b8869bc6d72ee86" category="list-text">一旦資料代理程式可用、請在 BlueXP 複本中按一下 * 繼續 * 、然後進行同步處理。</block>
+  <block id="d18db3d9c5f8587fa64b4e04218dc914" category="paragraph">執行個體部署約需 5 至 10 分鐘。您可以監控 BlueXP 複製與同步服務的進度、該服務會在執行個體可用時自動重新整理。</block>
+  <block id="33969e378e95c52b40733d56432c09ea" category="paragraph">當您建立同步關係並選擇 Google Cloud Storage 做為來源或目標時、 BlueXP 複製與同步功能可讓您從資料代理服務帳戶有權使用的儲存區中進行選擇。依預設、這包括_相同_專案中的儲存區與資料代理服務帳戶。但如果您提供必要的權限、您可以從_其他_專案中選擇儲存區。</block>
+  <block id="6ea6212f5be2cc7885ac1f6d832f818a" category="paragraph">BlueXP 複製與同步會使用下列組態、在 Google Cloud 中建立資料代理程式。</block>
+  <block id="e779a177cfac02ea5631f78a57600f50" category="paragraph">授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。</block>
+  <block id="5cf3aa8138512419dc4443771f2608b1" category="paragraph">從 AWS 或 Azure 訂閱 BlueXP 複本與同步服務、可讓您以每小時費率或每年付費。 <block ref="5b1da104dad8f5a36ba9cf23dc6afee4" category="inline-link-macro-rx"></block>（視您要帳單的地點而定）。</block>
+  <block id="f10e64886518ddce51f700fac08e498e" category="inline-link-macro">瞭解如何購買授權、並將其新增至 BlueXP 複本與同步處理</block>
+  <block id="9135ecb22a127b525f7331d6d548b9a1" category="paragraph"><block ref="72b78372efe8d6fcec063a5869c7da69" category="inline-link-macro-rx"></block>。</block>
+  <block id="8e41e78298b38607ddcd87025a32eb10" category="paragraph">購買 BlueXP 複本與同步服務的客戶、應注意與授權權利相關的限制。</block>
+  <block id="0073db80af56fecd7f6a58608d77ced7" category="summary">建立新的資料代理程式時、請選擇 AWS Data Broker 選項、在 VPC 的新 EC2 執行個體上部署資料代理軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="91ef58bec9fef8fa136d0d216dbd523e" category="paragraph">當您建立新的資料代理人群組時、請選擇Amazon Web Services、在VPC的新EC2執行個體上部署資料代理人軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="b674659d42fb764ffa5770645ddce653" category="paragraph">當 BlueXP 複製與同步在 AWS 中部署資料代理程式時、它會建立一個安全群組、以啟用所需的輸出通訊。請注意、您可以設定資料代理程式在安裝過程中使用 Proxy 伺服器。</block>
+  <block id="eeec209b7367b324b78b8504507cca43" category="paragraph">當 BlueXP 複製與同步部署資料代理程式時、它會為資料代理程式執行個體建立 IAM 角色。您可以視需要使用自己的 IAM 角色來部署資料代理程式。如果您的組織具有嚴格的安全性原則、您可以使用此選項。</block>
+  <block id="4aeed94a6e997eb99e2ee56acf52c9d9" category="list-text">輸入 AWS 存取金鑰、以便 BlueXP 複製與同步可以代表您在 AWS 中建立資料代理程式。</block>
+  <block id="9b9c7cf2519d51f6dbe3acb1138a5125" category="list-text">如果您輸入 AWS 存取金鑰、請選取執行個體的位置、選取金鑰配對、選擇是否啟用公用 IP 位址、然後選取現有的 IAM 角色、或將欄位保留空白、以便 BlueXP 複本與同步建立您的角色。您也可以選擇使用KMS金鑰加密資料代理人。</block>
+  <block id="cf01363cb3b3aefee32677428a86d1df" category="list-text">資料代理可用後、請在 BlueXP 複本中按一下 * 繼續 * 、然後進行同步處理。</block>
+  <block id="6f6b78ed59ff96087b1c87e91e648bc4" category="paragraph">BlueXP 複製與同步會使用下列組態、在 AWS 中建立資料代理程式。</block>
+  <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">當您建立新的資料代理程式時、請選擇「內部部署資料代理程式」選項、將資料代理軟體安裝在內部部署的 Linux 主機上、或安裝在雲端的現有 Linux 主機上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="890130d57677e99876dfa01749264d4d" category="paragraph">當您建立新的資料代理人群組時、請選擇「內部部署的Data Broker」選項、將資料代理人軟體安裝在內部部署的Linux主機上、或安裝在雲端的現有Linux主機上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="43fa66f5d7cb7b0c6940f346a2840e44" category="inline-xref">請依照下列步驟、從 BlueXP 複本和同步取得 URI</block>
+  <block id="fdf038d5164429a9481528d1a4ae0b9a" category="list-text">BlueXP 複製與同步會在指示頁面上顯示安裝檔案的 URI 、當您依照提示部署內部資料代理人時、會載入該 URI 。此 URI 不會重複出現、因為連結是動態產生的、只能使用一次。 <block ref="0c33a94f9c890b9aae239faccb0a58b1" category="inline-xref-macro-rx"></block>。</block>
+  <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">BlueXP 複製與同步可以在 SMB 共用區之間以及 SMB 共用區與物件儲存區之間（ ONTAP S3 除外）複製存取控制清單（ ACL ）。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。</block>
+  <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">設定 BlueXP 複本與同步以自動複製 ACL</block>
+  <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
+  <block id="6a116de9e052c93f29f42d9666818738" category="section-title">設定 BlueXP 複本並同步以複製 ACL</block>
+  <block id="2381032f482f5821359a7ffbccf4f954" category="list-text">從 BlueXP 複本與同步、按一下 * 建立新同步 * 。</block>
+  <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">同步資料時、 BlueXP 複製與同步會保留來源與目標之間的 ACL 。</block>
+  <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">從 BlueXP 複製與同步、在來源與目標 SMB 共用之間建立新的關係、或同步現有的關係。</block>
+  <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">BlueXP 複製與同步會啟動關係的資料同步程序。</block>
+  <block id="c8b8e3f1fbf3b731011ec3febff4966c" category="paragraph">BlueXP 複製與同步會將新的資料代理程式新增至群組。下一次資料同步的效能應該加快。</block>
+  <block id="9b4881b56a4bc61413ae1472c03cdd82" category="paragraph">BlueXP 複製與同步需要認證的任何來源或目標都支援更新認證： Azure Blob 、 Box 、 IBM Cloud Object Storage 、 StorageGRID 、 ONTAP S3 Storage 、 SFTP 和 SMB 伺服器。</block>
+  <block id="b4063d8a66bb919b1d1c590f9dd60cd7" category="paragraph">如果您在建立同步處理關係時輸入網域、但在更新認證時並未輸入新網域、則 BlueXP 複本與同步會繼續使用您提供的原始網域。</block>
+  <block id="818818202c085bda0f88a879413f81fd" category="paragraph">BlueXP 複製與同步會更新資料代理程式上的認證。資料代理程式開始使用更新的認證資料進行同步之前、可能需要10分鐘的時間。</block>
+  <block id="dfed8fe1f93f671ecf3671783bbddf61" category="paragraph">每個同步關係的 * 通知 * 設定可讓您選擇是否要在 BlueXP 的通知中心接收 BlueXP 複本和同步通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
+  <block id="0fe8794e82e0ba1ca2fb9f90b1e2041a" category="paragraph">您現在會在 BlueXP 的通知中心收到 BlueXP 複本與同步通知、如果您已設定該選項、也會收到幾封電子郵件通知。</block>
+  <block id="2f30d04a17f7f45ef1c41f6e15ccc628" category="paragraph">BlueXP 複製與同步會修改與新設定的同步關係。</block>
+  <block id="d62aff038a63962fec73b4d2639d3ad3" category="paragraph">BlueXP 複製與同步會刪除同步關係。</block>
+  <block id="8da3b5473f99b37e0a7e71a701f5a400" category="list-text">如果您需要新的資料代理程式、 BlueXP 複本與同步會提示您安裝指示。您可以在雲端部署資料代理程式、或下載適用於您自己 Linux 主機的安裝指令碼。</block>
+  <block id="2eda214e743322a19face3c28269f0fc" category="paragraph">BlueXP 複製與同步會開始建立新的同步關係。完成後、按一下「儀表板」中的 * 「檢視」 * 即可檢視新關係的詳細資料。</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="b5db50639891fb34043604a5e3173a5e" category="summary">BlueXP 複本與同步服務入門包括幾個步驟。</block>
+  <block id="6228befad91ffaa829b465dfedb27a74" category="doc">BlueXP 複製與同步快速入門</block>
+  <block id="cb7548b06a113d0784453fa21bbbee3e" category="paragraph">NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 關係 _ ）。您可以在 AWS 、 Azure 、 Google Cloud Platform 或內部部署環境中執行資料代理程式。由一或多個資料代理人組成的資料代理人群組、需要透過連接埠 443 進行傳出網際網路連線、以便與 BlueXP 複本和同步服務進行通訊、並與其他一些服務和儲存庫聯絡。 <block ref="12ea03dce1417efcc10375bae5440131" category="inline-link-macro-rx"></block>。</block>
+  <block id="db000207df63b5ec90234ce5f92e5731" category="paragraph">BlueXP 複製與同步功能可引導您在建立同步關係時完成安裝程序、此時您可以在雲端部署資料代理程式、或是為自己的 Linux 主機下載安裝指令碼。</block>
+  <block id="f55ed3a5508f0e4f48d2c11dc6e34613" category="paragraph">從 AWS 或 Azure 訂閱、即可隨用隨付或每年付費。或直接向 NetApp 購買授權。只要移至 BlueXP 複本中的「授權設定」頁面、然後進行同步即可設定。 <block ref="3cd689475b04fdbdf7fafd004b01a742" category="inline-link-macro-rx"></block>。</block>
+  <block id="63f8c3f86df29bae7ebdc52f32e9039b" category="summary">透過 Web UI 提供的 BlueXP 複本與同步功能也可透過 RESTful API 取得。</block>
+  <block id="7725b53d1782d65bb7432c1f1d19f6c4" category="doc">BlueXP 複製與同步 API</block>
+  <block id="ffa8ff6da490712b483bfedc14c83df0" category="paragraph">透過 Web UI 提供的 BlueXP 複本與同步功能也可透過 RESTful API 取得。</block>
+  <block id="60fd7829aef330c094a09224909d9e11" category="paragraph">若要開始使用 BlueXP 複本與同步 API 、您必須取得使用者權杖和 BlueXP 帳戶 ID 。進行 API 呼叫時、您必須將權杖和帳戶 ID 新增至「授權」標頭。</block>
+  <block id="07df581e602eee7539f9e6e4e8d97e00" category="paragraph">每個 BlueXP 複本與同步 API 的文件均可從取得<block ref="692cab94d93982d3f8e96928c3c0e2c6" category="inline-link-rx"></block>。</block>
+  <block id="957b35928b8a0bf847c922e00243690d" category="summary">當您建立新的資料代理程式時、請選擇 Azure Data Broker 選項、將資料代理軟體部署在 vnet 中的新虛擬機器上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="a151aef665e52178b0d84244ecf2215e" category="paragraph">當您建立新的資料代理人群組時、請選擇Microsoft Azure、將資料代理人軟體部署在vnet中的新虛擬機器上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
+  <block id="07eb137be0de3d4ec4faeb42baa5f82c" category="paragraph">當 BlueXP 複製與同步部署 Azure 中的資料代理程式時、它會建立一個安全群組、以啟用所需的傳出通訊。</block>
+  <block id="77be4f1e4f287772c97ec1d404c65d79" category="list-text">在 BlueXP 複製與同步中、資料代理可用時按一下 * 繼續 * 。</block>
+  <block id="709a77b53428394651e5702dc1d6cb78" category="paragraph">如果 Microsoft 通知您需要管理員核准、因為 BlueXP 複本與同步需要代表您存取組織中資源的權限、則您有兩個選項：</block>
+  <block id="7979374874e6c5c531b205d7a738fac7" category="paragraph">BlueXP 複製與同步會使用下列組態在 Azure 中建立資料代理程式。</block>
+  <block id="c8f499f4661300d7b6cc58f37d33cdfe" category="summary">NetApp BlueXP 複製與同步服務提供簡單、安全且自動化的方法、可將您的資料移轉至雲端或內部部署的任何目標。</block>
+  <block id="2a128385384ca210049ddfcf90ac42e5" category="doc">BlueXP 複本與同步總覽</block>
+  <block id="bb488837e24fef30ed48adbc362a2afc" category="paragraph">NetApp BlueXP 複製與同步服務提供簡單、安全且自動化的方法、可將您的資料移轉至雲端或內部部署的任何目標。無論是檔案型 NAS 資料集（ NFS 或 SMB ）、 Amazon Simple Storage Service （ S3 ）物件格式、 NetApp StorageGRID ® 應用裝置、或是任何其他雲端供應商物件儲存區、 BlueXP 複本與同步都能為您進行轉換與移動。</block>
+  <block id="06912794facda178b9f64f56f5867158" category="paragraph">請觀看下列影片、瞭解 BlueXP 複本與同步的概觀：</block>
+  <block id="67f65916b8a962d56b7395d8baa10d8c" category="section-title">BlueXP 複製與同步的運作方式</block>
+  <block id="54ffa47a5eb61843ef682cdbcd045fd9" category="paragraph">BlueXP 複製與同步是一種軟體即服務（ SaaS ）平台、由資料代理群組、透過 BlueXP 提供的雲端介面、以及來源與目標所組成。</block>
+  <block id="0338943a1bd4e31c4522f3ff03c4c024" category="paragraph">下圖顯示 BlueXP 複本與同步元件之間的關係：</block>
+  <block id="8ca2a72b44f661d05f099919c07978e4" category="inline-image-macro">顯示資料從來源流向目標的概念性映像。資料代理軟體扮演中介角色、並輪詢 BlueXP 複本與同步服務以執行工作。</block>
+  <block id="b5e1e9b6dd4b15f3ad74a4704b501d0c" category="paragraph"><block ref="b5e1e9b6dd4b15f3ad74a4704b501d0c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2cc33e2dbbf6476c0a5e3a942cf9b923" category="paragraph">NetApp 資料代理軟體會將資料從來源同步至目標（這稱為 _sync 關係 _ ）。您可以在 AWS 、 Azure 、 Google Cloud Platform 或內部部署環境中執行資料代理程式。由一或多個資料代理人組成的資料代理人群組、需要透過連接埠 443 進行傳出網際網路連線、以便與 BlueXP 複本和同步服務進行通訊、並與其他一些服務和儲存庫聯絡。 <block ref="30f0c8255e1737101681cabde5abb03f" category="inline-link-macro-rx"></block>。</block>
+  <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">BlueXP 複製與同步支援下列儲存類型：</block>
+  <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">使用 BlueXP 複本與同步有兩種相關成本類型：資源費用與服務費用。</block>
+  <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">從 AWS Marketplace 訂閱、然後重新登入 BlueXP 複本並同步服務以完成註冊。</block>
+  <block id="d6555e6f7172ab3b02bb7b9388844450" category="list-text">按一下 * 設定帳戶 * 以返回 BlueXP 複本與同步處理。</block>
+  <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licenses]] 向 NetApp 購買授權、並將其新增至 BlueXP 複本與同步處理</block>
+  <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">若要事先支付同步關係費用、您必須購買一或多個授權、並將其新增至 BlueXP 複本與同步服務。</block>
+  <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">如果您延長從 NetApp 購買的 BlueXP 複本與同步授權、則 BlueXP 複本與同步處理中的新到期日將不會自動更新。您需要再次新增授權、以重新整理到期日。授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。</block>
+  <block id="a6aa4333de4bce96807c6d015f47bea5" category="paragraph">BlueXP 複製與同步會以新的到期日更新現有授權。</block>
+  <block id="2f4ff5ef1b9cf09517c58eadb7a587c3" category="inline-link-macro">BlueXP 複本與同步注意事項</block>
+  <block id="9dc46fc324c6aa554f36c3064cb174a5" category="paragraph"><block ref="9dc46fc324c6aa554f36c3064cb174a5" category="inline-link-macro-rx"></block></block>
+  <block id="0be09b84a59e39ca9ea4c3338ff803ea" category="paragraph">BlueXP 複製與同步會更新資料代理群組的名稱。</block>
+  <block id="76535c60f4fe9b5bca01e0204ab6c5e3" category="list-text">這項變更可能需要一分鐘的時間、而且在 BlueXP 複本與同步介面中可見。</block>
+  <block id="6261a0b7050438de57b15a26f470955e" category="list-text">如果資料代理程式未執行、則其組態不會變更、因為 BlueXP 複本與同步無法與之通訊。資料代理程式重新啟動後、組態將會變更。</block>
+  <block id="3799f9b3d57a6e9275c442207f538a7e" category="paragraph">BlueXP 複製與同步會將資料代理移至新的或現有的資料代理群組。如果上一個群組中沒有其他資料代理人、 BlueXP 複製與同步會將其刪除。</block>
+  <block id="75ce211e28d904715d9b8261ec131122" category="paragraph">BlueXP 複製與同步會更新資料代理程式、以使用 Proxy 組態進行網際網路存取。</block>
+  <block id="4e0f83940a385d99c7547e512eab8b79" category="paragraph">BlueXP 複製與同步提供資料代理程式的下列詳細資料：</block>
+  <block id="81bb2650434abc0d03fbbf693e0fbfd2" category="paragraph">BlueXP 複製與同步會顯示每個資料代理程式的狀態、以協助您疑難排解問題。</block>
+  <block id="edfe173828c6da428b367d6069499a4f" category="inline-image-macro">BlueXP 複本與同步狀態的螢幕擷取畫面會顯示資料代理程式的「未知」狀態。</block>
+  <block id="0c492ed5f1fcff8c76556808bbe00238" category="paragraph"><block ref="0c492ed5f1fcff8c76556808bbe00238" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="271954741c5c57650a08bc91ef7aa10c" category="paragraph">如果不再需要資料代理人、或是初始部署失敗、您可以將其從群組中移除。此動作只會從 BlueXP 複本和同步的記錄中刪除資料代理程式。您必須自行手動刪除資料代理人及任何其他雲端資源。</block>
+  <block id="9ec234cbc1e7e2a4d0c8060ffabfb32b" category="list-text">當您從群組中移除最後一個資料代理人時、 BlueXP 複製與同步會刪除群組。</block>
+  <block id="5580b0c0f9a8c805d0867140e619bdbc" category="paragraph">BlueXP 複製與同步會從群組中移除資料代理程式。</block>
+  <block id="f76953279bf21baacbab7d3d421f7219" category="paragraph">如果資料代理群組不再管理任何同步關係、您可以刪除群組、從 BlueXP 複本和同步移除所有資料代理程式。</block>
+  <block id="82718ccbb61c848a8534b980ed743b3c" category="paragraph">BlueXP 複製和同步移除的資料代理人只會從 BlueXP 複本和同步的記錄中刪除。您需要從雲端供應商手動刪除資料代理執行個體、以及任何其他雲端資源。</block>
+  <block id="9f6a182b3e5ab93e119458359d7d626f" category="paragraph">BlueXP 複製與同步會移除資料代理人並刪除群組。</block>
+  <block id="c11f85d558d1e3471b05cda41e20ae3f" category="paragraph">建立同步關係時、 BlueXP 複製與同步可讓您選取現有的目標目錄、然後選擇性地在該目錄內建立新的資料夾。因此請確定您偏好的目標目錄已經存在。</block>
+  <block id="017d4e2a6fb94b0f03b93d4dae3e6a7a" category="paragraph">為了顯示來源或目標中的每個目錄或資料夾、 BlueXP 複本和同步需要目錄或資料夾的讀取權限。</block>
+  <block id="1da25365381fbf6e5aa3fbd50aebce1f" category="paragraph">包含 S3 儲存設備的同步關係需要部署在 AWS 或內部部署的資料代理程式。無論是哪種情況、 BlueXP 複製與同步都會提示您在安裝期間將資料代理與 AWS 帳戶建立關聯。</block>
+  <block id="6b2af6431dae2fed1f81892a707f99c4" category="paragraph">在 Azure Blob 容器與 NFS 或 SMB 伺服器之間建立同步關係時、您需要提供 BlueXP 複本、並與儲存帳戶連線字串同步：</block>
+  <block id="46cfdef183861f5cc6c515d080dcee57" category="paragraph">建立包含 Azure Data Lake 的同步關係時、您需要提供 BlueXP 複本、並與儲存帳戶連線字串同步。它必須是一般連線字串、而非共用存取簽章（SAS）。</block>
+  <block id="18865392b54b59100b0ae3e57aa36098" category="paragraph">包括Google Cloud Storage在內的同步關係需要部署在Google Cloud或內部部署的資料代理商。BlueXP 複製與同步功能可在您建立同步關係時、引導您完成資料代理程式的安裝程序。</block>
+  <block id="e5f1a224eb89d161ad7fbe45c436cf2d" category="list-text">您需要提供 BlueXP 複本、並與 SMB 伺服器上具有權限的認證進行同步。</block>
+  <block id="87da99354cf4a93eaa22aa040b974b9c" category="paragraph">例如、假設來源上有一個名為「 A 」的檔案、而目標上有一個名為「 A 」的檔案。當 BlueXP 複製與同步將名為「 A 」的檔案複製到目標時、來源的檔案「 A 」會覆寫檔案「 A 」。</block>
+  <block id="70d2a10029af526372a790ca0dea338c" category="paragraph">就目錄而言、假設來源上有一個名為「 b 」的目錄、而目標上有一個名為「 B 」的目錄。當 BlueXP 複製與同步嘗試將名為「 b 」的目錄複製到目標時、 BlueXP 複製與同步會收到一個錯誤、指出目錄已經存在。因此、 BlueXP 複製與同步處理一律無法複製名為「 b 」的目錄。</block>
+  <block id="05bec3dc9de263528ef947ed16ae20f6" category="summary">BlueXP 複製與同步是一種雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸 NAS 資料。</block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="doc">BlueXP 複本與同步文件</block>
+  <block id="4163e7a84b8caa61a8947b85097371ab" category="summary">當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、您需要透過 BlueXP 複本和同步使用者介面或 API 來指定這些認證。另一種方法是設定資料代理程式、以便直接從外部 HashiCorp Vault 存取認證資料。</block>
+  <block id="3ad5b6ee0c2d7a718cd4dbaad5b800fd" category="paragraph">當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、您需要透過 BlueXP 複本和同步使用者介面或 API 來指定這些認證。另一種方法是設定資料代理人群組、以便直接從外部HashiCorp Vault存取認證（或_h秘密_）。</block>
+  <block id="ff28fc9ed3f494e0ac7eaca5fd242e0a" category="paragraph">此功能可透過 BlueXP 複本與同步 API 、以及需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係來支援。</block>
+  <block id="57a7f745a91d7775408a8d994e5b2949" category="paragraph">您必須提供 BlueXP 複本、並與資料保險箱中機密的 URL 同步。設定這些 URL 來準備保存庫。您需要在您打算建立的同步關係中、設定每個來源和目標的認證 URL 。</block>
+  <block id="4b52274dc71e3868576fe3ac3417540a" category="paragraph">使用 BlueXP 複本張貼關係、並同步 REST API 。</block>
+  <block id="7d7272ede6c05ad9c91121525d632485" category="summary">BlueXP 複製與同步的網路功能包括資料代理群組與來源和目標位置之間的連線、以及透過連接埠 443 從資料代理程式傳出的網際網路連線。</block>
+  <block id="15ef083b91c5cdfd707ff0d438977929" category="doc">BlueXP 複本與同步的網路連線總覽</block>
+  <block id="0fdfc66906a0b56003cb0ac20efab1ba" category="admonition">當 BlueXP 複製與同步在 AWS 、 Azure 或 Google Cloud 中部署資料代理程式時、它會建立一個安全群組、以啟用所需的傳出通訊。</block>
+  <block id="03df11fc2fc8078c52c85fb8b64e9c54" category="inline-image-macro">圖表顯示 BlueXP 複本與同步服務、雲端執行的資料代理程式、以及來源與目標的連線。</block>
+  <block id="010a5094d2772e6aa49b27ff77adf878" category="paragraph"><block ref="010a5094d2772e6aa49b27ff77adf878" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed21b7ec5b633459edb48789b605cf3d" category="inline-image-macro">圖表顯示 BlueXP 複本與同步服務、內部部署執行的資料代理程式、以及與來源和目標的連線。</block>
+  <block id="74d9514dcce6535501bc251cb4321b45" category="paragraph"><block ref="74d9514dcce6535501bc251cb4321b45" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d910e44276a1ce3195b04e9eb19d3918" category="list-text">資料代理程式需要外傳網際網路連線、以便透過連接埠 443 輪詢 BlueXP 複本和同步服務的工作。</block>
+  <block id="19e70bb81b5aff5d8da2a366db71189e" category="paragraph">NetApp 資料代理程式需要透過連接埠 443 進行傳出網際網路存取、才能與 BlueXP 複本與同步服務進行通訊、並聯絡其他一些服務與儲存庫。您的本機網頁瀏覽器也需要存取端點才能執行特定動作。如果您需要限制傳出連線、請參閱下列端點清單、以設定傳出流量的防火牆。</block>
+  <block id="ee079d20a2d23f18433b7e6c2348f6f2" category="cell">存取用於更新 PM2 的儲存庫、這是用於監控 BlueXP 複本與同步的第三方套件。</block>
+  <block id="ee1032abe5bcd499174c562a69eb9f17" category="cell">聯絡 BlueXP 複製與同步作業所使用的 AWS 服務（佇列檔案、登錄動作、以及將更新傳送至資料代理程式）。</block>
+  <block id="5c7ab4b0794289ba361e1f78602440c1" category="cell">當您從 BlueXP 複本下載資料代理記錄檔並進行同步時、資料代理會將其記錄檔目錄壓縮、並將記錄檔上傳至 us-east-1 區域的預先定義 S3 儲存區。</block>
+  <block id="b602fd538f00e526ffb6a8818b914c02" category="cell">以聯絡 BlueXP 複本與同步服務。</block>
+  <block id="04bde9824fe76c12bc97fc0154e2017a" category="sidebar">BlueXP 複製與同步文件</block>
+  <block id="165b6b1b3c4b5d4ec47cae74f2de4deb" category="sidebar">瞭解 BlueXP 複製與同步</block>
+  <block id="106c2bd3e07db354c45924d6acfb06d3" category="sidebar">使用 BlueXP 複製與同步</block>
 </blocks>

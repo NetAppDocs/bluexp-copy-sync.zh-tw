@@ -16,13 +16,13 @@ summary: 在您的 14 天免費試用結束後、有兩種方式可以支付同�
 [role="lead"]
 在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱、以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。
 
-授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。
+授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。
 
 
 
 == 市場訂閱
 
-訂閱 Cloud Sync AWS 或 Azure 提供的支援服務、可讓您以每小時的費率付款、或是每年付費。 link:task-licensing.html["您可以透過 AWS 或 Azure 訂閱"]（視您要帳單的地點而定）。
+從 AWS 或 Azure 訂閱 BlueXP 複本與同步服務、可讓您以每小時費率或每年付費。 link:task-licensing.html["您可以透過 AWS 或 Azure 訂閱"]（視您要帳單的地點而定）。
 
 
 
@@ -50,13 +50,13 @@ https://aws.amazon.com/marketplace/pp/B06XX5V3M2["在 AWS 中檢視年度定價"
 
 您可以搭配 AWS 或 Azure 訂閱使用這些授權。例如、如果您有 25 個同步關係、您可以使用授權支付前 20 個同步關係的費用、然後從 AWS 或 Azure 購買剩餘的 5 個同步關係。
 
-link:task-licensing.html["瞭解如何購買授權、並將其新增 Cloud Sync 至"]。
+link:task-licensing.html["瞭解如何購買授權、並將其新增至 BlueXP 複本與同步處理"]。
 
 
 
 === 授權條款
 
-購買「自帶授權（ BYOL ）到 Cloud Sync 該服務」的客戶、應注意授權權利的相關限制。
+購買 BlueXP 複本與同步服務的客戶、應注意與授權權利相關的限制。
 
 * 自交付日起一年內、客戶有權使用 BYOL 授權。
 * 客戶有權利用 BYOL 授權、在來源與目標之間建立且不超過 20 個個別連線（每個連線都是「同步關係」）。

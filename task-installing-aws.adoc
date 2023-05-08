@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-aws.html 
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
-summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、在 VPC 的新 EC2 執行個體上部署資料代理軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync 
+summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、在 VPC 的新 EC2 執行個體上部署資料代理軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。 
 ---
 = 在AWS中建立新的資料代理程式
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、
 
 
 [role="lead"]
-當您建立新的資料代理人群組時、請選擇Amazon Web Services、在VPC的新EC2執行個體上部署資料代理人軟體。本頁將會重複提供安裝程序的支援、協助您做好安裝準備。 Cloud Sync
+當您建立新的資料代理人群組時、請選擇Amazon Web Services、在VPC的新EC2執行個體上部署資料代理人軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。
 
 您也可以選擇在雲端或內部部署的現有 Linux 主機上安裝資料代理程式。 link:task-installing-linux.html["深入瞭解"]。
 
@@ -34,9 +34,9 @@ summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、
 
 == 網路需求
 
-* 資料代理人需要傳出的網際網路連線、以便透過 Cloud Sync 連接埠 443 輪詢該服務的工作。
+* 資料代理程式需要外傳網際網路連線、以便透過連接埠 443 輪詢 BlueXP 複本和同步服務的工作。
 +
-當在 AWS 中部署資料代理程式時 Cloud Sync 、它會建立一個安全群組、以啟用必要的傳出通訊。請注意、您可以設定資料代理程式在安裝過程中使用 Proxy 伺服器。
+當 BlueXP 複製與同步在 AWS 中部署資料代理程式時、它會建立一個安全群組、以啟用所需的輸出通訊。請注意、您可以設定資料代理程式在安裝過程中使用 Proxy 伺服器。
 
 +
 如果您需要限制傳出連線、請參閱 link:reference-networking.html["資料代理所連絡的端點清單"]。
@@ -54,7 +54,7 @@ summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、
 
 == [[iam]要求您在AWS資料代理程式中使用自己的IAM角色
 
-當執行數據代理部署時、它會為資料代理執行個體建立 IAM 角色。 Cloud Sync您可以視需要使用自己的 IAM 角色來部署資料代理程式。如果您的組織具有嚴格的安全性原則、您可以使用此選項。
+當 BlueXP 複製與同步部署資料代理程式時、它會為資料代理程式執行個體建立 IAM 角色。您可以視需要使用自己的 IAM 角色來部署資料代理程式。如果您的組織具有嚴格的安全性原則、您可以使用此選項。
 
 IAM 角色必須符合下列要求：
 
@@ -81,7 +81,7 @@ IAM 角色必須符合下列要求：
 image:screenshot-aws.png["Data Broker頁面的快照、可讓您在AWS、Azure、Google Cloud和內部部署資料代理程式之間進行選擇。"]
 
 . 輸入資料代理的名稱、然後按一下 * 繼續 * 。
-. 輸入 AWS 存取金鑰、 Cloud Sync 以便讓支援代表您在 AWS 中建立資料代理程式。
+. 輸入 AWS 存取金鑰、以便 BlueXP 複製與同步可以代表您在 AWS 中建立資料代理程式。
 +
 金鑰不會儲存或用於任何其他用途。
 
@@ -93,7 +93,7 @@ image:screenshot-aws.png["Data Broker頁面的快照、可讓您在AWS、Azure�
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. 如果您輸入AWS存取金鑰、請選取執行個體的位置、選取金鑰組、選擇是否啟用公用IP位址、然後選取現有的IAM角色、或將欄位保留空白、Cloud Sync 以便讓NetApp為您建立角色。您也可以選擇使用KMS金鑰加密資料代理人。
+. 如果您輸入 AWS 存取金鑰、請選取執行個體的位置、選取金鑰配對、選擇是否啟用公用 IP 位址、然後選取現有的 IAM 角色、或將欄位保留空白、以便 BlueXP 複本與同步建立您的角色。您也可以選擇使用KMS金鑰加密資料代理人。
 +
 如果您選擇自己的 IAM 角色、 <<iam,您需要提供必要的權限>>。
 
@@ -101,7 +101,7 @@ video::video_cloud_sync.mp4[width=848,height=480]
 image:screenshot_aws_data_broker.png["在 AWS 中部署資料代理程式時所需提供資訊的快照。"]
 
 . 如果 VPC 中的網際網路存取需要 Proxy 、請指定 Proxy 組態。
-. 在資料代理程式可用之後、按 Cloud Sync 一下「」中的「 * 繼續 * 」。
+. 資料代理可用後、請在 BlueXP 複本中按一下 * 繼續 * 、然後進行同步處理。
 +
 下列影像顯示 AWS 中已成功部署的執行個體：
 
@@ -118,7 +118,7 @@ image:screenshot-data-broker-group-selected.png["此快照顯示已成功部署�
 
 == 資料代理執行個體的詳細資料
 
-使用下列組態、在AWS中建立資料代理程式。Cloud Sync
+BlueXP 複製與同步會使用下列組態、在 AWS 中建立資料代理程式。
 
 執行個體類型:: m5n.xlarge（如果該地區有）、否則m5.xlarge
 vCPU:: 4.

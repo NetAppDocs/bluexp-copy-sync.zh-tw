@@ -24,7 +24,7 @@ link:concept-licensing.html["深入瞭解授權的運作方式"]。
 
 如果您在免費試用結束後仍未立即付款、您將無法建立任何其他關係。現有的關係不會刪除、但您必須先訂閱或輸入授權、才能對其進行任何變更。
 
-授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。
+授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。
 
 
 
@@ -36,7 +36,7 @@ AWS 可讓您隨用隨付或每年付費。
 . 按一下 * 同步 > 授權 * 。
 . 選擇 * AWS*
 . 按一下「 * 訂閱 * 」、然後按一下「 * 繼續 * 」。
-. 從 AWS Marketplace 訂閱、然後重新登入 Cloud Sync 到該服務以完成註冊。
+. 從 AWS Marketplace 訂閱、然後重新登入 BlueXP 複本並同步服務以完成註冊。
 +
 下列影片顯示此程序：
 
@@ -68,7 +68,7 @@ Azure 可讓您隨用隨付或每年付費。
 選擇 * 每月 * 按小時付費、或 * 每年 * 預付一年。
 
 . 部署完成後、按一下通知快顯視窗中的 SaaS 資源名稱。
-. 按一下「 * 設定帳戶 * 」以返回 Cloud Sync 到「支援」。
+. 按一下 * 設定帳戶 * 以返回 BlueXP 複本與同步處理。
 +
 下列影片顯示此程序：
 
@@ -78,9 +78,9 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 
-== [[licenses]]向NetApp購買授權、並將其新增Cloud Sync 至
+== [[licenses]] 向 NetApp 購買授權、並將其新增至 BlueXP 複本與同步處理
 
-若要預付同步關係的費用、您必須購買一或多份授權、並將其新增至 Cloud Sync 該服務。
+若要事先支付同步關係費用、您必須購買一或多個授權、並將其新增至 BlueXP 複本與同步服務。
 
 .您需要的產品
 您將需要授權的序號、以及授權所關聯之NetApp Support Site帳戶的使用者名稱和密碼。
@@ -106,7 +106,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 == 更新授權
 
-如果您延長Cloud Sync 從NetApp購買的更新版的支援、新的到期日將不會自動更新Cloud Sync 到更新版。您需要再次新增授權、以重新整理到期日。授權應透過Cloud Sync NetApp或適用的網站進行管理、而*不得*透過數位錢包進行管理。
+如果您延長從 NetApp 購買的 BlueXP 複本與同步授權、則 BlueXP 複本與同步處理中的新到期日將不會自動更新。您需要再次新增授權、以重新整理到期日。授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。
 
 .步驟
 . 在BlueXP中、按一下*同步>授權*。
@@ -120,4 +120,4 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 
 .結果
-以新的到期日更新現有授權。Cloud Sync
+BlueXP 複製與同步會以新的到期日更新現有授權。

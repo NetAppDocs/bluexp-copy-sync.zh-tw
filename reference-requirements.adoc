@@ -31,13 +31,13 @@ summary: 確認您的來源和目標符合下列要求。
 
 == 目標目錄
 
-建立同步關係時Cloud Sync 、利用支援功能、您可以選取現有的目標目錄、然後在該目錄中建立新的資料夾（可選）。因此請確定您偏好的目標目錄已經存在。
+建立同步關係時、 BlueXP 複製與同步可讓您選取現有的目標目錄、然後選擇性地在該目錄內建立新的資料夾。因此請確定您偏好的目標目錄已經存在。
 
 
 
 == 讀取目錄的權限
 
-為了顯示來源或目標中的每個目錄或資料夾、Cloud Sync 需要目錄或資料夾的讀取權限。
+為了顯示來源或目標中的每個目錄或資料夾、 BlueXP 複本和同步需要目錄或資料夾的讀取權限。
 
 NFS:: 必須在來源/目標上定義權限、並在檔案和目錄上使用uid / gid。
 物件儲存::
@@ -64,7 +64,7 @@ NOTE: 資料代理程式預設會忽略下列目錄：.snapshot、~snapshot、.C
 
 === Amazon S3支援的資料代理位置
 
-包含 S3 儲存設備的同步關係需要部署在 AWS 或內部部署的資料代理程式。無論是哪一種情況 Cloud Sync 、安裝期間、資訊中心都會提示您將資料代理程式與 AWS 帳戶建立關聯。
+包含 S3 儲存設備的同步關係需要部署在 AWS 或內部部署的資料代理程式。無論是哪種情況、 BlueXP 複製與同步都會提示您在安裝期間將資料代理與 AWS 帳戶建立關聯。
 
 * link:task-installing-aws.html["瞭解如何部署 AWS 資料代理程式"]
 * link:task-installing-linux.html["瞭解如何在 Linux 主機上安裝資料代理程式"]
@@ -123,7 +123,7 @@ image:screenshot_iam_role_arn.gif["顯示角色 ARN 的 AWS IAM 主控台快照�
 
 === 包括Azure Blob和NFS/SMB之關係的連線字串
 
-在 Azure Blob 容器和 NFS 或 SMB 伺 Cloud Sync 服器之間建立同步關係時、您需要提供含有儲存帳戶連線字串的功能：
+在 Azure Blob 容器與 NFS 或 SMB 伺服器之間建立同步關係時、您需要提供 BlueXP 複本、並與儲存帳戶連線字串同步：
 
 image:screenshot_connection_string.gif["顯示連線字串、可從 Azure 入口網站選取儲存帳戶、然後按一下存取金鑰。"]
 
@@ -144,7 +144,7 @@ NOTE: 如果您選擇實作包含Azure Blob容器的Continuous Sync關係、則�
 
 == Azure Data Lake儲存設備第2代
 
-建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。
+建立包含 Azure Data Lake 的同步關係時、您需要提供 BlueXP 複本、並與儲存帳戶連線字串同步。它必須是一般連線字串、而非共用存取簽章（SAS）。
 
 
 
@@ -194,7 +194,7 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 === Google Cloud Storage 支援的資料代理商位置
 
-包括Google Cloud Storage在內的同步關係需要部署在Google Cloud或內部部署的資料代理商。建立同步關係時、可利用此功能引導您完成資料代理程式的安裝程序。 Cloud Sync
+包括Google Cloud Storage在內的同步關係需要部署在Google Cloud或內部部署的資料代理商。BlueXP 複製與同步功能可在您建立同步關係時、引導您完成資料代理程式的安裝程序。
 
 * link:task-installing-gcp.html["瞭解如何部署Google Cloud資料代理商"]
 * link:task-installing-linux.html["瞭解如何在 Linux 主機上安裝資料代理程式"]
@@ -285,7 +285,7 @@ NOTE: showmount 的預設設定為「啟用 _ 」、從 ONTAP SURF9.2 開始。
 == SMB 伺服器需求
 
 * SMB 伺服器可以是 NetApp 系統或非 NetApp 系統。
-* 您需要提供Cloud Sync 對SMB伺服器具有權限的認證資料。
+* 您需要提供 BlueXP 複本、並與 SMB 伺服器上具有權限的認證進行同步。
 +
 ** 對於來源SMB伺服器、需要下列權限：清單和讀取。
 +
@@ -320,8 +320,8 @@ SMB 限制會在 SMB 伺服器之間同步資料時、影響隱藏的目錄和�
 
 SMB 傳輸協定不區分大小寫、這表示大小寫字母會被視為相同。如果同步關係包含 SMB 伺服器、且目標上已存在資料、則此行為可能會導致覆寫檔案和目錄複製錯誤。
 
-例如、假設來源上有一個名為「 A 」的檔案、而目標上有一個名為「 A 」的檔案。當將名為「 A 」的檔案複製到目標時、檔案「 A 」會被來源的檔案「 A 」覆寫。 Cloud Sync
+例如、假設來源上有一個名為「 A 」的檔案、而目標上有一個名為「 A 」的檔案。當 BlueXP 複製與同步將名為「 A 」的檔案複製到目標時、來源的檔案「 A 」會覆寫檔案「 A 」。
 
-就目錄而言、假設來源上有一個名為「 b 」的目錄、而目標上有一個名為「 B 」的目錄。當試圖將名為「 b 」的目錄複製到目標時、會收到錯誤訊息指出該目錄已經存在。 Cloud Sync Cloud Sync因此 Cloud Sync 、無法複製名為「 b 」的目錄。
+就目錄而言、假設來源上有一個名為「 b 」的目錄、而目標上有一個名為「 B 」的目錄。當 BlueXP 複製與同步嘗試將名為「 b 」的目錄複製到目標時、 BlueXP 複製與同步會收到一個錯誤、指出目錄已經存在。因此、 BlueXP 複製與同步處理一律無法複製名為「 b 」的目錄。
 
 避免此限制的最佳方法是確保您將資料同步至空白目錄。

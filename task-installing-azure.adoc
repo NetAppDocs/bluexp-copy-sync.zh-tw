@@ -132,7 +132,7 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 

@@ -92,7 +92,7 @@ BlueXP 複製與同步會更新資料代理程式上的認證。資料代理程�
 
 每個同步關係的 * 通知 * 設定可讓您選擇是否要在 BlueXP 的通知中心接收 BlueXP 複本和同步通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
 
 此外、您也可以透過電子郵件接收通知。
 

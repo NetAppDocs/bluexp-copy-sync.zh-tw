@@ -1,1 +1,1 @@
-# cloud-manager-sync
+# bluexp-copy-sync

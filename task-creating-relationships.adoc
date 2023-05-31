@@ -33,13 +33,13 @@ summary: 建立同步關係時、 BlueXP 複製與同步服務會將檔案從來
 .步驟
 . 建立或探索工作環境。
 +
-** https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
-** https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["設定及探索Azure NetApp Files 功能"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
+** https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
+** https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["設定及探索Azure NetApp Files 功能"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
 
 
 . 按一下 * Canvas* 。
@@ -215,4 +215,4 @@ BlueXP 複本與同步功能與 Cloud Data Sense 整合。在 Data Sense 中、�
 
 image:screenshot-sync-data-sense.png["這張螢幕快照會顯示直接從Cloud Data Sense開始新同步後出現的「Data Sense Integration」（資料感測整合）頁面。"]
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["瞭解如何從Cloud Data Sense開始同步關係"^]。
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["瞭解如何從Cloud Data Sense開始同步關係"^]。

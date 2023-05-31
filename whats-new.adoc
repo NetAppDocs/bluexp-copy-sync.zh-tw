@@ -26,7 +26,7 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解檔案類型設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解檔案類型設定"]。
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 使用者現在可以排除在排程同步前 365 天內修改的檔案。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解最近修改的檔案設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解最近修改的檔案設定"]。
 
 
 
@@ -48,9 +48,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
 
 
@@ -68,7 +68,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 * On-Prem ONTAP
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
 
 
 
@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
 
 
@@ -88,7 +88,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
 
 
 
@@ -113,7 +113,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creati
 * IBM Cloud 物件儲存設備
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
 
 
 
@@ -121,7 +121,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 AWS資料代理人的作業系統已升級至Amazon Linux 2022。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["深入瞭解AWS中的資料代理執行個體"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["深入瞭解AWS中的資料代理執行個體"]。
 
 
 
@@ -133,7 +133,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#detail
 
 現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["深入瞭解如何管理資料代理人群組"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["深入瞭解如何管理資料代理人群組"]。
 
 
 
@@ -141,9 +141,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 Azure和Google Cloud中的資料代理人作業系統已升級至The Rocky Linux 9.0。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["深入瞭解Azure中的資料代理執行個體"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["深入瞭解Azure中的資料代理執行個體"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["深入瞭解Google Cloud中的資料代理執行個體"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["深入瞭解Google Cloud中的資料代理執行個體"]。
 
 
 
@@ -155,7 +155,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#detail
 
 現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解「排除目錄名稱」設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解「排除目錄名稱」設定"]。
 
 
 
@@ -167,7 +167,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 * 將S3儲存設備移至AWS S3 ONTAP
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
 
 
 
@@ -197,7 +197,7 @@ Azure資料代理人需要自訂角色和下列權限才能使用此設定：
 'Microsoft.EventGrid/eventSubscriptions/write',
 'Microsoft.Storage/storageAccounts/write'
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 
@@ -215,7 +215,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 * 您也可以針對包含Google雲端硬碟的同步關係產生報告。
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["深入瞭解報告"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["深入瞭解報告"]。
 
 
 
@@ -229,7 +229,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["深
 * 將Google Cloud Storage移轉至NFS伺服器
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 
@@ -239,7 +239,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["瞭解如何設定通知"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["瞭解如何設定通知"]。
 
 
 
@@ -251,9 +251,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。
 
-在建立包含Google雲端硬碟的同步關係之前、您必須先設定具有必要權限和私密金鑰的服務帳戶。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["深入瞭解Google雲端硬碟的需求"]。
+在建立包含Google雲端硬碟的同步關係之前、您必須先設定具有必要權限和私密金鑰的服務帳戶。 https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive["深入瞭解Google雲端硬碟的需求"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
 
 
 
@@ -266,7 +266,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 * 適用於Azure Data Lake Storage Gen2 StorageGRID
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
 
 
 
@@ -280,7 +280,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["在藍圖XP中顯示通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -288,7 +288,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["在藍圖XP中顯示通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -302,7 +302,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
 
 
 
@@ -327,7 +327,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 
@@ -369,7 +369,7 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 ----
 這些權限會自動新增至您所建立的任何新資料代理人。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
 
 
 
@@ -401,7 +401,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 現在有一項新的*同步逾時*設定可供同步關係使用。此設定可讓您定義Cloud Sync 當同步尚未在指定的時數或天數內完成時、是否應取消資料同步。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
 
 
@@ -409,9 +409,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能不實的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
 
 
@@ -428,7 +428,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 * 最後、您也可以刪除資料代理人群組。
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["瞭解如何管理資料代理人群組"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["瞭解如何管理資料代理人群組"]。
 
 
 
@@ -436,7 +436,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 您現在可以篩選「同步儀表板」的內容、更輕鬆地找到符合特定狀態的同步關係。例如、您可以篩選狀態為「失敗」的同步關係
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-filter.png["快照顯示儀表板頂端的「依同步狀態篩選」選項。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png["快照顯示儀表板頂端的「依同步狀態篩選」選項。"]
 
 
 
@@ -448,7 +448,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 您現在可以依照同步關係名稱來排序儀表板。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-sort.png["顯示儀表板可用之「排序依據名稱」選項的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png["顯示儀表板可用之「排序依據名稱」選項的快照。"]
 
 
 
@@ -456,7 +456,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 在先前的版本中、我們推出Cloud Sync 了與Cloud Data Sense整合的功能。在此更新中、我們透過更輕鬆地建立同步關係來強化整合。從Cloud Data Sense啟動資料同步之後、所有來源資訊都會包含在單一步驟中、而且只需要輸入一些重要詳細資料即可。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["這張螢幕快照會顯示直接從Cloud Data Sense開始新同步後出現的「Data Sense Integration」（資料感測整合）頁面。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png["這張螢幕快照會顯示直接從Cloud Data Sense開始新同步後出現的「Data Sense Integration」（資料感測整合）頁面。"]
 
 
 
@@ -470,11 +470,11 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 例如、當您建立新的同步關係時、請選取要與關係搭配使用的資料代理_群組_、而非特定的資料代理程式。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-select-data-broker-group.png["同步關係精靈的快照、顯示資料代理群組選取項目。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["同步關係精靈的快照、顯示資料代理群組選取項目。"]
 
 在*管理資料代理人*索引標籤中、我們也會顯示資料代理人群組正在管理的同步關係數目。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-group-relationships.png["「管理資料代理人」頁面的快照、顯示資料代理人群組及該群組的詳細資料、包括其所管理的關係數目。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png["「管理資料代理人」頁面的快照、顯示資料代理人群組及該群組的詳細資料、包括其所管理的關係數目。"]
 
 
 
@@ -482,7 +482,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 您現在可以下載報告的PDF。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["深入瞭解報告"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["深入瞭解報告"]。
 
 
 
@@ -641,7 +641,7 @@ link:api-sync.html["瞭解如何使用API設定同步關係"]。
 
 您現在可以將資料同步至Amazon FSX for ONTAP Sfor Sfor系統、或從Amazon FSX同步資料。
 
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["深入瞭解Amazon FSX for ONTAP Sf"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["深入瞭解Amazon FSX for ONTAP Sf"^]
 * link:reference-requirements.html["檢視支援的同步關係"]
 * link:task-creating-relationships.html["瞭解如何為Amazon FSX for ONTAP Synf2建立同步關係"]
 

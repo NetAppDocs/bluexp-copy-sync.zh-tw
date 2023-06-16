@@ -18,6 +18,26 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 
 
+== 2023 年 6 月 11 日
+
+
+
+=== 支援幾分鐘後自動中止
+
+現在可使用 *Sync Timeout* 功能在 15 分鐘後中止尚未完成的活動同步。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解同步處理逾時設定"]。
+
+
+
+=== 複製存取時間中繼資料
+
+在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解複製物件設定"]。
+
+
+
 == 2023 年 5 月 8 日
 
 

@@ -18,28 +18,28 @@ BlueXP 複製與同步可以在 SMB 共用區之間以及 SMB 共用區與物件
 
 .選擇
 * <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,設定 BlueXP 複本與同步以自動複製 ACL>>
-* <<在SMB共用區之間手動複製ACL,在SMB共用區之間手動複製ACL>>
+* <<Manually copying ACLs between SMB shares,在SMB共用區之間手動複製ACL>>
 
 
 
 
-== 設定 BlueXP 複本並同步以複製 ACL
+== 設定 BlueXP 複本與同步以複製 ACL
 
 在建立關聯或建立關聯之後、啟用設定、即可在SMB共用之間、SMB共用區與物件儲存區之間複製ACL。
 
-.您需要的產品
+.開始之前
 此功能適用於 _any 類型的資料代理商： AWS 、 Azure 、 Google Cloud Platform 或內部資料代理商。內部資料代理程式可以執行 link:task-installing-linux.html["任何支援的作業系統"]。
 
 .建立新關係的步驟
-. 從 BlueXP 複本與同步、按一下 * 建立新同步 * 。
+. 從 BlueXP 複製與同步中、選取 * 建立新同步 * 。
 . 將SMB伺服器或物件儲存設備拖放為來源、並將SMB伺服器或物件儲存設備拖放為目標、然後按一下*繼續*。
 . 在「 * SMB 伺服器 * 」頁面上：
 +
-.. 輸入新的 SMB 伺服器或選取現有的伺服器、然後按一下 * 繼續 * 。
+.. 輸入新的 SMB 伺服器或選取現有的伺服器，然後選取 * 繼續 * 。
 .. 輸入 SMB 伺服器的認證資料。
-.. 選擇 * 將存取控制清單複製到目標 * 、然後按一下 * 繼續 * 。
+.. 選擇 * 僅複製檔案 * 、 * 僅複製 ACL* 或 * 複製檔案和 ACL* 、然後選擇 * 繼續 * 。
 +
-image:screenshot_acl_support.gif["螢幕擷取畫面會顯示啟用「複製存取控制清單至目標」的選項。"]
+image:screenshot_acl_support.png["螢幕擷取畫面會顯示啟用「複製存取控制清單至目標」的選項。"]
 
 
 
@@ -56,10 +56,10 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存設備時、同步
 
 
 .現有關係的步驟
-. 將游標暫留在同步關係上、然後按一下動作功能表。
-. 按一下 * 設定 * 。
-. 選取 * 將存取控制清單複製到目標 * 。
-. 按一下 * 儲存設定 * 。
+. 將游標移至同步處理關係上方、然後選取動作功能表。
+. 選取 * 設定 * 。
+. 選擇 * 僅複製檔案 * 、 * 僅複製 ACL* 或 * 複製檔案和 ACL* 、然後選擇 * 繼續 * 。
+. 選取 * 儲存設定 * 。
 
 
 .結果
@@ -67,7 +67,7 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存設備時、同步
 
 
 
-== 在SMB共用區之間手動複製ACL
+== 在 SMB 共用之間手動複製 ACL
 
 您可以使用 Windows Robocopy 命令、手動保留 SMB 共用區之間的 ACL 。
 

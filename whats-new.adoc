@@ -18,6 +18,32 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 
 
+== 2023 年 7 月 9 日
+
+
+
+=== 一次移除多個同步關係
+
+使用者現在可以在 UI 中一次刪除多個同步關係。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships["深入瞭解如何刪除同步重新關聯。"]
+
+
+
+=== 僅複製 ACL
+
+使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html["深入瞭解複製 ACL 。"]
+
+
+
+=== 已更新至 Node.js 20
+
+複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。
+
+
+
 == 2023 年 6 月 11 日
 
 

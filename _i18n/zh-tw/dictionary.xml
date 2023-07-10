@@ -652,7 +652,6 @@
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">按鈕的快照、可讓您針對同步關係採取行動</block>
   <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">從*儀表板*瀏覽至同步關係、然後按一下 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">按一下「 * 立即同步 * 」、然後按一下「 * 同步 * 」進行確認。</block>
-  <block id="0577fc2a0170ddd124f45dc5bb44f0da" category="section-title">加速同步效能</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">將額外的資料代理程式新增至管理關聯的群組、以加速同步關係的效能。額外的資料代理程式必須是 _new 資料代理程式。</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">如果資料代理人群組管理其他同步關係、則您新增至群組的新資料代理人也會加速這些同步關係的效能。</block>
   <block id="84a191eeaa6e9761d09576e3ce8e7757" category="paragraph">例如、假設您有三種關係：</block>
@@ -663,12 +662,10 @@
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">確保關係中至少有一家資料代理人處於線上狀態。</block>
   <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">按一下 * 加速 * 。</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">依照提示建立新的資料代理程式。</block>
-  <block id="a28c4492bc6f10da847edad58fb33acc" category="section-title">正在更新認證資料</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">您可以使用現有同步關係中來源或目標的最新認證來更新資料代理程式。如果您的安全性原則要求您定期更新認證資料、更新認證資料將有助益。</block>
   <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">從*同步儀表板*移至需要認證的同步關係、然後按一下*更新認證*。</block>
   <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">輸入認證資料、然後按一下*更新*。</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">SMB伺服器的相關注意事項：如果網域是新的、則您需要在更新認證時加以指定。如果網域尚未變更、您就不需要重新輸入。</block>
-  <block id="aa34fbc2c40679419a7f1063c5c292ff" category="section-title">變更同步關係的設定</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">修改設定、定義如何在目標位置同步及維護來源檔案和資料夾。</block>
   <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">按一下 * 設定 * 。</block>
   <block id="822ae51936517f095a62c2446cee4c00" category="list-text">修改任何設定。</block>
@@ -700,9 +697,7 @@
   <block id="ba989292c988a2d8cc2131b51e13de72" category="list-text">建立日期</block>
   <block id="cb19fb587c8b8441e4715d093c6ff8a9" category="list-text">當SMB伺服器為來源時、此設定可讓您同步處理在特定日期之後、特定日期之前或特定時間範圍之間建立的檔案。</block>
   <block id="b92f5c644d05d58f54475c2fe1234f54" category="list-text">ACL -存取控制清單</block>
-  <block id="f0b2b375230c7994fae3ffa2ea1c641e" category="list-text">在建立關聯或建立關聯之後、啟用設定、即可從SMB伺服器複製ACL。</block>
   <block id="14242c99845a0bf338d45c648e061643" category="list-text">按一下 * 儲存設定 * 。</block>
-  <block id="4df1b0120e33fda011d371e1ed722bab" category="section-title">刪除關係</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">如果不再需要在來源與目標之間同步資料、您可以刪除同步關係。此動作不會刪除資料代理群組（或個別資料代理執行個體）、也不會從目標刪除資料。</block>
   <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">單擊 * 刪除 * ，然後再次單擊 * 刪除 * 進行確認。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">建立並檢視報告、取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。</block>
@@ -976,20 +971,14 @@
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">此功能適用於 _any 類型的資料代理商： AWS 、 Azure 、 Google Cloud Platform 或內部資料代理商。內部資料代理程式可以執行 <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>。</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">建立新關係的步驟</block>
   <block id="078c5213fa0cb4e4d041374224a30418" category="list-text">在「 * SMB 伺服器 * 」頁面上：</block>
-  <block id="cd6a06ca56665938800223e22f7a2e1a" category="list-text">輸入新的 SMB 伺服器或選取現有的伺服器、然後按一下 * 繼續 * 。</block>
   <block id="446dd08d6403fc4cd86bff2687c49fac" category="list-text">輸入 SMB 伺服器的認證資料。</block>
-  <block id="e4a32528a4b54e0550c293e3b333a91b" category="list-text">選擇 * 將存取控制清單複製到目標 * 、然後按一下 * 繼續 * 。</block>
   <block id="fb45eb06d7031a4458942ff295e2b322" category="inline-image-macro">螢幕擷取畫面會顯示啟用「複製存取控制清單至目標」的選項。</block>
-  <block id="8430cacad015ab20dbfdfe2a52e66c25" category="paragraph"><block ref="8430cacad015ab20dbfdfe2a52e66c25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e6a4d248486a16fb2ddfb3e73fae457" category="list-text">依照其餘的提示建立同步關係。</block>
   <block id="da63a18d0db73de768c761794d778825" category="paragraph">當您將ACL從SMB複製到物件儲存設備時、可以根據目標、選擇將ACL複製到物件的標記或物件的中繼資料。對於Azure和Google Cloud Storage、只有中繼資料選項可用。</block>
   <block id="3bfa4a2697c3b4f6c66ec5e91be02be6" category="paragraph">下列螢幕擷取畫面顯示您可以選擇此步驟的範例。</block>
   <block id="70ebe11ca97b687790441cba3fee58d1" category="inline-image-macro">複製到物件儲存設備時、同步關係精靈中第六個步驟的快照。您可以選擇將ACL儲存至物件的標記或中繼資料。</block>
   <block id="c5b5f241a9177e265d584f0d7e7eb47f" category="paragraph"><block ref="c5b5f241a9177e265d584f0d7e7eb47f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="713b689d8504ac385f256ca9887e16b1" category="list-title">現有關係的步驟</block>
-  <block id="0c31a291f95e633da467dc857cc5e520" category="list-text">將游標暫留在同步關係上、然後按一下動作功能表。</block>
-  <block id="c8976ecf7db6e203ae29ff9831475dab" category="list-text">選取 * 將存取控制清單複製到目標 * 。</block>
-  <block id="670e838489cdd7c7044571ff2bb8b3be" category="section-title">在SMB共用區之間手動複製ACL</block>
   <block id="d7acee2f148a20ab4d4e346ddcb75a00" category="paragraph">您可以使用 Windows Robocopy 命令、手動保留 SMB 共用區之間的 ACL 。</block>
   <block id="41c1f5322f48eb3e6207394ffc0589d0" category="list-text">識別擁有兩個 SMB 共用區完整存取權的 Windows 主機。</block>
   <block id="df2a188ed56fd7a6dc654c44c2bf4472" category="list-text">如果任一端點需要驗證、請使用 * net use * 命令、從 Windows 主機連線至端點。</block>
@@ -1283,7 +1272,6 @@
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
   <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即執行資料同步</block>
-  <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">設定通知</block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外、您也可以透過電子郵件接收通知。</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步關係的設定：</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">啟用*通知*。</block>
@@ -1637,8 +1625,6 @@
   <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">BlueXP 複製與同步可以在 SMB 共用區之間以及 SMB 共用區與物件儲存區之間（ ONTAP S3 除外）複製存取控制清單（ ACL ）。如有需要、您也可以選擇使用Robocopy手動保留SMB共用之間的ACL。</block>
   <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">設定 BlueXP 複本與同步以自動複製 ACL</block>
   <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
-  <block id="6a116de9e052c93f29f42d9666818738" category="section-title">設定 BlueXP 複本並同步以複製 ACL</block>
-  <block id="2381032f482f5821359a7ffbccf4f954" category="list-text">從 BlueXP 複本與同步、按一下 * 建立新同步 * 。</block>
   <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">同步資料時、 BlueXP 複製與同步會保留來源與目標之間的 ACL 。</block>
   <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">從 BlueXP 複製與同步、在來源與目標 SMB 共用之間建立新的關係、或同步現有的關係。</block>
   <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">BlueXP 複製與同步會啟動關係的資料同步程序。</block>
@@ -1828,4 +1814,40 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">深入瞭解複製物件設定</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">使用者必須是本機使用者。不支援網域使用者。</block>
+  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">* Node.js 相容性 * ： v20</block>
+  <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">設定 BlueXP 複本與同步以複製 ACL</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
+  <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">從 BlueXP 複製與同步中、選取 * 建立新同步 * 。</block>
+  <block id="89cab273ace7f7269851855f5cdc34fc" category="list-text">輸入新的 SMB 伺服器或選取現有的伺服器，然後選取 * 繼續 * 。</block>
+  <block id="c1b935a2ef742234b2508a64b5365143" category="list-text">選擇 * 僅複製檔案 * 、 * 僅複製 ACL* 或 * 複製檔案和 ACL* 、然後選擇 * 繼續 * 。</block>
+  <block id="250b3114498e09ced4030535104567ac" category="paragraph"><block ref="250b3114498e09ced4030535104567ac" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1450c5e5e899afa2e29bb6d30ee4476c" category="list-text">將游標移至同步處理關係上方、然後選取動作功能表。</block>
+  <block id="376ec8b3e51e6597fb939c31a3fe0e59" category="list-text">選取 * 設定 * 。</block>
+  <block id="dae7935789376601d4e78847bef7e33e" category="list-text">選取 * 儲存設定 * 。</block>
+  <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">在 SMB 共用之間手動複製 ACL</block>
+  <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">只從 SMB 伺服器複製 ACL 、僅複製檔案、或從 SMB 伺服器複製 ACL 和檔案、方法是在建立關聯或建立關聯後啟用設定。</block>
+  <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">node.js 相容性</block>
+  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">v20</block>
+  <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">加速同步效能</block>
+  <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Updateecre</block>
+  <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">設定通知</block>
+  <block id="b74bf8e34d66bdbffc7544ea6e132661" category="section-title">變更同步關係的設定</block>
+  <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">刪除關係</block>
+  <block id="7b2063588e90afd3b3af31717ccca767" category="section-title">選項 1 ：刪除單一同步關係</block>
+  <block id="fe59670d5deda9cb753645f774a47c00" category="list-text">在 * 儀表板 * 中、瀏覽至同步關係、然後選取 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b838fb1a6e3a063ff847ead6c680b63b" category="section-title">選項 2 ：刪除多個同步關係</block>
+  <block id="e228b5490db647150a658ff97a26549c" category="list-text">在 * 儀表板 * 中、瀏覽至「建立新同步」按鈕、然後選取 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="17ae36fbbd79b2ff16d4f9f68caeb794" category="list-text">選取您要刪除的同步處理關聯、 dcick * Delete * 、然後再次按一下 * Delete * 進行確認。</block>
+  <block id="8c2d829bea49e9a2588d62f78f366000" category="paragraph">BlueXP 複製與同步會刪除同步關係。</block>
+  <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023 年 7 月 9 日</block>
+  <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">一次移除多個同步關係</block>
+  <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">使用者現在可以在 UI 中一次刪除多個同步關係。</block>
+  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">深入瞭解如何刪除同步重新關聯。</block>
+  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
+  <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">僅複製 ACL</block>
+  <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。</block>
+  <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">深入瞭解複製 ACL 。</block>
+  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
+  <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">已更新至 Node.js 20</block>
+  <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。</block>
 </blocks>

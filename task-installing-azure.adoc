@@ -207,6 +207,7 @@ https://login.microsoftonline.com/{FILL 這裡是您的租戶 ID ｝ /v2.0/admin
 
 BlueXP 複製與同步會使用下列組態在 Azure 中建立資料代理程式。
 
+node.js 相容性:: v20
 VM類型:: 標準DS4 v2
 vCPU:: 8.
 RAM:: 28 GB

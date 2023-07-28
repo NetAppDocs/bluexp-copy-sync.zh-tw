@@ -92,7 +92,7 @@ link:media/aws_iam_policy_s3_bucket.json["此 Json 檔案所含的權限"^] 必�
 ** 如果資料代理程式是手動安裝在Linux主機上、則_ROLeARN_應該是AWS使用者的ARN、您在部署資料代理程式時會提供AWS認證。
 ** 如果使用CloudForation範本在AWS中部署資料代理程式、則_RoleARN_應該是範本所建立之IAM角色的ARN。
 +
-您可以前往 EC2 主控台、選取資料代理執行個體、然後按一下「 Description （說明）」索引標籤中的 IAM 角色、以找到角色 ARN 。接著、您應該會在 IAM 主控台中看到「摘要」頁面、其中包含角色 ARN 。
+您可以前往 EC2 主控台、選取資料代理執行個體、然後從「說明」標籤中選取 IAM 角色、以找到角色 ARN 。接著、您應該會在 IAM 主控台中看到「摘要」頁面、其中包含角色 ARN 。
 
 +
 image:screenshot_iam_role_arn.gif["顯示角色 ARN 的 AWS IAM 主控台快照。"]
@@ -125,7 +125,7 @@ image:screenshot_iam_role_arn.gif["顯示角色 ARN 的 AWS IAM 主控台快照�
 
 在 Azure Blob 容器與 NFS 或 SMB 伺服器之間建立同步關係時、您需要提供 BlueXP 複本、並與儲存帳戶連線字串同步：
 
-image:screenshot_connection_string.gif["顯示連線字串、可從 Azure 入口網站選取儲存帳戶、然後按一下存取金鑰。"]
+image:screenshot_connection_string.gif["顯示連線字串、可從 Azure 入口網站選取儲存帳戶、然後選取「存取金鑰」來使用。"]
 
 如果您想要在兩個 Azure Blob 容器之間同步資料、則連線字串必須包含 a https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1["共享存取簽名"^] （ SAS ）。您也可以選擇在 Blob 容器與 NFS 或 SMB 伺服器之間同步時使用 SAS 。
 
@@ -135,7 +135,7 @@ SAS 必須允許存取 Blob 服務和所有資源類型（服務、容器和物�
 * 對於目標 Blob 容器：讀取、寫入、清單、新增及建立
 
 
-image:screenshot_connection_string_sas.gif["顯示共享存取簽名、可從 Azure 入口網站選取儲存帳戶、然後按一下「共享存取簽名」。"]
+image:screenshot_connection_string_sas.gif["顯示共享存取簽名、可從 Azure 入口網站選取儲存帳戶、然後選取共用存取簽名來使用。"]
 
 
 NOTE: 如果您選擇實作包含Azure Blob容器的Continuous Sync關係、則可使用一般連線字串或SAS連線字串。如果使用SAS連線字串、則不得設定為在不久的將來過期。

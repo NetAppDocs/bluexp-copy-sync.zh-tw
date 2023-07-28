@@ -590,7 +590,7 @@ image:screenshot-sync-relationship-edit-name.png["同步關係的快照、顯示
 
 === 表格檢視增強功能
 
-我們重新設計儀表板上的表格檢視、以方便使用。如果您按一下*更多資訊*、Cloud Sync 則此功能會篩選儀表板、以顯示有關該特定關係的更多資訊。
+我們重新設計儀表板上的表格檢視、以方便使用。如果您選取 * 更多資訊 * 、 Cloud Sync 會篩選儀表板、以顯示該特定關係的更多資訊。
 
 image:screenshot-sync-table.png["儀表板中表格檢視的快照。"]
 

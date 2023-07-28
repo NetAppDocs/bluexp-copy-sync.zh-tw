@@ -62,7 +62,7 @@ BlueXP 複製與同步功能可引導您在建立同步關係時完成安裝程�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四"] 建立您的第一次同步關係
 [role="quick-margin-para"]
-登入 https://console.bluexp.netapp.com/["藍圖"^]，單擊 * Sync* （同步），然後拖放源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
+登入 https://console.bluexp.netapp.com/["藍圖"^]，選擇 *Sync* ，然後拖放您對來源和目標的選擇。依照提示完成設定。 link:task-creating-relationships.html["深入瞭解"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五"] 免費試用結束後、請為您的同步關係付費
 [role="quick-margin-para"]

@@ -220,6 +220,14 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
+=== 加密 Google Cloud 儲存庫
+
+您可以使用客戶管理的 KMS 金鑰或預設的 Google 託管金鑰、來加密目標 Google Cloud 儲存庫。如果貯體已新增 KMS 加密、則會覆寫預設的 Google 託管加密。
+
+若要新增客戶管理的 KMS 金鑰、您需要使用資料代理人來搭配 https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["正確的權限"]、且金鑰必須與貯體位於相同的區域。
+
+
+
 == Google雲端硬碟
 
 當您設定包含Google雲端硬碟的同步關係時、您需要提供下列資訊：

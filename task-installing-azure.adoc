@@ -101,6 +101,8 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 ....
 附註：
 
-. 只有當您打算在Azure與其他雲端儲存位置之間的同步關係上啟用「持續同步」設定時、才需要下列權限：
+. 只有當您打算啟用時、才需要下列權限 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["持續同步設定"] 在 Azure 與其他雲端儲存位置的同步關係上：
 +
 ** 「Microsoft、Storage/storageAccounts/read」、
 ** 「Microsoft、EventGrid /系統主題/事件訂閱/寫入」、
@@ -130,9 +132,13 @@ summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker �
 +
 此外、如果您計畫在Azure中實作Continuous Sync、可指派範圍必須設定為訂閱範圍及*非*資源群組範圍。
 
+. 只有當您打算選擇自己的安全性來建立資料代理人時、才需要下列權限：
++
+** 「 Microsoft.Network/networkSecurityGroups/securityRules/read"
+** 「 Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+
 
 
 
@@ -165,7 +171,7 @@ image:screenshot-azure.png["Data Broker頁面的快照、可讓您在AWS、Azure
 
 . 選擇資料代理的位置、然後輸入虛擬機器的基本詳細資料。
 +
-image:screenshot_azure_data_broker.gif["Azure 部署頁面的快照顯示下列欄位：訂購、 Azure 區域、 vnet 、子網路、 VM 名稱、 使用者名稱、驗證方法和資源群組。"]
+image:screenshot_azure_data_broker.png["Azure 部署頁面的快照顯示下列欄位：訂購、 Azure 區域、 vnet 、子網路、 VM 名稱、 使用者名稱、驗證方法和資源群組。"]
 
 +
 

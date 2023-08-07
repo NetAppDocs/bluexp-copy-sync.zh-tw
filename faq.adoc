@@ -249,6 +249,7 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 BlueXP 複製與同步無法加密 SMB 資料本身。
 
 * 當 Amazon S3 儲存區是同步關係的目標時、您可以選擇是否使用 AWS 加密或 AES-256 加密來啟用資料加密。
+* 當 Google Storage Bucket 是同步關係中的目標時、您可以選擇是使用預設的 Google 託管加密金鑰、還是使用自己的 KMS 金鑰。
 
 
 

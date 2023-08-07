@@ -89,11 +89,14 @@ summary: 建立新的資料代理程式時、請選擇Google Cloud Data Broker�
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 附註：
 
 . 只有當您打算設定資料代理程式使用外部HashiCorp保存庫時、才需要iam.serviceAccounts.signJwt"權限。
 . 只有當您計畫啟用從Google Cloud Storage到另一個雲端儲存位置的同步關係上的「Continuous Sync」設定時、才需要「publSub.*」和「Storage.buckes.update」權限。 link:task-creating-relationships.html#settings["深入瞭解Continuous Sync選項"]。
+. 只有當您打算在目標 Google Cloud Storage 儲存庫上使用客戶管理的 KMS 金鑰時、才需要「 cloudkms.cryptoKeys.list 」和「 cloudkms.keycles.list 」權限。
 
 
 

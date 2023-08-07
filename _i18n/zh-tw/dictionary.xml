@@ -411,15 +411,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
@@ -869,7 +865,6 @@
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">此表單由 Microsoft 擁有及託管。您的認證資料不會提供給 NetApp 。</block>
   <block id="eb326e1f884a5d84e7b70887f7874b42" category="list-text">選擇資料代理的位置、然後輸入虛擬機器的基本詳細資料。</block>
   <block id="4e150fdd87e97e0d1398184219062d41" category="inline-image-macro">Azure 部署頁面的快照顯示下列欄位：訂購、 Azure 區域、 vnet 、子網路、 VM 名稱、 使用者名稱、驗證方法和資源群組。</block>
-  <block id="f38f2fdb5d5d38ec31dd9074ee28e224" category="paragraph"><block ref="f38f2fdb5d5d38ec31dd9074ee28e224" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">如果 Vnet 中的網際網路存取需要 Proxy 、請指定 Proxy 組態。</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">此程序可能需要 7 分鐘的時間。</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">您已在 Azure 中部署資料代理程式、並建立新的同步關係。您可以將此資料代理程式與其他同步關係搭配使用。</block>
@@ -1242,7 +1237,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
   <block id="fd89e3644f08c7cff88f1db4361c5e60" category="paragraph">請確定您用來部署資料代理程式的Azure使用者帳戶具有下列權限：</block>
   <block id="fc9d3df613063ee57906c461320744e2" category="paragraph">附註：</block>
-  <block id="679e4bcf838658cd92da7b790636390a" category="list-text">只有當您打算在Azure與其他雲端儲存位置之間的同步關係上啟用「持續同步」設定時、才需要下列權限：</block>
   <block id="040d8eaecb72efcfd5cfbf281e33f7f3" category="list-text">「Microsoft、Storage/storageAccounts/read」、</block>
   <block id="bb845a3086db2f3f9168d3ee193d482b" category="list-text">「Microsoft、EventGrid /系統主題/事件訂閱/寫入」、</block>
   <block id="3a66417bd558ccb9a044b88d6ad406c3" category="list-text">「Microsoft、EventGrid /系統主題/事件訂閱/讀取」、</block>
@@ -1848,4 +1842,37 @@
   <block id="4f63dcacb975691fb706f866f5467707" category="paragraph">如果您不想提供存取金鑰、請選取頁面底部的連結、改用 CloudForgation 範本。使用此選項時、您不需要提供認證、因為您是直接登入 AWS 。</block>
   <block id="417a67ddf3f7a9afe391dcd0968ded03" category="list-text">資料代理可用後、請在 BlueXP 複本中選取 * 繼續 * 、然後進行同步處理。</block>
   <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">在 * 資料代理人群組 * 頁面上、選取 * 建立資料代理人 * 、然後選取 * 內部資料代理人 * 。</block>
+  <block id="bab4e38718dde50e9ad958813bb0a976" category="paragraph">更新 local.json 檔案之後、您應該重新啟動：<block ref="2f136f2d74a38a78be0b7195f88db46b" prefix=" " category="inline-code"></block>。</block>
+  <block id="5ea651ef425fc06946414f157ea0d12c" category="section-title">加密 Google Cloud 儲存庫</block>
+  <block id="f1e18b3eb6f07ac95f361dfb4823b062" category="paragraph">您可以使用客戶管理的 KMS 金鑰或預設的 Google 託管金鑰、來加密目標 Google Cloud 儲存庫。如果貯體已新增 KMS 加密、則會覆寫預設的 Google 託管加密。</block>
+  <block id="db1a392dfa5212eeb3e27c6081ac7f8d" category="inline-link">正確的權限</block>
+  <block id="1c50758d669eeda9eb73db1fcfa0337e" category="paragraph">若要新增客戶管理的 KMS 金鑰、您需要使用資料代理人來搭配<block ref="d26dd36e82dda30790e792c4d360acdb" category="inline-link-rx"></block>、且金鑰必須與貯體位於相同的區域。</block>
+  <block id="e77af68d35ae8ec20bd34ccab89589cd" category="list-text">當 Google Storage Bucket 是同步關係中的目標時、您可以選擇是使用預設的 Google 託管加密金鑰、還是使用自己的 KMS 金鑰。</block>
+  <block id="840b9dee68db7a324a5a0492f3ec3063" category="inline-link">持續同步設定</block>
+  <block id="1c366467112a2f5e725cd0beef639204" category="list-text">只有當您打算啟用時、才需要下列權限<block ref="be291bc0a12dc8676089f7080ad738cb" category="inline-link-rx"></block> 在 Azure 與其他雲端儲存位置的同步關係上：</block>
+  <block id="0a00035cb030ae4c07809a2b29294403" category="list-text">只有當您打算選擇自己的安全性來建立資料代理人時、才需要下列權限：</block>
+  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">「 Microsoft.Network/networkSecurityGroups/securityRules/read"</block>
+  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">「 Microsoft.Network/networkSecurityGroups/read"</block>
+  <block id="1f5117611a312137ed84c1a822386066" category="paragraph"><block ref="1f5117611a312137ed84c1a822386066" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9dfa9e8f416f9e7e5830a3abefdd03e2" category="list-text">只有當您打算在目標 Google Cloud Storage 儲存庫上使用客戶管理的 KMS 金鑰時、才需要「 cloudkms.cryptoKeys.list 」和「 cloudkms.keycles.list 」權限。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023 年 8 月 6 日</block>
+  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">建立資料代理程式時、請使用現有的 Azure 安全性群組</block>
+  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。</block>
+  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">建立資料代理程式時所使用的服務帳戶必須具有下列權限：</block>
+  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">深入瞭解如何在 Azure 中建立資料代理程式。</block>
+  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
+  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">同步至 Google Storage 時加密資料</block>
+  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">現在、使用者可以選擇在建立與 Google Storage Bucket 的同步關係作為目標時、指定客戶管理的加密金鑰。您可以手動輸入金鑰、或從單一區域的金鑰清單中選擇。</block>
+  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.list</block>
+  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keycles.list</block>
+  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">深入瞭解 Google Cloud Storage 貯體需求。</block>
+  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
 </blocks>

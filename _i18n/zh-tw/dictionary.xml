@@ -1875,4 +1875,13 @@
   <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keycles.list</block>
   <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">深入瞭解 Google Cloud Storage 貯體需求。</block>
   <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
+  <block id="ca29791b461d3792595bd07c2a2aaf99" category="paragraph">您可以建立與外部貯體的持續同步關係。若要這麼做、請遵循下列步驟：</block>
+  <block id="37da0328d7bfffe91735b0c80674c7e2" category="list-text">前往 Google Cloud 主控台、以瞭解外部儲存庫的專案。</block>
+  <block id="435c065391a8e91d84117987235d5201" category="list-text">前往 * 雲端儲存 &gt; 設定 &gt; 雲端儲存服務帳戶 * 。</block>
+  <block id="c3edc331b7460e31ef4333eafbe519a5" category="list-text">更新 local.json 檔案：</block>
+  <block id="6e1595f2b99c7615da8d46593d8591bf" category="list-text">重新啟動資料代理程式：</block>
+  <block id="b62cd7b32b6a7bfd3ad56b12d697713e" category="list-text">Sudo PM2 全部停止</block>
+  <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">Sudo PM2 全部啟動</block>
+  <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">與相關的外部貯體建立持續同步關係。</block>
+  <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">用於與外部儲存庫建立持續同步關係的資料代理人、將無法在其專案中建立與儲存庫的另一個持續同步關係。</block>
 </blocks>

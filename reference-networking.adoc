@@ -103,7 +103,8 @@ NetApp 資料代理程式需要透過連接埠 443 進行傳出網際網路存�
 | \https://fedoraproject.org | 在安裝與更新期間、在資料代理虛擬機器上安裝 7z 。需要 7z 將 AutoSupport 資訊傳送給 NetApp 技術支援部門。 
 
 
-| \https://sts.amazonaws.com | 可在資料代理程式部署於AWS或部署於內部部署且提供AWS認證資料時、驗證AWS認證資料。資料代理程式會在部署期間、更新時及重新啟動時聯絡此端點。 
+| \https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com | 可在資料代理程式部署於AWS或部署於內部部署且提供AWS認證資料時、驗證AWS認證資料。資料代理程式會在部署期間、更新時及重新啟動時聯絡此端點。 
 
 
 | \https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 在您使用分類選擇新同步關係的來源檔案時、聯絡 BlueXP 分類。 

@@ -654,7 +654,6 @@
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">如果檔案已從來源中刪除、請選擇從目標位置刪除。預設值是從不從目標位置刪除檔案。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">檔案類型</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">排除檔案副檔名</block>
-  <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">輸入副檔名並按 * Enter * 鍵、指定要從同步中排除的副檔名。例如、輸入 _log_ 或 _.log_ 以排除 * 。 log 檔案。多個副檔名不需要分隔符號。以下影片提供簡短示範：</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">檔案大小</block>
   <block id="9c8cecb2075d9547b74e5e71bf16ab79" category="list-text">無論檔案大小為何、或只是特定大小範圍內的檔案、都可以選擇同步所有檔案。</block>
   <block id="80ccccd39ce6134340fccbf76eb379ae" category="list-text">修改日期</block>
@@ -906,7 +905,6 @@
   <block id="c825d05ceebe5978107395d2dffdbcff" category="cell">在使用 BYOL 授權進行同步關係時聯絡 NetApp 支援部門。</block>
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">\https://fedoraproject.org</block>
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">在安裝與更新期間、在資料代理虛擬機器上安裝 7z 。需要 7z 將 AutoSupport 資訊傳送給 NetApp 技術支援部門。</block>
-  <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">\https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">可在資料代理程式部署於AWS或部署於內部部署且提供AWS認證資料時、驗證AWS認證資料。資料代理程式會在部署期間、更新時及重新啟動時聯絡此端點。</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web 瀏覽器端點</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">您的網路瀏覽器需要存取下列端點、才能下載記錄以進行疑難排解：</block>
@@ -1884,4 +1882,17 @@
   <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">Sudo PM2 全部啟動</block>
   <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">與相關的外部貯體建立持續同步關係。</block>
   <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">用於與外部儲存庫建立持續同步關係的資料代理人、將無法在其專案中建立與儲存庫的另一個持續同步關係。</block>
+  <block id="feb32d3372b2c412782aaf89f4c3468c" category="list-text">輸入副檔名並按下 *Enter* ，指定要從同步中排除的 regex 或副檔名。例如、輸入 _log_ 或 _.log_ 以排除 * 。 log 檔案。多個副檔名不需要分隔符號。以下影片提供簡短示範：</block>
+  <block id="e8896d6ca3648d230a610f352be679de" category="admonition">regex 或規則運算式與萬用字元或 globb 運算式不同。此功能 * 僅 * 適用於 regex 。</block>
+  <block id="2869c1b7d6055fd39cb65435bce896fd" category="cell">\https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com</block>
+  <block id="3034670f33afeb69347c1f076680bc54" category="list-text">選擇*繼續*。如果您想要將 S3 權限新增至資料代理人、請輸入 AWS 存取權和秘密金鑰。</block>
+  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023 年 9 月 3 日</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">根據 regex 排除檔案</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">使用者現在可以選擇使用 regex 排除檔案。</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">深入瞭解 * 排除檔案副檔名 * 功能。</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">建立 Azure 資料代理程式時新增 S3 金鑰</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和秘密金鑰。</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
 </blocks>

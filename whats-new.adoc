@@ -18,6 +18,26 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 
 
+== 2023 年 9 月 3 日
+
+
+
+=== 根據 regex 排除檔案
+
+使用者現在可以選擇使用 regex 排除檔案。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除檔案副檔名 * 功能。"]
+
+
+
+=== 建立 Azure 資料代理程式時新增 S3 金鑰
+
+使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和秘密金鑰。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["深入瞭解如何在 Azure 中建立資料代理程式。"]
+
+
+
 == 2023 年 8 月 6 日
 
 

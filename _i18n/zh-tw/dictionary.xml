@@ -1394,7 +1394,6 @@
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0和8.5</block>
-  <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0和8.5</block>
   <block id="cf76271f717860ca93c6825568b0690d" category="list-text">洛基Linux 9</block>
   <block id="f2eca1a3494c7396a49a597072cc600d" category="list-text">Amazon Linux 2023</block>
   <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX ONTAP</block>
@@ -1897,4 +1896,5 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0 、 8.5 和 8.8</block>
 </blocks>

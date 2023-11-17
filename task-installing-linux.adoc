@@ -27,7 +27,7 @@ summary: 當您建立新的資料代理程式時、請選擇「內部部署資�
 +
 不支援CentOS串流。
 
-** Red Hat Enterprise Linux 8.0和8.5
+** Red Hat Enterprise Linux 8.0 、 8.5 和 8.8
 ** 洛基Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1

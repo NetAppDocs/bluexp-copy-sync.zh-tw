@@ -166,7 +166,7 @@ image:screenshot_data_broker_gcp.png["快照顯示在 Google Cloud 中部署資�
 
 BlueXP 複製與同步會使用下列組態、在 Google Cloud 中建立資料代理程式。
 
-node.js 相容性:: v20
+node.js 相容性:: v21.2.0
 機器類型:: n2-Standard-4
 vCPU:: 4.
 RAM:: 15 GB

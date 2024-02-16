@@ -82,32 +82,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: BlueXP 複本與同步總覽
-      url: concept-cloud-sync.html
-    - title: 快速入門
-      url: task-quick-start.html
-    - title: 常見問題集
-      url: faq.html
-  - title: 使用 BlueXP 複製與同步
-    links:
-    - title: 建立同步關係
-      url: task-creating-relationships.html
-    - title: 設定授權
-      url: task-licensing.html
-    - title: 管理資料代理群組
-      url: task-managing-data-brokers.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://cloud.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

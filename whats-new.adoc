@@ -18,6 +18,18 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 
 
+== 2024 年 2 月 11 日
+
+
+
+=== 依 regex 篩選目錄
+
+使用者現在可以選擇使用 regex 來篩選目錄。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除目錄 * 功能。"]
+
+
+
 == 2023 年 11 月 26 日
 
 

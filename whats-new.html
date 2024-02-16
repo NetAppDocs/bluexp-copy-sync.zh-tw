@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head class="at-element-marker">
+  <title>BlueXP 複製與同步的新功能 | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="BlueXP 複製與同步的新功能 | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html" />
+	<meta property="og:description" content="瞭解 BlueXP 複本與同步的新功能。" />
+  <meta property="og:image" content="https://docs.netapp.com/zh-tw/bluexp-copy-sync/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="瞭解 BlueXP 複本與同步的新功能。">
+  <meta name="keywords" content=" what"s new, features, new, release notes, enhancements, fixes"><!-- Icons -->
+  <link rel="icon" href="/zh-tw/bluexp-copy-sync/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/zh-tw/bluexp-copy-sync/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/zh-tw/bluexp-copy-sync/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/zh-tw/bluexp-copy-sync/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/zh-tw/bluexp-copy-sync/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/whats-new.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-copy-sync/whats-new.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-tw/bluexp-copy-sync/js/na-search.js'></script><script src='/zh-tw/bluexp-copy-sync/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/zh-tw/bluexp-copy-sync/js/custom-dropdown.js'></script>
+  <script src='/zh-tw/bluexp-copy-sync/js/FileSaver.min.js'></script>
+  <script src='/zh-tw/bluexp-copy-sync/js/jszip-utils.min.js'></script>
+  <script src='/zh-tw/bluexp-copy-sync/js/jszip.min.js'></script><script src='/zh-tw/bluexp-copy-sync/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/zh-tw/bluexp-copy-sync/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/tw">
+                <image id="ie-header-logo" src="/zh-tw/bluexp-copy-sync/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">文件</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/zh-tw/bluexp-copy-sync/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">繁體中文</span>
+                    <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/bluexp-copy-sync/whats-new.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/zh-tw/bluexp-copy-sync/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">所有 NetApp</span>
+                    <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">支援</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">知識庫</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">訓練</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/zh-tw/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/zh-tw/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">所有文件</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">雲端文件</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/zh-tw/bluexp-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/zh-tw/bluexp-copy-sync/">-->
+      BlueXP copy and sync
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/zh-tw/bluexp-copy-sync/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/zh-tw/bluexp-copy-sync/search.html" 
+        data-type="widget"
+        data-placeholder="搜尋說明文件"
+        data-no-results-found="找不到 {query} 的結果"
+        data-did-you-mean="搜尋 {suggestion}。"
+        data-no-results-found-did-you-mean="找不到 {query} 的結果。您的意思是 {suggestion} 嗎？"
+        data-results-found="找到 {hitCount} 個結果"
+        data-error-message="發生錯誤。請再試一次。"
+        data-error-reset="重設搜尋"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 複製與同步文件"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/bluexp-copy-sync/index.html">
+        BlueXP 複製與同步文件
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="版本資訊"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 版本資訊</div>-->
+         版本資訊
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="新增功能"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/whats-new.html">
+        新增功能
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="限制"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-limitations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/reference-limitations.html">
+        限制
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="開始使用"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 開始使用</div>-->
+         開始使用
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="瞭解 BlueXP 複製與同步"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-cloud-sync.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/concept-cloud-sync.html">
+        瞭解 BlueXP 複製與同步
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="快速入門"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-quick-start.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-quick-start.html">
+        快速入門
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視支援的同步關係"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-supported-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/reference-supported-relationships.html">
+        檢視支援的同步關係
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="準備來源和目標"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-requirements.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/reference-requirements.html">
+        準備來源和目標
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="準備網路"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/reference-networking.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/reference-networking.html">
+        準備網路
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝資料代理程式"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 安裝資料代理程式</div>-->
+         安裝資料代理程式
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝於 AWS"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-aws.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-installing-aws.html">
+        安裝於 AWS
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝於 Azure"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-installing-azure.html">
+        安裝於 Azure
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝於Google Cloud"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-gcp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-installing-gcp.html">
+        安裝於Google Cloud
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="安裝在 Linux 主機上"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-installing-linux.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-installing-linux.html">
+        安裝在 Linux 主機上
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 BlueXP 複製與同步"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 使用 BlueXP 複製與同步</div>-->
+         使用 BlueXP 複製與同步
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="在來源與目標之間同步資料"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 在來源與目標之間同步資料</div>-->
+         在來源與目標之間同步資料
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="建立同步關係"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-creating-relationships.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-creating-relationships.html">
+        建立同步關係
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="從SMB共用區複製ACL"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-copying-acls.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-copying-acls.html">
+        從SMB共用區複製ACL
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="加密傳輸中的 NFS 資料"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-nfs-encryption.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-nfs-encryption.html">
+        加密傳輸中的 NFS 資料
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用 HashiCorp Vault 的機密資料"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-external-vault.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/zh-tw/bluexp-copy-sync/task-external-vault.html">
+        使用 HashiCorp Vault 的機密資料
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="設定授權"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-licensing.html">
+        設定授權
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理同步關係"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-relationships.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-managing-relationships.html">
+        管理同步關係
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="管理資料代理人"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-data-brokers.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-managing-data-brokers.html">
+        管理資料代理人
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="檢視報告以調整組態"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-managing-reports.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-managing-reports.html">
+        檢視報告以調整組態
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="解除安裝資料代理程式"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-uninstalling.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-uninstalling.html">
+        解除安裝資料代理程式
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="使用REST API進行自動化"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/api-sync.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/bluexp-copy-sync/api-sync.html">
+        使用REST API進行自動化
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="概念"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 概念</div>-->
+         概念
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="授權"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-licensing.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/concept-licensing.html">
+        授權
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="資料隱私"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/concept-privacy.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/concept-privacy.html">
+        資料隱私
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="常見問題集"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/faq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/faq.html">
+        常見問題集
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="知識與支援"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/zh-tw/bluexp-copy-sync/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/zh-tw/bluexp-copy-sync/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 知識與支援</div>-->
+         知識與支援
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="註冊以取得支援"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-support-registration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-support-registration.html">
+        註冊以取得支援
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="取得協助"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/task-get-help.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/zh-tw/bluexp-copy-sync/task-get-help.html">
+        取得協助
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="法律聲明"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/whats-new.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/zh-tw/bluexp-copy-sync/legal-notices.html">
+        法律聲明
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/zh-tw/bluexp-copy-sync"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/zh-tw/bluexp-copy-sync"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/zh-tw/bluexp-copy-sync/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 本繁體中文版使用機器翻譯，譯文僅供參考，若與英文版本牴觸，應以英文版本為準。 </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">BlueXP 複製與同步的新功能</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-02-16 21:04:27 +0000">02/16/2024</time>
+        
+    
+    
+        <span>貢獻者
+        </span>
+    
+    
+        <a target="_blank" class="ext-link-indicator" href="/zh-tw/bluexp-copy-sync/feed.xml"><img width="21" height="21" src="/zh-tw/bluexp-copy-sync/images/rss-button.png" alt="RSS" title="訂閱此頁面的 RSS 更新" /></a>
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/zh-tw/bluexp-copy-sync/images/discuss-sm.svg" alt="" class="github-icon" />建議變更</span>
+        <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync.zh-tw/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html&page-title=BlueXP 複製與同步的新功能" class="page-nav-contribute-link" role="button">請求文件變更</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-copy-sync/blob/main/whats-new.adoc" class="page-nav-contribute-link" role="button">編輯本頁</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >瞭解如何貢獻</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/zh-tw/bluexp-copy-sync/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/zh-tw/bluexp-copy-sync/pdfs/fullsite-sidebar/BlueXP_複本與同步文件.pdf" >
+                    <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>此文件 PDF 的網站</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/版本資訊.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            版本資訊
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/開始使用.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            開始使用
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/安裝資料代理程式.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            安裝資料代理程式
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/使用_BlueXP_複製與同步.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            使用 BlueXP 複製與同步
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/在來源與目標之間同步資料.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            在來源與目標之間同步資料
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/概念.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            概念
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/zh-tw/bluexp-copy-sync/pdfs/sidebar/知識與支援.pdf" 
+            
+          >
+            <img src="/zh-tw/bluexp-copy-sync/images/pdf-icon.png" alt="" width="16" height="16"/>
+            知識與支援
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/zh-tw/bluexp-copy-sync/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>個別的 PDF 文件集合<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>瞭解 BlueXP 複本與同步的新功能。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2024-年-2-月-11-日">2024 年 2 月 11 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="依-regex-篩選目錄">依 regex 篩選目錄</h3>
+<div class="paragraph">
+<p>使用者現在可以選擇使用 regex 來篩選目錄。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships">"深入瞭解 * 排除目錄 * 功能。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-11-月-26-日">2023 年 11 月 26 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="支援-azure-blob-的-cold-儲存等級">支援 Azure Blob 的 Cold 儲存等級</h3>
+<div class="paragraph">
+<p>建立同步關係時、便可使用冷藏 Azure Blob 層。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html">"深入瞭解建立同步關係。"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援-aws-資料代理程式中的-tel-aviv-區域">支援 AWS 資料代理程式中的 Tel Aviv 區域</h3>
+<div class="paragraph">
+<p>在 AWS 中建立資料代理程式時、 Tel Aviv 現在是受支援的區域。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker">"深入瞭解如何在AWS中建立資料代理程式"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="資料代理程式的節點版本更新">資料代理程式的節點版本更新</h3>
+<div class="paragraph">
+<p>所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-9-月-3-日">2023 年 9 月 3 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="根據-regex-排除檔案">根據 regex 排除檔案</h3>
+<div class="paragraph">
+<p>使用者現在可以選擇使用 regex 排除檔案。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships">"深入瞭解 * 排除檔案副檔名 * 功能。"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="建立-azure-資料代理程式時新增-s3-金鑰">建立 Azure 資料代理程式時新增 S3 金鑰</h3>
+<div class="paragraph">
+<p>使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和秘密金鑰。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker">"深入瞭解如何在 Azure 中建立資料代理程式。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-8-月-6-日">2023 年 8 月 6 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="建立資料代理程式時請使用現有的-azure-安全性群組">建立資料代理程式時、請使用現有的 Azure 安全性群組</h3>
+<div class="paragraph">
+<p>使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。</p>
+</div>
+<div class="paragraph">
+<p>建立資料代理程式時所使用的服務帳戶必須具有下列權限：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>「 Microsoft.Network/networkSecurityGroups/securityRules/read"</p>
+</li>
+<li>
+<p>「 Microsoft.Network/networkSecurityGroups/read"</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html">"深入瞭解如何在 Azure 中建立資料代理程式。"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="同步至-google-storage-時加密資料">同步至 Google Storage 時加密資料</h3>
+<div class="paragraph">
+<p>現在、使用者可以選擇在建立與 Google Storage Bucket 的同步關係作為目標時、指定客戶管理的加密金鑰。您可以手動輸入金鑰、或從單一區域的金鑰清單中選擇。</p>
+</div>
+<div class="paragraph">
+<p>建立資料代理程式時所使用的服務帳戶必須具有下列權限：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>cloudkms.cryptoKeys.list</p>
+</li>
+<li>
+<p>cloudkms.keycles.list</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements">"深入瞭解 Google Cloud Storage 貯體需求。"</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-7-月-9-日">2023 年 7 月 9 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="一次移除多個同步關係">一次移除多個同步關係</h3>
+<div class="paragraph">
+<p>使用者現在可以在 UI 中一次刪除多個同步關係。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships">"深入瞭解如何刪除同步重新關聯。"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="僅複製-acl">僅複製 ACL</h3>
+<div class="paragraph">
+<p>使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html">"深入瞭解複製 ACL 。"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="已更新至-node-js-20">已更新至 Node.js 20</h3>
+<div class="paragraph">
+<p>複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-6-月-11-日">2023 年 6 月 11 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="支援幾分鐘後自動中止">支援幾分鐘後自動中止</h3>
+<div class="paragraph">
+<p>現在可使用 <strong>Sync Timeout</strong> 功能在 15 分鐘後中止尚未完成的活動同步。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解同步處理逾時設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="複製存取時間中繼資料">複製存取時間中繼資料</h3>
+<div class="paragraph">
+<p>在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解複製物件設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-5-月-8-日">2023 年 5 月 8 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="硬連結功能">硬連結功能</h3>
+<div class="paragraph">
+<p>使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解檔案類型設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="能夠在安全的-nfs-關係中新增資料代理人的使用者憑證">能夠在安全的 NFS 關係中新增資料代理人的使用者憑證</h3>
+<div class="paragraph">
+<p>使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="最近修改檔案的延長排除期">最近修改檔案的延長排除期</h3>
+<div class="paragraph">
+<p>使用者現在可以排除在排程同步前 365 天內修改的檔案。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解最近修改的檔案設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="依關係-id-篩選-ui-中的關係">依關係 ID 篩選 UI 中的關係</h3>
+<div class="paragraph">
+<p>使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html">"深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"</a>。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解排除目錄設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023-年-4-月-2-日">2023 年 4 月 2 日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="azure-data-lake-storage-gen2-關係的額外支援">Azure Data Lake Storage Gen2 關係的額外支援</h3>
+<div class="paragraph">
+<p>您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Azure NetApp Files</p>
+</li>
+<li>
+<p>Amazon FSX for ONTAP Sf</p>
+</li>
+<li>
+<p>Cloud Volumes ONTAP</p>
+</li>
+<li>
+<p>On-Prem ONTAP</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"深入瞭解支援的同步關係"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="依完整路徑篩選目錄">依完整路徑篩選目錄</h3>
+<div class="paragraph">
+<p>除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解排除目錄設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年3月7日">2023年3月7日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="適用於aws資料代理人的ebs加密">適用於AWS資料代理人的EBS加密</h3>
+<div class="paragraph">
+<p>您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker">"深入瞭解如何在AWS中建立資料代理程式"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年2月5日">2023年2月5日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="額外支援azure-data-lake-storage-gen2ontap-sfor-s3-storage及nfs">額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS</h3>
+<div class="paragraph">
+<p>目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>將S3儲存至NFS ONTAP</p>
+</li>
+<li>
+<p>NFS到ONTAP SS3儲存設備</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>NFS 伺服器</p>
+</li>
+<li>
+<p>SMB 伺服器</p>
+</li>
+<li>
+<p>SS3 儲存設備 ONTAP</p>
+</li>
+<li>
+<p>StorageGRID</p>
+</li>
+<li>
+<p>IBM Cloud 物件儲存設備</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"深入瞭解支援的同步關係"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升級至amazon-web-services資料代理程式作業系統">升級至Amazon Web Services資料代理程式作業系統</h3>
+<div class="paragraph">
+<p>AWS資料代理人的作業系統已升級至Amazon Linux 2022。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance">"深入瞭解AWS中的資料代理執行個體"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2023年1月3日">2023年1月3日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="在ui上顯示資料代理本機組態">在UI上顯示資料代理本機組態</h3>
+<div class="paragraph">
+<p>現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html">"深入瞭解如何管理資料代理人群組"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="升級至azure和google-cloud資料代理商作業系統">升級至Azure和Google Cloud資料代理商作業系統</h3>
+<div class="paragraph">
+<p>Azure和Google Cloud中的資料代理人作業系統已升級至The Rocky Linux 9.0。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm">"深入瞭解Azure中的資料代理執行個體"</a>。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance">"深入瞭解Google Cloud中的資料代理執行個體"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年12月11日">2022年12月11日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="依名稱篩選目錄">依名稱篩選目錄</h3>
+<div class="paragraph">
+<p>現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解「排除目錄名稱」設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="其他amazon-s3和ontap-ss3儲存支援">其他Amazon S3和ONTAP SS3儲存支援</h3>
+<div class="paragraph">
+<p>目前支援AWS S3和Syns3儲存設備的其他同步關係ONTAP Cloud Sync ：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>AWS S3至ONTAP SS3儲存設備</p>
+</li>
+<li>
+<p>將S3儲存設備移至AWS S3 ONTAP</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"深入瞭解支援的同步關係"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年10月30日">2022年10月30日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="從microsoft-azure持續同步">從Microsoft Azure持續同步</h3>
+<div class="paragraph">
+<p>現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。</p>
+</div>
+<div class="paragraph">
+<p>初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。</p>
+</div>
+<div class="paragraph">
+<p>Azure資料代理人需要自訂角色和下列權限才能使用此設定：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">'Microsoft.Storage/storageAccounts/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
+'Microsoft.EventGrid/systemTopics/read',
+'Microsoft.EventGrid/systemTopics/write',
+'Microsoft.EventGrid/systemTopics/delete',
+'Microsoft.EventGrid/eventSubscriptions/write',
+'Microsoft.Storage/storageAccounts/write'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解Continuous Sync設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年9月4日">2022年9月4日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="其他google雲端硬碟支援">其他Google雲端硬碟支援</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>目前支援Google雲端硬碟的其他同步關係：Cloud Sync</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Google雲端硬碟至NFS伺服器</p>
+</li>
+<li>
+<p>Google雲端硬碟移轉至SMB伺服器</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>您也可以針對包含Google雲端硬碟的同步關係產生報告。</p>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html">"深入瞭解報告"</a>。</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="持續同步增強">持續同步增強</h3>
+<div class="paragraph">
+<p>您現在可以在下列類型的同步關係上啟用「持續同步」設定：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>S3儲存區至NFS伺服器</p>
+</li>
+<li>
+<p>將Google Cloud Storage移轉至NFS伺服器</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解Continuous Sync設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="電子郵件通知">電子郵件通知</h3>
+<div class="paragraph">
+<p>您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</p>
+</div>
+<div class="paragraph">
+<p>若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications">"瞭解如何設定通知"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年7月31日">2022年7月31日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="google雲端硬碟">Google雲端硬碟</h3>
+<div class="paragraph">
+<p>您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。</p>
+</div>
+<div class="paragraph">
+<p>在建立包含Google雲端硬碟的同步關係之前、您必須先設定具有必要權限和私密金鑰的服務帳戶。 <a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive">"深入瞭解Google雲端硬碟的需求"</a>。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="額外的azure-data-lake支援">額外的Azure Data Lake支援</h3>
+<div class="paragraph">
+<p>目前支援Azure Data Lake Storage Gen2的其他同步關係：Cloud Sync</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon S3移轉至Azure Data Lake Storage Gen2</p>
+</li>
+<li>
+<p>IBM Cloud Object Storage移轉至Azure Data Lake Storage Gen2</p>
+</li>
+<li>
+<p>適用於Azure Data Lake Storage Gen2 StorageGRID</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="設定同步關係的新方法">設定同步關係的新方法</h3>
+<div class="paragraph">
+<p>我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。</p>
+</div>
+<div class="sect3">
+<h4 id="拖放">拖放</h4>
+<div class="paragraph">
+<p>您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png" alt="在藍圖XP中顯示通知中心的快照。"></span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="右側面板設定">右側面板設定</h4>
+<div class="paragraph">
+<p>您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png" alt="在藍圖XP中顯示通知中心的快照。"></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年7月3日">2022年7月3日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="支援azure-data-lake-storage-gen2">支援Azure Data Lake Storage Gen2</h3>
+<div class="paragraph">
+<p>您現在可以將NFS伺服器或SMB伺服器的資料同步至Azure Data Lake Storage Gen2。</p>
+</div>
+<div class="paragraph">
+<p>建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="從google-cloud-storage持續同步">從Google Cloud Storage持續同步</h3>
+<div class="paragraph">
+<p>持續同步設定現在可從來源Google Cloud Storage儲存庫支援至雲端儲存目標。</p>
+</div>
+<div class="paragraph">
+<p>初始資料同步之後Cloud Sync 、Syncset會偵聽來源Google Cloud Storage儲存區的變更、並在目標發生時持續同步任何變更。此設定適用於從Google Cloud Storage儲存庫同步至S3、Google Cloud Storage、Azure Blob儲存設備、StorageGRID 不支援或IBM Storage的情況。</p>
+</div>
+<div class="paragraph">
+<p>與您的資料代理人相關聯的服務帳戶需要下列權限才能使用此設定：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">- pubsub.subscriptions.consume
+- pubsub.subscriptions.create
+- pubsub.subscriptions.delete
+- pubsub.subscriptions.list
+- pubsub.topics.attachSubscription
+- pubsub.topics.create
+- pubsub.topics.delete
+- pubsub.topics.list
+- pubsub.topics.setIamPolicy
+- storage.buckets.update</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解Continuous Sync設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="新的google-cloud區域支援">新的Google Cloud區域支援</h3>
+<div class="paragraph">
+<p>下列Google Cloud地區現在支援此功能：Cloud Sync</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>哥倫布（美國東部5）</p>
+</li>
+<li>
+<p>達拉斯（美國-南1）</p>
+</li>
+<li>
+<p>馬德里（歐洲-西南1）</p>
+</li>
+<li>
+<p>米蘭（歐洲-西8）</p>
+</li>
+<li>
+<p>巴黎（歐洲-西9）</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="全新google-cloud機器類型">全新Google Cloud機器類型</h3>
+<div class="paragraph">
+<p>Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年6月6日">2022年6月6日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="持續同步">持續同步</h3>
+<div class="paragraph">
+<p>新設定可讓您持續將來源S3儲存區的變更同步至目標。</p>
+</div>
+<div class="paragraph">
+<p>初始資料同步之後Cloud Sync 、Syncset會偵聽來源S3儲存區的變更、並在目標發生時持續同步任何變更。不需要以排定的時間間隔重新掃描來源。此設定僅適用於從S3儲存區同步至S3、Google Cloud Storage、Azure Blob儲存設備、StorageGRID 不支援或IBM Storage的情況。</p>
+</div>
+<div class="paragraph">
+<p>請注意、與您的資料代理人相關聯的IAM角色需要下列權限才能使用此設定：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"s3:GetBucketNotification",
+"s3:PutBucketNotification"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>這些權限會自動新增至您所建立的任何新資料代理人。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings">"深入瞭解Continuous Sync設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="顯示所有ontap-的資料">顯示所有ONTAP 的資料</h3>
+<div class="paragraph">
+<p>當您建立同步關係時Cloud Sync 、目前的功能就是在來源Cloud Volumes ONTAP 的支援系統上顯示所有Volume、內部部署ONTAP 的支援服務、或是在支援ONTAP 該功能的FSX檔案系統上顯示所有Volume。</p>
+</div>
+<div class="paragraph">
+<p>先前Cloud Sync 、僅顯示符合所選傳輸協定的磁碟區。現在所有的磁碟區都會顯示、但不符合所選傳輸協定或沒有共用區或匯出的任何磁碟區都會呈現灰色、而且無法選取。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="將標記複製到azure-blob">將標記複製到Azure Blob</h3>
+<div class="paragraph">
+<p>當您建立以Azure Blob為目標的同步關係時Cloud Sync 、現在可讓您將標記複製到Azure Blob容器：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>在*設定*頁面上、您可以使用*複製物件*設定、將標記從來源複製到Azure Blob容器。這是複製中繼資料的附加功能。</p>
+</li>
+<li>
+<p>在「<strong>標記/中繼資料</strong>」頁面上、您可以指定要在複製到Azure Blob容器的物件上設定的Blob索引標籤。先前只能指定關係中繼資料。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>當Azure Blob為目標、且來源為Azure Blob或S3相容端點（S3、StorageGRID 候選或IBM Cloud Object Storage）時、便支援這些選項。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年5月1日">2022年5月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="同步逾時">同步逾時</h3>
+<div class="paragraph">
+<p>現在有一項新的*同步逾時*設定可供同步關係使用。此設定可讓您定義Cloud Sync 當同步尚未在指定的時數或天數內完成時、是否應取消資料同步。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"深入瞭解如何變更同步關係的設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="通知">通知</h3>
+<div class="paragraph">
+<p>現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能不實的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png" alt="在藍圖XP中顯示通知中心的快照。"></span></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"深入瞭解如何變更同步關係的設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年4月3日">2022年4月3日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="資料代理群組增強功能">資料代理群組增強功能</h3>
+<div class="paragraph">
+<p>我們對資料代理商群組進行了多項增強：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>您現在可以將資料代理程式移至新的或現有的群組。</p>
+</li>
+<li>
+<p>您現在可以更新資料代理程式的Proxy組態。</p>
+</li>
+<li>
+<p>最後、您也可以刪除資料代理人群組。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html">"瞭解如何管理資料代理人群組"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="儀表板篩選器">儀表板篩選器</h3>
+<div class="paragraph">
+<p>您現在可以篩選「同步儀表板」的內容、更輕鬆地找到符合特定狀態的同步關係。例如、您可以篩選狀態為「失敗」的同步關係</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png" alt="快照顯示儀表板頂端的「依同步狀態篩選」選項。"></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年3月3日">2022年3月3日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="在儀表板中排序">在儀表板中排序</h3>
+<div class="paragraph">
+<p>您現在可以依照同步關係名稱來排序儀表板。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png" alt="顯示儀表板可用之「排序依據名稱」選項的快照。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="資料感測整合的增強功能">資料感測整合的增強功能</h3>
+<div class="paragraph">
+<p>在先前的版本中、我們推出Cloud Sync 了與Cloud Data Sense整合的功能。在此更新中、我們透過更輕鬆地建立同步關係來強化整合。從Cloud Data Sense啟動資料同步之後、所有來源資訊都會包含在單一步驟中、而且只需要輸入一些重要詳細資料即可。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png" alt="這張螢幕快照會顯示直接從Cloud Data Sense開始新同步後出現的「Data Sense Integration」（資料感測整合）頁面。"></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年2月6日">2022年2月6日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="資料代理群組的增強功能">資料代理群組的增強功能</h3>
+<div class="paragraph">
+<p>我們強調資料代理商_群組_、改變了您與資料代理人的互動方式。</p>
+</div>
+<div class="paragraph">
+<p>例如、當您建立新的同步關係時、請選取要與關係搭配使用的資料代理_群組_、而非特定的資料代理程式。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png" alt="同步關係精靈的快照、顯示資料代理群組選取項目。"></span></p>
+</div>
+<div class="paragraph">
+<p>在*管理資料代理人*索引標籤中、我們也會顯示資料代理人群組正在管理的同步關係數目。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png" alt="「管理資料代理人」頁面的快照、顯示資料代理人群組及該群組的詳細資料、包括其所管理的關係數目。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="下載pdf報告">下載PDF報告</h3>
+<div class="paragraph">
+<p>您現在可以下載報告的PDF。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html">"深入瞭解報告"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2022年1月2日">2022年1月2日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="新的box同步關係">新的Box同步關係</h3>
+<div class="paragraph">
+<p>支援兩種新的同步關係：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Box to Azure NetApp Files</p>
+</li>
+<li>
+<p>Box to Amazon FSX for ONTAP Sfx</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="關係名稱">關係名稱</h3>
+<div class="paragraph">
+<p>您現在可以為每個同步關係提供有意義的名稱、以便更輕鬆地識別每個關係的目的。您可以在建立關聯時新增名稱、也可以在之後的任何時間新增。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-sync-relationship-edit-name.png" alt="同步關係的快照、顯示關聯名稱旁的編輯按鈕。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="s3私有連結">S3私有連結</h3>
+<div class="paragraph">
+<p>當您在Amazon S3之間或從Amazon S3同步資料時、可以選擇是否使用S3私有連結。當資料代理人將資料從來源複製到目標時、便會透過私有連結。</p>
+</div>
+<div class="paragraph">
+<p>請注意、與您的資料代理人相關聯的IAM角色需要下列權限才能使用此功能：</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"ec2:DescribeVpcEndpoints"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>此權限會自動新增至您所建立的任何新資料代理人。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="glacier即時擷取">Glacier即時擷取</h3>
+<div class="paragraph">
+<p>現在、當Amazon S3成為同步關係的目標時、您可以選擇_Glacier即時擷取_儲存類別。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="從物件儲存到smb共用的acl">從物件儲存到SMB共用的ACL</h3>
+<div class="paragraph">
+<p>目前支援將ACL從物件儲存設備複製到SMB共用區。Cloud Sync之前、我們只支援將ACL從SMB共用區複製到物件儲存區。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="sftp至s3">SFTP至S3</h3>
+<div class="paragraph">
+<p>使用者介面現在支援從SFTP建立與Amazon S3的同步關係。此同步關係先前僅受到API支援。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="表格檢視增強功能">表格檢視增強功能</h3>
+<div class="paragraph">
+<p>我們重新設計儀表板上的表格檢視、以方便使用。如果您選取 * 更多資訊 * 、 Cloud Sync 會篩選儀表板、以顯示該特定關係的更多資訊。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot-sync-table.png" alt="儀表板中表格檢視的快照。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援jarkarta地區">支援Jarkarta地區</h3>
+<div class="paragraph">
+<p>目前支援在AWS亞太地區（雅加達）部署資料代理商。Cloud Sync</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年11月28日">2021年11月28日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="從smb到物件儲存的acl">從SMB到物件儲存的ACL</h3>
+<div class="paragraph">
+<p>現在、當從來源SMB共用區設定同步關係到物件儲存（除了不包括S3）時、即可複製存取控制清單（ACL）Cloud Sync ONTAP 。</p>
+</div>
+<div class="paragraph">
+<p>不支援將ACL從物件儲存區複製到SMB共用區。Cloud Sync</p>
+</div>
+<div class="paragraph">
+<p><a href="task-copying-acls.html">"瞭解如何從SMB共用區複製ACL"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新授權">更新授權</h3>
+<div class="paragraph">
+<p>您現在可以更新Cloud Sync 擴充的更新版的支援。</p>
+</div>
+<div class="paragraph">
+<p>如果您延長Cloud Sync 從NetApp購買的支援對象、您可以再次新增授權、以重新更新到期日。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-licensing.html#update-a-license">"瞭解如何更新授權"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="更新box認證資料">更新Box認證資料</h3>
+<div class="paragraph">
+<p>您現在可以更新現有同步關係的Box認證資料。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html">"瞭解如何更新認證資料"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年10月31日">2021年10月31日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="box支援">Box支援</h3>
+<div class="paragraph">
+<p>Box支援現可在Cloud Sync 支援畫面的使用者介面中預覽。</p>
+</div>
+<div class="paragraph">
+<p>Box可以是多種同步關係類型的來源或目標。 <a href="reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="建立日期設定">建立日期設定</h3>
+<div class="paragraph">
+<p>當SMB伺服器為來源時、稱為「建立日期」的新同步關係設定可讓您同步在特定日期之後、特定日期之前或特定時間範圍之間建立的檔案。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html">"深入瞭Cloud Sync 解有關功能的設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年10月4日">2021年10月4日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="額外的box支援">額外的Box支援</h3>
+<div class="paragraph">
+<p>目前支援的其他同步關係Cloud Sync <a href="https://www.box.com/home" target="_blank" rel="noopener">"方塊"</a> 使用Cloud Sync API時：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon S3 to Box</p>
+</li>
+<li>
+<p>IBM Cloud Object Storage to Box</p>
+</li>
+<li>
+<p>包裝盒StorageGRID</p>
+</li>
+<li>
+<p>Box移轉至NFS伺服器</p>
+</li>
+<li>
+<p>適用於SMB伺服器</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="api-sync.html">"瞭解如何使用API設定同步關係"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="sftp路徑報告">SFTP路徑報告</h3>
+<div class="paragraph">
+<p>您現在可以了 <a href="task-managing-reports.html">"建立報告"</a> 適用於SFTP路徑。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年9月2日">2021年9月2日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="支援fsx-for-ontap-sf">支援FSX for ONTAP Sf</h3>
+<div class="paragraph">
+<p>您現在可以將資料同步至Amazon FSX for ONTAP Sfor Sfor系統、或從Amazon FSX同步資料。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html" target="_blank" rel="noopener">"深入瞭解Amazon FSX for ONTAP Sf"</a></p>
+</li>
+<li>
+<p><a href="reference-requirements.html">"檢視支援的同步關係"</a></p>
+</li>
+<li>
+<p><a href="task-creating-relationships.html">"瞭解如何為Amazon FSX for ONTAP Synf2建立同步關係"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年8月1日">2021年8月1日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="更新認證資料">更新認證資料</h3>
+<div class="paragraph">
+<p>利用目前的支援功能、您可以在現有的同步關係中、以來源或目標的最新認證來更新資料代理程式。Cloud Sync</p>
+</div>
+<div class="paragraph">
+<p>如果您的安全性原則要求您定期更新認證資料、這項增強功能將有助於您。 <a href="task-managing-relationships.html">"瞭解如何更新認證資料"</a>。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_update_credentials.png" alt="快照顯示「同步關係」頁面上、來源或目標名稱正下方的「更新認證」選項。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="物件儲存目標的標記">物件儲存目標的標記</h3>
+<div class="paragraph">
+<p>建立同步關係時、您現在可以在同步關係中將標記新增至物件儲存目標。</p>
+</div>
+<div class="paragraph">
+<p>Amazon S3、Azure Blob、Google Cloud Storage、IBM Cloud Object Storage及StorageGRID 支援新增標記。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_tags.png" alt="此快照顯示工作環境精靈中的頁面、可讓您將關係標記新增至關聯中的物件儲存目標。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援box">支援Box</h3>
+<div class="paragraph">
+<p>支援的支援Cloud Sync <a href="https://www.box.com/home" target="_blank" rel="noopener">"方塊"</a> 當使用此解決方案時、可作為與Amazon S3、StorageGRID Syn性質 及IBM Cloud Object Storage的同步關係來源Cloud Sync 。</p>
+</div>
+<div class="paragraph">
+<p><a href="api-sync.html">"瞭解如何使用API設定同步關係"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="google-cloud資料代理商的公有ip">Google Cloud資料代理商的公有IP</h3>
+<div class="paragraph">
+<p>在Google Cloud中部署資料代理程式時、您現在可以選擇啟用或停用虛擬機器執行個體的公有IP位址。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-installing-gcp.html">"瞭解如何在Google Cloud中部署資料代理商"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="雙傳輸協定volume-azure-netapp-files-提供更多功能">雙傳輸協定Volume Azure NetApp Files 、提供更多功能</h3>
+<div class="paragraph">
+<p>當您選擇Azure NetApp Files 來源或目標Volume進行更新時、Cloud Sync 無論您選擇哪種傳輸協定來進行同步關係、現在只要顯示雙傳輸協定Volume即可。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年7月7日">2021年7月7日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="s3儲存設備與google-cloud-storage-ontap">S3儲存設備與Google Cloud Storage ONTAP</h3>
+<div class="paragraph">
+<p>現在、支援從使用者介面同步處理S3儲存設備與Google Cloud Storage儲存桶之間的關係。Cloud Sync ONTAP</p>
+</div>
+<div class="paragraph">
+<p><a href="reference-supported-relationships.html">"檢視支援的同步關係清單"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="物件中繼資料標記">物件中繼資料標記</h3>
+<div class="paragraph">
+<p>建立同步關係並啟用設定時、即可在物件型儲存設備之間複製物件中繼資料和標記。Cloud Sync</p>
+</div>
+<div class="paragraph">
+<p><a href="task-creating-relationships.html#settings">"深入瞭解「複製物件」設定"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="支援hashicorp資料錯誤">支援HashiCorp資料錯誤</h3>
+<div class="paragraph">
+<p>您現在可以設定資料代理程式、透過Google Cloud服務帳戶驗證、從外部HashiCorp Vault存取認證資料。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-external-vault.html">"深入瞭解搭配資料代理程式使用HashiCorp Vault的相關資訊"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="定義s3儲存區的標記或中繼資料">定義S3儲存區的標記或中繼資料</h3>
+<div class="paragraph">
+<p>設定Amazon S3儲存區的同步關係時、同步關係精靈現在可讓您定義要儲存在目標S3儲存區物件上的標記或中繼資料。</p>
+</div>
+<div class="paragraph">
+<p>標記選項先前是同步關係設定的一部分。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年6月7日">2021年6月7日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="google-cloud的儲存課程">Google Cloud的儲存課程</h3>
+<div class="paragraph">
+<p>當Google Cloud Storage資源桶成為同步關係的目標時、您現在可以選擇想要使用的儲存類別。支援下列儲存類別：Cloud Sync</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>標準</p>
+</li>
+<li>
+<p>近線</p>
+</li>
+<li>
+<p>冷線</p>
+</li>
+<li>
+<p>歸檔</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年5月2日">2021年5月2日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="報告中的錯誤">報告中的錯誤</h3>
+<div class="paragraph">
+<p>您現在可以檢視報告中的錯誤、並刪除最後一份報告或所有報告。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-reports.html">"深入瞭解如何建立及檢視報告以調整組態"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="比較屬性">比較屬性</h3>
+<div class="paragraph">
+<p>現在每個同步關係都有一個新的*比較依據*設定可供使用。</p>
+</div>
+<div class="paragraph">
+<p>這項進階設定可讓您選擇Cloud Sync 在判斷檔案或目錄是否已變更且應重新同步時、是否應比較某些屬性。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-relationships.html#changing-the-settings-for-a-sync-relationship">"深入瞭解如何變更同步關係的設定"</a>。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="2021年4月11日">2021年4月11日</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="獨立cloud-sync-式的版不使用此服務">獨立Cloud Sync 式的版不使用此服務</h3>
+<div class="paragraph">
+<p>獨立Cloud Sync 式的不再使用此功能。現在您應該Cloud Sync 直接從具有所有相同功能的BlueXP存取這個功能。</p>
+</div>
+<div class="paragraph">
+<p>登入BlueXP之後、您可以切換到頂端的「同步」索引標籤、檢視您的關係、就像以前一樣。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="google-cloud會在不同專案中儲存貯體">Google Cloud會在不同專案中儲存貯體</h3>
+<div class="paragraph">
+<p>設定同步關係時、如果您提供資料代理商服務帳戶所需的權限、您可以從不同專案的Google Cloud儲存庫中進行選擇。</p>
+</div>
+<div class="paragraph">
+<p><a href="task-installing-gcp.html">"瞭解如何設定服務帳戶"</a>。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="google-cloud-storage與s3之間的中繼資料">Google Cloud Storage與S3之間的中繼資料</h3>
+<div class="paragraph">
+<p>目前、支援在Google Cloud Storage和S3供應商（AWS S3、支援、IBM Cloud Object Storage）之間複製中繼資料。Cloud Sync StorageGRID</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="重新啟動資料代理人">重新啟動資料代理人</h3>
+<div class="paragraph">
+<p>您現在可以從Cloud Sync 功能不再需要的地方重新啟動資料代理程式。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_restart_data_broker.gif" alt="從「管理資料代理人」頁面顯示「重新啟動資料代理人」動作的快照。"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="未執行最新版本時的訊息">未執行最新版本時的訊息</h3>
+<div class="paragraph">
+<p>目前可識別資料代理程式何時未執行最新的軟體版本。Cloud Sync此訊息有助於確保您獲得最新的功能。</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_sync_warning.gif" alt="在儀表板上檢視資料代理程式時顯示警告的快照。"></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/zh-tw/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/zh-tw/bluexp-copy-sync/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">在本頁</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">使用條款</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">隱私權政策</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie 政策</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie 設定</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">傳送有關本網頁的意見反應</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/zh-tw/bluexp-copy-sync/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/zh-tw/bluexp-copy-sync/js/prism.js'></script>
+      <script type="text/javascript" src='/zh-tw/bluexp-copy-sync/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/zh-tw/bluexp-copy-sync/js/ie-tabbed-blocks.js'></script>
+    <script src='/zh-tw/bluexp-copy-sync/js/ie-sidebar.js'></script>
+  </body>
+
+</html>

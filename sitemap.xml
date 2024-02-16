@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/api-sync.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/concept-cloud-sync.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/concept-licensing.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/concept-privacy.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/faq.html</loc>
+        
+      
+      <lastmod>2023-08-07T20:00:10+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/legal-notices.html</loc>
+        
+      
+      <lastmod>2023-08-07T20:00:10+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/reference-limitations.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/reference-networking.html</loc>
+        
+      
+      <lastmod>2023-09-05T17:29:09+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/reference-requirements.html</loc>
+        
+      
+      <lastmod>2023-08-07T20:00:10+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/reference-supported-relationships.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync//search.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-copying-acls.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-creating-relationships.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-external-vault.html</loc>
+        
+      
+      <lastmod>2023-05-08T19:48:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-get-help.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-installing-aws.html</loc>
+        
+      
+      <lastmod>2023-11-28T15:29:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-installing-azure.html</loc>
+        
+      
+      <lastmod>2023-11-28T15:29:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-installing-gcp.html</loc>
+        
+      
+      <lastmod>2023-11-28T15:29:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-installing-linux.html</loc>
+        
+      
+      <lastmod>2023-11-28T15:29:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-licensing.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-managing-data-brokers.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-managing-relationships.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-managing-reports.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-nfs-encryption.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-quick-start.html</loc>
+        
+      
+      <lastmod>2023-07-28T16:55:44+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-support-registration.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/task-uninstalling.html</loc>
+        
+      
+      <lastmod>2022-05-03T06:06:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/zh-tw/bluexp-copy-sync/whats-new.html</loc>
+        
+      
+      <lastmod>2024-02-16T21:04:27+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>

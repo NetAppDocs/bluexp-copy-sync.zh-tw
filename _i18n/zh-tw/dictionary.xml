@@ -1886,7 +1886,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
-  <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0 、 8.5 和 8.8</block>
   <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023 年 11 月 26 日</block>
   <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">支援 Azure Blob 的 Cold 儲存等級</block>
   <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">建立同步關係時、便可使用冷藏 Azure Blob 層。</block>
@@ -1905,4 +1904,10 @@
   <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">深入瞭解 * 排除目錄 * 功能。</block>
   <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
   <block id="65f2edc14f4a65d07600885b4ca1a56f" category="list-text">輸入名稱或目錄完整路徑並按 *Enter* ，指定最多 15 個 regex 或目錄，以從同步中排除。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</block>
+  <block id="8580342935824bb5edc626fa6371115e" category="section-title">2024 年 4 月 8 日</block>
+  <block id="cd5e0880386a1f1f9deebd1fe0422847" category="section-title">支援 RHEL 8.9</block>
+  <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">現在、執行 Red Hat Enterprise Linux 8.9 的主機支援資料代理程式。</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
+  <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5 、 8.8 和 8.9</block>
 </blocks>

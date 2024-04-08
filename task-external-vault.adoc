@@ -13,6 +13,7 @@ summary: 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步
 :imagesdir: ./media/
 
 
+[role="lead"]
 當您建立需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係時、您需要透過 BlueXP 複本和同步使用者介面或 API 來指定這些認證。另一種方法是設定資料代理人群組、以便直接從外部HashiCorp Vault存取認證（或_h秘密_）。
 
 此功能可透過 BlueXP 複本與同步 API 、以及需要 Amazon S3 、 Azure 或 Google Cloud 認證的同步關係來支援。

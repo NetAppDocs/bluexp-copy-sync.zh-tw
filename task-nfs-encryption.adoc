@@ -13,6 +13,7 @@ summary: 如果您的企業有嚴格的安全性原則、請使用即時資料�
 :imagesdir: ./media/
 
 
+[role="lead"]
 如果您的企業有嚴格的安全性原則、您可以使用即時資料加密來同步 NFS 資料。從 NFS 伺服器到另一個 NFS 伺服器、以及 Azure NetApp Files 從功能到 Azure NetApp Files 功能的支援。
 
 例如、您可能想要在不同網路中的兩個 NFS 伺服器之間同步資料。或者、您可能需要在 Azure NetApp Files 子網路或區域之間安全地傳輸有關的資料。

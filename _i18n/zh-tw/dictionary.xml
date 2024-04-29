@@ -664,7 +664,6 @@
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">建立並檢視報告、取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">建立及檢視報告以調整組態</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">建立並檢視報告、以取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。</block>
-  <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">每份報告都會提供有關同步關係中路徑的深入詳細資料。例如、檔案系統的報告會顯示目錄和檔案的數量、檔案大小的發佈、目錄的深度和範圍等。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">建立報告</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">每個同步關係中的路徑（來源或目標）都會顯示在表格中。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">以下是檔案系統路徑的範例報告。</block>
@@ -1278,7 +1277,6 @@
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">現在有一項新的*通知*設定可供同步關係使用。此設定可讓您選擇是否要在Cloud Sync BlueXP的通知中心接收功能不實的通知。您可以啟用通知、以便成功同步資料、同步失敗資料及取消資料同步。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">獨立Cloud Sync 式的不再使用此功能。現在您應該Cloud Sync 直接從具有所有相同功能的BlueXP存取這個功能。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">登入BlueXP之後、您可以切換到頂端的「同步」索引標籤、檢視您的關係、就像以前一樣。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">\https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
@@ -1483,7 +1481,6 @@
   <block id="ba1c1b5e23e3b5a8fddd3f7c246ef506" category="list-text">選擇在 BlueXP 複製後從來源位置刪除檔案、然後同步將檔案複製到目標位置。此選項包括資料遺失的風險、因為來源檔案在複製後會被刪除。</block>
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">定義要包含在每個同步中的檔案類型：檔案、目錄、符號連結和硬式連結。</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">硬式連結僅適用於不安全的 NFS 與 NFS 關係。使用者只能使用一個掃描器程序和一個掃描器並行處理、而且必須從根目錄執行掃描。</block>
-  <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXP 複製與同步會開始在來源與目標之間同步資料。</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp 無法存取您在使用 BlueXP 複本與同步服務時所提供的任何認證。這些認證資料會直接儲存在網路中的資料代理機器上。</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">根據您選擇的組態而定、 BlueXP 複本與同步處理可能會在您建立新關係時提示您輸入認證。例如、在設定包含 SMB 伺服器的關係時、或在 AWS 中部署資料代理程式時。</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">建立新的資料代理程式時、請選擇Google Cloud Data Broker選項、將資料代理軟體部署在VPC的新虛擬機器執行個體上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。</block>
@@ -1910,4 +1907,13 @@
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
   <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5 、 8.8 和 8.9</block>
+  <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">哪種同步關係可保留物件儲存中繼資料？</block>
+  <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">在 NFS 或 SMB 為來源的同步期間、會複寫哪些種類的中繼資料？</block>
+  <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">預設會複寫中繼資料、例如使用者 ID 、修改時間、存取時間和 GID 。使用者可在建立同步關係時、視需要將 ACL 標示為複寫 CIFS 。</block>
+  <block id="7051698c4825bdf5a52d58a440b9a6da" category="inline-link">同步關係</block>
+  <block id="5c4c20a350a01bcba51403b5971c1e55" category="inline-link">管理資料代理人</block>
+  <block id="81671387dfc9496bbb584683131ed0ba" category="inline-link">建立報告以最佳化您的效能和組態</block>
+  <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXP 複製與同步會開始在來源與目標之間同步資料。同步處理所需時間、是否停止、以及有多少檔案可供複製、掃描或刪除。然後您就可以管理<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>、<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>或<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
+  <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">成功建立及完成同步</block>
+  <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">每份報告都會提供有關同步關係中路徑的深入詳細資料。其中包括有多少目錄、檔案和符號連結、檔案大小的發佈、目錄的深度和範圍、修改時間和存取時間。這與同步靜態圖不同、之後可從儀表板取得<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
 </blocks>

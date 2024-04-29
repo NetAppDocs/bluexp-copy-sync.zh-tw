@@ -5,21 +5,18 @@ keywords: reports, sync reports, BlueXP copy and sync reports, report errors, pa
 summary: 建立並檢視報告、取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。 
 ---
 = 建立及檢視報告以調整組態
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 建立並檢視報告、以取得可在NetApp人員協助下使用的資訊、以調整資料代理的組態並改善效能。
 
-每份報告都會提供有關同步關係中路徑的深入詳細資料。例如、檔案系統的報告會顯示目錄和檔案的數量、檔案大小的發佈、目錄的深度和範圍等。
+每份報告都會提供有關同步關係中路徑的深入詳細資料。其中包括有多少目錄、檔案和符號連結、檔案大小的發佈、目錄的深度和範圍、修改時間和存取時間。這與同步靜態圖不同、之後可從儀表板取得 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["成功建立及完成同步"]。
 
 
 

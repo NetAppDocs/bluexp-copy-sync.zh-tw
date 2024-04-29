@@ -5,15 +5,12 @@ keywords: manage data brokers, manage data broker groups, data broker performanc
 summary: 資料代理人會將來源位置的資料同步到目標位置。您所建立的每個同步關係都需要一個資料代理程式。透過新增資料代理人至群組、檢視資料代理人的相關資訊等、來管理資料代理人。 
 ---
 = 管理資料代理群組
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

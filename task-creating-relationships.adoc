@@ -245,7 +245,7 @@ TIP: 將資料同步至StorageGRID 物件儲存設備時、也可使用此功能
 
 * 結果 *
 
-BlueXP 複製與同步會開始在來源與目標之間同步資料。
+BlueXP 複製與同步會開始在來源與目標之間同步資料。同步處理所需時間、是否停止、以及有多少檔案可供複製、掃描或刪除。然後您就可以管理 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["同步關係"]、 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["管理資料代理人"]或 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["建立報告以最佳化您的效能和組態"]。
 
 
 

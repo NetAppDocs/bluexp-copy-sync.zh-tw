@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: BlueXP 複本與同步文件
+  summary: BlueXP 複製與同步是一種雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
+  keywords: bluexp-family, documentation, cloud
+  lead: BlueXP 複製與同步是一種雲端複寫與同步服務、可在內部部署與雲端物件儲存區之間傳輸 NAS 資料。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: BlueXP 複本與同步總覽
+      url: concept-cloud-sync.html
+    - title: 快速入門
+      url: task-quick-start.html
+    - title: 常見問題集
+      url: faq.html
+  - title: 使用 BlueXP 複製與同步
+    links:
+    - title: 建立同步關係
+      url: task-creating-relationships.html
+    - title: 設定授權
+      url: task-licensing.html
+    - title: 管理資料代理群組
+      url: task-managing-data-brokers.html
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP部落格
+      url: https://cloud.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://cloud.netapp.com/events

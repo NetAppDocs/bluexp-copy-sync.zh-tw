@@ -1916,4 +1916,8 @@
   <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXP 複製與同步會開始在來源與目標之間同步資料。同步處理所需時間、是否停止、以及有多少檔案可供複製、掃描或刪除。然後您就可以管理<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>、<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>或<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
   <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">成功建立及完成同步</block>
   <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">每份報告都會提供有關同步關係中路徑的深入詳細資料。其中包括有多少目錄、檔案和符號連結、檔案大小的發佈、目錄的深度和範圍、修改時間和存取時間。這與同步靜態圖不同、之後可從儀表板取得<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
 </blocks>

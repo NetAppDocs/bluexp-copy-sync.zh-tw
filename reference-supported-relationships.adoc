@@ -32,7 +32,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -51,7 +51,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -71,7 +71,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SS3 儲存設備 ONTAP
 * SMB 伺服器
 * StorageGRID
@@ -90,7 +90,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -123,7 +123,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -155,7 +155,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -173,7 +173,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -191,7 +191,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SS3 儲存設備 ONTAP
 * SMB 伺服器
 * StorageGRID
@@ -219,7 +219,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -239,7 +239,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google雲端硬碟
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SS3 儲存設備 ONTAP
 * SMB 伺服器
 * StorageGRID
@@ -247,7 +247,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 
 
 
-| 內部ONTAP 使用的叢集  a| 
+| 內部部署 ONTAP 叢集（ NFS 或 SMB ）  a| 
 * Amazon EFS
 * Amazon FSX for ONTAP Sf
 * Amazon S3
@@ -259,7 +259,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SMB 伺服器
 * StorageGRID
 
@@ -294,7 +294,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google雲端硬碟
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SS3 儲存設備 ONTAP
 * SMB 伺服器
 * StorageGRID
@@ -315,7 +315,7 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
-* 內部部署 ONTAP 的叢集
+* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
 * SS3 儲存設備 ONTAP
 * SMB 伺服器
 * StorageGRID

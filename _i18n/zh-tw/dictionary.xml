@@ -601,7 +601,6 @@
   <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB 伺服器</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
   <block id="c07503bbdaf42732886b6b9f136d9eb0" category="list-text">方塊^1^</block>
-  <block id="c17ce6a7cdcb97581c6d5603ec7d447a" category="cell">內部ONTAP 使用的叢集</block>
   <block id="c01bb6a5867adae467a31539eda72b37" category="cell">SFTP ^2^</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
   <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">附註：</block>
@@ -1922,4 +1921,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024 年 6 月 2 日</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程式也已更新以套用安全性更新。新的資料代理版本為 1.0.52 。</block>
+  <block id="8c5259dd9c9515862d9ef62edaaa899d" category="list-text">內部部署 ONTAP 叢集（ NFS 或 SMB ）</block>
 </blocks>

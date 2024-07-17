@@ -46,6 +46,8 @@ sidebar:
     entries:
     - title: 在來源與目標之間同步資料
       entries:
+      - title: 準備資料代理程式、以便在物件儲存設備之間同步資料
+        url: "/task-prepare-object-storage.html"
       - title: 建立同步關係
         url: "/task-creating-relationships.html"
       - title: 從SMB共用區複製ACL

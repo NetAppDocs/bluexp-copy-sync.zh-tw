@@ -997,7 +997,6 @@
   <block id="5724e69362e6baa1a8fac790e6db1ee9" category="paragraph">資料代理人群組一次可以管理一或多個同步關係。</block>
   <block id="c73532751f2f234c7f0d9ca93cb4b15b" category="section-title">群組中的資料代理人數目</block>
   <block id="31361c8d27e70295df2bfa32fdeeb659" category="inline-link-macro">深入瞭解如何判斷何時需要多個資料代理人</block>
-  <block id="0a134fa70f4699a5c8408ed138b7162b" category="paragraph">在許多情況下、單一資料代理程式可滿足同步關係的效能要求。如果沒有、您可以在群組中新增額外的資料代理人、以加速同步效能。但您應該先檢查其他可能影響同步效能的因素。 <block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>。</block>
   <block id="301ebdf8067a213d5a55c65fbb488290" category="section-title">安全性建議</block>
   <block id="cbf7ac8dbbee47678fd563919556b802" category="paragraph">為確保資料代理機器的安全性、NetApp建議：</block>
   <block id="e55d32d29f143f215d415eb6175f7da2" category="list-text">SSH不應允許進行X11轉送</block>
@@ -1699,7 +1698,6 @@
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">只從 SMB 伺服器複製 ACL 、僅複製檔案、或從 SMB 伺服器複製 ACL 和檔案、方法是在建立關聯或建立關聯後啟用設定。</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">node.js 相容性</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">加速同步效能</block>
-  <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">Updateecre</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">設定通知</block>
   <block id="b74bf8e34d66bdbffc7544ea6e132661" category="section-title">變更同步關係的設定</block>
   <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">刪除關係</block>
@@ -1922,4 +1920,22 @@
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024 年 6 月 2 日</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程式也已更新以套用安全性更新。新的資料代理版本為 1.0.52 。</block>
   <block id="8c5259dd9c9515862d9ef62edaaa899d" category="list-text">內部部署 ONTAP 叢集（ NFS 或 SMB ）</block>
+  <block id="bd847a13f3c228a3e7b266af4584fd3a" category="paragraph">在許多情況下、單一資料代理程式可滿足同步關係的效能要求。如果沒有、您可以在群組中新增額外的資料代理人、以加速同步效能。但您應該先檢查其他可能影響同步效能的因素。<block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>。</block>
+  <block id="cfe8bc2d032af638edef6aa48eddc97d" category="summary">如果您計畫將資料從物件儲存區同步至物件儲存區（例如 Amazon S3 至 Azure Blob ）、則需要先準備資料代理群組、才能建立同步關係。</block>
+  <block id="654ac38b7369238d760ed41821bfe8f6" category="doc">準備資料代理程式、以便在物件儲存設備之間同步資料</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於這項工作</block>
+  <block id="8b29cf1534de96e7d8703b38dbc8b848" category="paragraph">若要準備資料代理群組、您需要修改掃描器的組態。如果您未修改組態、可能會注意到此同步關係的效能問題。</block>
+  <block id="f497dbcbf16cefa2ef6d812f89825438" category="paragraph">您用來將資料從物件儲存區同步至物件儲存區的資料代理群組、只能管理這些類型的同步關係。如果資料代理群組管理不同類型的同步關係（例如 NFS 至 NFS 或物件儲存至 SMB ）、則這些同步關係的效能可能會受到負面影響。</block>
+  <block id="ab1484a815310bbc60b24a9aae62d58f" category="list-text">從 BlueXP 複製與同步中、選取 * 管理資料代理人 * 。</block>
+  <block id="4c9240708988b2ebe5983da5eadc4613" category="inline-image-macro">設定圖示的螢幕擷取畫面</block>
+  <block id="c633ea4565616bf2769598e328f3a188" category="list-text">選取 <block ref="1acf1c98ddec5f9f5f83183a48b45a01" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afc8ea6a55a9970b854c3ce2b28ba9b5" category="list-text">更新掃描器組態：</block>
+  <block id="65cb0c9fd06e63d9940a79bb99abc58e" category="list-text">將 * 掃描儀併發 * 更改爲 *1* 。</block>
+  <block id="996c7ea13fea79c025562f291dbdb16b" category="list-text">將 * 掃描程序處理限制 * 更改爲 *1* 。</block>
+  <block id="456191f26693536a8d701897a3127c23" category="list-text">選擇 * 統一化組態 * 。</block>
+  <block id="a700bfe82fb8fb28d4bca63bc5ae7922" category="paragraph">BlueXP 複製與同步會更新資料代理群組的組態。</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
+  <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">您現在可以使用剛才設定的資料代理群組、在物件儲存區之間建立同步關係。</block>
+  <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024 年 7 月 14 日</block>
+  <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。</block>
 </blocks>

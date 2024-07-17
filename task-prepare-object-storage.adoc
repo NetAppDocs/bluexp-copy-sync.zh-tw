@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-prepare-object-storage.html 
+keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner 
+summary: 如果您計畫將資料從物件儲存區同步至物件儲存區（例如 Amazon S3 至 Azure Blob ）、則需要先準備資料代理群組、才能建立同步關係。 
+---
+= 準備資料代理程式、以便在物件儲存設備之間同步資料
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您計畫將資料從物件儲存區同步至物件儲存區（例如 Amazon S3 至 Azure Blob ）、則需要先準備資料代理群組、才能建立同步關係。
+
+.關於這項工作
+若要準備資料代理群組、您需要修改掃描器的組態。如果您未修改組態、可能會注意到此同步關係的效能問題。
+
+.開始之前
+您用來將資料從物件儲存區同步至物件儲存區的資料代理群組、只能管理這些類型的同步關係。如果資料代理群組管理不同類型的同步關係（例如 NFS 至 NFS 或物件儲存至 SMB ）、則這些同步關係的效能可能會受到負面影響。
+
+.步驟
+. 從 BlueXP 複製與同步中、選取 * 管理資料代理人 * 。
+. 選取 image:icon-settings.png["設定圖示的螢幕擷取畫面"]
+. 更新掃描器組態：
++
+.. 將 * 掃描儀併發 * 更改爲 *1* 。
+.. 將 * 掃描程序處理限制 * 更改爲 *1* 。
+
+
+. 選擇 * 統一化組態 * 。
+
+
+.結果
+BlueXP 複製與同步會更新資料代理群組的組態。
+
+.接下來呢？
+您現在可以使用剛才設定的資料代理群組、在物件儲存區之間建立同步關係。

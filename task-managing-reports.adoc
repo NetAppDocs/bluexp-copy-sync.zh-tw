@@ -47,7 +47,7 @@ image:screenshot_sync_report_object.gif["顯示路徑項目數量、物件大小
 
 
 
-== 正在下載報告
+== 下載報告
 
 您可以下載PDF格式的報告、以便離線檢視或分享。
 

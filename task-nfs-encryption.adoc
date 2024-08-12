@@ -38,7 +38,7 @@ image:diagram_nfs_encryption.gif["顯示兩個 NFS 伺服器和兩個資料代�
 . 目標資料代理人會先解密資料、再將其傳送至目標。
 . 初始複本之後、服務會每 24 小時同步所有變更的資料。如果有要同步的資料、程序會從啟動器開啟與其他資料代理的加密連線開始。
 +
-如果您偏好更頻繁地同步資料、 link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["您可以在建立關係之後變更排程"]。
+如果您想要更頻繁地同步資料， link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["您可以在建立關係之後變更排程"]。
 
 
 

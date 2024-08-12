@@ -18,12 +18,12 @@ summary: 透過 Web UI 提供的 BlueXP 複本與同步功能也可透過 RESTfu
 
 
 
-== 快速入門
+== 開始使用
 
 若要開始使用 BlueXP 複本與同步 API 、您必須取得使用者權杖和 BlueXP 帳戶 ID 。進行 API 呼叫時、您必須將權杖和帳戶 ID 新增至「授權」標頭。
 
 .步驟
-. 從NetApp BlueXP取得使用者權杖。
+. 從 BlueXP  取得使用者權杖。
 +
 [source, http]
 ----
@@ -39,12 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
-
-
++
 
 NOTE: 如果您使用的是沒有用戶端ID的個人電子郵件帳戶、您可以使用預設用戶端ID「QC3AgHk6qdbmC7Yr82ApwaaJLwRrNO」。
 
-. 取得您的BlueXp帳戶ID。
+. 取得您的BlueXP帳戶ID。
 +
 [source, http]
 ----
@@ -83,18 +82,10 @@ Body: { "name": "databroker1", "type": "AZURE" }
 ----
 
 
-.權杖過期時該怎麼辦？
-****
-NetApp BlueXp的使用者權杖有到期日。若要重新整理權杖、您需要再次從步驟 1 呼叫 API 。
+.接下來呢？
+BlueXP  的使用者權杖具有到期日。若要重新整理權杖、您需要再次從步驟 1 呼叫 API 。
 
 API 回應包含「 Expire_in 」欄位、指出權杖過期的時間。
-
-****
-
-
-== API 參考
-
-每個 BlueXP 複本與同步 API 的文件均可從取得 https://api.cloudsync.netapp.com/docs[]。
 
 
 
@@ -192,3 +183,8 @@ x-account-id: <accountId>
     }
 ]
 ----
+
+
+== API 參考
+
+每個 BlueXP 複本與同步 API 的文件均可從取得 https://api.cloudsync.netapp.com/docs[]。

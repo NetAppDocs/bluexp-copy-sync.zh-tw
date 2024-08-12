@@ -206,7 +206,7 @@ BlueXP 複製與同步支援使用或不使用基本驗證的 Proxy 伺服器。
 
 當單一檔案無法傳輸時、資料代理群組不會逾時。相反地、資料代理群組會在跳過檔案之前重試3次。重試值可在同步關係的設定中設定。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["瞭解如何變更同步關係的設定"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["瞭解如何變更同步關係的設定"]。
 
 
 
@@ -360,7 +360,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 因此、請務必檢查網路效能和目標磁碟處理量。
 
-然後、您可以考慮在群組中新增額外的資料代理人、以共享該關係的負載、藉此加速同步效能。 link:task-managing-relationships.html#accelerating-sync-performance["瞭解如何加速同步效能"]。
+然後、您可以考慮在群組中新增額外的資料代理人、以共享該關係的負載、藉此加速同步效能。link:task-managing-relationships.html#accelerate-sync-performance["瞭解如何加速同步效能"]。
 
 
 
@@ -380,7 +380,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 根據預設、如果您有作用中的同步關係、則在下次同步處理期間、從來源伺服器刪除的項目不會從目標中刪除。但每個關係的同步設定都有一個選項、您可以在其中定義 BlueXP 複本與同步、如果從來源中刪除檔案、就會刪除目標位置中的檔案。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["瞭解如何變更同步關係的設定"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["瞭解如何變更同步關係的設定"]。
 
 
 

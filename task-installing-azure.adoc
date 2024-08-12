@@ -4,7 +4,7 @@ permalink: task-installing-azure.html
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
 summary: 當您建立新的資料代理程式時、請選擇 Azure Data Broker 選項、將資料代理軟體部署在 vnet 中的新虛擬機器上。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。 
 ---
-= 在Azure中建立新的資料代理程式
+= 在 Azure 中建立新的資料代理程式
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

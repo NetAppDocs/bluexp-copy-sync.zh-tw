@@ -561,7 +561,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 現在有一項新的*同步逾時*設定可供同步關係使用。此設定可讓您定義Cloud Sync 當同步尚未在指定的時數或天數內完成時、是否應取消資料同步。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
 
 
@@ -571,7 +571,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["在藍圖XP中顯示通知中心的快照。"]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
 
 
@@ -736,7 +736,7 @@ link:task-copying-acls.html["瞭解如何從SMB共用區複製ACL"]。
 
 如果您延長Cloud Sync 從NetApp購買的支援對象、您可以再次新增授權、以重新更新到期日。
 
-link:task-licensing.html#update-a-license["瞭解如何更新授權"]。
+link:task-licensing.html["瞭解如何更新授權"]。
 
 
 
@@ -924,7 +924,7 @@ link:task-managing-reports.html["深入瞭解如何建立及檢視報告以調�
 
 這項進階設定可讓您選擇Cloud Sync 在判斷檔案或目錄是否已變更且應重新同步時、是否應比較某些屬性。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["深入瞭解如何變更同步關係的設定"]。
 
 
 

@@ -4,7 +4,7 @@ permalink: task-installing-aws.html
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
 summary: 建立新的資料代理程式時、請選擇 AWS Data Broker 選項、在 VPC 的新 EC2 執行個體上部署資料代理軟體。BlueXP 複本與同步會引導您完成安裝程序、但本頁面會重複這些要求與步驟、以協助您準備安裝。 
 ---
-= 在AWS中建立新的資料代理程式
+= 在 AWS 中建立新的資料代理程式
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

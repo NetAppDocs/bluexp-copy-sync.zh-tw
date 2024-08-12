@@ -180,7 +180,7 @@ https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-ser
 
 
 +
-link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-broker-group["瞭解如何定義資料代理群組的統一化組態"^]。
+link:task-managing-data-brokers.html#set-up-a-unified-configuration["瞭解如何定義資料代理群組的統一化組態"^]。
 
 
 

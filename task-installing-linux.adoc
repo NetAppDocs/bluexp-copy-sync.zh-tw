@@ -42,7 +42,7 @@ Red Hat Enterprise Linux 系統必須在 Red Hat 訂購管理中註冊。如果�
 * * RAM* ： 16 GB
 * * CPU* ： 4 核心
 * * 可用磁碟空間 * ： 10 GB
-* * SELinux * ：建議您停用 https://selinuxproject.org/["SELinux"^] 在主機上。
+* *SELinux* ：建議您在主機上停用 SELinux 。
 +
 SELinux 會強制執行封鎖資料代理程式軟體更新的原則、並封鎖資料代理程式、使其無法連絡正常作業所需的端點。
 

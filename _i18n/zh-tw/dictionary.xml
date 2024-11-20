@@ -1942,4 +1942,6 @@
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">錯誤修正</block>
   <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">https://api 。 BlueXP  。 NetApp 。 com \https ： NetApp-cloud-account.auth0.com</block>
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux* ：建議您在主機上停用 SELinux 。</block>
+  <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024 年 27 月 10 日</block>
 </blocks>

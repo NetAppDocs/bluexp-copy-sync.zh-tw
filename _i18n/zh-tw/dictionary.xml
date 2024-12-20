@@ -177,7 +177,6 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS 可讓您隨用隨付或每年付費。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">隨用隨付的步驟</block>
-  <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">選擇 * AWS*</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">下列影片顯示此程序：</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">每年支付的步驟</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">前往 AWS Marketplace 頁面</block>
@@ -1721,14 +1720,12 @@
   <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">如果出現提示、請登入您的 Microsoft 帳戶。如果系統未提示您、請選取 * 登入 Azure * 。</block>
   <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">選取 * 繼續 * 並保持頁面開啟、直到部署完成為止。</block>
   <block id="ad16396812bea804a1980d079b968f53" category="list-text">在 BlueXP 複製與同步中、一旦資料代理可用、請選擇 * 繼續 * 。</block>
-  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">選取 * 同步 &gt; 授權 * 。</block>
   <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">選取 * 訂閱 * 、然後選取 * 繼續 * 。</block>
   <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">選擇*繼續訂閱*。</block>
   <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">選取您的合約選項、然後選取 * 建立合約 * 。</block>
   <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">在 Azure 入口網站中、選取 * 建立 * 、選取您的選項、然後選取 * 訂閱 * 。</block>
   <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">部署完成後、請在通知快顯視窗中選取 SaaS 資源的名稱。</block>
   <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">選取 * 設定帳戶 * 以返回 BlueXP 複本與同步處理。</block>
-  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">在 BlueXP 中、選取 * 同步 &gt; 授權 * 。</block>
   <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">選取 * 新增授權 * 並新增必要資訊：</block>
   <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">如果您的帳戶尚未新增、請選取 * 新增 NSS 認證 * 、輸入使用者名稱和密碼、選取 * 註冊 * 、然後從下拉式清單中選取。</block>
   <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">選取 * 篩選來源物件 * 可修改設定、以定義來源檔案和資料夾在目標位置的同步與維護方式。</block>
@@ -1944,4 +1941,11 @@
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux* ：建議您在主機上停用 SELinux 。</block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。</block>
   <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024 年 27 月 10 日</block>
+  <block id="4fa4cb31b90bbe492aedd2e14cab7850" category="video-title">排除同步關係的副檔名</block>
+  <block id="befcd22ee9f31ea0976355003e77715b" category="list-text">從 BlueXP  導覽功能表中，選取 * 行動性 &gt; 複製與同步 * 。</block>
+  <block id="f8b6a77f9bfe4363519793574823fcdf" category="video-title">從 AWS CloudForgation 範本啟動資料代理程式</block>
+  <block id="fdd0629e14af63efd824f165e5349337" category="list-text">選擇 * 授權 * 。</block>
+  <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">選取 * AWS* 。</block>
+  <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">從 AWS Marketplace 訂閱 BlueXP  複本並同步</block>
+  <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">從 Azure Marketplace 訂閱 BlueXP  複本並同步處理</block>
 </blocks>

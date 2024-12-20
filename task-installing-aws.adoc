@@ -71,6 +71,7 @@ IAM 角色必須符合下列要求：
 有幾種方法可以建立新的資料代理程式。這些步驟說明如何在建立同步關係時、在AWS中安裝資料代理程式。
 
 .步驟
+. 從 BlueXP  導覽功能表中，選取 * 行動性 > 複製與同步 * 。
 . 選取 * 建立新同步 * 。
 . 在 * 定義同步關係 * 頁面上、選擇來源和目標、然後選取 * 繼續 * 。
 +
@@ -92,7 +93,8 @@ image:screenshot-aws.png["Data Broker頁面的快照、可讓您在AWS、Azure�
 [CFT] 下列影片說明如何使用 CloudForation 範本啟動資料代理執行個體：
 
 +
-video::video_cloud_sync.mp4[width=848,height=480]
+.從 AWS CloudForgation 範本啟動資料代理程式
+video::abaf0898-ea15-4f84-938e-b24c010b21e8[panopto]
 . 如果您輸入 AWS 存取金鑰、請選取執行個體的位置、選取金鑰配對、選擇是否啟用公用 IP 位址、然後選取現有的 IAM 角色、或將欄位保留空白、以便 BlueXP 複本與同步建立您的角色。您也可以選擇使用KMS金鑰加密資料代理人。
 +
 如果您選擇自己的 IAM 角色、 <<iam,您需要提供必要的權限>>。

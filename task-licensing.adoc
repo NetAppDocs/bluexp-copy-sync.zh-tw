@@ -33,15 +33,17 @@ link:concept-licensing.html["深入瞭解授權的運作方式"]。
 AWS 可讓您隨用隨付或每年付費。
 
 .隨用隨付的步驟
-. 選取 * 同步 > 授權 * 。
-. 選擇 * AWS*
+. 從 BlueXP  導覽功能表中，選取 * 行動性 > 複製與同步 * 。
+. 選擇 * 授權 * 。
+. 選取 * AWS* 。
 . 選取 * 訂閱 * 、然後選取 * 繼續 * 。
 . 從 AWS Marketplace 訂閱、然後重新登入 BlueXP 複本並同步服務以完成註冊。
 +
 下列影片顯示此程序：
 
 +
-video::video_cloud_sync_registering.mp4[width=848,height=480]
+.從 AWS Marketplace 訂閱 BlueXP  複本並同步
+video::796ffd6d-cade-4750-8504-b24c010b225d[panopto]
 
 
 .每年支付的步驟
@@ -60,7 +62,8 @@ Azure 可讓您隨用隨付或每年付費。
 具備相關訂閱之「參與者」或「擁有者」權限的 Azure 使用者帳戶。
 
 .步驟
-. 選取 * 同步 > 授權 * 。
+. 從 BlueXP  導覽功能表中，選取 * 行動性 > 複製與同步 * 。
+. 選擇 * 授權 * 。
 . 選擇 * Azure * 。
 . 選取 * 訂閱 * 、然後選取 * 繼續 * 。
 . 在 Azure 入口網站中、選取 * 建立 * 、選取您的選項、然後選取 * 訂閱 * 。
@@ -73,7 +76,8 @@ Azure 可讓您隨用隨付或每年付費。
 下列影片顯示此程序：
 
 +
-video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
+.從 Azure Marketplace 訂閱 BlueXP  複本並同步處理
+video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 
 
@@ -87,7 +91,8 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 .步驟
 . 請透過 mailto ： ng-cloudsync-contact@netapp.com ® Subject=Cloud %20Sync%20Service%20-%20BYOL%20License%20Purche%20Request 購買授權（聯絡 NetApp ）。
-. 在 BlueXP 中、選取 * 同步 > 授權 * 。
+. 從 BlueXP  導覽功能表中，選取 * 行動性 > 複製與同步 * 。
+. 選擇 * 授權 * 。
 . 選取 * 新增授權 * 並新增必要資訊：
 +
 .. 輸入序號。
@@ -109,7 +114,8 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 如果您延長從 NetApp 購買的 BlueXP 複本與同步授權、則 BlueXP 複本與同步處理中的新到期日將不會自動更新。您需要再次新增授權、以重新整理到期日。授權應透過 BlueXP 複本與同步處理或適用的網站進行管理、而不是透過數位錢包進行 * 非 * 管理。
 
 .步驟
-. 在 BlueXP 中、選取 * 同步 > 授權 * 。
+. 從 BlueXP  導覽功能表中，選取 * 行動性 > 複製與同步 * 。
+. 選擇 * 授權 * 。
 . 選取 * 新增授權 * 並新增必要資訊：
 +
 .. 輸入序號。

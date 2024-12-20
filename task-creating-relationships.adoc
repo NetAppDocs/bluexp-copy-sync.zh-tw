@@ -214,7 +214,8 @@ NOTE: 硬式連結僅適用於不安全的 NFS 與 NFS 關係。使用者只能�
 排除檔案副檔名:: 輸入副檔名並按下 *Enter* ，指定要從同步中排除的 regex 或副檔名。例如、輸入 _log_ 或 _.log_ 以排除 * 。 log 檔案。多個副檔名不需要分隔符號。以下影片提供簡短示範：
 +
 --
-video::video_file_extensions.mp4[width=840,height=240]
+.排除同步關係的副檔名
+video::7f957dbf-9215-41ea-a705-b24c010b2212[panopto]
 
 NOTE: regex 或規則運算式與萬用字元或 globb 運算式不同。此功能 * 僅 * 適用於 regex 。
 

@@ -1,0 +1,11 @@
+= 新的作業系統支援資料代理程式
+:allow-uri-read: 
+
+
+
+
+=== 新的作業系統支援資料代理程式
+
+現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["檢視 Linux 主機需求"]。

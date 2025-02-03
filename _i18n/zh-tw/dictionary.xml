@@ -308,7 +308,6 @@
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux 主機需求</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 作業系統 * ：</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">不支援CentOS串流。</block>
-  <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux 系統必須在 Red Hat 訂購管理中註冊。如果未註冊、系統將無法在安裝期間存取儲存庫來更新所需的協力廠商軟體。</block>
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">* RAM* ： 16 GB</block>
@@ -1844,7 +1843,6 @@
   <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">現在、執行 Red Hat Enterprise Linux 8.9 的主機支援資料代理程式。</block>
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
-  <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5 、 8.8 和 8.9</block>
   <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">哪種同步關係可保留物件儲存中繼資料？</block>
   <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">在 NFS 或 SMB 為來源的同步期間、會複寫哪些種類的中繼資料？</block>
   <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">預設會複寫中繼資料、例如使用者 ID 、修改時間、存取時間和 GID 。使用者可在建立同步關係時、視需要將 ACL 標示為複寫 CIFS 。</block>
@@ -1948,4 +1946,9 @@
   <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">選取 * AWS* 。</block>
   <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">從 AWS Marketplace 訂閱 BlueXP  複本並同步</block>
   <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">從 Azure Marketplace 訂閱 BlueXP  複本並同步處理</block>
+  <block id="83f73c94bb5f748ce272fa98b9d62582" category="doc">新的作業系統支援資料代理程式</block>
+  <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。</block>
+  <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red Hat Enterprise Linux 8.5 、 8.8 、 8.9 和 9.4</block>
+  <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS ， 23.04 LTS 和 24.04 LTS</block>
+  <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025 年 2 月 2 日</block>
 </blocks>

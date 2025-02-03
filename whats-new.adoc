@@ -18,6 +18,18 @@ summary: 瞭解 BlueXP 複本與同步的新功能。
 
 
 
+== 2025 年 2 月 2 日
+
+
+
+=== 新的作業系統支援資料代理程式
+
+現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["檢視 Linux 主機需求"]。
+
+
+
 == 2024 年 27 月 10 日
 
 

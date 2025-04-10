@@ -568,7 +568,6 @@
   <block id="52745271323ee9ea30e3a37d0338d118" category="list-text">Azure Blob</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
-  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="list-text">Google Cloud Storage</block>
   <block id="5446a6bee3301e1f52824fc0affa6299" category="list-text">IBM Cloud 物件儲存設備</block>
   <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">NFS 伺服器</block>
@@ -789,9 +788,6 @@
   <block id="161df7898613d68dd3106bed369ab957" category="section-title">為什麼 Azure NetApp Files 我使用 VMware 時效能不佳？</block>
   <block id="a92bf49aada81ee55543aa6bf897787c" category="paragraph">當您將資料同步至 Azure NetApp Files 或從 VMware 同步時、如果磁碟服務層級為「 Standard （標準）」、您可能會遇到故障和效能問題。</block>
   <block id="9812e4bcf0263cfa80fdd8c8a789a255" category="paragraph">將服務層級變更為 Premium 或 Ultra 、以提升同步效能。</block>
-  <block id="06dd90f0736ba00a0e3050c043c11683" category="section-title">為什麼 Cloud Volumes Service 我使用適用於 AWS 的解決方法時效能不佳？</block>
-  <block id="37bbffa966391c253fd64fcdf3509afa" category="paragraph">當您在雲端磁碟區之間或從雲端磁碟區同步資料時、如果雲端磁碟區的效能等級為「 Standard （標準）」、可能會發生故障和效能問題。</block>
-  <block id="305fa2f993292af4e7b31404440f0f2e" category="paragraph">將「服務層級」變更為「進階」或「極致」、以增強同步效能。</block>
   <block id="a74feaca0228e843c01e1cc6a5a7a4da" category="section-title">群組中需要多少個資料代理人？</block>
   <block id="6d0c6fb653b3e1d2a836e0b86dabea25" category="paragraph">當您建立新關係時、首先要從群組中的單一資料代理程式開始（除非您選取屬於加速同步關係的現有資料代理程式）。在許多情況下、單一資料代理程式可滿足同步關係的效能要求。如果沒有、您可以在群組中新增額外的資料代理人、以加速同步效能。但您應該先檢查其他可能影響同步效能的因素。</block>
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">多種因素可能會影響資料傳輸效能。整體同步效能可能會因為網路頻寬、延遲和網路拓撲、以及資料代理 VM 規格和儲存系統效能而受到影響。例如、群組中的單一資料代理程式可以達到100 MB/s、而目標上的磁碟處理量可能只允許64 MB/s因此、資料代理人群組會持續嘗試複製資料、但目標無法達到資料代理人群組的效能。</block>
@@ -1361,7 +1357,6 @@
   <block id="58d5764081980d61dc580371a7f7d817" category="paragraph">使用 BlueXP 複本與同步有兩種相關成本類型：服務費用與資源費用。</block>
   <block id="d70cc4cc828a890527496d140a0c2410" category="paragraph">對於隨用隨付定價、 BlueXP 複本與同步服務費用是每小時一次、視您建立的同步關係數量而定。</block>
   <block id="6de51c73db055b72838083b7da60e27e" category="paragraph">BlueXP 複本與同步授權也可透過 NetApp 代表取得。每個授權可在 12 個月內建立 20 個同步關係。</block>
-  <block id="49f3a6d816929e060637c72d117a2ab1" category="admonition">BlueXP 複製與同步關係對於 Cloud Volumes Service 和 Azure NetApp Files 是免費的。</block>
   <block id="01396bcd8023631c1f74003124e865f5" category="section-title">BlueXP 如何進行複本與同步處理、以及如何管理我的訂閱？</block>
   <block id="1c9fb78d365658e23fd1a1120743c672" category="paragraph">在您的 14 天免費試用結束後、有兩種方式可以支付同步關係的費用。第一個選項是向 AWS 或 Azure 訂閱、讓您可以隨用隨付或每年付費。第二種選擇是直接向 NetApp 購買授權。在每種情況下、您的訂閱都將透過您的供應商市場進行管理、而 * 不會 * 則是透過 BlueXP 複本與同步使用者介面進行管理。</block>
   <block id="27092823e2230caab83a388839b4dfeb" category="section-title">我可以在雲端外使用 BlueXP 複本與同步嗎？</block>
@@ -1951,4 +1946,5 @@
   <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red Hat Enterprise Linux 8.5 、 8.8 、 8.9 和 9.4</block>
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS ， 23.04 LTS 和 24.04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025 年 2 月 2 日</block>
+  <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">Azure NetApp Files 可免費使用 BlueXP  複製和同步關係。</block>
 </blocks>

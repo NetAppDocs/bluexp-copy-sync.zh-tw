@@ -58,7 +58,7 @@ BlueXP 複本與同步授權也可透過 NetApp 代表取得。每個授權可�
 link:concept-licensing.html["深入瞭解授權"]。
 
 
-NOTE: BlueXP 複製與同步關係對於 Cloud Volumes Service 和 Azure NetApp Files 是免費的。
+NOTE: Azure NetApp Files 可免費使用 BlueXP  複製和同步關係。
 
 * 資源費用 *
 
@@ -341,14 +341,6 @@ BlueXP 複製與同步會將物件儲存中繼資料從來源複製到目標、�
 將服務層級變更為 Premium 或 Ultra 、以提升同步效能。
 
 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limits["深入瞭 Azure NetApp Files 解有關服務層級和處理量的資訊"^]。
-
-
-
-=== 為什麼 Cloud Volumes Service 我使用適用於 AWS 的解決方法時效能不佳？
-
-當您在雲端磁碟區之間或從雲端磁碟區同步資料時、如果雲端磁碟區的效能等級為「 Standard （標準）」、可能會發生故障和效能問題。
-
-將「服務層級」變更為「進階」或「極致」、以增強同步效能。
 
 
 

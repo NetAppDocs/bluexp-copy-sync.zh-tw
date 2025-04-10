@@ -28,7 +28,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -47,7 +46,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -67,7 +65,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure NetApp Files
 * 方塊^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -86,7 +83,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -119,7 +115,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -151,25 +146,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
-* Google Cloud Storage
-* IBM Cloud 物件儲存設備
-* NFS 伺服器
-* 內部部署 ONTAP 叢集（ NFS 或 SMB ）
-* SMB 伺服器
-* StorageGRID
-
-
-
-
-| Cloud Volumes Service  a| 
-* Amazon EFS
-* Amazon FSX for ONTAP Sf
-* Amazon S3
-* Azure Blob
-* Azure NetApp Files
-* Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -187,7 +163,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -215,7 +190,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure NetApp Files
 * 方塊^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -234,7 +208,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * Google雲端硬碟
 * IBM Cloud 物件儲存設備
@@ -255,7 +228,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器
@@ -289,7 +261,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * Google雲端硬碟
 * IBM Cloud 物件儲存設備
@@ -311,7 +282,6 @@ BlueXP 複製與同步可讓您將資料從來源同步到目標。這稱為同�
 * Azure NetApp Files
 * 方塊^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud Storage
 * IBM Cloud 物件儲存設備
 * NFS 伺服器

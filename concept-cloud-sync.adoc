@@ -52,7 +52,6 @@ BlueXP 複製與同步支援下列儲存類型：
 * Azure Data Lake儲存設備第2代
 * Azure NetApp Files
 * Box（可預覽）
-* Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google Cloud Storage
 * Google雲端硬碟

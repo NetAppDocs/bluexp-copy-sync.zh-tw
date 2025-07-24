@@ -1276,7 +1276,6 @@
   <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Azure和Google Cloud中的資料代理人作業系統已升級至The Rocky Linux 9.0。</block>
   <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">深入瞭解Azure中的資料代理執行個體</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">深入瞭解Google Cloud中的資料代理執行個體</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：</block>
@@ -1548,7 +1547,6 @@
   <block id="106c2bd3e07db354c45924d6acfb06d3" category="sidebar">使用 BlueXP 複製與同步</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
@@ -1947,4 +1945,6 @@
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS ， 23.04 LTS 和 24.04 LTS</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025 年 2 月 2 日</block>
   <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">Azure NetApp Files 可免費使用 BlueXP  複製和同步關係。</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
